@@ -25,6 +25,7 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as BlogIndexRouteImport } from './routes/blog/index'
 import { Route as BlogWhyMichiganWomenOver40CantLoseWeightFeelExhaustedRouteImport } from './routes/blog/why-michigan-women-over-40-cant-lose-weight-feel-exhausted'
 import { Route as BlogTheUltimateGuideToHormonesAndWeightResistanceOver40RouteImport } from './routes/blog/the-ultimate-guide-to-hormones-and-weight-resistance-over-40'
+import { Route as BlogPerimenopauseInYour30sMichiganWisconsinRouteImport } from './routes/blog/perimenopause-in-your-30s-michigan-wisconsin'
 import { Route as BlogOzempicNotWorkingMichiganWisconsinWomenRouteImport } from './routes/blog/ozempic-not-working-michigan-wisconsin-women'
 import { Route as BlogGainingWeightExhaustedAfter40WisconsinWomenRouteImport } from './routes/blog/gaining-weight-exhausted-after-40-wisconsin-women'
 
@@ -110,6 +111,12 @@ const BlogTheUltimateGuideToHormonesAndWeightResistanceOver40Route =
     path: '/blog/the-ultimate-guide-to-hormones-and-weight-resistance-over-40',
     getParentRoute: () => rootRouteImport,
   } as any)
+const BlogPerimenopauseInYour30sMichiganWisconsinRoute =
+  BlogPerimenopauseInYour30sMichiganWisconsinRouteImport.update({
+    id: '/blog/perimenopause-in-your-30s-michigan-wisconsin',
+    path: '/blog/perimenopause-in-your-30s-michigan-wisconsin',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const BlogOzempicNotWorkingMichiganWisconsinWomenRoute =
   BlogOzempicNotWorkingMichiganWisconsinWomenRouteImport.update({
     id: '/blog/ozempic-not-working-michigan-wisconsin-women',
@@ -139,6 +146,7 @@ export interface FileRoutesByFullPath {
   '/what-we-treat': typeof WhatWeTreatRoute
   '/blog/gaining-weight-exhausted-after-40-wisconsin-women': typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   '/blog/ozempic-not-working-michigan-wisconsin-women': typeof BlogOzempicNotWorkingMichiganWisconsinWomenRoute
+  '/blog/perimenopause-in-your-30s-michigan-wisconsin': typeof BlogPerimenopauseInYour30sMichiganWisconsinRoute
   '/blog/the-ultimate-guide-to-hormones-and-weight-resistance-over-40': typeof BlogTheUltimateGuideToHormonesAndWeightResistanceOver40Route
   '/blog/why-michigan-women-over-40-cant-lose-weight-feel-exhausted': typeof BlogWhyMichiganWomenOver40CantLoseWeightFeelExhaustedRoute
   '/blog/': typeof BlogIndexRoute
@@ -159,6 +167,7 @@ export interface FileRoutesByTo {
   '/what-we-treat': typeof WhatWeTreatRoute
   '/blog/gaining-weight-exhausted-after-40-wisconsin-women': typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   '/blog/ozempic-not-working-michigan-wisconsin-women': typeof BlogOzempicNotWorkingMichiganWisconsinWomenRoute
+  '/blog/perimenopause-in-your-30s-michigan-wisconsin': typeof BlogPerimenopauseInYour30sMichiganWisconsinRoute
   '/blog/the-ultimate-guide-to-hormones-and-weight-resistance-over-40': typeof BlogTheUltimateGuideToHormonesAndWeightResistanceOver40Route
   '/blog/why-michigan-women-over-40-cant-lose-weight-feel-exhausted': typeof BlogWhyMichiganWomenOver40CantLoseWeightFeelExhaustedRoute
   '/blog': typeof BlogIndexRoute
@@ -180,6 +189,7 @@ export interface FileRoutesById {
   '/what-we-treat': typeof WhatWeTreatRoute
   '/blog/gaining-weight-exhausted-after-40-wisconsin-women': typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   '/blog/ozempic-not-working-michigan-wisconsin-women': typeof BlogOzempicNotWorkingMichiganWisconsinWomenRoute
+  '/blog/perimenopause-in-your-30s-michigan-wisconsin': typeof BlogPerimenopauseInYour30sMichiganWisconsinRoute
   '/blog/the-ultimate-guide-to-hormones-and-weight-resistance-over-40': typeof BlogTheUltimateGuideToHormonesAndWeightResistanceOver40Route
   '/blog/why-michigan-women-over-40-cant-lose-weight-feel-exhausted': typeof BlogWhyMichiganWomenOver40CantLoseWeightFeelExhaustedRoute
   '/blog/': typeof BlogIndexRoute
@@ -202,6 +212,7 @@ export interface FileRouteTypes {
     | '/what-we-treat'
     | '/blog/gaining-weight-exhausted-after-40-wisconsin-women'
     | '/blog/ozempic-not-working-michigan-wisconsin-women'
+    | '/blog/perimenopause-in-your-30s-michigan-wisconsin'
     | '/blog/the-ultimate-guide-to-hormones-and-weight-resistance-over-40'
     | '/blog/why-michigan-women-over-40-cant-lose-weight-feel-exhausted'
     | '/blog/'
@@ -222,6 +233,7 @@ export interface FileRouteTypes {
     | '/what-we-treat'
     | '/blog/gaining-weight-exhausted-after-40-wisconsin-women'
     | '/blog/ozempic-not-working-michigan-wisconsin-women'
+    | '/blog/perimenopause-in-your-30s-michigan-wisconsin'
     | '/blog/the-ultimate-guide-to-hormones-and-weight-resistance-over-40'
     | '/blog/why-michigan-women-over-40-cant-lose-weight-feel-exhausted'
     | '/blog'
@@ -242,6 +254,7 @@ export interface FileRouteTypes {
     | '/what-we-treat'
     | '/blog/gaining-weight-exhausted-after-40-wisconsin-women'
     | '/blog/ozempic-not-working-michigan-wisconsin-women'
+    | '/blog/perimenopause-in-your-30s-michigan-wisconsin'
     | '/blog/the-ultimate-guide-to-hormones-and-weight-resistance-over-40'
     | '/blog/why-michigan-women-over-40-cant-lose-weight-feel-exhausted'
     | '/blog/'
@@ -263,6 +276,7 @@ export interface RootRouteChildren {
   WhatWeTreatRoute: typeof WhatWeTreatRoute
   BlogGainingWeightExhaustedAfter40WisconsinWomenRoute: typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   BlogOzempicNotWorkingMichiganWisconsinWomenRoute: typeof BlogOzempicNotWorkingMichiganWisconsinWomenRoute
+  BlogPerimenopauseInYour30sMichiganWisconsinRoute: typeof BlogPerimenopauseInYour30sMichiganWisconsinRoute
   BlogTheUltimateGuideToHormonesAndWeightResistanceOver40Route: typeof BlogTheUltimateGuideToHormonesAndWeightResistanceOver40Route
   BlogWhyMichiganWomenOver40CantLoseWeightFeelExhaustedRoute: typeof BlogWhyMichiganWomenOver40CantLoseWeightFeelExhaustedRoute
   BlogIndexRoute: typeof BlogIndexRoute
@@ -382,6 +396,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BlogTheUltimateGuideToHormonesAndWeightResistanceOver40RouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/blog/perimenopause-in-your-30s-michigan-wisconsin': {
+      id: '/blog/perimenopause-in-your-30s-michigan-wisconsin'
+      path: '/blog/perimenopause-in-your-30s-michigan-wisconsin'
+      fullPath: '/blog/perimenopause-in-your-30s-michigan-wisconsin'
+      preLoaderRoute: typeof BlogPerimenopauseInYour30sMichiganWisconsinRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/blog/ozempic-not-working-michigan-wisconsin-women': {
       id: '/blog/ozempic-not-working-michigan-wisconsin-women'
       path: '/blog/ozempic-not-working-michigan-wisconsin-women'
@@ -417,6 +438,8 @@ const rootRouteChildren: RootRouteChildren = {
     BlogGainingWeightExhaustedAfter40WisconsinWomenRoute,
   BlogOzempicNotWorkingMichiganWisconsinWomenRoute:
     BlogOzempicNotWorkingMichiganWisconsinWomenRoute,
+  BlogPerimenopauseInYour30sMichiganWisconsinRoute:
+    BlogPerimenopauseInYour30sMichiganWisconsinRoute,
   BlogTheUltimateGuideToHormonesAndWeightResistanceOver40Route:
     BlogTheUltimateGuideToHormonesAndWeightResistanceOver40Route,
   BlogWhyMichiganWomenOver40CantLoseWeightFeelExhaustedRoute:

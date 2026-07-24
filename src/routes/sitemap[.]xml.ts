@@ -16,6 +16,7 @@ export const Route = createFileRoute("/sitemap.xml")({
           { path: "/what-we-treat", priority: "0.8", changefreq: "weekly" },
           { path: "/contact", priority: "0.9", changefreq: "monthly" },
           { path: "/blog", priority: "0.8", changefreq: "weekly" },
+          { path: "/blog/perimenopause-in-your-30s-michigan-wisconsin", priority: "1.0", changefreq: "monthly" },
           { path: "/blog/ozempic-not-working-michigan-wisconsin-women", priority: "1.0", changefreq: "monthly" },
           { path: "/blog/why-michigan-women-over-40-cant-lose-weight-feel-exhausted", priority: "0.9", changefreq: "monthly" },
           { path: "/blog/gaining-weight-exhausted-after-40-wisconsin-women", priority: "0.9", changefreq: "monthly" },

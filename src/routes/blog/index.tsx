@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import heroImg from "@/assets/blog/hero-fatigued-woman.jpg";
 import wiHeroImg from "@/assets/blog/wisconsin-hero-fatigue.jpg";
 import ozempicHeroImg from "@/assets/blog/ozempic-hero-michigan-woman.jpg";
+import perimenopauseHeroImg from "@/assets/blog/hormone-shifts.jpg";
 import { Clock, ArrowRight, Calendar } from "lucide-react";
 
 export const Route = createFileRoute("/blog/")({
@@ -45,6 +46,18 @@ export const Route = createFileRoute("/blog/")({
 });
 
 const articles = [
+  {
+    slug: "perimenopause-in-your-30s-michigan-wisconsin",
+    title: "Perimenopause Isn't Just an Over-40 Thing: The Complete Guide for Women in Their Mid-30s",
+    excerpt:
+      "Think you're too young for perimenopause at 35? You're not. A decade-by-decade guide to early perimenopause symptoms, why doctors miss it in your 30s, and what to do now instead of waiting five years for answers.",
+    image: perimenopauseHeroImg,
+    imageAlt: "Woman in her mid-30s in Michigan noticing early perimenopause symptoms",
+    category: "Perimenopause & Hormones",
+    date: "July 24, 2026",
+    readTime: "31 min read",
+    author: "Kathryn Long, NP-C",
+  },
   {
     slug: "ozempic-not-working-michigan-wisconsin-women",
     title: "Why Am I Not Losing Weight on Ozempic? A Functional Medicine Perspective for Michigan and Wisconsin Women",
