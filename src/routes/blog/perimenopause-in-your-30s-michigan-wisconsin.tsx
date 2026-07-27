@@ -2,11 +2,11 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { BlogLayout } from "@/components/blog/BlogLayout";
 import { CalendarClock } from "lucide-react";
 
-import heroImg from "@/assets/blog/hormone-shifts.jpg";
-import appointmentImg from "@/assets/blog/appointment-frustration.jpg";
-import labsImg from "@/assets/blog/comprehensive-labs-v2.jpg";
-import wellnessImg from "@/assets/blog/wisconsin-nutrition.jpg";
-import lifestyleImg from "@/assets/blog/michigan-wellness.jpg";
+import heroImg from "@/assets/blog/perimenopause-hero-kitchen.webp";
+import appointmentImg from "@/assets/blog/perimenopause-doctor-dismissed.webp";
+import labsImg from "@/assets/blog/perimenopause-lab-testing.webp";
+import wellnessImg from "@/assets/blog/perimenopause-cycle-tracking.webp";
+import lifestyleImg from "@/assets/blog/perimenopause-lifestyle-balance.webp";
 
 export const Route = createFileRoute(
   "/blog/perimenopause-in-your-30s-michigan-wisconsin",
