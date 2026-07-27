@@ -28,6 +28,7 @@ import { Route as BlogTheUltimateGuideToHormonesAndWeightResistanceOver40RouteIm
 import { Route as BlogPerimenopauseInYour30sMichiganWisconsinRouteImport } from './routes/blog/perimenopause-in-your-30s-michigan-wisconsin'
 import { Route as BlogOzempicNotWorkingMichiganWisconsinWomenRouteImport } from './routes/blog/ozempic-not-working-michigan-wisconsin-women'
 import { Route as BlogGainingWeightExhaustedAfter40WisconsinWomenRouteImport } from './routes/blog/gaining-weight-exhausted-after-40-wisconsin-women'
+import { Route as BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRouteImport } from './routes/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
 
 const WhatWeTreatRoute = WhatWeTreatRouteImport.update({
   id: '/what-we-treat',
@@ -129,6 +130,12 @@ const BlogGainingWeightExhaustedAfter40WisconsinWomenRoute =
     path: '/blog/gaining-weight-exhausted-after-40-wisconsin-women',
     getParentRoute: () => rootRouteImport,
   } as any)
+const BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute =
+  BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRouteImport.update({
+    id: '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin',
+    path: '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -144,6 +151,7 @@ export interface FileRoutesByFullPath {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms-of-service': typeof TermsOfServiceRoute
   '/what-we-treat': typeof WhatWeTreatRoute
+  '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin': typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
   '/blog/gaining-weight-exhausted-after-40-wisconsin-women': typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   '/blog/ozempic-not-working-michigan-wisconsin-women': typeof BlogOzempicNotWorkingMichiganWisconsinWomenRoute
   '/blog/perimenopause-in-your-30s-michigan-wisconsin': typeof BlogPerimenopauseInYour30sMichiganWisconsinRoute
@@ -165,6 +173,7 @@ export interface FileRoutesByTo {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms-of-service': typeof TermsOfServiceRoute
   '/what-we-treat': typeof WhatWeTreatRoute
+  '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin': typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
   '/blog/gaining-weight-exhausted-after-40-wisconsin-women': typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   '/blog/ozempic-not-working-michigan-wisconsin-women': typeof BlogOzempicNotWorkingMichiganWisconsinWomenRoute
   '/blog/perimenopause-in-your-30s-michigan-wisconsin': typeof BlogPerimenopauseInYour30sMichiganWisconsinRoute
@@ -187,6 +196,7 @@ export interface FileRoutesById {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms-of-service': typeof TermsOfServiceRoute
   '/what-we-treat': typeof WhatWeTreatRoute
+  '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin': typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
   '/blog/gaining-weight-exhausted-after-40-wisconsin-women': typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   '/blog/ozempic-not-working-michigan-wisconsin-women': typeof BlogOzempicNotWorkingMichiganWisconsinWomenRoute
   '/blog/perimenopause-in-your-30s-michigan-wisconsin': typeof BlogPerimenopauseInYour30sMichiganWisconsinRoute
@@ -210,6 +220,7 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/terms-of-service'
     | '/what-we-treat'
+    | '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
     | '/blog/gaining-weight-exhausted-after-40-wisconsin-women'
     | '/blog/ozempic-not-working-michigan-wisconsin-women'
     | '/blog/perimenopause-in-your-30s-michigan-wisconsin'
@@ -231,6 +242,7 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/terms-of-service'
     | '/what-we-treat'
+    | '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
     | '/blog/gaining-weight-exhausted-after-40-wisconsin-women'
     | '/blog/ozempic-not-working-michigan-wisconsin-women'
     | '/blog/perimenopause-in-your-30s-michigan-wisconsin'
@@ -252,6 +264,7 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/terms-of-service'
     | '/what-we-treat'
+    | '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
     | '/blog/gaining-weight-exhausted-after-40-wisconsin-women'
     | '/blog/ozempic-not-working-michigan-wisconsin-women'
     | '/blog/perimenopause-in-your-30s-michigan-wisconsin'
@@ -274,6 +287,7 @@ export interface RootRouteChildren {
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   TermsOfServiceRoute: typeof TermsOfServiceRoute
   WhatWeTreatRoute: typeof WhatWeTreatRoute
+  BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute: typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
   BlogGainingWeightExhaustedAfter40WisconsinWomenRoute: typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   BlogOzempicNotWorkingMichiganWisconsinWomenRoute: typeof BlogOzempicNotWorkingMichiganWisconsinWomenRoute
   BlogPerimenopauseInYour30sMichiganWisconsinRoute: typeof BlogPerimenopauseInYour30sMichiganWisconsinRoute
@@ -417,6 +431,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin': {
+      id: '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
+      path: '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
+      fullPath: '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
+      preLoaderRoute: typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -434,6 +455,8 @@ const rootRouteChildren: RootRouteChildren = {
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   TermsOfServiceRoute: TermsOfServiceRoute,
   WhatWeTreatRoute: WhatWeTreatRoute,
+  BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute:
+    BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute,
   BlogGainingWeightExhaustedAfter40WisconsinWomenRoute:
     BlogGainingWeightExhaustedAfter40WisconsinWomenRoute,
   BlogOzempicNotWorkingMichiganWisconsinWomenRoute:

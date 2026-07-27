@@ -3,6 +3,7 @@ import heroImg from "@/assets/blog/hero-fatigued-woman.jpg";
 import wiHeroImg from "@/assets/blog/wisconsin-hero-fatigue.jpg";
 import ozempicHeroImg from "@/assets/blog/ozempic-hero-michigan-woman.jpg";
 import perimenopauseHeroImg from "@/assets/blog/hormone-shifts.jpg";
+import bhrtHeroImg from "@/assets/blog/telehealth-consultation.jpg";
 import { Clock, ArrowRight, Calendar } from "lucide-react";
 
 export const Route = createFileRoute("/blog/")({
@@ -46,6 +47,18 @@ export const Route = createFileRoute("/blog/")({
 });
 
 const articles = [
+  {
+    slug: "bioidentical-hormone-therapy-guide-michigan-wisconsin",
+    title: "The Complete Guide to Bioidentical Hormone Therapy: Risks, Benefits, and What Actually Happens",
+    excerpt:
+      "Considering BHRT? An honest, thoroughly sourced guide covering what the 2002 WHI study actually found (and got wrong), delivery methods compared, who is and isn't a good candidate, and what to expect. For women in Michigan and Wisconsin.",
+    image: bhrtHeroImg,
+    imageAlt: "Woman in Michigan discussing bioidentical hormone therapy options with her provider during a calm telehealth consultation",
+    category: "Hormone Therapy",
+    date: "July 27, 2026",
+    readTime: "31 min read",
+    author: "Kathryn Long, NP-C",
+  },
   {
     slug: "perimenopause-in-your-30s-michigan-wisconsin",
     title: "Perimenopause Isn't Just an Over-40 Thing: The Complete Guide for Women in Their Mid-30s",
