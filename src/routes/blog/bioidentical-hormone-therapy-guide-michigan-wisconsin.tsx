@@ -1,12 +1,12 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { BlogLayout } from "@/components/blog/BlogLayout";
 
-import heroImg from "@/assets/blog/telehealth-consultation.jpg";
-import deliveryImg from "@/assets/blog/nutrition-balance.jpg";
-import labsImg from "@/assets/blog/comprehensive-labs.jpg";
-import candidacyImg from "@/assets/blog/wisconsin-telehealth.jpg";
-import timelineImg from "@/assets/blog/wisconsin-lab-results.jpg";
-import lifestyleImg from "@/assets/blog/michigan-wellness.jpg";
+import heroImg from "@/assets/blog/bhrt-hero-consultation.webp";
+import deliveryImg from "@/assets/blog/bhrt-delivery-methods-comparison.webp";
+import labsImg from "@/assets/blog/bhrt-lab-testing-bloodwork.webp";
+import candidacyImg from "@/assets/blog/bhrt-telehealth-consultation.webp";
+import timelineImg from "@/assets/blog/bhrt-symptom-improvement-timeline.webp";
+import lifestyleImg from "@/assets/blog/bhrt-michigan-wisconsin-lifestyle.webp";
 
 export const Route = createFileRoute(
   "/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin",
@@ -451,6 +451,14 @@ function BlogComponent() {
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           This is the section that separates an honest resource from a sales pitch, so I want to be as direct here as anywhere in this article. BHRT is not right for every woman, and a provider who tells you it is has not looked closely enough at your history, or is not being fully honest with you. The point of this section is not to scare you away from a treatment that could genuinely help you. It is to make sure that if you do move forward, you are doing so with a clear, honest understanding of where you fall on the risk spectrum.
         </p>
+        <img
+          src={candidacyImg}
+          alt="Calm telehealth consultation between a Michigan or Wisconsin woman and her nurse practitioner discussing BHRT candidacy and health history"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <h3 className="text-xl md:text-2xl font-display text-primary mt-10 mb-4">
           Generally Considered Contraindications
         </h3>

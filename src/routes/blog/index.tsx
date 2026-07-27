@@ -3,7 +3,7 @@ import heroImg from "@/assets/blog/hero-fatigued-woman.jpg";
 import wiHeroImg from "@/assets/blog/wisconsin-hero-fatigue.jpg";
 import ozempicHeroImg from "@/assets/blog/ozempic-hero-michigan-woman.jpg";
 import perimenopauseHeroImg from "@/assets/blog/hormone-shifts.jpg";
-import bhrtHeroImg from "@/assets/blog/telehealth-consultation.jpg";
+import bhrtHeroImg from "@/assets/blog/bhrt-hero-consultation.webp";
 import { Clock, ArrowRight, Calendar } from "lucide-react";
 
 export const Route = createFileRoute("/blog/")({
