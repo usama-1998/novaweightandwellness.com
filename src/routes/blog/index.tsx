@@ -57,7 +57,7 @@ const articles = [
     imageAlt: "Woman in Michigan awake at 3am with hormonal sleep disruption, checking the clock beside her bed",
     category: "Sleep & Anxiety",
     date: "July 28, 2026",
-    readTime: "31 min read",
+    readTime: "47 min read",
     author: "Kathryn Long, NP-C",
   },
   {
