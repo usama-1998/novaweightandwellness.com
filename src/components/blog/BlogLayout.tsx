@@ -7,6 +7,32 @@ export type TocItem = {
   label: string;
 };
 
+const MONTH_NAMES = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
+
+function formatDisplayDate(date: string): string {
+  // Parses a "YYYY-MM-DD" string manually to avoid UTC/local timezone
+  // off-by-one-day shifts that `new Date(date)` can introduce.
+  const match = /^(\d{4})-(\d{2})-(\d{2})/.exec(date);
+  if (!match) return date;
+  const [, year, month, day] = match;
+  const monthName = MONTH_NAMES[Number.parseInt(month, 10) - 1];
+  if (!monthName) return date;
+  return `${monthName} ${Number.parseInt(day, 10)}, ${year}`;
+}
+
 export type BlogLayoutProps = {
   title: string;
   author: string;
@@ -152,7 +178,7 @@ export function BlogLayout({
           <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted-foreground">
             <span>By {author}</span>
             <span aria-hidden="true">|</span>
-            <time dateTime={new Date(date).toISOString()}>{date}</time>
+            <time dateTime={new Date(date).toISOString()}>{formatDisplayDate(date)}</time>
             <span aria-hidden="true">|</span>
             <span>{readTime}</span>
           </div>
