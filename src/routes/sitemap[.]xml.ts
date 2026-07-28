@@ -16,6 +16,7 @@ export const Route = createFileRoute("/sitemap.xml")({
           { path: "/what-we-treat", priority: "0.8", changefreq: "weekly" },
           { path: "/contact", priority: "0.9", changefreq: "monthly" },
           { path: "/blog", priority: "0.8", changefreq: "weekly" },
+          { path: "/blog/hormonal-sleep-anxiety-women-michigan-wisconsin", priority: "1.0", changefreq: "monthly" },
           { path: "/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin", priority: "1.0", changefreq: "monthly" },
           { path: "/blog/perimenopause-in-your-30s-michigan-wisconsin", priority: "1.0", changefreq: "monthly" },
           { path: "/blog/ozempic-not-working-michigan-wisconsin-women", priority: "1.0", changefreq: "monthly" },

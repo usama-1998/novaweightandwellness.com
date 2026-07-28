@@ -4,6 +4,7 @@ import wiHeroImg from "@/assets/blog/wisconsin-hero-fatigue.jpg";
 import ozempicHeroImg from "@/assets/blog/ozempic-hero-michigan-woman.jpg";
 import perimenopauseHeroImg from "@/assets/blog/perimenopause-hero-kitchen.webp";
 import bhrtHeroImg from "@/assets/blog/bhrt-hero-consultation.webp";
+import sleepAnxietyHeroImg from "@/assets/blog/sleep-anxiety-hero-3am-awake.webp";
 import { Clock, ArrowRight, Calendar } from "lucide-react";
 
 export const Route = createFileRoute("/blog/")({
@@ -47,6 +48,18 @@ export const Route = createFileRoute("/blog/")({
 });
 
 const articles = [
+  {
+    slug: "hormonal-sleep-anxiety-women-michigan-wisconsin",
+    title: "Why Can't I Sleep Anymore? The Hormonal Reason Behind Sleepless Nights and New Anxiety",
+    excerpt:
+      "Waking up at 3am with a racing heart? New anxiety that feels different from anything before? An honest guide to the hormonal mechanics behind sleep disruption and anxiety in your late 30s and 40s, for women in Michigan and Wisconsin.",
+    image: sleepAnxietyHeroImg,
+    imageAlt: "Woman in Michigan awake at 3am with hormonal sleep disruption, checking the clock beside her bed",
+    category: "Sleep & Anxiety",
+    date: "July 28, 2026",
+    readTime: "31 min read",
+    author: "Kathryn Long, NP-C",
+  },
   {
     slug: "bioidentical-hormone-therapy-guide-michigan-wisconsin",
     title: "The Complete Guide to Bioidentical Hormone Therapy: Risks, Benefits, and What Actually Happens",
