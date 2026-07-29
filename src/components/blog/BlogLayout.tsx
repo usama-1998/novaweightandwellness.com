@@ -80,7 +80,7 @@ export function BlogLayout({
     "@context": "https://schema.org",
     "@type": "Article",
     headline: title,
-    image: "https://novaweightandwellness.com/og-image-v3.jpg",
+    image: "https://novaweightandwellness.com/og-image-v4.jpg",
     datePublished: new Date(date).toISOString(),
     dateModified: new Date(date).toISOString(),
     author: {
