@@ -46,7 +46,7 @@ export const Route = createFileRoute(
       { property: "og:type", content: "article" },
       {
         property: "og:image",
-        content: "https://novaweightandwellness.com/og-image-v4.jpg",
+        content: "https://novaweightandwellness.com/og-image-v5.jpg",
       },
       { name: "twitter:card", content: "summary_large_image" },
     ],
