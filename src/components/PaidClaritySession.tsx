@@ -139,7 +139,7 @@ export default function PaidClaritySession({
                     <img 
                       src={kathrynImage} 
                       alt="Kathryn Long, NP-C" 
-                      className="w-28 h-28 rounded-full border-[3px] border-white object-cover shadow-lg" 
+                      className="w-28 h-28 rounded-full border-[3px] border-white object-cover object-top shadow-lg" 
                     />
                     <div className="absolute bottom-1.5 right-1.5 bg-white rounded-full shadow-sm p-[1px]">
                       <BadgeCheck className="w-6 h-6 text-[#0095F6]" fill="currentColor" stroke="white" strokeWidth={1.5} />

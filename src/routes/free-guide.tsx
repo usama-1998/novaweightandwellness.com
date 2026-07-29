@@ -273,7 +273,7 @@ function FreeGuide() {
                 <img 
                   src={kathrynImage} 
                   alt="Katie L, FNP-C" 
-                  className="relative h-64 w-64 md:h-80 md:w-80 object-cover rounded-[2rem] border-[6px] border-white/50 shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-500"
+                  className="relative h-64 w-64 md:h-80 md:w-80 object-cover object-top rounded-[2rem] border-[6px] border-white/50 shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-500"
                 />
               </div>
             </div>
