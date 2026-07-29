@@ -43,7 +43,7 @@ export const Route = createFileRoute("/blog/gaining-weight-exhausted-after-40-wi
           "https://novaweightandwellness.com/blog/gaining-weight-exhausted-after-40-wisconsin-women",
       },
       { property: "og:type", content: "article" },
-      { property: "og:image", content: "https://novaweightandwellness.com/og-image.webp" },
+      { property: "og:image", content: "https://novaweightandwellness.com/og-image-v2.jpg" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
