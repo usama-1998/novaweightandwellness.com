@@ -5,6 +5,7 @@ import ozempicHeroImg from "@/assets/blog/ozempic-hero-michigan-woman.jpg";
 import perimenopauseHeroImg from "@/assets/blog/perimenopause-hero-kitchen.webp";
 import bhrtHeroImg from "@/assets/blog/bhrt-hero-consultation.webp";
 import sleepAnxietyHeroImg from "@/assets/blog/sleep-anxiety-hero-3am-awake.webp";
+import pcosHeroImg from "@/assets/blog/pcos-hero-confident-woman-30s.webp";
 import { Clock, ArrowRight, Calendar } from "lucide-react";
 
 export const Route = createFileRoute("/blog/")({
@@ -48,6 +49,18 @@ export const Route = createFileRoute("/blog/")({
 });
 
 const articles = [
+  {
+    slug: "pcos-weight-resistance-women-30s-michigan-wisconsin",
+    title: "PCOS in Your 30s: Why Weight Loss Feels Impossible and What Actually Helps",
+    excerpt:
+      "Diagnosed years ago and never properly managed, or never diagnosed at all? A root-cause guide to PCOS, insulin resistance, and weight resistance for women in their 30s in Michigan and Wisconsin.",
+    image: pcosHeroImg,
+    imageAlt: "Confident woman in her 30s in Wisconsin managing PCOS and weight resistance in her everyday life",
+    category: "PCOS & Insulin Resistance",
+    date: "July 29, 2026",
+    readTime: "32 min read",
+    author: "Kathryn Long, NP-C",
+  },
   {
     slug: "hormonal-sleep-anxiety-women-michigan-wisconsin",
     title: "Why Can't I Sleep Anymore? The Hormonal Reason Behind Sleepless Nights and New Anxiety",
