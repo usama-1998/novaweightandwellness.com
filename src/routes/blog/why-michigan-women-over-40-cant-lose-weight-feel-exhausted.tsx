@@ -43,7 +43,7 @@ export const Route = createFileRoute(
           "https://novaweightandwellness.com/blog/why-michigan-women-over-40-cant-lose-weight-feel-exhausted",
       },
       { property: "og:type", content: "article" },
-      { property: "og:image", content: "https://novaweightandwellness.com/og-image-v5.jpg" },
+      { property: "og:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
   }),

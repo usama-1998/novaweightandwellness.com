@@ -116,11 +116,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       {
         property: "og:image",
-        content: "https://novaweightandwellness.com/og-image-v5.jpg",
+        content: "https://novaweightandwellness.com/og-image-v6.jpg",
       },
       {
         name: "twitter:image",
-        content: "https://novaweightandwellness.com/og-image-v5.jpg",
+        content: "https://novaweightandwellness.com/og-image-v6.jpg",
       },
     ],
     links: [
@@ -171,7 +171,7 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
               "description": "Telehealth functional medicine practice specializing in root-cause treatment for fatigue, brain fog, hormone imbalance, weight resistance, and metabolic dysfunction for professional women in Michigan and Wisconsin.",
               "url": "https://novaweightandwellness.com",
               "logo": "https://novaweightandwellness.com/favicon.webp",
-              "image": "https://novaweightandwellness.com/og-image-v5.jpg",
+              "image": "https://novaweightandwellness.com/og-image-v6.jpg",
               "founder": {
                 "@type": "Person",
                 "name": "Kathryn Long, NP-C",

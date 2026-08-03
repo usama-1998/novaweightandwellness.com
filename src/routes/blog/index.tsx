@@ -33,7 +33,7 @@ export const Route = createFileRoute("/blog/")({
       { property: "og:type", content: "website" },
       {
         property: "og:image",
-        content: "https://novaweightandwellness.com/og-image-v5.jpg",
+        content: "https://novaweightandwellness.com/og-image-v6.jpg",
       },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Blog | Functional Medicine Insights | Novaleo" },
@@ -42,7 +42,7 @@ export const Route = createFileRoute("/blog/")({
         content:
           "Expert articles on hormone health, weight resistance & metabolic wellness for women in MI & WI.",
       },
-      { name: "twitter:image", content: "https://novaweightandwellness.com/og-image-v5.jpg" },
+      { name: "twitter:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
     ],
   }),
   component: BlogIndex,
