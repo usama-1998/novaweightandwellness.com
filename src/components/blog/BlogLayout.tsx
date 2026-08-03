@@ -80,7 +80,7 @@ export function BlogLayout({
     "@context": "https://schema.org",
     "@type": "Article",
     headline: title,
-    image: "https://novaweightandwellness.com/og-image-v5.jpg",
+    image: "https://novaweightandwellness.com/og-image-new.png",
     datePublished: new Date(date).toISOString(),
     dateModified: new Date(date).toISOString(),
     author: {
@@ -93,7 +93,7 @@ export function BlogLayout({
       name: "Novaleo Weight & Wellness",
       logo: {
         "@type": "ImageObject",
-        url: "https://novaweightandwellness.com/logo.webp",
+        url: "https://novaweightandwellness.com/logo.png",
       },
     },
   };

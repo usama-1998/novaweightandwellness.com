@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { SectionHeading } from "@/components/SectionHeading";
 import { ArrowRight, FileText, CheckCircle2, Star, Sparkles, Download, AlertCircle, Microscope, ShieldCheck, ChevronDown } from "lucide-react";
 import { useState } from "react";
-import logo from "@/assets/novaleo-logo.webp";
+import logo from "@/assets/novaleo-logo.png";
 import ebookMockup from '@/assets/ebook-mockup.jpg';
 import kathrynImage from '@/assets/hero-kathryn.webp';
 

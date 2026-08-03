@@ -97,6 +97,7 @@ npm run build
   - Social media links in the footer have been updated to reflect the `katielong.np` handles across TikTok, Facebook, and Instagram.
   - Mobile-first refinements ensure the primary "Free Discovery Call" button stays visible above the fold on the homepage hero section.
   - All site images and assets have been optimized by converting them to the WebP format for faster page load times and improved performance.
+  - Site-wide logo updated to the latest branding across header, footer, and social preview images (Open Graph).
   - **Robust Cal.com API Integration**: Directly interfaces with Cal.com TRPC server functions and REST API to query live availability and book slots seamlessly in the background.
     - **Timezone Safety**: Hardcoded to `America/Detroit` across the entire stack (both UI and API payload) to completely prevent browser timezone drift and ensure the underlying slot timestamp perfectly matches the clinician's real availability.
     - **Strict Phone Validation**: Integrates a robust regex phone formatter to guarantee all numbers correctly resolve to a `+1` prefix before hitting the Cal.com API, preventing silent booking failures triggered by SMS reminder validations.
