@@ -8,11 +8,10 @@ type NavItem = { to: string; hash?: string; label: string };
 
 const nav: NavItem[] = [
   { to: "/about", label: "About" },
-  { to: "/approach", label: "Our Approach" },
+  { to: "/approach", label: "Approach" },
   { to: "/services", label: "Services" },
   { to: "/what-we-treat", label: "What We Treat" },
   { to: "/blog", label: "Blog" },
-  { to: "/contact", label: "Contact" },
 ];
 
 export function SiteHeader() {
