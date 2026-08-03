@@ -51,7 +51,7 @@ export const Route = createFileRoute(
           "https://novaweightandwellness.com/blog/the-ultimate-guide-to-hormones-and-weight-resistance-over-40",
       },
       { property: "og:type", content: "article" },
-      { property: "og:image", content: "https://novaweightandwellness.com/og-image-new.png" },
+      { property: "og:image", content: "https://novaweightandwellness.com/og-image-v5.jpg" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
