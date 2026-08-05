@@ -81,6 +81,11 @@ function BlogComponent() {
       slug="hormonal-sleep-anxiety-women-michigan-wisconsin"
       breadcrumbTitle="Hormonal Sleep and Anxiety Guide"
       faqSchema={faqSchema}
+      relatedPosts={[
+        { slug: "perimenopause-in-your-30s-michigan-wisconsin", title: "Perimenopause Isn't Just an Over-40 Thing: The Complete Guide for Women in Their Mid-30s" },
+        { slug: "bioidentical-hormone-therapy-guide-michigan-wisconsin", title: "The Complete Guide to Bioidentical Hormone Therapy: Risks, Benefits, and What Actually Happens" },
+        { slug: "pcos-weight-resistance-women-30s-michigan-wisconsin", title: "PCOS in Your 30s: Why Weight Loss Feels Impossible and What Actually Helps" },
+      ]}
     >
       {/* Disclaimer */}
       <div className="bg-muted/60 border border-border rounded-xl p-5 mb-10 text-sm text-foreground/70 leading-relaxed">

@@ -33,6 +33,11 @@ function formatDisplayDate(date: string): string {
   return `${monthName} ${Number.parseInt(day, 10)}, ${year}`;
 }
 
+export type RelatedPost = {
+  slug: string;
+  title: string;
+};
+
 export type BlogLayoutProps = {
   title: string;
   author: string;
@@ -46,6 +51,7 @@ export type BlogLayoutProps = {
   eyebrow?: string;
   children: React.ReactNode;
   faqSchema?: Record<string, any>;
+  relatedPosts?: RelatedPost[];
 };
 
 export function BlogLayout({
@@ -61,6 +67,7 @@ export function BlogLayout({
   eyebrow = "Functional Medicine for Women",
   children,
   faqSchema,
+  relatedPosts,
 }: BlogLayoutProps) {
   const [tocOpen, setTocOpen] = useState(false);
 
@@ -346,6 +353,28 @@ export function BlogLayout({
           
         </div>
       </div>
+
+      {/* Related Articles */}
+      {relatedPosts && relatedPosts.length > 0 && (
+        <div className="container-prose pb-16 md:pb-24 border-t border-primary/10 pt-12">
+          <p className="font-display text-sm font-semibold text-primary mb-6 uppercase tracking-wider">
+            Related Articles
+          </p>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {relatedPosts.map((post) => (
+              <Link
+                key={post.slug}
+                to={`/blog/${post.slug}` as any}
+                className="block rounded-xl border border-primary/10 bg-primary/5 p-5 hover:border-primary/30 transition-colors"
+              >
+                <span className="text-sm font-semibold text-foreground/85 leading-snug">
+                  {post.title}
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
     </main>
   );
 }

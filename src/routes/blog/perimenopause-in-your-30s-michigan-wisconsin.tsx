@@ -97,6 +97,11 @@ function BlogComponent() {
       slug="perimenopause-in-your-30s-michigan-wisconsin"
       breadcrumbTitle="Perimenopause in Your Mid-30s"
       faqSchema={faqSchema}
+      relatedPosts={[
+        { slug: "pcos-weight-resistance-women-30s-michigan-wisconsin", title: "PCOS in Your 30s: Why Weight Loss Feels Impossible and What Actually Helps" },
+        { slug: "hormonal-sleep-anxiety-women-michigan-wisconsin", title: "Why Can't I Sleep Anymore? The Hormonal Reason Behind Sleepless Nights and New Anxiety" },
+        { slug: "bioidentical-hormone-therapy-guide-michigan-wisconsin", title: "The Complete Guide to Bioidentical Hormone Therapy: Risks, Benefits, and What Actually Happens" },
+      ]}
     >
       {/* Disclaimer */}
       <div className="bg-muted/60 border border-border rounded-xl p-5 mb-10 text-sm text-foreground/70 leading-relaxed">

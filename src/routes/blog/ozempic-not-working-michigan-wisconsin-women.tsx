@@ -110,6 +110,11 @@ function BlogComponent() {
       slug="ozempic-not-working-michigan-wisconsin-women"
       breadcrumbTitle="Why Ozempic Isn't Working"
       faqSchema={faqSchema}
+      relatedPosts={[
+        { slug: "the-ultimate-guide-to-hormones-and-weight-resistance-over-40", title: "The Ultimate Guide to Hormones and Weight Resistance Over 40" },
+        { slug: "why-michigan-women-over-40-cant-lose-weight-feel-exhausted", title: "Why Can't I Lose Weight in My 40s? (And Why You're Always Tired)" },
+        { slug: "gaining-weight-exhausted-after-40-wisconsin-women", title: "Gaining Weight and Exhausted After 40? What Every Wisconsin Woman Needs to Know" },
+      ]}
     >
       {/* Disclaimer */}
       <div className="bg-muted/60 border border-border rounded-xl p-5 mb-10 text-sm text-foreground/70 leading-relaxed">

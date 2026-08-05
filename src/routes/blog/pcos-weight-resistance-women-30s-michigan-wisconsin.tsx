@@ -25,7 +25,7 @@ export const Route = createFileRoute(
       {
         name: "description",
         content:
-          "PCOS weight loss in your 30s feels impossible for a reason. A root-cause guide to PCOS insulin resistance, diagnosis, and treatment for Michigan and Wisconsin women.",
+          "PCOS weight loss in your 30s feels impossible for a reason. A root-cause guide to PCOS, insulin resistance, diagnosis, and treatment.",
       },
       {
         property: "og:title",
@@ -80,6 +80,11 @@ function BlogComponent() {
       slug="pcos-weight-resistance-women-30s-michigan-wisconsin"
       breadcrumbTitle="PCOS and Weight Resistance in Your 30s"
       faqSchema={faqSchema}
+      relatedPosts={[
+        { slug: "perimenopause-in-your-30s-michigan-wisconsin", title: "Perimenopause Isn't Just an Over-40 Thing: The Complete Guide for Women in Their Mid-30s" },
+        { slug: "hormonal-sleep-anxiety-women-michigan-wisconsin", title: "Why Can't I Sleep Anymore? The Hormonal Reason Behind Sleepless Nights and New Anxiety" },
+        { slug: "bioidentical-hormone-therapy-guide-michigan-wisconsin", title: "The Complete Guide to Bioidentical Hormone Therapy: Risks, Benefits, and What Actually Happens" },
+      ]}
     >
       {/* Disclaimer */}
       <div className="bg-muted/60 border border-border rounded-xl p-5 mb-10 text-sm text-foreground/70 leading-relaxed">

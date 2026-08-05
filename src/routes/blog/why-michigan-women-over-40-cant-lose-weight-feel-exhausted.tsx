@@ -96,6 +96,11 @@ function BlogComponent() {
       tocItems={tocItems}
       slug="why-michigan-women-over-40-cant-lose-weight-feel-exhausted"
       breadcrumbTitle="Why Michigan Women Can't Lose Weight"
+      relatedPosts={[
+        { slug: "the-ultimate-guide-to-hormones-and-weight-resistance-over-40", title: "The Ultimate Guide to Hormones and Weight Resistance Over 40" },
+        { slug: "ozempic-not-working-michigan-wisconsin-women", title: "Why Am I Not Losing Weight on Ozempic? A Functional Medicine Perspective for Michigan and Wisconsin Women" },
+        { slug: "gaining-weight-exhausted-after-40-wisconsin-women", title: "Gaining Weight and Exhausted After 40? What Every Wisconsin Woman Needs to Know" },
+      ]}
     >
       {/* ========== Section 1: The 3 PM Wall ========== */}
       <section id="the-3-pm-wall">

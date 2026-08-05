@@ -25,6 +25,8 @@ export const Route = createFileRoute("/sitemap.xml")({
           { path: "/blog/gaining-weight-exhausted-after-40-wisconsin-women", priority: "0.9", changefreq: "monthly" },
           { path: "/blog/the-ultimate-guide-to-hormones-and-weight-resistance-over-40", priority: "0.9", changefreq: "monthly" },
           { path: "/free-15-min-call-with-katie", priority: "0.9", changefreq: "monthly" },
+          { path: "/clarity-session", priority: "0.8", changefreq: "monthly" },
+          { path: "/free-guide", priority: "0.7", changefreq: "monthly" },
           { path: "/privacy-policy", priority: "0.3", changefreq: "yearly" },
           { path: "/terms-of-service", priority: "0.3", changefreq: "yearly" },
         ];

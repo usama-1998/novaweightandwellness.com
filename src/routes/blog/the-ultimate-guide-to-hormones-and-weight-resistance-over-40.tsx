@@ -34,7 +34,7 @@ export const Route = createFileRoute(
       {
         name: "description",
         content:
-          "A massive functional medicine masterclass on why women over 40 can't lose weight. Uncover the root causes of weight resistance, thyroid issues, and hormonal chaos.",
+          "Why women over 40 can't lose weight: a functional medicine guide to the root causes of weight resistance, thyroid issues, and hormonal chaos.",
       },
       {
         property: "og:title",
@@ -43,7 +43,7 @@ export const Route = createFileRoute(
       {
         property: "og:description",
         content:
-          "A massive functional medicine masterclass on why women over 40 can't lose weight. Uncover the root causes of weight resistance, thyroid issues, and hormonal chaos.",
+          "Why women over 40 can't lose weight: a functional medicine guide to the root causes of weight resistance, thyroid issues, and hormonal chaos.",
       },
       {
         property: "og:url",
@@ -88,6 +88,11 @@ function BlogComponent() {
       slug="the-ultimate-guide-to-hormones-and-weight-resistance-over-40"
       breadcrumbTitle="The Ultimate Guide to Hormones and Weight Resistance Over 40"
       faqSchema={faqSchema}
+      relatedPosts={[
+        { slug: "why-michigan-women-over-40-cant-lose-weight-feel-exhausted", title: "Why Can't I Lose Weight in My 40s? (And Why You're Always Tired)" },
+        { slug: "gaining-weight-exhausted-after-40-wisconsin-women", title: "Gaining Weight and Exhausted After 40? What Every Wisconsin Woman Needs to Know" },
+        { slug: "ozempic-not-working-michigan-wisconsin-women", title: "Why Am I Not Losing Weight on Ozempic? A Functional Medicine Perspective for Michigan and Wisconsin Women" },
+      ]}
     >
       <section id="introduction-the-midlife-shift">
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-2 mb-6">
@@ -134,7 +139,7 @@ function BlogComponent() {
           her abdomen. She feels a bone-crushing fatigue that caffeine no longer touches. When she
           asked her primary care doctor why she feels so terrible,{" "}
           <Link
-            to="/why-michigan-women-over-40-cant-lose-weight-feel-exhausted"
+            to="/blog/why-michigan-women-over-40-cant-lose-weight-feel-exhausted"
             className="text-secondary font-medium hover:underline"
           >
             like many Michigan women experiencing weight resistance
@@ -151,7 +156,7 @@ function BlogComponent() {
           experiences massive brain fog by fourth period, making it difficult to recall simple
           words.{" "}
           <Link
-            to="/gaining-weight-exhausted-after-40-wisconsin-women"
+            to="/blog/gaining-weight-exhausted-after-40-wisconsin-women"
             className="text-secondary font-medium hover:underline"
           >
             Wisconsin women dealing with this specific type of exhaustion

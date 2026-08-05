@@ -472,7 +472,7 @@ function Home() {
           <Link to="/free-15-min-call-with-katie"  className="btn-gold">
             Book Free 15-Min Call
           </Link>
-          <Link to="/scheduler" className="btn-ghost">
+          <Link to="/clarity-session" className="btn-ghost">
             Book $97 Root-Cause Intake
           </Link>
         </div>

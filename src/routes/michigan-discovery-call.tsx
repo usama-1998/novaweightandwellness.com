@@ -8,6 +8,7 @@ export const Route = createFileRoute('/michigan-discovery-call')({
       { rel: "canonical", href: "https://novaweightandwellness.com/michigan-discovery-call" },
     ],
     meta: [
+      { name: "robots", content: "noindex, follow" },
       { title: "Book a Free Discovery Call | Michigan | Novaleo" },
       {
         name: "description",
