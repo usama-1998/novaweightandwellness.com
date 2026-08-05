@@ -190,7 +190,7 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
                 "postalCode": "49505",
                 "addressCountry": "US"
               },
-              "telephone": "+1-616-460-6337",
+              "telephone": "+1-616-801-4648",
               "email": "Katie@novaweightandwellness.com",
               "openingHoursSpecification": {
                 "@type": "OpeningHoursSpecification",

@@ -135,8 +135,8 @@ export function SiteFooter() {
               Grand Rapids, Mi 49505
             </li>
             <li>
-              <a href="tel:16164606337" className="hover:text-gold">
-                616-460-6337
+              <a href="tel:16168014648" className="hover:text-gold">
+                616-801-4648
               </a>
             </li>
             <li>

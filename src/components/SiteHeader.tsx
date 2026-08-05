@@ -38,11 +38,11 @@ export function SiteHeader() {
         </nav>
         <div className="hidden lg:flex items-center gap-3">
           <a
-            href="tel:+16164606337"
+            href="tel:+16168014648"
             className="inline-flex items-center gap-2 text-sm font-semibold text-primary hover:text-secondary transition-colors border border-primary/30 rounded-full px-4 py-2"
           >
             <Phone className="h-4 w-4" />
-            1-616-460-6337
+            1-616-801-4648
           </a>
           <Link to="/free-15-min-call-with-katie"  className="btn-gold text-sm">
             Book Free 15-Min Call
@@ -71,11 +71,11 @@ export function SiteHeader() {
               </Link>
             ))}
             <a
-              href="tel:+16164606337"
+              href="tel:+16168014648"
               onClick={() => setOpen(false)}
               className="inline-flex items-center gap-2 text-base font-semibold text-primary"
             >
-              <Phone className="h-4 w-4" /> 1-616-460-6337
+              <Phone className="h-4 w-4" /> 1-616-801-4648
             </a>
             <Link to="/free-15-min-call-with-katie" onClick={() => setOpen(false)} className="btn-gold text-sm w-fit">
               Book Free 15-Min Call
