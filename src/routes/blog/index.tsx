@@ -6,6 +6,7 @@ import perimenopauseHeroImg from "@/assets/blog/perimenopause-hero-kitchen.webp"
 import bhrtHeroImg from "@/assets/blog/bhrt-hero-consultation.webp";
 import sleepAnxietyHeroImg from "@/assets/blog/sleep-anxiety-hero-3am-awake.webp";
 import pcosHeroImg from "@/assets/blog/pcos-hero-confident-woman-30s.webp";
+import brainFogHeroImg from "@/assets/blog/brain-fog-hero-woman-office.webp";
 import { Clock, ArrowRight, Calendar } from "lucide-react";
 
 export const Route = createFileRoute("/blog/")({
@@ -49,6 +50,18 @@ export const Route = createFileRoute("/blog/")({
 });
 
 const articles = [
+  {
+    slug: "perimenopause-brain-fog-memory-michigan-wisconsin",
+    title: "Why Can't I Remember Anything Anymore? Perimenopausal Brain Fog vs. Something More Serious",
+    excerpt:
+      "Losing words mid-sentence, forgetting why you walked into a room, secretly worried it's early dementia? An honest guide to perimenopausal brain fog, the real science behind it, and when memory changes actually warrant further evaluation. For women in Michigan and Wisconsin.",
+    image: brainFogHeroImg,
+    imageAlt: "Woman in Michigan experiencing perimenopause brain fog at work, pausing thoughtfully at her desk",
+    category: "Cognitive Health & Perimenopause",
+    date: "July 30, 2026",
+    readTime: "32 min read",
+    author: "Kathryn Long, NP-C",
+  },
   {
     slug: "pcos-weight-resistance-women-30s-michigan-wisconsin",
     title: "PCOS in Your 30s: Why Weight Loss Feels Impossible and What Actually Helps",

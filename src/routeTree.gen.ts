@@ -26,6 +26,7 @@ import { Route as BlogIndexRouteImport } from './routes/blog/index'
 import { Route as BlogWhyMichiganWomenOver40CantLoseWeightFeelExhaustedRouteImport } from './routes/blog/why-michigan-women-over-40-cant-lose-weight-feel-exhausted'
 import { Route as BlogTheUltimateGuideToHormonesAndWeightResistanceOver40RouteImport } from './routes/blog/the-ultimate-guide-to-hormones-and-weight-resistance-over-40'
 import { Route as BlogPerimenopauseInYour30sMichiganWisconsinRouteImport } from './routes/blog/perimenopause-in-your-30s-michigan-wisconsin'
+import { Route as BlogPerimenopauseBrainFogMemoryMichiganWisconsinRouteImport } from './routes/blog/perimenopause-brain-fog-memory-michigan-wisconsin'
 import { Route as BlogPcosWeightResistanceWomen30sMichiganWisconsinRouteImport } from './routes/blog/pcos-weight-resistance-women-30s-michigan-wisconsin'
 import { Route as BlogOzempicNotWorkingMichiganWisconsinWomenRouteImport } from './routes/blog/ozempic-not-working-michigan-wisconsin-women'
 import { Route as BlogHormonalSleepAnxietyWomenMichiganWisconsinRouteImport } from './routes/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
@@ -120,6 +121,12 @@ const BlogPerimenopauseInYour30sMichiganWisconsinRoute =
     path: '/blog/perimenopause-in-your-30s-michigan-wisconsin',
     getParentRoute: () => rootRouteImport,
   } as any)
+const BlogPerimenopauseBrainFogMemoryMichiganWisconsinRoute =
+  BlogPerimenopauseBrainFogMemoryMichiganWisconsinRouteImport.update({
+    id: '/blog/perimenopause-brain-fog-memory-michigan-wisconsin',
+    path: '/blog/perimenopause-brain-fog-memory-michigan-wisconsin',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const BlogPcosWeightResistanceWomen30sMichiganWisconsinRoute =
   BlogPcosWeightResistanceWomen30sMichiganWisconsinRouteImport.update({
     id: '/blog/pcos-weight-resistance-women-30s-michigan-wisconsin',
@@ -170,6 +177,7 @@ export interface FileRoutesByFullPath {
   '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin': typeof BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute
   '/blog/ozempic-not-working-michigan-wisconsin-women': typeof BlogOzempicNotWorkingMichiganWisconsinWomenRoute
   '/blog/pcos-weight-resistance-women-30s-michigan-wisconsin': typeof BlogPcosWeightResistanceWomen30sMichiganWisconsinRoute
+  '/blog/perimenopause-brain-fog-memory-michigan-wisconsin': typeof BlogPerimenopauseBrainFogMemoryMichiganWisconsinRoute
   '/blog/perimenopause-in-your-30s-michigan-wisconsin': typeof BlogPerimenopauseInYour30sMichiganWisconsinRoute
   '/blog/the-ultimate-guide-to-hormones-and-weight-resistance-over-40': typeof BlogTheUltimateGuideToHormonesAndWeightResistanceOver40Route
   '/blog/why-michigan-women-over-40-cant-lose-weight-feel-exhausted': typeof BlogWhyMichiganWomenOver40CantLoseWeightFeelExhaustedRoute
@@ -194,6 +202,7 @@ export interface FileRoutesByTo {
   '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin': typeof BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute
   '/blog/ozempic-not-working-michigan-wisconsin-women': typeof BlogOzempicNotWorkingMichiganWisconsinWomenRoute
   '/blog/pcos-weight-resistance-women-30s-michigan-wisconsin': typeof BlogPcosWeightResistanceWomen30sMichiganWisconsinRoute
+  '/blog/perimenopause-brain-fog-memory-michigan-wisconsin': typeof BlogPerimenopauseBrainFogMemoryMichiganWisconsinRoute
   '/blog/perimenopause-in-your-30s-michigan-wisconsin': typeof BlogPerimenopauseInYour30sMichiganWisconsinRoute
   '/blog/the-ultimate-guide-to-hormones-and-weight-resistance-over-40': typeof BlogTheUltimateGuideToHormonesAndWeightResistanceOver40Route
   '/blog/why-michigan-women-over-40-cant-lose-weight-feel-exhausted': typeof BlogWhyMichiganWomenOver40CantLoseWeightFeelExhaustedRoute
@@ -219,6 +228,7 @@ export interface FileRoutesById {
   '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin': typeof BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute
   '/blog/ozempic-not-working-michigan-wisconsin-women': typeof BlogOzempicNotWorkingMichiganWisconsinWomenRoute
   '/blog/pcos-weight-resistance-women-30s-michigan-wisconsin': typeof BlogPcosWeightResistanceWomen30sMichiganWisconsinRoute
+  '/blog/perimenopause-brain-fog-memory-michigan-wisconsin': typeof BlogPerimenopauseBrainFogMemoryMichiganWisconsinRoute
   '/blog/perimenopause-in-your-30s-michigan-wisconsin': typeof BlogPerimenopauseInYour30sMichiganWisconsinRoute
   '/blog/the-ultimate-guide-to-hormones-and-weight-resistance-over-40': typeof BlogTheUltimateGuideToHormonesAndWeightResistanceOver40Route
   '/blog/why-michigan-women-over-40-cant-lose-weight-feel-exhausted': typeof BlogWhyMichiganWomenOver40CantLoseWeightFeelExhaustedRoute
@@ -245,6 +255,7 @@ export interface FileRouteTypes {
     | '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
     | '/blog/ozempic-not-working-michigan-wisconsin-women'
     | '/blog/pcos-weight-resistance-women-30s-michigan-wisconsin'
+    | '/blog/perimenopause-brain-fog-memory-michigan-wisconsin'
     | '/blog/perimenopause-in-your-30s-michigan-wisconsin'
     | '/blog/the-ultimate-guide-to-hormones-and-weight-resistance-over-40'
     | '/blog/why-michigan-women-over-40-cant-lose-weight-feel-exhausted'
@@ -269,6 +280,7 @@ export interface FileRouteTypes {
     | '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
     | '/blog/ozempic-not-working-michigan-wisconsin-women'
     | '/blog/pcos-weight-resistance-women-30s-michigan-wisconsin'
+    | '/blog/perimenopause-brain-fog-memory-michigan-wisconsin'
     | '/blog/perimenopause-in-your-30s-michigan-wisconsin'
     | '/blog/the-ultimate-guide-to-hormones-and-weight-resistance-over-40'
     | '/blog/why-michigan-women-over-40-cant-lose-weight-feel-exhausted'
@@ -293,6 +305,7 @@ export interface FileRouteTypes {
     | '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
     | '/blog/ozempic-not-working-michigan-wisconsin-women'
     | '/blog/pcos-weight-resistance-women-30s-michigan-wisconsin'
+    | '/blog/perimenopause-brain-fog-memory-michigan-wisconsin'
     | '/blog/perimenopause-in-your-30s-michigan-wisconsin'
     | '/blog/the-ultimate-guide-to-hormones-and-weight-resistance-over-40'
     | '/blog/why-michigan-women-over-40-cant-lose-weight-feel-exhausted'
@@ -318,6 +331,7 @@ export interface RootRouteChildren {
   BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute: typeof BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute
   BlogOzempicNotWorkingMichiganWisconsinWomenRoute: typeof BlogOzempicNotWorkingMichiganWisconsinWomenRoute
   BlogPcosWeightResistanceWomen30sMichiganWisconsinRoute: typeof BlogPcosWeightResistanceWomen30sMichiganWisconsinRoute
+  BlogPerimenopauseBrainFogMemoryMichiganWisconsinRoute: typeof BlogPerimenopauseBrainFogMemoryMichiganWisconsinRoute
   BlogPerimenopauseInYour30sMichiganWisconsinRoute: typeof BlogPerimenopauseInYour30sMichiganWisconsinRoute
   BlogTheUltimateGuideToHormonesAndWeightResistanceOver40Route: typeof BlogTheUltimateGuideToHormonesAndWeightResistanceOver40Route
   BlogWhyMichiganWomenOver40CantLoseWeightFeelExhaustedRoute: typeof BlogWhyMichiganWomenOver40CantLoseWeightFeelExhaustedRoute
@@ -445,6 +459,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BlogPerimenopauseInYour30sMichiganWisconsinRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/blog/perimenopause-brain-fog-memory-michigan-wisconsin': {
+      id: '/blog/perimenopause-brain-fog-memory-michigan-wisconsin'
+      path: '/blog/perimenopause-brain-fog-memory-michigan-wisconsin'
+      fullPath: '/blog/perimenopause-brain-fog-memory-michigan-wisconsin'
+      preLoaderRoute: typeof BlogPerimenopauseBrainFogMemoryMichiganWisconsinRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/blog/pcos-weight-resistance-women-30s-michigan-wisconsin': {
       id: '/blog/pcos-weight-resistance-women-30s-michigan-wisconsin'
       path: '/blog/pcos-weight-resistance-women-30s-michigan-wisconsin'
@@ -507,6 +528,8 @@ const rootRouteChildren: RootRouteChildren = {
     BlogOzempicNotWorkingMichiganWisconsinWomenRoute,
   BlogPcosWeightResistanceWomen30sMichiganWisconsinRoute:
     BlogPcosWeightResistanceWomen30sMichiganWisconsinRoute,
+  BlogPerimenopauseBrainFogMemoryMichiganWisconsinRoute:
+    BlogPerimenopauseBrainFogMemoryMichiganWisconsinRoute,
   BlogPerimenopauseInYour30sMichiganWisconsinRoute:
     BlogPerimenopauseInYour30sMichiganWisconsinRoute,
   BlogTheUltimateGuideToHormonesAndWeightResistanceOver40Route:
