@@ -59,7 +59,7 @@ const articles = [
     imageAlt: "Woman in Michigan experiencing perimenopause brain fog at work, pausing thoughtfully at her desk",
     category: "Cognitive Health & Perimenopause",
     date: "July 30, 2026",
-    readTime: "32 min read",
+    readTime: "44 min read",
     author: "Kathryn Long, NP-C",
   },
   {
