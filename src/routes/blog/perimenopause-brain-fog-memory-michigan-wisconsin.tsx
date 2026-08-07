@@ -94,7 +94,7 @@ function BlogComponent() {
     <BlogLayout
       title="Why Can't I Remember Anything Anymore? Perimenopausal Brain Fog vs. Something More Serious"
       author="Kathryn Long, NP-C"
-      date="2026-07-30"
+      date="2026-08-07"
       readTime="44 min read"
       heroImg={heroImg}
       heroAlt="Woman in Michigan experiencing perimenopause brain fog at work, pausing thoughtfully at her desk"
