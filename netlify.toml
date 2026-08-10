@@ -6,6 +6,12 @@
   directory = ".netlify/server"
 
 [[redirects]]
+  from = "/schedule-now"
+  to = "/free-15-min-call-with-katie"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/*"
   to = "/.netlify/functions/server"
   status = 200
