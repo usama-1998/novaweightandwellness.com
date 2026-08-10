@@ -1,9 +1,21 @@
 import { Link } from "@tanstack/react-router";
+import { useEffect, useRef } from "react";
 import logo from "@/assets/novaleo-logo.png";
 import { useBookingModal } from "@/components/BookingModalContext";
 
 export function SiteFooter() {
   const { open: openBooking } = useBookingModal();
+  const sealRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (sealRef.current && sealRef.current.children.length === 0) {
+      const script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src = "https://rapidscansecure.com/siteseal/siteseal.js?code=65,074EA1C05392EFBBC383B1019A1E5D6CF6EE8308";
+      script.async = true;
+      sealRef.current.appendChild(script);
+    }
+  }, []);
   return (
     <footer className="bg-primary text-primary-foreground">
       <div className="container-prose py-16 grid gap-12 md:grid-cols-4">
@@ -171,6 +183,9 @@ export function SiteFooter() {
             <span>
               This site is for informational purposes and does not constitute medical advice.
             </span>
+          </div>
+          <div className="mt-8 flex justify-center md:justify-end">
+            <div ref={sealRef} className="min-h-[50px] flex items-center justify-center" />
           </div>
         </div>
       </div>
