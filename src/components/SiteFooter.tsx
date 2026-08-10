@@ -70,6 +70,22 @@ export function SiteFooter() {
               </svg>
             </a>
           </div>
+          <div className="mt-8">
+            <a 
+              href="#" 
+              style={{ textDecoration: 'none' }} 
+              onClick={(e) => {
+                e.preventDefault();
+                window.open('https://rapidscansecure.com/siteseal/Verify.aspx?code=65,074EA1C05392EFBBC383B1019A1E5D6CF6EE8308', 'Verification', 'location=no, toolbar=no, resizable=no, scrollbars=yes, directories=no, status=no,top=100,left=100, width=960, height=526');
+              }}
+            >
+              <img 
+                alt="CompliAssure SiteSeal" 
+                src="https://rapidscansecure.com/siteseal/Seal.aspx?code=65,074EA1C05392EFBBC383B1019A1E5D6CF6EE8308" 
+                style={{ border: 0 }} 
+              />
+            </a>
+          </div>
         </div>
         <div>
           <h4
@@ -171,22 +187,6 @@ export function SiteFooter() {
             <span>
               This site is for informational purposes and does not constitute medical advice.
             </span>
-          </div>
-          <div className="mt-8 flex justify-center md:justify-end">
-            <a 
-              href="#" 
-              style={{ textDecoration: 'none' }} 
-              onClick={(e) => {
-                e.preventDefault();
-                window.open('https://rapidscansecure.com/siteseal/Verify.aspx?code=65,074EA1C05392EFBBC383B1019A1E5D6CF6EE8308', 'Verification', 'location=no, toolbar=no, resizable=no, scrollbars=yes, directories=no, status=no,top=100,left=100, width=960, height=526');
-              }}
-            >
-              <img 
-                alt="CompliAssure SiteSeal" 
-                src="https://rapidscansecure.com/siteseal/Seal.aspx?code=65,074EA1C05392EFBBC383B1019A1E5D6CF6EE8308" 
-                style={{ border: 0 }} 
-              />
-            </a>
           </div>
         </div>
       </div>
