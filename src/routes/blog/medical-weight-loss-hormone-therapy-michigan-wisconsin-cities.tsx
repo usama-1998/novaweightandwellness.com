@@ -80,7 +80,7 @@ function BlogComponent() {
     <BlogLayout
       title="Medical Weight Loss and Hormone Therapy in Michigan & Wisconsin: The Complete City-by-City Guide"
       author="Kathryn Long, NP-C"
-      date="2026-08-07"
+      date="2026-08-12"
       readTime="44 min read"
       heroImg={heroImg}
       heroAlt="Medical weight loss and hormone therapy available across Michigan and Wisconsin"
