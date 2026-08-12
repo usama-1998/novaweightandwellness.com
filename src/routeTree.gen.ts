@@ -29,6 +29,7 @@ import { Route as BlogPerimenopauseInYour30sMichiganWisconsinRouteImport } from 
 import { Route as BlogPerimenopauseBrainFogMemoryMichiganWisconsinRouteImport } from './routes/blog/perimenopause-brain-fog-memory-michigan-wisconsin'
 import { Route as BlogPcosWeightResistanceWomen30sMichiganWisconsinRouteImport } from './routes/blog/pcos-weight-resistance-women-30s-michigan-wisconsin'
 import { Route as BlogOzempicNotWorkingMichiganWisconsinWomenRouteImport } from './routes/blog/ozempic-not-working-michigan-wisconsin-women'
+import { Route as BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRouteImport } from './routes/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities'
 import { Route as BlogHormonalSleepAnxietyWomenMichiganWisconsinRouteImport } from './routes/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
 import { Route as BlogGainingWeightExhaustedAfter40WisconsinWomenRouteImport } from './routes/blog/gaining-weight-exhausted-after-40-wisconsin-women'
 import { Route as BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRouteImport } from './routes/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
@@ -139,6 +140,12 @@ const BlogOzempicNotWorkingMichiganWisconsinWomenRoute =
     path: '/blog/ozempic-not-working-michigan-wisconsin-women',
     getParentRoute: () => rootRouteImport,
   } as any)
+const BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRoute =
+  BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRouteImport.update({
+    id: '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities',
+    path: '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute =
   BlogHormonalSleepAnxietyWomenMichiganWisconsinRouteImport.update({
     id: '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin',
@@ -175,6 +182,7 @@ export interface FileRoutesByFullPath {
   '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin': typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
   '/blog/gaining-weight-exhausted-after-40-wisconsin-women': typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin': typeof BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute
+  '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities': typeof BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRoute
   '/blog/ozempic-not-working-michigan-wisconsin-women': typeof BlogOzempicNotWorkingMichiganWisconsinWomenRoute
   '/blog/pcos-weight-resistance-women-30s-michigan-wisconsin': typeof BlogPcosWeightResistanceWomen30sMichiganWisconsinRoute
   '/blog/perimenopause-brain-fog-memory-michigan-wisconsin': typeof BlogPerimenopauseBrainFogMemoryMichiganWisconsinRoute
@@ -200,6 +208,7 @@ export interface FileRoutesByTo {
   '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin': typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
   '/blog/gaining-weight-exhausted-after-40-wisconsin-women': typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin': typeof BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute
+  '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities': typeof BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRoute
   '/blog/ozempic-not-working-michigan-wisconsin-women': typeof BlogOzempicNotWorkingMichiganWisconsinWomenRoute
   '/blog/pcos-weight-resistance-women-30s-michigan-wisconsin': typeof BlogPcosWeightResistanceWomen30sMichiganWisconsinRoute
   '/blog/perimenopause-brain-fog-memory-michigan-wisconsin': typeof BlogPerimenopauseBrainFogMemoryMichiganWisconsinRoute
@@ -226,6 +235,7 @@ export interface FileRoutesById {
   '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin': typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
   '/blog/gaining-weight-exhausted-after-40-wisconsin-women': typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin': typeof BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute
+  '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities': typeof BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRoute
   '/blog/ozempic-not-working-michigan-wisconsin-women': typeof BlogOzempicNotWorkingMichiganWisconsinWomenRoute
   '/blog/pcos-weight-resistance-women-30s-michigan-wisconsin': typeof BlogPcosWeightResistanceWomen30sMichiganWisconsinRoute
   '/blog/perimenopause-brain-fog-memory-michigan-wisconsin': typeof BlogPerimenopauseBrainFogMemoryMichiganWisconsinRoute
@@ -253,6 +263,7 @@ export interface FileRouteTypes {
     | '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
     | '/blog/gaining-weight-exhausted-after-40-wisconsin-women'
     | '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
+    | '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities'
     | '/blog/ozempic-not-working-michigan-wisconsin-women'
     | '/blog/pcos-weight-resistance-women-30s-michigan-wisconsin'
     | '/blog/perimenopause-brain-fog-memory-michigan-wisconsin'
@@ -278,6 +289,7 @@ export interface FileRouteTypes {
     | '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
     | '/blog/gaining-weight-exhausted-after-40-wisconsin-women'
     | '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
+    | '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities'
     | '/blog/ozempic-not-working-michigan-wisconsin-women'
     | '/blog/pcos-weight-resistance-women-30s-michigan-wisconsin'
     | '/blog/perimenopause-brain-fog-memory-michigan-wisconsin'
@@ -303,6 +315,7 @@ export interface FileRouteTypes {
     | '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
     | '/blog/gaining-weight-exhausted-after-40-wisconsin-women'
     | '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
+    | '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities'
     | '/blog/ozempic-not-working-michigan-wisconsin-women'
     | '/blog/pcos-weight-resistance-women-30s-michigan-wisconsin'
     | '/blog/perimenopause-brain-fog-memory-michigan-wisconsin'
@@ -329,6 +342,7 @@ export interface RootRouteChildren {
   BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute: typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
   BlogGainingWeightExhaustedAfter40WisconsinWomenRoute: typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute: typeof BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute
+  BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRoute: typeof BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRoute
   BlogOzempicNotWorkingMichiganWisconsinWomenRoute: typeof BlogOzempicNotWorkingMichiganWisconsinWomenRoute
   BlogPcosWeightResistanceWomen30sMichiganWisconsinRoute: typeof BlogPcosWeightResistanceWomen30sMichiganWisconsinRoute
   BlogPerimenopauseBrainFogMemoryMichiganWisconsinRoute: typeof BlogPerimenopauseBrainFogMemoryMichiganWisconsinRoute
@@ -480,6 +494,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BlogOzempicNotWorkingMichiganWisconsinWomenRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities': {
+      id: '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities'
+      path: '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities'
+      fullPath: '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities'
+      preLoaderRoute: typeof BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin': {
       id: '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
       path: '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
@@ -524,6 +545,8 @@ const rootRouteChildren: RootRouteChildren = {
     BlogGainingWeightExhaustedAfter40WisconsinWomenRoute,
   BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute:
     BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute,
+  BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRoute:
+    BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRoute,
   BlogOzempicNotWorkingMichiganWisconsinWomenRoute:
     BlogOzempicNotWorkingMichiganWisconsinWomenRoute,
   BlogPcosWeightResistanceWomen30sMichiganWisconsinRoute:
