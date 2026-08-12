@@ -16,6 +16,7 @@ export const Route = createFileRoute("/sitemap.xml")({
           { path: "/what-we-treat", priority: "0.8", changefreq: "weekly" },
           { path: "/contact", priority: "0.9", changefreq: "monthly" },
           { path: "/blog", priority: "0.8", changefreq: "weekly" },
+          { path: "/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities", priority: "1.0", changefreq: "monthly" },
           { path: "/blog/perimenopause-brain-fog-memory-michigan-wisconsin", priority: "1.0", changefreq: "monthly" },
           { path: "/blog/pcos-weight-resistance-women-30s-michigan-wisconsin", priority: "1.0", changefreq: "monthly" },
           { path: "/blog/hormonal-sleep-anxiety-women-michigan-wisconsin", priority: "1.0", changefreq: "monthly" },

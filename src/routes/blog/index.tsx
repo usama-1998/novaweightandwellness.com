@@ -7,6 +7,7 @@ import bhrtHeroImg from "@/assets/blog/bhrt-hero-consultation.webp";
 import sleepAnxietyHeroImg from "@/assets/blog/sleep-anxiety-hero-3am-awake.webp";
 import pcosHeroImg from "@/assets/blog/pcos-hero-confident-woman-30s.webp";
 import brainFogHeroImg from "@/assets/blog/brain-fog-hero-woman-office.webp";
+import citiesHeroImg from "@/assets/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-hero.webp";
 import { Clock, ArrowRight, Calendar } from "lucide-react";
 
 export const Route = createFileRoute("/blog/")({
@@ -50,6 +51,18 @@ export const Route = createFileRoute("/blog/")({
 });
 
 const articles = [
+  {
+    slug: "medical-weight-loss-hormone-therapy-michigan-wisconsin-cities",
+    title: "Medical Weight Loss and Hormone Therapy in Michigan & Wisconsin: The Complete City-by-City Guide",
+    excerpt:
+      "See how medical weight loss and hormone therapy reach every Michigan and Wisconsin city, from Grand Rapids to Madison, plus smaller towns and rural communities. Find your city inside.",
+    image: citiesHeroImg,
+    imageAlt: "Medical weight loss and hormone therapy available across Michigan and Wisconsin",
+    category: "Telehealth & Access",
+    date: "August 12, 2026",
+    readTime: "44 min read",
+    author: "Kathryn Long, NP-C",
+  },
   {
     slug: "perimenopause-brain-fog-memory-michigan-wisconsin",
     title: "Why Can't I Remember Anything Anymore? Perimenopausal Brain Fog vs. Something More Serious",
