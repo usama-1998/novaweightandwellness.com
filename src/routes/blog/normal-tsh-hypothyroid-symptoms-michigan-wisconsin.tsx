@@ -47,6 +47,40 @@ export const Route = createFileRoute(
         content: "https://novaweightandwellness.com/og-image-v6.jpg",
       },
       { name: "twitter:card", content: "summary_large_image" },
+      {
+        name: "twitter:title",
+        content: "Normal TSH But Still Exhausted? Root Cause Thyroid Guide | MI & WI",
+      },
+      {
+        name: "twitter:description",
+        content:
+          "Freezing, losing hair, and gaining weight despite normal TSH labs? An authoritative functional medicine guide to full thyroid panels, T4 to T3 conversion, and Hashimoto's for women in Michigan and Wisconsin.",
+      },
+      {
+        name: "twitter:image",
+        content: "https://novaweightandwellness.com/og-image-v6.jpg",
+      },
+      {
+        name: "keywords",
+        content:
+          "normal TSH but hypothyroid symptoms, functional medicine thyroid doctor michigan, hashimotos specialist wisconsin, t4 to t3 conversion issues, reverse t3 weight loss resistance, full thyroid panel testing grand rapids milwaukee, subclinical hypothyroidism women 40s",
+      },
+      {
+        name: "author",
+        content: "Kathryn Long, NP-C",
+      },
+      {
+        property: "article:published_time",
+        content: "2026-08-18T08:00:00Z",
+      },
+      {
+        property: "article:author",
+        content: "https://novaweightandwellness.com/about",
+      },
+      {
+        property: "article:section",
+        content: "Thyroid & Hormone Health",
+      },
     ],
   }),
   component: BlogComponent,
@@ -79,6 +113,7 @@ const tocItems = [
   { id: "what-a-functional-evaluation-looks-like", label: "What a Comprehensive Evaluation Looks Like" },
   { id: "the-recovery-timeline-what-to-expect", label: "The Recovery Timeline: What to Expect" },
   { id: "when-to-seek-specialized-care", label: "When and How to Seek Specialized Care" },
+  { id: "clinical-research-and-references", label: "Clinical Research and Medical Citations" },
   { id: "comprehensive-thyroid-glossary", label: "Comprehensive Clinical Glossary" },
   { id: "frequently-asked-questions", label: "Frequently Asked Questions" },
   { id: "closing-thoughts-from-katie", label: "A Personal Note from Katie" },
@@ -599,7 +634,14 @@ function BlogComponent() {
           3. The Insulin Resistance Feedback Loop
         </h3>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          Cellular hypothyroidism impairs glucose uptake in skeletal muscle, promoting elevated blood glucose and triggering hyperinsulinemia (excess fasting insulin). In turn, chronic high insulin levels increase systemic inflammation and trigger hepatic steatosis (fatty liver), which damages the primary site of T4-to-T3 conversion. This creates a vicious cycle of worsening insulin resistance, stubborn abdominal fat storage, and deeper thyroid exhaustion.
+          Cellular hypothyroidism impairs glucose uptake in skeletal muscle, promoting elevated blood glucose and triggering hyperinsulinemia (excess fasting insulin). In turn, chronic high insulin levels increase systemic inflammation and trigger hepatic steatosis (fatty liver), which damages the primary site of T4-to-T3 conversion. This creates a vicious cycle of worsening insulin resistance, stubborn abdominal fat storage, and deeper thyroid exhaustion, a pattern we also explore in depth in our{" "}
+          <Link
+            to="/blog/pcos-weight-resistance-women-30s-michigan-wisconsin"
+            className="text-secondary font-semibold hover:underline"
+          >
+            guide to PCOS and insulin resistance in your 30s
+          </Link>
+          .
         </p>
       </section>
 
@@ -612,7 +654,21 @@ function BlogComponent() {
           One of the most complex clinical challenges facing women in their late 30s, 40s, and 50s is the near-total symptom overlap between perimenopause and subclinical hypothyroidism.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          Both conditions produce severe brain fog, sleep disruptions, mood volatility, cycle irregularities, weight gain, joint aches, and exhaustion. As a result, conventional providers often attribute every symptom in a 43-year-old woman to "just perimenopause" without ever conducting a rigorous thyroid workup. Conversely, others treat the thyroid while ignoring profound progesterone and estrogen shifts.
+          Both conditions produce severe brain fog, sleep disruptions, mood volatility, cycle irregularities, weight gain, joint aches, and exhaustion. As a result, conventional providers often attribute every symptom in a 43-year-old woman to "just perimenopause" without ever conducting a rigorous thyroid workup. Conversely, others treat the thyroid while ignoring profound progesterone and estrogen shifts. For women experiencing cognitive lapses, our{" "}
+          <Link
+            to="/blog/perimenopause-brain-fog-memory-michigan-wisconsin"
+            className="text-secondary font-semibold hover:underline"
+          >
+            guide on perimenopausal brain fog vs. serious cognitive decline
+          </Link>{" "}
+          breaks down the neuroscience behind word-finding and memory shifts, while our{" "}
+          <Link
+            to="/blog/perimenopause-in-your-30s-michigan-wisconsin"
+            className="text-secondary font-semibold hover:underline"
+          >
+            guide on perimenopause in your 30s
+          </Link>{" "}
+          covers why early symptoms are so often missed.
         </p>
         <div className="bg-card border border-border rounded-2xl p-6 my-8 shadow-sm">
           <h3 className="font-display text-2xl text-primary mb-4">Symptom Distinction Matrix</h3>
@@ -656,7 +712,14 @@ function BlogComponent() {
           </div>
         </div>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          In clinical practice, we frequently find that a woman is not dealing with an "either/or" situation. The hormonal fluctuations of perimenopause often unmask an underlying, smoldering thyroid or autoimmune condition that her body had previously been able to compensate for. Resolving her symptoms requires addressing both systems in concert.
+          In clinical practice, we frequently find that a woman is not dealing with an "either/or" situation. The hormonal fluctuations of perimenopause often unmask an underlying, smoldering thyroid or autoimmune condition that her body had previously been able to compensate for. Resolving her symptoms requires addressing both systems in concert. For women whose primary complaint is sleeplessness and 3am waking, our{" "}
+          <Link
+            to="/blog/hormonal-sleep-anxiety-women-michigan-wisconsin"
+            className="text-secondary font-semibold hover:underline"
+          >
+            guide to hormonal sleep disruption and anxiety
+          </Link>{" "}
+          provides a complete cortisol and progesterone roadmap.
         </p>
       </section>
 
@@ -681,7 +744,14 @@ function BlogComponent() {
           When a woman with impaired liver conversion, gut dysbiosis, low ferritin, or chronic stress takes a large dose of T4, her pituitary senses the circulating pro-hormone and lowers TSH production, making her bloodwork look "perfect." But her peripheral tissues still cannot convert that T4 into active Free T3. Instead, her stressed physiology diverts that excess synthetic T4 into Reverse T3, locking down her cellular metabolism even further.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          Her lab report looks flawless to her doctor, but her cells are functionally starved of active thyroid hormone. She is trapped in biochemical no-man's land: officially medicated, technically "normal," and clinically miserable.
+          Her lab report looks flawless to her doctor, but her cells are functionally starved of active thyroid hormone. She is trapped in biochemical no-man's land: officially medicated, technically "normal," and clinically miserable. This same cellular conversion blockage is also a major reason why women on GLP-1 medications hit early plateaus, as detailed in our{" "}
+          <Link
+            to="/blog/ozempic-not-working-michigan-wisconsin-women"
+            className="text-secondary font-semibold hover:underline"
+          >
+            guide on why Ozempic stops working for women in Michigan and Wisconsin
+          </Link>
+          .
         </p>
       </section>
 
@@ -1004,7 +1074,14 @@ function BlogComponent() {
           <div className="bg-card border border-border p-5 rounded-xl">
             <h3 className="font-semibold text-primary text-base">4. Compounded Slow-Release T3</h3>
             <p className="text-sm text-foreground/80 mt-1">
-              Custom-prepared by specialized compounding pharmacies with a slow-release cellulose base. This delivers a steady, sustained release of active T3 over 12 hours, preventing the rapid peaks and valleys sometimes experienced with standard immediate-release Cytomel.
+              Custom-prepared by specialized compounding pharmacies with a slow-release cellulose base. This delivers a steady, sustained release of active T3 over 12 hours, preventing the rapid peaks and valleys sometimes experienced with standard immediate-release Cytomel. For women also navigating perimenopause hormone shifts, our{" "}
+              <Link
+                to="/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin"
+                className="text-secondary font-semibold hover:underline"
+              >
+                complete guide to bioidentical hormone therapy
+              </Link>{" "}
+              explains how bioidentical progesterone and estrogen can be safely integrated.
             </p>
           </div>
         </div>
@@ -1016,7 +1093,14 @@ function BlogComponent() {
           Midwest Lifestyle and Circadian Resilience: Thriving Through Long Winters
         </h2>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          Living in Michigan and Wisconsin requires deliberate circadian and lifestyle resilience, especially between November and April. When winter temperatures plunge and daylight hours dwindle, our physiology naturally seeks to slow down.
+          Living in Michigan and Wisconsin requires deliberate circadian and lifestyle resilience, especially between November and April. When winter temperatures plunge and daylight hours dwindle, our physiology naturally seeks to slow down. Whether you reside in Grand Rapids, Detroit, Milwaukee, Madison, Green Bay, or rural communities across the Upper Peninsula, our{" "}
+          <Link
+            to="/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities"
+            className="text-secondary font-semibold hover:underline"
+          >
+            city-by-city medical weight loss and hormone therapy guide
+          </Link>{" "}
+          breaks down regional climate patterns and telehealth access across both states.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           To maintain robust thyroid and metabolic health in the Upper Midwest, implement these foundational practices:
@@ -1106,7 +1190,11 @@ function BlogComponent() {
           What a Comprehensive Root Cause Evaluation Actually Looks Like
         </h2>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          If you are tired of the 10-minute appointment where your symptoms are brushed aside and your labs are barely explained, you deserve to know what real, comprehensive functional medical care looks like.
+          If you are tired of the 10-minute appointment where your symptoms are brushed aside and your labs are barely explained, you deserve to know what real, comprehensive functional medical care looks like. Learn more about the{" "}
+          <Link to="/what-we-treat" className="text-secondary font-semibold hover:underline">
+            conditions we treat
+          </Link>{" "}
+          and how our clinical model differs from conventional assembly-line care.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           At Novaleo Weight & Wellness, our clinical process is engineered around thoroughness, scientific depth, and patient partnership:
@@ -1115,13 +1203,21 @@ function BlogComponent() {
           <div className="bg-primary/5 border-l-4 border-secondary p-6 rounded-r-2xl">
             <h3 className="font-display text-xl text-primary mb-2">Step 1: The Root Cause Intake & 60-Minute Clarity Session ($97)</h3>
             <p className="text-sm text-foreground/80 leading-relaxed">
-              We spend a full, unhurried hour together via secure telehealth. We review your complete medical timeline from birth to the present: symptom progression, previous labs, family history, digestive health, sleep patterns, emotional stressors, and environmental exposures. You are finally heard.
+              We spend a full, unhurried hour together via secure telehealth. We review your complete medical timeline from birth to the present: symptom progression, previous labs, family history, digestive health, sleep patterns, emotional stressors, and environmental exposures. You can{" "}
+              <Link to="/clarity-session" className="text-secondary font-semibold hover:underline">
+                schedule your 60-Minute Clarity Session directly online
+              </Link>
+              .
             </p>
           </div>
           <div className="bg-primary/5 border-l-4 border-secondary p-6 rounded-r-2xl">
             <h3 className="font-display text-xl text-primary mb-2">Step 2: The Signature Root Cause Lab Panel ($454)</h3>
             <p className="text-sm text-foreground/80 leading-relaxed">
-              We order comprehensive diagnostic testing through Rupa Health, drawn conveniently at a local Quest or Labcorp draw station near you in Michigan or Wisconsin. We test the complete thyroid panel (TSH, Free T4, Free T3, TPO Antibodies), full nutrient markers (Ferritin, Vitamin D, B12, Zinc, RBC Magnesium), metabolic markers (Fasting Insulin, Fasting Glucose, HbA1c, Lipids, Lipoprotein a), liver function, and inflammation (hs-CRP, Homocysteine).
+              We order comprehensive diagnostic testing through Rupa Health, drawn conveniently at a local Quest or Labcorp draw station near you in Michigan or Wisconsin. We test the complete thyroid panel (TSH, Free T4, Free T3, TPO Antibodies), full nutrient markers (Ferritin, Vitamin D, B12, Zinc, RBC Magnesium), metabolic markers (Fasting Insulin, Fasting Glucose, HbA1c, Lipids, Lipoprotein a), liver function, and inflammation (hs-CRP, Homocysteine). See our full list of{" "}
+              <Link to="/services" className="text-secondary font-semibold hover:underline">
+                services and lab panel details
+              </Link>
+              .
             </p>
           </div>
           <div className="bg-primary/5 border-l-4 border-secondary p-6 rounded-r-2xl">
@@ -1193,6 +1289,65 @@ function BlogComponent() {
           <li>You have never had Free T3, Reverse T3, or thyroid antibodies tested.</li>
           <li>You reside in Michigan or Wisconsin and want personalized, high-touch telehealth care from a board-certified functional medicine nurse practitioner.</li>
         </ul>
+      </section>
+
+      {/* Section: Clinical Research & Medical Citations */}
+      <section id="clinical-research-and-references">
+        <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
+          Clinical Research, Evidence-Based Guidelines, and Medical Citations
+        </h2>
+        <p className="text-lg leading-relaxed text-foreground/85 mb-5">
+          The physiological principles, diagnostic frameworks, and nutritional protocols presented in this guide are grounded in peer-reviewed endocrinology, immunology, and functional medicine literature. For patients and clinicians seeking deeper scientific validation, key primary literature includes:
+        </p>
+        <div className="space-y-4 my-6 text-sm text-foreground/80">
+          <div className="p-5 bg-card border border-border rounded-xl">
+            <p className="font-semibold text-primary mb-1">1. Normal Reference Range Limitations & Subclinical Hypothyroidism</p>
+            <p className="italic text-muted-foreground mb-2">National Academy of Clinical Biochemistry (NACB) / American Association of Clinical Endocrinologists (AACE)</p>
+            <p className="leading-relaxed">
+              Baloch Z, Carayon P, Conte-Devolx B, et al. <em>Laboratory medicine practice guidelines: laboratory support for the diagnosis and monitoring of thyroid disease.</em> Thyroid. 2003;13(1):3-126. Documented that when individuals with personal or family histories of thyroid dysfunction or positive antibodies are excluded, the true mean TSH of a disease-free reference population is 1.15 to 1.50 mIU/L, with over 95 percent below 2.5 mIU/L.
+            </p>
+          </div>
+
+          <div className="p-5 bg-card border border-border rounded-xl">
+            <p className="font-semibold text-primary mb-1">2. Selenium Supplementation & Autoimmune Thyroiditis (Hashimoto's)</p>
+            <p className="italic text-muted-foreground mb-2">Journal of Clinical Endocrinology & Metabolism</p>
+            <p className="leading-relaxed">
+              Gärtner R, Gasnier BC, Dietrich JW, et al. <em>Selenium supplementation in patients with autoimmune thyroiditis: decreases thyroid peroxidase antibodies concentrations.</em> J Clin Endocrinol Metab. 2002;87(4):1687-1691. Demonstrated that 200 mcg of daily selenomethionine significantly lowered TPO antibody concentrations and improved thyroid ultrasound echogenicity compared to placebo.
+            </p>
+          </div>
+
+          <div className="p-5 bg-card border border-border rounded-xl">
+            <p className="font-semibold text-primary mb-1">3. Myo-Inositol & Selenium in Subclinical Hypothyroidism</p>
+            <p className="italic text-muted-foreground mb-2">International Journal of Endocrinology</p>
+            <p className="leading-relaxed">
+              Nordio M, Basciani S. <em>Treatment with Myo-Inositol and Selenium Ensures Euthyroidism in Patients with Subclinical Hypothyroidism.</em> Int J Endocrinol. 2017;2017:2549431. Demonstrated that combining myo-inositol with selenium resulted in significant reductions in elevated TSH and TPO antibody concentrations while improving subjective patient vitality.
+            </p>
+          </div>
+
+          <div className="p-5 bg-card border border-border rounded-xl">
+            <p className="font-semibold text-primary mb-1">4. Vitamin D Status, Immune Tolerance & Thyroid Disease</p>
+            <p className="italic text-muted-foreground mb-2">International Journal of Molecular Sciences</p>
+            <p className="leading-relaxed">
+              Kim D. <em>The Role of Vitamin D in Thyroid Diseases.</em> Int J Mol Sci. 2017;18(9):1949. Reviewed the essential regulatory role of 25-hydroxy Vitamin D in nuclear receptor dimerization, T-regulatory cell differentiation, and the elevated incidence of Hashimoto's flares during northern winter sunlight deficits.
+            </p>
+          </div>
+
+          <div className="p-5 bg-card border border-border rounded-xl">
+            <p className="font-semibold text-primary mb-1">5. T4/T3 Combination Therapy vs. T4 Monotherapy</p>
+            <p className="italic text-muted-foreground mb-2">Endocrine Reviews</p>
+            <p className="leading-relaxed">
+              Biondi B, Wartofsky L. <em>Combination treatment with T4 and T3: toward personalized replacement therapy in hypothyroidism?</em> Endocr Rev. 2012;33(2):225-255. Highlighted the subset of hypothyroid patients with genetic deiodinase polymorphisms (DIO2) or conversion bottlenecks who fail to achieve tissue euthyroidism on synthetic T4 alone and benefit significantly from combination T4/T3 therapy.
+            </p>
+          </div>
+
+          <div className="p-5 bg-card border border-border rounded-xl">
+            <p className="font-semibold text-primary mb-1">6. Intestinal Permeability & Molecular Mimicry in Autoimmunity</p>
+            <p className="italic text-muted-foreground mb-2">Clinical Reviews in Allergy & Immunology</p>
+            <p className="leading-relaxed">
+              Fasano A. <em>Leaky gut and autoimmune diseases.</em> Clin Rev Allergy Immunol. 2012;42(1):71-78. Detailed the zonulin pathway, loss of intestinal barrier integrity, and molecular mimicry as common triggers for autoimmune disease initiation and perpetuation.
+            </p>
+          </div>
+        </div>
       </section>
 
       {/* Section 27 */}
