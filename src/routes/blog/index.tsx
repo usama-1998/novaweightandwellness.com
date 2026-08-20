@@ -1,4 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
+import thyroidHeroImg from "@/assets/blog/thyroid-hero-michigan-wisconsin-woman.jpg";
 import heroImg from "@/assets/blog/hero-fatigued-woman.jpg";
 import wiHeroImg from "@/assets/blog/wisconsin-hero-fatigue.jpg";
 import ozempicHeroImg from "@/assets/blog/ozempic-hero-michigan-woman.jpg";
@@ -51,6 +52,18 @@ export const Route = createFileRoute("/blog/")({
 });
 
 const articles = [
+  {
+    slug: "normal-tsh-hypothyroid-symptoms-michigan-wisconsin",
+    title: "My TSH is 'Normal' But I'm Freezing, Losing Hair, and Exhausted: Why Standard Thyroid Tests Fail Women in Their 30s & 40s",
+    excerpt:
+      "Freezing, losing hair, and gaining weight despite normal TSH labs? An authoritative functional medicine guide to full thyroid panels, T4 to T3 conversion, and Hashimoto's for women in Michigan and Wisconsin.",
+    image: thyroidHeroImg,
+    imageAlt: "Thoughtful woman in Michigan sitting near a window reflecting on thyroid health and vitality",
+    category: "Thyroid & Autoimmunity",
+    date: "August 18, 2026",
+    readTime: "58 min read",
+    author: "Kathryn Long, NP-C",
+  },
   {
     slug: "medical-weight-loss-hormone-therapy-michigan-wisconsin-cities",
     title: "Medical Weight Loss and Hormone Therapy in Michigan & Wisconsin: The Complete City-by-City Guide",
