@@ -60,7 +60,7 @@ const articles = [
     image: thyroidHeroImg,
     imageAlt: "Thoughtful woman in Michigan sitting near a window reflecting on thyroid health and vitality",
     category: "Thyroid & Autoimmunity",
-    date: "August 18, 2026",
+    date: "August 20, 2026",
     readTime: "58 min read",
     author: "Kathryn Long, NP-C",
   },

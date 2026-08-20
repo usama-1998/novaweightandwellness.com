@@ -71,7 +71,7 @@ export const Route = createFileRoute(
       },
       {
         property: "article:published_time",
-        content: "2026-08-18T08:00:00Z",
+        content: "2026-08-20T08:00:00Z",
       },
       {
         property: "article:author",
@@ -211,7 +211,7 @@ function BlogComponent() {
     <BlogLayout
       title="My TSH is 'Normal' But I'm Freezing, Losing Hair, and Exhausted: Why Standard Thyroid Tests Fail Women in Their 30s & 40s"
       author="Kathryn Long, NP-C"
-      date="2026-08-18"
+      date="2026-08-20"
       readTime="58 min read"
       heroImg={heroImg}
       heroAlt="Thoughtful woman in Michigan sitting near a window with a warm mug, reflecting on thyroid health and vitality"
