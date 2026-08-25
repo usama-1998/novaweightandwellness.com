@@ -19,11 +19,11 @@ import {
   Legend,
 } from "recharts";
 
-import heroImg from "@/assets/blog/daytime-anxiety-overwhelmed-woman.webp";
-import eveningImg from "@/assets/blog/michigan-wisconsin-evening-lifestyle.webp";
-import labsImg from "@/assets/blog/comprehensive-lab-testing-root-cause.webp";
-import sleepImg from "@/assets/blog/restful-sleep-recovery-woman.webp";
-import consultImg from "@/assets/blog/telehealth-video-visit-michigan-wisconsin.webp";
+import heroImg from "@/assets/blog/cortisol-hero-wired-tired-kitchen-night.webp";
+import eveningImg from "@/assets/blog/cortisol-3am-waking-bedroom.webp";
+import labsImg from "@/assets/blog/cortisol-calm-morning-ritual.webp";
+import sleepImg from "@/assets/blog/cortisol-restful-morning-recovery.webp";
+import consultImg from "@/assets/blog/cortisol-telehealth-consultation.webp";
 
 export const Route = createFileRoute(
   "/blog/wired-tired-cortisol-belly-fat-michigan-wisconsin",
@@ -664,7 +664,7 @@ function BlogComponent() {
         </h2>
         <img
           src={labsImg}
-          alt="Comprehensive at-home functional lab testing kit for cortisol and hormone evaluation"
+          alt="A calm morning ritual supporting healthy cortisol rhythm before completing at-home functional lab testing"
           className="rounded-2xl shadow-lg w-full my-8"
           width={800}
           height={450}

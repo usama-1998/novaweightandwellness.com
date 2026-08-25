@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import cortisolHeroImg from "@/assets/blog/daytime-anxiety-overwhelmed-woman.webp";
+import cortisolHeroImg from "@/assets/blog/cortisol-hero-wired-tired-kitchen-night.webp";
 import thyroidHeroImg from "@/assets/blog/thyroid-hero-michigan-wisconsin-woman.jpg";
 import heroImg from "@/assets/blog/hero-fatigued-woman.jpg";
 import wiHeroImg from "@/assets/blog/wisconsin-hero-fatigue.jpg";
