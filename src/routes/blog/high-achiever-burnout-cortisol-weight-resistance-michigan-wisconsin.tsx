@@ -2,6 +2,8 @@ import { createFileRoute } from '@tanstack/react-router';
 import React from 'react';
 import { BlogLayout } from '@/components/blog/BlogLayout';
 import SectionHeading from '@/components/blog/SectionHeading';
+import PregnenoloneStealInfographic from "@/components/blog/PregnenoloneStealInfographic";
+import CortisolCurveInfographic from "@/components/blog/CortisolCurveInfographic";
 import { Link } from '@tanstack/react-router';
 
 // Images
@@ -166,6 +168,9 @@ function BlogPost() {
           <p className="text-lg leading-relaxed text-gray-700 font-bold">
             This is known as the Pregnenolone Steal, or the Cortisol Shunt.
           </p>
+          <PregnenoloneStealInfographic />
+          <p className="text-lg leading-relaxed text-gray-700">
+          </p>
           <p className="text-lg leading-relaxed text-gray-700">
             For women in their late 30s and 40s, this is a disaster. You are already entering perimenopause, a time when your ovarian production of progesterone is naturally declining. If your adrenal glands are now stealing whatever pregnenolone is left to make cortisol, your progesterone levels plummet. This creates a state of <strong>Estrogen Dominance</strong>, leading to heavy periods, fibroids, severe mood swings, breast tenderness, and accelerated weight gain around the hips and thighs.
           </p>
@@ -260,6 +265,7 @@ function BlogPost() {
           The Sleep Paradox: Tired All Day, Wired at 2 AM
         </h2>
         <div className="prose prose-lg prose-primary max-w-none">
+          <CortisolCurveInfographic />
           <p className="text-lg leading-relaxed text-gray-700">
             A healthy cortisol curve looks like a ski slope: high in the morning, gradually tapering to the bottom by midnight. Melatonin, your sleep hormone, is on the opposite curve. When cortisol goes down, melatonin goes up. They sit on a biological see-saw; you cannot have high cortisol and high melatonin at the same time.
           </p>
