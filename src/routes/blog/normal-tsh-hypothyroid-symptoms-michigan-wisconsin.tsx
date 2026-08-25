@@ -221,6 +221,10 @@ function BlogComponent() {
       faqSchema={faqSchema}
       relatedPosts={[
         {
+          slug: "wired-tired-cortisol-belly-fat-michigan-wisconsin",
+          title: "Wired But Tired: Why Your Cortisol, Not Your Diet, Is Driving Belly Weight, 3AM Waking, and Burnout",
+        },
+        {
           slug: "perimenopause-brain-fog-memory-michigan-wisconsin",
           title: "Why Can't I Remember Anything Anymore? Perimenopausal Brain Fog vs. Something More Serious",
         },

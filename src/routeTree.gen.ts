@@ -23,6 +23,7 @@ import { Route as ApproachRouteImport } from './routes/approach'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as BlogIndexRouteImport } from './routes/blog/index'
+import { Route as BlogWiredTiredCortisolBellyFatMichiganWisconsinRouteImport } from './routes/blog/wired-tired-cortisol-belly-fat-michigan-wisconsin'
 import { Route as BlogWhyMichiganWomenOver40CantLoseWeightFeelExhaustedRouteImport } from './routes/blog/why-michigan-women-over-40-cant-lose-weight-feel-exhausted'
 import { Route as BlogTheUltimateGuideToHormonesAndWeightResistanceOver40RouteImport } from './routes/blog/the-ultimate-guide-to-hormones-and-weight-resistance-over-40'
 import { Route as BlogPerimenopauseInYour30sMichiganWisconsinRouteImport } from './routes/blog/perimenopause-in-your-30s-michigan-wisconsin'
@@ -105,6 +106,12 @@ const BlogIndexRoute = BlogIndexRouteImport.update({
   path: '/blog/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const BlogWiredTiredCortisolBellyFatMichiganWisconsinRoute =
+  BlogWiredTiredCortisolBellyFatMichiganWisconsinRouteImport.update({
+    id: '/blog/wired-tired-cortisol-belly-fat-michigan-wisconsin',
+    path: '/blog/wired-tired-cortisol-belly-fat-michigan-wisconsin',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const BlogWhyMichiganWomenOver40CantLoseWeightFeelExhaustedRoute =
   BlogWhyMichiganWomenOver40CantLoseWeightFeelExhaustedRouteImport.update({
     id: '/blog/why-michigan-women-over-40-cant-lose-weight-feel-exhausted',
@@ -197,6 +204,7 @@ export interface FileRoutesByFullPath {
   '/blog/perimenopause-in-your-30s-michigan-wisconsin': typeof BlogPerimenopauseInYour30sMichiganWisconsinRoute
   '/blog/the-ultimate-guide-to-hormones-and-weight-resistance-over-40': typeof BlogTheUltimateGuideToHormonesAndWeightResistanceOver40Route
   '/blog/why-michigan-women-over-40-cant-lose-weight-feel-exhausted': typeof BlogWhyMichiganWomenOver40CantLoseWeightFeelExhaustedRoute
+  '/blog/wired-tired-cortisol-belly-fat-michigan-wisconsin': typeof BlogWiredTiredCortisolBellyFatMichiganWisconsinRoute
   '/blog/': typeof BlogIndexRoute
 }
 export interface FileRoutesByTo {
@@ -224,6 +232,7 @@ export interface FileRoutesByTo {
   '/blog/perimenopause-in-your-30s-michigan-wisconsin': typeof BlogPerimenopauseInYour30sMichiganWisconsinRoute
   '/blog/the-ultimate-guide-to-hormones-and-weight-resistance-over-40': typeof BlogTheUltimateGuideToHormonesAndWeightResistanceOver40Route
   '/blog/why-michigan-women-over-40-cant-lose-weight-feel-exhausted': typeof BlogWhyMichiganWomenOver40CantLoseWeightFeelExhaustedRoute
+  '/blog/wired-tired-cortisol-belly-fat-michigan-wisconsin': typeof BlogWiredTiredCortisolBellyFatMichiganWisconsinRoute
   '/blog': typeof BlogIndexRoute
 }
 export interface FileRoutesById {
@@ -252,6 +261,7 @@ export interface FileRoutesById {
   '/blog/perimenopause-in-your-30s-michigan-wisconsin': typeof BlogPerimenopauseInYour30sMichiganWisconsinRoute
   '/blog/the-ultimate-guide-to-hormones-and-weight-resistance-over-40': typeof BlogTheUltimateGuideToHormonesAndWeightResistanceOver40Route
   '/blog/why-michigan-women-over-40-cant-lose-weight-feel-exhausted': typeof BlogWhyMichiganWomenOver40CantLoseWeightFeelExhaustedRoute
+  '/blog/wired-tired-cortisol-belly-fat-michigan-wisconsin': typeof BlogWiredTiredCortisolBellyFatMichiganWisconsinRoute
   '/blog/': typeof BlogIndexRoute
 }
 export interface FileRouteTypes {
@@ -281,6 +291,7 @@ export interface FileRouteTypes {
     | '/blog/perimenopause-in-your-30s-michigan-wisconsin'
     | '/blog/the-ultimate-guide-to-hormones-and-weight-resistance-over-40'
     | '/blog/why-michigan-women-over-40-cant-lose-weight-feel-exhausted'
+    | '/blog/wired-tired-cortisol-belly-fat-michigan-wisconsin'
     | '/blog/'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -308,6 +319,7 @@ export interface FileRouteTypes {
     | '/blog/perimenopause-in-your-30s-michigan-wisconsin'
     | '/blog/the-ultimate-guide-to-hormones-and-weight-resistance-over-40'
     | '/blog/why-michigan-women-over-40-cant-lose-weight-feel-exhausted'
+    | '/blog/wired-tired-cortisol-belly-fat-michigan-wisconsin'
     | '/blog'
   id:
     | '__root__'
@@ -335,6 +347,7 @@ export interface FileRouteTypes {
     | '/blog/perimenopause-in-your-30s-michigan-wisconsin'
     | '/blog/the-ultimate-guide-to-hormones-and-weight-resistance-over-40'
     | '/blog/why-michigan-women-over-40-cant-lose-weight-feel-exhausted'
+    | '/blog/wired-tired-cortisol-belly-fat-michigan-wisconsin'
     | '/blog/'
   fileRoutesById: FileRoutesById
 }
@@ -363,6 +376,7 @@ export interface RootRouteChildren {
   BlogPerimenopauseInYour30sMichiganWisconsinRoute: typeof BlogPerimenopauseInYour30sMichiganWisconsinRoute
   BlogTheUltimateGuideToHormonesAndWeightResistanceOver40Route: typeof BlogTheUltimateGuideToHormonesAndWeightResistanceOver40Route
   BlogWhyMichiganWomenOver40CantLoseWeightFeelExhaustedRoute: typeof BlogWhyMichiganWomenOver40CantLoseWeightFeelExhaustedRoute
+  BlogWiredTiredCortisolBellyFatMichiganWisconsinRoute: typeof BlogWiredTiredCortisolBellyFatMichiganWisconsinRoute
   BlogIndexRoute: typeof BlogIndexRoute
 }
 
@@ -464,6 +478,13 @@ declare module '@tanstack/react-router' {
       path: '/blog'
       fullPath: '/blog/'
       preLoaderRoute: typeof BlogIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blog/wired-tired-cortisol-belly-fat-michigan-wisconsin': {
+      id: '/blog/wired-tired-cortisol-belly-fat-michigan-wisconsin'
+      path: '/blog/wired-tired-cortisol-belly-fat-michigan-wisconsin'
+      fullPath: '/blog/wired-tired-cortisol-belly-fat-michigan-wisconsin'
+      preLoaderRoute: typeof BlogWiredTiredCortisolBellyFatMichiganWisconsinRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/blog/why-michigan-women-over-40-cant-lose-weight-feel-exhausted': {
@@ -582,6 +603,8 @@ const rootRouteChildren: RootRouteChildren = {
     BlogTheUltimateGuideToHormonesAndWeightResistanceOver40Route,
   BlogWhyMichiganWomenOver40CantLoseWeightFeelExhaustedRoute:
     BlogWhyMichiganWomenOver40CantLoseWeightFeelExhaustedRoute,
+  BlogWiredTiredCortisolBellyFatMichiganWisconsinRoute:
+    BlogWiredTiredCortisolBellyFatMichiganWisconsinRoute,
   BlogIndexRoute: BlogIndexRoute,
 }
 export const routeTree = rootRouteImport

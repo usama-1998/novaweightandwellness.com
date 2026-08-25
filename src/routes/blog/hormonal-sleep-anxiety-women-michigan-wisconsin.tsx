@@ -82,9 +82,9 @@ function BlogComponent() {
       breadcrumbTitle="Hormonal Sleep and Anxiety Guide"
       faqSchema={faqSchema}
       relatedPosts={[
+        { slug: "wired-tired-cortisol-belly-fat-michigan-wisconsin", title: "Wired But Tired: Why Your Cortisol, Not Your Diet, Is Driving Belly Weight, 3AM Waking, and Burnout" },
         { slug: "perimenopause-in-your-30s-michigan-wisconsin", title: "Perimenopause Isn't Just an Over-40 Thing: The Complete Guide for Women in Their Mid-30s" },
         { slug: "bioidentical-hormone-therapy-guide-michigan-wisconsin", title: "The Complete Guide to Bioidentical Hormone Therapy: Risks, Benefits, and What Actually Happens" },
-        { slug: "pcos-weight-resistance-women-30s-michigan-wisconsin", title: "PCOS in Your 30s: Why Weight Loss Feels Impossible and What Actually Helps" },
       ]}
     >
       {/* Disclaimer */}

@@ -1,4 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
+import cortisolHeroImg from "@/assets/blog/daytime-anxiety-overwhelmed-woman.webp";
 import thyroidHeroImg from "@/assets/blog/thyroid-hero-michigan-wisconsin-woman.jpg";
 import heroImg from "@/assets/blog/hero-fatigued-woman.jpg";
 import wiHeroImg from "@/assets/blog/wisconsin-hero-fatigue.jpg";
@@ -52,6 +53,18 @@ export const Route = createFileRoute("/blog/")({
 });
 
 const articles = [
+  {
+    slug: "wired-tired-cortisol-belly-fat-michigan-wisconsin",
+    title: "Wired But Tired: Why Your Cortisol, Not Your Diet, Is Driving Belly Weight, 3AM Waking, and Burnout",
+    excerpt:
+      "Belly fat that won't budge, waking at 3am with a racing heart, exhausted all day yet wired all night? An exhaustive, evidence-based guide to HPA-axis dysfunction, cortisol testing, and root-cause recovery for women in Michigan and Wisconsin.",
+    image: cortisolHeroImg,
+    imageAlt: "Overwhelmed professional woman in Michigan feeling wired but exhausted, sitting at her kitchen table late at night",
+    category: "Cortisol & Stress Physiology",
+    date: "August 25, 2026",
+    readTime: "118 min read",
+    author: "Kathryn Long, NP-C",
+  },
   {
     slug: "normal-tsh-hypothyroid-symptoms-michigan-wisconsin",
     title: "My TSH is 'Normal' But I'm Freezing, Losing Hair, and Exhausted: Why Standard Thyroid Tests Fail Women in Their 30s & 40s",
