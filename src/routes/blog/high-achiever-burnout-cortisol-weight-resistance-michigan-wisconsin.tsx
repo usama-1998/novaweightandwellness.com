@@ -2,7 +2,6 @@ import { createFileRoute } from '@tanstack/react-router';
 import React from 'react';
 import { BlogLayout } from '@/components/blog/BlogLayout';
 import SectionHeading from '@/components/blog/SectionHeading';
-import PregnenoloneStealInfographic from "@/components/blog/PregnenoloneStealInfographic";
 import CortisolCurveInfographic from "@/components/blog/CortisolCurveInfographic";
 import { Link } from '@tanstack/react-router';
 
@@ -168,7 +167,6 @@ function BlogPost() {
           <p className="text-lg leading-relaxed text-gray-700 font-bold">
             This is known as the Pregnenolone Steal, or the Cortisol Shunt.
           </p>
-          <PregnenoloneStealInfographic />
           <p className="text-lg leading-relaxed text-gray-700">
           </p>
           <p className="text-lg leading-relaxed text-gray-700">
@@ -265,7 +263,6 @@ function BlogPost() {
           The Sleep Paradox: Tired All Day, Wired at 2 AM
         </h2>
         <div className="prose prose-lg prose-primary max-w-none">
-          <CortisolCurveInfographic />
           <p className="text-lg leading-relaxed text-gray-700">
             A healthy cortisol curve looks like a ski slope: high in the morning, gradually tapering to the bottom by midnight. Melatonin, your sleep hormone, is on the opposite curve. When cortisol goes down, melatonin goes up. They sit on a biological see-saw; you cannot have high cortisol and high melatonin at the same time.
           </p>
