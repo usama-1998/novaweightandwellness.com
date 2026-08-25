@@ -76,14 +76,25 @@ function BlogPost() {
   return (
     <BlogLayout
       title="The High-Achiever’s Burnout: Cortisol, HPA-Axis Dysfunction, and Why You Can’t Lose Weight"
-      category="Metabolic Health & Stress"
-      publishDate="November 12, 2026"
-      readTime="45 min read"
       author="The Novaleo Practitioner Team"
-      heroImage={heroImage}
-      tableOfContents={tableOfContents}
+      date="2026-08-25"
+      readTime="45 min read"
+      heroImg={heroImage}
+      heroAlt="Exhausted professional woman reflecting on stress, cortisol, and metabolic health in the Midwest"
+      tocItems={tableOfContents}
+      slug="high-achiever-burnout-cortisol-weight-resistance-michigan-wisconsin"
+      breadcrumbTitle="Cortisol & Burnout"
       faqSchema={faqSchema}
-      summary="You are doing everything 'right'—tracking macros, taking HIIT classes, fasting—and yet the scale won't budge. Discover how chronic stress and HPA-Axis dysfunction are actively locking your metabolism in survival mode."
+      relatedPosts={[
+        {
+          slug: "hormonal-sleep-anxiety-women-michigan-wisconsin",
+          title: "Why Am I Waking Up at 3 AM Every Night with Racing Thoughts?",
+        },
+        {
+          slug: "ozempic-not-working-michigan-wisconsin-women",
+          title: "Why Ozempic Stopped Working: The Metabolic and Hormonal Reasons",
+        },
+      ]}
     >
 
       {/* MEDICAL DISCLAIMER */}
