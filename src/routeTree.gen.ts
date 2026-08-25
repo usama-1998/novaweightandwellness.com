@@ -32,6 +32,7 @@ import { Route as BlogOzempicNotWorkingMichiganWisconsinWomenRouteImport } from 
 import { Route as BlogNormalTshHypothyroidSymptomsMichiganWisconsinRouteImport } from './routes/blog/normal-tsh-hypothyroid-symptoms-michigan-wisconsin'
 import { Route as BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRouteImport } from './routes/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities'
 import { Route as BlogHormonalSleepAnxietyWomenMichiganWisconsinRouteImport } from './routes/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
+import { Route as BlogHighAchieverBurnoutCortisolWeightResistanceMichiganWisconsinRouteImport } from './routes/blog/high-achiever-burnout-cortisol-weight-resistance-michigan-wisconsin'
 import { Route as BlogGainingWeightExhaustedAfter40WisconsinWomenRouteImport } from './routes/blog/gaining-weight-exhausted-after-40-wisconsin-women'
 import { Route as BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRouteImport } from './routes/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
 
@@ -159,6 +160,14 @@ const BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute =
     path: '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin',
     getParentRoute: () => rootRouteImport,
   } as any)
+const BlogHighAchieverBurnoutCortisolWeightResistanceMichiganWisconsinRoute =
+  BlogHighAchieverBurnoutCortisolWeightResistanceMichiganWisconsinRouteImport.update(
+    {
+      id: '/blog/high-achiever-burnout-cortisol-weight-resistance-michigan-wisconsin',
+      path: '/blog/high-achiever-burnout-cortisol-weight-resistance-michigan-wisconsin',
+      getParentRoute: () => rootRouteImport,
+    } as any,
+  )
 const BlogGainingWeightExhaustedAfter40WisconsinWomenRoute =
   BlogGainingWeightExhaustedAfter40WisconsinWomenRouteImport.update({
     id: '/blog/gaining-weight-exhausted-after-40-wisconsin-women',
@@ -188,6 +197,7 @@ export interface FileRoutesByFullPath {
   '/what-we-treat': typeof WhatWeTreatRoute
   '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin': typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
   '/blog/gaining-weight-exhausted-after-40-wisconsin-women': typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
+  '/blog/high-achiever-burnout-cortisol-weight-resistance-michigan-wisconsin': typeof BlogHighAchieverBurnoutCortisolWeightResistanceMichiganWisconsinRoute
   '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin': typeof BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute
   '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities': typeof BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRoute
   '/blog/normal-tsh-hypothyroid-symptoms-michigan-wisconsin': typeof BlogNormalTshHypothyroidSymptomsMichiganWisconsinRoute
@@ -215,6 +225,7 @@ export interface FileRoutesByTo {
   '/what-we-treat': typeof WhatWeTreatRoute
   '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin': typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
   '/blog/gaining-weight-exhausted-after-40-wisconsin-women': typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
+  '/blog/high-achiever-burnout-cortisol-weight-resistance-michigan-wisconsin': typeof BlogHighAchieverBurnoutCortisolWeightResistanceMichiganWisconsinRoute
   '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin': typeof BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute
   '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities': typeof BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRoute
   '/blog/normal-tsh-hypothyroid-symptoms-michigan-wisconsin': typeof BlogNormalTshHypothyroidSymptomsMichiganWisconsinRoute
@@ -243,6 +254,7 @@ export interface FileRoutesById {
   '/what-we-treat': typeof WhatWeTreatRoute
   '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin': typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
   '/blog/gaining-weight-exhausted-after-40-wisconsin-women': typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
+  '/blog/high-achiever-burnout-cortisol-weight-resistance-michigan-wisconsin': typeof BlogHighAchieverBurnoutCortisolWeightResistanceMichiganWisconsinRoute
   '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin': typeof BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute
   '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities': typeof BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRoute
   '/blog/normal-tsh-hypothyroid-symptoms-michigan-wisconsin': typeof BlogNormalTshHypothyroidSymptomsMichiganWisconsinRoute
@@ -272,6 +284,7 @@ export interface FileRouteTypes {
     | '/what-we-treat'
     | '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
     | '/blog/gaining-weight-exhausted-after-40-wisconsin-women'
+    | '/blog/high-achiever-burnout-cortisol-weight-resistance-michigan-wisconsin'
     | '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
     | '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities'
     | '/blog/normal-tsh-hypothyroid-symptoms-michigan-wisconsin'
@@ -299,6 +312,7 @@ export interface FileRouteTypes {
     | '/what-we-treat'
     | '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
     | '/blog/gaining-weight-exhausted-after-40-wisconsin-women'
+    | '/blog/high-achiever-burnout-cortisol-weight-resistance-michigan-wisconsin'
     | '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
     | '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities'
     | '/blog/normal-tsh-hypothyroid-symptoms-michigan-wisconsin'
@@ -326,6 +340,7 @@ export interface FileRouteTypes {
     | '/what-we-treat'
     | '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
     | '/blog/gaining-weight-exhausted-after-40-wisconsin-women'
+    | '/blog/high-achiever-burnout-cortisol-weight-resistance-michigan-wisconsin'
     | '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
     | '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities'
     | '/blog/normal-tsh-hypothyroid-symptoms-michigan-wisconsin'
@@ -354,6 +369,7 @@ export interface RootRouteChildren {
   WhatWeTreatRoute: typeof WhatWeTreatRoute
   BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute: typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
   BlogGainingWeightExhaustedAfter40WisconsinWomenRoute: typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
+  BlogHighAchieverBurnoutCortisolWeightResistanceMichiganWisconsinRoute: typeof BlogHighAchieverBurnoutCortisolWeightResistanceMichiganWisconsinRoute
   BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute: typeof BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute
   BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRoute: typeof BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRoute
   BlogNormalTshHypothyroidSymptomsMichiganWisconsinRoute: typeof BlogNormalTshHypothyroidSymptomsMichiganWisconsinRoute
@@ -529,6 +545,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BlogHormonalSleepAnxietyWomenMichiganWisconsinRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/blog/high-achiever-burnout-cortisol-weight-resistance-michigan-wisconsin': {
+      id: '/blog/high-achiever-burnout-cortisol-weight-resistance-michigan-wisconsin'
+      path: '/blog/high-achiever-burnout-cortisol-weight-resistance-michigan-wisconsin'
+      fullPath: '/blog/high-achiever-burnout-cortisol-weight-resistance-michigan-wisconsin'
+      preLoaderRoute: typeof BlogHighAchieverBurnoutCortisolWeightResistanceMichiganWisconsinRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/blog/gaining-weight-exhausted-after-40-wisconsin-women': {
       id: '/blog/gaining-weight-exhausted-after-40-wisconsin-women'
       path: '/blog/gaining-weight-exhausted-after-40-wisconsin-women'
@@ -564,6 +587,8 @@ const rootRouteChildren: RootRouteChildren = {
     BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute,
   BlogGainingWeightExhaustedAfter40WisconsinWomenRoute:
     BlogGainingWeightExhaustedAfter40WisconsinWomenRoute,
+  BlogHighAchieverBurnoutCortisolWeightResistanceMichiganWisconsinRoute:
+    BlogHighAchieverBurnoutCortisolWeightResistanceMichiganWisconsinRoute,
   BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute:
     BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute,
   BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRoute:
