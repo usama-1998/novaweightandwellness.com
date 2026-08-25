@@ -1,16 +1,22 @@
 import { createFileRoute } from '@tanstack/react-router';
 import React from 'react';
 import { BlogLayout } from '@/components/blog/BlogLayout';
-import SectionHeading from '@/components/blog/SectionHeading';
-import CortisolCurveInfographic from "@/components/blog/CortisolCurveInfographic";
 import { Link } from '@tanstack/react-router';
 
 // Images
-import heroImage from '@/assets/blog/hero-fatigued-woman.jpg';
-import frustrationImage from '@/assets/blog/appointment-frustration.jpg';
-import labsImage from '@/assets/blog/comprehensive-labs-v2.jpg';
-import lifestyleImage from '@/assets/blog/michigan-wisconsin-evening-lifestyle.webp';
-import telehealthImage from '@/assets/blog/telehealth-consultation.jpg';
+import heroImg from '@/assets/blog/cortisol-burnout-hero-professional-woman.webp';
+import frustrationImg from '@/assets/blog/cortisol-fatigue-frustration-doctor-labs.webp';
+import cortisolCurveImg from '@/assets/blog/cortisol-circadian-rhythm-comparison.webp';
+import pregnenoloneStealImg from '@/assets/blog/cortisol-pregnenolone-steal-pathway.webp';
+import hpaStagesImg from '@/assets/blog/cortisol-hpa-axis-stages-breakdown.webp';
+import exerciseStressImg from '@/assets/blog/cortisol-exercise-hiit-burnout-recovery.webp';
+import lockdownImg from '@/assets/blog/cortisol-metabolic-lockdown-insulin-thyroid.webp';
+import nightWakingImg from '@/assets/blog/cortisol-night-waking-3am-sleep-paradox.webp';
+import gutAxisImg from '@/assets/blog/cortisol-gut-microbiome-permeability.webp';
+import hormoneKitImg from '@/assets/blog/cortisol-dutch-hormone-testing-kit.webp';
+import nutritionImg from '@/assets/blog/cortisol-adrenal-nutrition-blood-sugar.webp';
+import midwestLifestyleImg from '@/assets/blog/cortisol-midwest-lifestyle-burnout-recovery.webp';
+import recoveryImg from '@/assets/blog/cortisol-patient-metabolism-recovery.webp';
 
 export const Route = createFileRoute('/blog/high-achiever-burnout-cortisol-weight-resistance-michigan-wisconsin')({
   head: () => ({
@@ -79,8 +85,8 @@ function BlogPost() {
       author="The Novaleo Practitioner Team"
       date="2026-08-25"
       readTime="45 min read"
-      heroImg={heroImage}
-      heroAlt="Exhausted professional woman reflecting on stress, cortisol, and metabolic health in the Midwest"
+      heroImg={heroImg}
+      heroAlt="High-achieving professional woman experiencing fatigue, stress, and burnout at her desk in Michigan"
       tocItems={tableOfContents}
       slug="high-achiever-burnout-cortisol-weight-resistance-michigan-wisconsin"
       breadcrumbTitle="Cortisol & Burnout"
@@ -121,6 +127,14 @@ function BlogPost() {
           <p className="text-lg leading-relaxed text-gray-700">
             You haven't changed your diet. In fact, you're probably eating cleaner than you did in your 20s. You're trying intermittent fasting. You're squeezing in intense Peloton rides or HIIT classes before the sun comes up. You are putting in the work. And yet, the scale isn't just stubborn—it is creeping upward. Specifically, you notice a thickening around your midsection, a soft layer of belly fat that never used to be there, entirely unresponsive to your efforts.
           </p>
+          <img
+            src={frustrationImg}
+            alt="Exhausted professional woman reviewing normal lab results with lingering frustration"
+            className="rounded-2xl shadow-lg w-full my-8 object-cover"
+            width={800}
+            height={450}
+            loading="lazy"
+          />
           <p className="text-lg leading-relaxed text-gray-700">
             When you mention this to your doctor, the response is usually a variation of the same dismissive script: <em>"Your labs are normal. You're just getting older. Try eating a little less and exercising a little more."</em>
           </p>
@@ -148,6 +162,14 @@ function BlogPost() {
           <p className="text-lg leading-relaxed text-gray-700">
             When functioning optimally, cortisol follows a beautiful, predictable curve. It surges in the early morning, giving you the energy to wake up, get out of bed, and face the day. This is called the Cortisol Awakening Response (CAR). Throughout the day, it gradually drops, tapering off to its lowest point around midnight, allowing your body to transition into deep, restorative sleep.
           </p>
+          <img
+            src={cortisolCurveImg}
+            alt="Cortisol circadian rhythm comparison showing healthy diurnal curve versus inverted tired and wired pattern"
+            className="rounded-2xl shadow-lg w-full my-8"
+            width={1376}
+            height={768}
+            loading="lazy"
+          />
           <div className="my-10">
             <div className="bg-primary/5 p-8 rounded-2xl border border-primary/10">
               <h4 className="text-xl font-bold text-primary mb-4">Acute vs. Chronic Stress</h4>
@@ -178,8 +200,14 @@ function BlogPost() {
           <p className="text-lg leading-relaxed text-gray-700 font-bold">
             This is known as the Pregnenolone Steal, or the Cortisol Shunt.
           </p>
-          <p className="text-lg leading-relaxed text-gray-700">
-          </p>
+          <img
+            src={pregnenoloneStealImg}
+            alt="The Pregnenolone Steal diagram showing how chronic stress diverts precursor hormones away from progesterone and into cortisol"
+            className="rounded-2xl shadow-lg w-full my-8"
+            width={1376}
+            height={768}
+            loading="lazy"
+          />
           <p className="text-lg leading-relaxed text-gray-700">
             For women in their late 30s and 40s, this is a disaster. You are already entering perimenopause, a time when your ovarian production of progesterone is naturally declining. If your adrenal glands are now stealing whatever pregnenolone is left to make cortisol, your progesterone levels plummet. This creates a state of <strong>Estrogen Dominance</strong>, leading to heavy periods, fibroids, severe mood swings, breast tenderness, and accelerated weight gain around the hips and thighs.
           </p>
@@ -195,6 +223,15 @@ function BlogPost() {
             What the wellness industry calls "adrenal fatigue" is actually dysfunction of the Hypothalamic-Pituitary-Adrenal (HPA) axis. Your adrenal glands aren't "tired"—your brain is intentionally downregulating them to protect you from the toxic effects of endless cortisol. This breakdown happens in four distinct stages.
           </p>
           
+          <img
+            src={hpaStagesImg}
+            alt="The 4 stages of HPA-axis dysfunction from alarm phase to total burnout"
+            className="rounded-2xl shadow-lg w-full my-8"
+            width={1376}
+            height={768}
+            loading="lazy"
+          />
+
           <div className="space-y-8 mt-8">
             <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
               <h3 className="text-xl font-bold text-primary mb-3">Stage 1: The Alarm Phase (Wired & Tired)</h3>
@@ -241,6 +278,14 @@ function BlogPost() {
           <p className="text-lg leading-relaxed text-gray-700">
             Here is why: <strong className="text-primary">To a nervous system already in Stage 2 or 3 of HPA-axis dysfunction, a calorie deficit, a fast, and a high-intensity workout are not "healthy habits"—they are massive biological stressors.</strong>
           </p>
+          <img
+            src={exerciseStressImg}
+            alt="Woman engaging in mindful strength training instead of cortisol-spiking exhaustive cardio"
+            className="rounded-2xl shadow-lg w-full my-8 object-cover"
+            width={800}
+            height={450}
+            loading="lazy"
+          />
           <p className="text-lg leading-relaxed text-gray-700">
             When you wake up after a poor night's sleep, your cortisol is already dysregulated. If you skip breakfast (fasting), your blood sugar drops. The body interprets this as famine and spikes cortisol further to mobilize glucose. You then go to a Spin or HIIT class. Your heart rate skyrockets, signaling to your brain that you are literally running for your life. Cortisol maxes out.
           </p>
@@ -258,7 +303,14 @@ function BlogPost() {
           The Metabolism Lockdown: Cortisol, Insulin & Thyroid
         </h2>
         <div className="prose prose-lg prose-primary max-w-none">
-          <img src={labsImage} alt="Comprehensive Lab Testing" className="w-full rounded-2xl my-8 object-cover shadow-lg" />
+          <img
+            src={lockdownImg}
+            alt="The Cortisol, Insulin, and Thyroid metabolic lockdown loop"
+            className="rounded-2xl shadow-lg w-full my-8"
+            width={1376}
+            height={768}
+            loading="lazy"
+          />
           <p className="text-lg leading-relaxed text-gray-700">
             Cortisol does not work in isolation. When the HPA-axis is dysfunctional, it triggers a domino effect that takes down your insulin sensitivity and your thyroid function, creating the ultimate metabolic lockdown.
           </p>
@@ -277,6 +329,14 @@ function BlogPost() {
           <p className="text-lg leading-relaxed text-gray-700">
             A healthy cortisol curve looks like a ski slope: high in the morning, gradually tapering to the bottom by midnight. Melatonin, your sleep hormone, is on the opposite curve. When cortisol goes down, melatonin goes up. They sit on a biological see-saw; you cannot have high cortisol and high melatonin at the same time.
           </p>
+          <img
+            src={nightWakingImg}
+            alt="Woman awake at 2 AM experiencing night-time cortisol spikes and racing thoughts"
+            className="rounded-2xl shadow-lg w-full my-8 object-cover"
+            width={800}
+            height={450}
+            loading="lazy"
+          />
           <p className="text-lg leading-relaxed text-gray-700">
             In Stage 2 and Stage 3 HPA-axis dysfunction, this curve often inverts. You wake up with flatlined cortisol, meaning you cannot get out of bed. You drag through the afternoon. But around 8:00 PM, just as you should be winding down, your dysregulated adrenal glands fire off a surge of cortisol. 
           </p>
@@ -294,6 +354,14 @@ function BlogPost() {
           <p className="text-lg leading-relaxed text-gray-700">
             The gut-brain axis is a two-way street, deeply influenced by your stress response. Remember, in a "fight or flight" state, digestion is considered non-essential. Blood flow is diverted away from the gut to your limbs. 
           </p>
+          <img
+            src={gutAxisImg}
+            alt="The physiological stress feedback loop between cortisol, intestinal permeability, and the microbiome"
+            className="rounded-2xl shadow-lg w-full my-8"
+            width={1376}
+            height={768}
+            loading="lazy"
+          />
           <p className="text-lg leading-relaxed text-gray-700">
             Chronic cortisol exposure physically breaks down the tight junctions in your intestinal wall, leading to Intestinal Permeability, or "Leaky Gut." Undigested food particles and endotoxins (lipopolysaccharides) slip into your bloodstream, triggering a massive, systemic immune response and widespread inflammation.
           </p>
@@ -319,6 +387,14 @@ function BlogPost() {
             <li>It only shows a single snapshot in time. It tells us nothing about your circadian rhythm or whether your cortisol is spiking at 10 PM.</li>
             <li>The stress of the blood draw itself can spike your cortisol, giving a false reading.</li>
           </ol>
+          <img
+            src={hormoneKitImg}
+            alt="DUTCH 24-hour urine and salivary cortisol testing kit for comprehensive adrenal mapping"
+            className="rounded-2xl shadow-lg w-full my-8 object-cover"
+            width={800}
+            height={450}
+            loading="lazy"
+          />
           <p className="text-lg leading-relaxed text-gray-700">
             In functional medicine, we use the <strong>DUTCH Test (Dried Urine Test for Comprehensive Hormones)</strong> or a 4-point salivary cortisol test. These tests map your exact cortisol rhythm across 24 hours, measure your total daily production, and look at the downstream metabolites of cortisol and DHEA. This is the only way to accurately stage HPA-axis dysfunction.
           </p>
@@ -334,6 +410,15 @@ function BlogPost() {
             Recovering from HPA-axis dysfunction requires a radical shift in how you approach your body. You have to send consistent, undeniable safety signals to your nervous system.
           </p>
           
+          <img
+            src={nutritionImg}
+            alt="Adrenal supportive nutrition with balanced high protein and blood sugar stabilizing meals"
+            className="rounded-2xl shadow-lg w-full my-8 object-cover"
+            width={800}
+            height={450}
+            loading="lazy"
+          />
+
           <h3 className="text-2xl font-bold text-primary mt-8 mb-4">1. Nutritional Safety & Blood Sugar Stability</h3>
           <p className="text-lg leading-relaxed text-gray-700">
             Fasting is out. You must eat 30 to 40 grams of high-quality protein within 60 minutes of waking up. This immediately stabilizes blood sugar, blunting the morning cortisol spike. Your meals must balance protein, healthy fats, and complex carbohydrates to prevent the drops in blood glucose that trigger adrenaline surges. We also heavily emphasize adrenal-supporting minerals: sodium, potassium, and magnesium.
@@ -361,7 +446,14 @@ function BlogPost() {
           Michigan & Wisconsin: The Midwestern Culture of Burnout
         </h2>
         <div className="prose prose-lg prose-primary max-w-none">
-          <img src={lifestyleImage} alt="Professional Woman in the Midwest" className="w-full rounded-2xl my-8 object-cover shadow-lg" />
+          <img
+            src={midwestLifestyleImg}
+            alt="Midwestern professional woman enjoying a peaceful, restorative evening in Michigan"
+            className="rounded-2xl shadow-lg w-full my-8 object-cover"
+            width={800}
+            height={450}
+            loading="lazy"
+          />
           <p className="text-lg leading-relaxed text-gray-700">
             There is a unique overlay to HPA-axis dysfunction when you live in Michigan or Wisconsin. We are steeped in a cultural work ethic that glorifies endurance, self-sacrifice, and "pushing through it." Taking time to rest is often implicitly viewed as a character flaw.
           </p>
@@ -393,6 +485,14 @@ function BlogPost() {
           <p className="text-lg leading-relaxed text-gray-700">
             <strong>The Result:</strong> Within 3 months, her energy stabilized. By month 6, without ever starving herself or running endless miles, she dropped 14 pounds of visceral fat and reported feeling "in control of her brain" for the first time in years.
           </p>
+          <img
+            src={recoveryImg}
+            alt="Woman experiencing restored metabolic energy, peaceful sleep, and nervous system balance"
+            className="rounded-2xl shadow-lg w-full my-8 object-cover"
+            width={800}
+            height={450}
+            loading="lazy"
+          />
         </div>
       </section>
 

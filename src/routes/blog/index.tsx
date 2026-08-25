@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import thyroidHeroImg from "@/assets/blog/thyroid-hero-michigan-wisconsin-woman.jpg";
+import cortisolHeroImg from "@/assets/blog/cortisol-burnout-hero-professional-woman.webp";
 import heroImg from "@/assets/blog/hero-fatigued-woman.jpg";
 import wiHeroImg from "@/assets/blog/wisconsin-hero-fatigue.jpg";
 import ozempicHeroImg from "@/assets/blog/ozempic-hero-michigan-woman.jpg";
@@ -52,6 +53,18 @@ export const Route = createFileRoute("/blog/")({
 });
 
 const articles = [
+  {
+    slug: "high-achiever-burnout-cortisol-weight-resistance-michigan-wisconsin",
+    title: "The High-Achiever's Burnout: Cortisol, HPA-Axis Dysfunction, and Why You Can't Lose Weight",
+    excerpt:
+      "Why professional women over 40 in Michigan and Wisconsin can't lose weight despite eating perfectly. A functional medicine deep dive into cortisol, the HPA-axis, the pregnenolone steal, and metabolic lockdown.",
+    image: cortisolHeroImg,
+    imageAlt: "High-achieving professional woman experiencing fatigue, stress, and burnout at her desk",
+    category: "Cortisol & Metabolism",
+    date: "August 25, 2026",
+    readTime: "45 min read",
+    author: "The Novaleo Practitioner Team",
+  },
   {
     slug: "normal-tsh-hypothyroid-symptoms-michigan-wisconsin",
     title: "My TSH is 'Normal' But I'm Freezing, Losing Hair, and Exhausted: Why Standard Thyroid Tests Fail Women in Their 30s & 40s",
