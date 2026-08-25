@@ -1610,7 +1610,7 @@ function BlogComponent() {
             Book your free 15-minute discovery call. No judgment, no assumptions, just a real conversation about what you've been experiencing and what a thoughtful evaluation could look like.
           </p>
           <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
-            Book Your Free 15-Minute Call with Katie
+            Book Your Free 15-Minute Discovery Call
           </Link>
         </div>
 

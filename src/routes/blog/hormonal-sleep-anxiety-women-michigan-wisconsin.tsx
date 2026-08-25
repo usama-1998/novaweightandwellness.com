@@ -938,7 +938,7 @@ function BlogComponent() {
             Book your free 15-minute discovery call. No generic sleep tips, no pressure, just a real conversation about your specific symptoms and what to do next.
           </p>
           <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
-            Book Your Free 15-Minute Call with Katie
+            Book Your Free 15-Minute Discovery Call
           </Link>
         </div>
 

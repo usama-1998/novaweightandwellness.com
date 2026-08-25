@@ -147,7 +147,7 @@ export default function PaidClaritySession({
                   </div>
 
                   <p className="text-[13px] font-bold text-primary/80 font-sans mb-4 tracking-wide">
-                    Katie Long NP-C ~ Board Certified
+                    Novaleo Practitioner ~ Board Certified
                   </p>
                   
                   <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary/5 border border-primary/10 mb-4">
@@ -241,7 +241,7 @@ export default function PaidClaritySession({
                       K
                     </div>
                     <div className="flex flex-col gap-1.5 md:gap-3 min-w-0">
-                      <p className="text-primary/50 font-semibold text-xs md:text-sm">Katie Long NP-C ~ Board Certified</p>
+                      <p className="text-primary/50 font-semibold text-xs md:text-sm">Novaleo Practitioner ~ Board Certified</p>
                       <h3 className="font-sans text-[22px] md:text-2xl text-primary tracking-tight font-bold leading-tight">$47 Clarity Session</h3>
                     </div>
                   </div>

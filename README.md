@@ -1,6 +1,6 @@
 # Novaleo Weight & Wellness
 
-Novaleo Weight & Wellness is a modern telehealth platform built for professional women in Michigan and Wisconsin, specializing in hormones, metabolic health, and weight resistance. Guided by Kathryn Long, NP-C, the platform delivers root-cause functional medicine.
+Novaleo Weight & Wellness is a modern telehealth platform built for professional women in Michigan and Wisconsin, specializing in hormones, metabolic health, and weight resistance. Guided by our expert practitioners, the platform delivers root-cause functional medicine.
 
 ## Technology Stack
 

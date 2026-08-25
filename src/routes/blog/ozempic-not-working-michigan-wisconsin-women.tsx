@@ -817,7 +817,7 @@ function BlogComponent() {
             Book your free 15-minute discovery call with our care team. No sales pitch, no commitment, no pressure. Just an honest conversation about what might be missing and what a root-cause approach could do for you.
           </p>
           <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
-            Book Your Free 15-Minute Call with Katie
+            Book Your Free 15-Minute Discovery Call
           </Link>
         </div>
 

@@ -7,7 +7,6 @@ import {
   BadgeCheck
 } from 'lucide-react';
 
-import kathrynImage from '@/assets/hero-kathryn.webp';
 import { useRouterState } from '@tanstack/react-router';
 
 
@@ -202,22 +201,11 @@ export default function BookingVariantA({
               {step === 0 && (
                 <div className="spa-animate-in" style={{ opacity: 0 }}>
                   <div className="flex flex-col items-center text-center pb-4 max-w-lg mx-auto">
-                      <div className="relative mb-2 mt-0 inline-block">
-                        <img 
-                          src={kathrynImage} 
-                          alt="Kathryn Long, NP-C" 
-                          className="w-28 h-28 rounded-full border-[3px] border-white object-cover object-top shadow-lg" 
-                        />
-                        <div className="absolute bottom-1.5 right-1.5 bg-white rounded-full shadow-sm" style={{ padding: '1px' }}>
-                          <BadgeCheck className="w-6 h-6 text-[#0095F6]" fill="currentColor" stroke="white" strokeWidth={1.5} />
-                        </div>
-                      </div>
-                      
-                      <div className="flex flex-col items-center justify-center mb-5">
-                        <p className="text-base font-bold text-primary mb-2">Katie Long, NP-C</p>
+                      <div className="flex flex-col items-center justify-center mb-5 mt-4">
+                        <p className="text-base font-bold text-primary mb-2">One of our Practitioners</p>
                         <div className="inline-flex items-center px-3 py-1 rounded-full bg-primary/5 border border-primary/10">
                           <span className="text-[10px] font-bold uppercase tracking-widest text-primary/70 font-sans">
-                            Board Certified &bull; 20+ Years in Healthcare
+                            Board Certified Providers
                           </span>
                         </div>
                       </div>

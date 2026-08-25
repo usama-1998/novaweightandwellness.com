@@ -12,19 +12,19 @@ export const Route = createFileRoute('/free-15-min-call-with-katie')({
       {
         name: "description",
         content:
-          "Schedule your complimentary 15-minute discovery call with Kathryn Long, NP-C. Available via telehealth in Michigan and Wisconsin.",
+          "Schedule your complimentary 15-minute discovery call with one of our practitioners. Available via telehealth in Michigan and Wisconsin.",
       },
       { property: "og:title", content: "Book a Free Discovery Call | Novaleo" },
       {
         property: "og:description",
-        content: "Schedule your complimentary 15-minute discovery call with Kathryn Long, NP-C.",
+        content: "Schedule your complimentary 15-minute discovery call with one of our practitioners.",
       },
       { property: "og:url", content: "https://novaweightandwellness.com/free-15-min-call-with-katie" },
       { property: "og:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Book a Free Discovery Call | Novaleo" },
-      { name: "twitter:description", content: "Schedule your complimentary 15-minute discovery call with Kathryn Long, NP-C." },
+      { name: "twitter:description", content: "Schedule your complimentary 15-minute discovery call with one of our practitioners." },
       { name: "twitter:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
     ],
   }),

@@ -955,7 +955,7 @@ function BlogComponent() {
             understanding what's really happening inside your body.
           </p>
           <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
-            Book Your Free 15-Minute Call with Katie
+            Book Your Free 15-Minute Discovery Call
           </Link>
         </div>
 

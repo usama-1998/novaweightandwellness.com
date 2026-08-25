@@ -924,7 +924,7 @@ function BlogComponent() {
             Wherever you are in Michigan or Wisconsin, this is genuinely available to you.
           </p>
           <p className="text-lg text-foreground/70 mb-6 max-w-xl mx-auto">
-            Book your free 15-minute discovery call with Katie and let's talk about what's actually going on with your body, and what real, root-cause care looks like for you specifically.
+            Book your free 15-minute discovery discovery call and let's talk about what's actually going on with your body, and what real, root-cause care looks like for you specifically.
           </p>
           <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
             Book Your Free 15-Minute Call
