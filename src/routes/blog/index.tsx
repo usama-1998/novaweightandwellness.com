@@ -9,6 +9,7 @@ import sleepAnxietyHeroImg from "@/assets/blog/sleep-anxiety-hero-3am-awake.webp
 import pcosHeroImg from "@/assets/blog/pcos-hero-confident-woman-30s.webp";
 import brainFogHeroImg from "@/assets/blog/brain-fog-hero-woman-office.webp";
 import citiesHeroImg from "@/assets/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-hero.webp";
+import gutHealthHeroImg from "@/assets/blog/gut-health-hero-woman-michigan-kitchen.webp";
 import { Clock, ArrowRight, Calendar } from "lucide-react";
 
 export const Route = createFileRoute("/blog/")({
@@ -52,6 +53,20 @@ export const Route = createFileRoute("/blog/")({
 });
 
 const articles = [
+  {
+    slug: "gut-health-hormones-women-michigan-wisconsin",
+    title:
+      "Why Am I Bloated, Foggy, and Exhausted Even Though My Gut 'Seems Fine'? The Complete Gut Health Guide for Women in Michigan and Wisconsin",
+    excerpt:
+      "Bloated, foggy, reacting to wine and cheese you never used to react to, and told your gut is 'fine'? A comprehensive, honestly sourced guide to dysbiosis, leaky gut, the estrobolome, SIBO, and GI-MAP testing for women in Michigan and Wisconsin.",
+    image: gutHealthHeroImg,
+    imageAlt:
+      "Thoughtful woman in a Michigan kitchen in morning light, hand resting on her stomach, thinking about her gut health",
+    category: "Gut Health & Hormones",
+    date: "September 1, 2026",
+    readTime: "105 min read",
+    author: "Kathryn Long, NP-C",
+  },
   {
     slug: "normal-tsh-hypothyroid-symptoms-michigan-wisconsin",
     title: "My TSH is 'Normal' But I'm Freezing, Losing Hair, and Exhausted: Why Standard Thyroid Tests Fail Women in Their 30s & 40s",
