@@ -9,6 +9,7 @@ import sleepAnxietyHeroImg from "@/assets/blog/sleep-anxiety-hero-3am-awake.webp
 import pcosHeroImg from "@/assets/blog/pcos-hero-confident-woman-30s.webp";
 import brainFogHeroImg from "@/assets/blog/brain-fog-hero-woman-office.webp";
 import citiesHeroImg from "@/assets/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-hero.webp";
+import cortisolHeroImg from "@/assets/blog/cortisol-burnout-hero-michigan-woman-evening.jpg";
 import { Clock, ArrowRight, Calendar } from "lucide-react";
 
 export const Route = createFileRoute("/blog/")({
@@ -53,12 +54,28 @@ export const Route = createFileRoute("/blog/")({
 
 const articles = [
   {
+    slug: "cortisol-hpa-axis-burnout-michigan-wisconsin-women",
+    title:
+      "Why Am I Wired But Exhausted All the Time? The Hidden Cortisol and HPA-Axis Dysfunction Driving Burnout in Michigan and Wisconsin Women",
+    excerpt:
+      "Exhausted all day but wide awake at 3am? An evidence-based functional medicine guide to cortisol dysregulation, HPA-axis burnout, and root-cause recovery for women in Michigan and Wisconsin.",
+    image: cortisolHeroImg,
+    imageAlt:
+      "Professional woman in Michigan sitting at her home desk in the evening, hand pressed to her chest, looking exhausted yet unable to relax",
+    category: "Stress, Cortisol & Burnout",
+    date: "September 9, 2026",
+    readTime: "112 min read",
+    author: "Kathryn Long, NP-C",
+  },
+  {
     slug: "normal-tsh-hypothyroid-symptoms-michigan-wisconsin",
-    title: "My TSH is 'Normal' But I'm Freezing, Losing Hair, and Exhausted: Why Standard Thyroid Tests Fail Women in Their 30s & 40s",
+    title:
+      "My TSH is 'Normal' But I'm Freezing, Losing Hair, and Exhausted: Why Standard Thyroid Tests Fail Women in Their 30s & 40s",
     excerpt:
       "Freezing, losing hair, and gaining weight despite normal TSH labs? An authoritative functional medicine guide to full thyroid panels, T4 to T3 conversion, and Hashimoto's for women in Michigan and Wisconsin.",
     image: thyroidHeroImg,
-    imageAlt: "Thoughtful woman in Michigan sitting near a window reflecting on thyroid health and vitality",
+    imageAlt:
+      "Thoughtful woman in Michigan sitting near a window reflecting on thyroid health and vitality",
     category: "Thyroid & Autoimmunity",
     date: "August 20, 2026",
     readTime: "58 min read",
@@ -66,7 +83,8 @@ const articles = [
   },
   {
     slug: "medical-weight-loss-hormone-therapy-michigan-wisconsin-cities",
-    title: "Medical Weight Loss and Hormone Therapy in Michigan & Wisconsin: The Complete City-by-City Guide",
+    title:
+      "Medical Weight Loss and Hormone Therapy in Michigan & Wisconsin: The Complete City-by-City Guide",
     excerpt:
       "See how medical weight loss and hormone therapy reach every Michigan and Wisconsin city, from Grand Rapids to Madison, plus smaller towns and rural communities. Find your city inside.",
     image: citiesHeroImg,
@@ -78,11 +96,13 @@ const articles = [
   },
   {
     slug: "perimenopause-brain-fog-memory-michigan-wisconsin",
-    title: "Why Can't I Remember Anything Anymore? Perimenopausal Brain Fog vs. Something More Serious",
+    title:
+      "Why Can't I Remember Anything Anymore? Perimenopausal Brain Fog vs. Something More Serious",
     excerpt:
       "Losing words mid-sentence, forgetting why you walked into a room, secretly worried it's early dementia? An honest guide to perimenopausal brain fog, the real science behind it, and when memory changes actually warrant further evaluation. For women in Michigan and Wisconsin.",
     image: brainFogHeroImg,
-    imageAlt: "Woman in Michigan experiencing perimenopause brain fog at work, pausing thoughtfully at her desk",
+    imageAlt:
+      "Woman in Michigan experiencing perimenopause brain fog at work, pausing thoughtfully at her desk",
     category: "Cognitive Health & Perimenopause",
     date: "August 7, 2026",
     readTime: "44 min read",
@@ -94,7 +114,8 @@ const articles = [
     excerpt:
       "Diagnosed years ago and never properly managed, or never diagnosed at all? A root-cause guide to PCOS, insulin resistance, and weight resistance for women in their 30s in Michigan and Wisconsin.",
     image: pcosHeroImg,
-    imageAlt: "Confident woman in her 30s in Wisconsin managing PCOS and weight resistance in her everyday life",
+    imageAlt:
+      "Confident woman in her 30s in Wisconsin managing PCOS and weight resistance in her everyday life",
     category: "PCOS & Insulin Resistance",
     date: "July 29, 2026",
     readTime: "32 min read",
@@ -106,7 +127,8 @@ const articles = [
     excerpt:
       "Waking up at 3am with a racing heart? New anxiety that feels different from anything before? An honest guide to the hormonal mechanics behind sleep disruption and anxiety in your late 30s and 40s, for women in Michigan and Wisconsin.",
     image: sleepAnxietyHeroImg,
-    imageAlt: "Woman in Michigan awake at 3am with hormonal sleep disruption, checking the clock beside her bed",
+    imageAlt:
+      "Woman in Michigan awake at 3am with hormonal sleep disruption, checking the clock beside her bed",
     category: "Sleep & Anxiety",
     date: "July 28, 2026",
     readTime: "47 min read",
@@ -114,11 +136,13 @@ const articles = [
   },
   {
     slug: "bioidentical-hormone-therapy-guide-michigan-wisconsin",
-    title: "The Complete Guide to Bioidentical Hormone Therapy: Risks, Benefits, and What Actually Happens",
+    title:
+      "The Complete Guide to Bioidentical Hormone Therapy: Risks, Benefits, and What Actually Happens",
     excerpt:
       "Considering BHRT? An honest, thoroughly sourced guide covering what the 2002 WHI study actually found (and got wrong), delivery methods compared, who is and isn't a good candidate, and what to expect. For women in Michigan and Wisconsin.",
     image: bhrtHeroImg,
-    imageAlt: "Woman in Michigan discussing bioidentical hormone therapy options with her provider during a calm telehealth consultation",
+    imageAlt:
+      "Woman in Michigan discussing bioidentical hormone therapy options with her provider during a calm telehealth consultation",
     category: "Hormone Therapy",
     date: "July 27, 2026",
     readTime: "31 min read",
@@ -126,7 +150,8 @@ const articles = [
   },
   {
     slug: "perimenopause-in-your-30s-michigan-wisconsin",
-    title: "Perimenopause Isn't Just an Over-40 Thing: The Complete Guide for Women in Their Mid-30s",
+    title:
+      "Perimenopause Isn't Just an Over-40 Thing: The Complete Guide for Women in Their Mid-30s",
     excerpt:
       "Think you're too young for perimenopause at 35? You're not. A decade-by-decade guide to early perimenopause symptoms, why doctors miss it in your 30s, and what to do now instead of waiting five years for answers.",
     image: perimenopauseHeroImg,
@@ -138,11 +163,13 @@ const articles = [
   },
   {
     slug: "ozempic-not-working-michigan-wisconsin-women",
-    title: "Why Am I Not Losing Weight on Ozempic? A Functional Medicine Perspective for Michigan and Wisconsin Women",
+    title:
+      "Why Am I Not Losing Weight on Ozempic? A Functional Medicine Perspective for Michigan and Wisconsin Women",
     excerpt:
       "Ozempic plateau? Discover the 6 root causes your doctor isn't checking, including thyroid dysfunction, perimenopause hormones, insulin resistance, muscle loss, and nutrient depletion. A comprehensive functional medicine guide for women in Michigan and Wisconsin.",
     image: ozempicHeroImg,
-    imageAlt: "Woman in her 40s in Michigan considering weight loss options including Ozempic, sitting contemplatively at her kitchen table",
+    imageAlt:
+      "Woman in her 40s in Michigan considering weight loss options including Ozempic, sitting contemplatively at her kitchen table",
     category: "GLP-1 & Weight Loss",
     date: "July 23, 2026",
     readTime: "32 min read",

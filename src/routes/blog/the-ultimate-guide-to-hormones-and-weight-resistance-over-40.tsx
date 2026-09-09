@@ -89,9 +89,20 @@ function BlogComponent() {
       breadcrumbTitle="The Ultimate Guide to Hormones and Weight Resistance Over 40"
       faqSchema={faqSchema}
       relatedPosts={[
-        { slug: "why-michigan-women-over-40-cant-lose-weight-feel-exhausted", title: "Why Can't I Lose Weight in My 40s? (And Why You're Always Tired)" },
-        { slug: "gaining-weight-exhausted-after-40-wisconsin-women", title: "Gaining Weight and Exhausted After 40? What Every Wisconsin Woman Needs to Know" },
-        { slug: "ozempic-not-working-michigan-wisconsin-women", title: "Why Am I Not Losing Weight on Ozempic? A Functional Medicine Perspective for Michigan and Wisconsin Women" },
+        {
+          slug: "cortisol-hpa-axis-burnout-michigan-wisconsin-women",
+          title:
+            "Why Am I Wired But Exhausted All the Time? The Hidden Cortisol and HPA-Axis Dysfunction Driving Burnout in Michigan and Wisconsin Women",
+        },
+        {
+          slug: "why-michigan-women-over-40-cant-lose-weight-feel-exhausted",
+          title: "Why Can't I Lose Weight in My 40s? (And Why You're Always Tired)",
+        },
+        {
+          slug: "ozempic-not-working-michigan-wisconsin-women",
+          title:
+            "Why Am I Not Losing Weight on Ozempic? A Functional Medicine Perspective for Michigan and Wisconsin Women",
+        },
       ]}
     >
       <section id="introduction-the-midlife-shift">
@@ -458,7 +469,16 @@ function BlogComponent() {
           inflammation further exacerbates the cycle of systemic stress and locks the body even
           tighter into a state of weight resistance. If you have noticed that your weight gain over
           40 is disproportionately concentrated around your midsection, chronic cortisol
-          dysregulation is almost certainly a primary, driving factor.
+          dysregulation is almost certainly a primary, driving factor. We dedicate an entire,
+          exhaustively researched guide to testing and correcting this exact pattern, including the
+          specific cortisol curves we see most often and how we treat each one, in{" "}
+          <Link
+            to="/blog/cortisol-hpa-axis-burnout-michigan-wisconsin-women"
+            className="text-secondary font-medium hover:underline"
+          >
+            Why Am I Wired But Exhausted All the Time?
+          </Link>
+          .
         </p>
         <h3 className="text-2xl font-display text-primary mt-8 mb-4">
           The Pregnenolone Steal: How Stress Destroys Sex Hormones

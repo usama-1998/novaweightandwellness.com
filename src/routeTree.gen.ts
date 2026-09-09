@@ -33,6 +33,7 @@ import { Route as BlogNormalTshHypothyroidSymptomsMichiganWisconsinRouteImport }
 import { Route as BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRouteImport } from './routes/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities'
 import { Route as BlogHormonalSleepAnxietyWomenMichiganWisconsinRouteImport } from './routes/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
 import { Route as BlogGainingWeightExhaustedAfter40WisconsinWomenRouteImport } from './routes/blog/gaining-weight-exhausted-after-40-wisconsin-women'
+import { Route as BlogCortisolHpaAxisBurnoutMichiganWisconsinWomenRouteImport } from './routes/blog/cortisol-hpa-axis-burnout-michigan-wisconsin-women'
 import { Route as BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRouteImport } from './routes/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
 
 const WhatWeTreatRoute = WhatWeTreatRouteImport.update({
@@ -165,6 +166,12 @@ const BlogGainingWeightExhaustedAfter40WisconsinWomenRoute =
     path: '/blog/gaining-weight-exhausted-after-40-wisconsin-women',
     getParentRoute: () => rootRouteImport,
   } as any)
+const BlogCortisolHpaAxisBurnoutMichiganWisconsinWomenRoute =
+  BlogCortisolHpaAxisBurnoutMichiganWisconsinWomenRouteImport.update({
+    id: '/blog/cortisol-hpa-axis-burnout-michigan-wisconsin-women',
+    path: '/blog/cortisol-hpa-axis-burnout-michigan-wisconsin-women',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute =
   BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRouteImport.update({
     id: '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin',
@@ -187,6 +194,7 @@ export interface FileRoutesByFullPath {
   '/terms-of-service': typeof TermsOfServiceRoute
   '/what-we-treat': typeof WhatWeTreatRoute
   '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin': typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
+  '/blog/cortisol-hpa-axis-burnout-michigan-wisconsin-women': typeof BlogCortisolHpaAxisBurnoutMichiganWisconsinWomenRoute
   '/blog/gaining-weight-exhausted-after-40-wisconsin-women': typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin': typeof BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute
   '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities': typeof BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRoute
@@ -214,6 +222,7 @@ export interface FileRoutesByTo {
   '/terms-of-service': typeof TermsOfServiceRoute
   '/what-we-treat': typeof WhatWeTreatRoute
   '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin': typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
+  '/blog/cortisol-hpa-axis-burnout-michigan-wisconsin-women': typeof BlogCortisolHpaAxisBurnoutMichiganWisconsinWomenRoute
   '/blog/gaining-weight-exhausted-after-40-wisconsin-women': typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin': typeof BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute
   '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities': typeof BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRoute
@@ -242,6 +251,7 @@ export interface FileRoutesById {
   '/terms-of-service': typeof TermsOfServiceRoute
   '/what-we-treat': typeof WhatWeTreatRoute
   '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin': typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
+  '/blog/cortisol-hpa-axis-burnout-michigan-wisconsin-women': typeof BlogCortisolHpaAxisBurnoutMichiganWisconsinWomenRoute
   '/blog/gaining-weight-exhausted-after-40-wisconsin-women': typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin': typeof BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute
   '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities': typeof BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRoute
@@ -271,6 +281,7 @@ export interface FileRouteTypes {
     | '/terms-of-service'
     | '/what-we-treat'
     | '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
+    | '/blog/cortisol-hpa-axis-burnout-michigan-wisconsin-women'
     | '/blog/gaining-weight-exhausted-after-40-wisconsin-women'
     | '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
     | '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities'
@@ -298,6 +309,7 @@ export interface FileRouteTypes {
     | '/terms-of-service'
     | '/what-we-treat'
     | '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
+    | '/blog/cortisol-hpa-axis-burnout-michigan-wisconsin-women'
     | '/blog/gaining-weight-exhausted-after-40-wisconsin-women'
     | '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
     | '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities'
@@ -325,6 +337,7 @@ export interface FileRouteTypes {
     | '/terms-of-service'
     | '/what-we-treat'
     | '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
+    | '/blog/cortisol-hpa-axis-burnout-michigan-wisconsin-women'
     | '/blog/gaining-weight-exhausted-after-40-wisconsin-women'
     | '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
     | '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities'
@@ -353,6 +366,7 @@ export interface RootRouteChildren {
   TermsOfServiceRoute: typeof TermsOfServiceRoute
   WhatWeTreatRoute: typeof WhatWeTreatRoute
   BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute: typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
+  BlogCortisolHpaAxisBurnoutMichiganWisconsinWomenRoute: typeof BlogCortisolHpaAxisBurnoutMichiganWisconsinWomenRoute
   BlogGainingWeightExhaustedAfter40WisconsinWomenRoute: typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute: typeof BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute
   BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRoute: typeof BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRoute
@@ -536,6 +550,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/blog/cortisol-hpa-axis-burnout-michigan-wisconsin-women': {
+      id: '/blog/cortisol-hpa-axis-burnout-michigan-wisconsin-women'
+      path: '/blog/cortisol-hpa-axis-burnout-michigan-wisconsin-women'
+      fullPath: '/blog/cortisol-hpa-axis-burnout-michigan-wisconsin-women'
+      preLoaderRoute: typeof BlogCortisolHpaAxisBurnoutMichiganWisconsinWomenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin': {
       id: '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
       path: '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
@@ -562,6 +583,8 @@ const rootRouteChildren: RootRouteChildren = {
   WhatWeTreatRoute: WhatWeTreatRoute,
   BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute:
     BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute,
+  BlogCortisolHpaAxisBurnoutMichiganWisconsinWomenRoute:
+    BlogCortisolHpaAxisBurnoutMichiganWisconsinWomenRoute,
   BlogGainingWeightExhaustedAfter40WisconsinWomenRoute:
     BlogGainingWeightExhaustedAfter40WisconsinWomenRoute,
   BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute:
