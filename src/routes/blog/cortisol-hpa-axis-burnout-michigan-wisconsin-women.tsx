@@ -9,6 +9,29 @@ import professionalImg from "@/assets/blog/burnout-professional-woman-milwaukee-
 import lakeshoreImg from "@/assets/blog/cortisol-recovery-lakeshore-morning-walk.jpg";
 import sandwichGenImg from "@/assets/blog/sandwich-generation-burnout-kitchen-morning.jpg";
 import porchImg from "@/assets/blog/cortisol-recovery-calm-porch-michigan.jpg";
+import brainBodyImg from "@/assets/blog/cortisol-hpa-axis-brain-body-connection.jpg";
+import supplementShelfImg from "@/assets/blog/cortisol-adrenal-fatigue-supplement-shelf-skepticism.jpg";
+import hairSheddingImg from "@/assets/blog/cortisol-hair-shedding-hairbrush-bathroom.jpg";
+import bloodPressureImg from "@/assets/blog/cortisol-blood-pressure-check-home-visit.jpg";
+import awakeningResponseImg from "@/assets/blog/cortisol-awakening-response-morning-stretch.jpg";
+import fitnessTrackerImg from "@/assets/blog/cortisol-fitness-tracker-morning-kitchen.jpg";
+import coffeeCupsImg from "@/assets/blog/cortisol-wired-tired-empty-coffee-cups-desk-v2.jpg";
+import threeGenerationsImg from "@/assets/blog/cortisol-three-generations-women-porch.jpg";
+import hotFlashImg from "@/assets/blog/cortisol-perimenopause-hot-flash-kitchen.jpg";
+import coldIntoleranceImg from "@/assets/blog/cortisol-thyroid-cold-intolerance-blanket.jpg";
+import jeansFittingImg from "@/assets/blog/cortisol-weight-gain-jeans-fitting-v2.jpg";
+import gutDiscomfortImg from "@/assets/blog/cortisol-gut-discomfort-dinner-table.jpg";
+import paperworkImg from "@/assets/blog/cortisol-allostatic-load-paperwork-bills.jpg";
+import winterCommuteImg from "@/assets/blog/cortisol-winter-commute-frost-windshield.jpg";
+import doctorWaitingImg from "@/assets/blog/cortisol-doctor-office-waiting-rushed.jpg";
+import labResultsImg from "@/assets/blog/cortisol-lab-results-review-telehealth.jpg";
+import plannerImg from "@/assets/blog/cortisol-root-cause-planner-journaling.jpg";
+import breakfastPrepImg from "@/assets/blog/cortisol-nutrition-protein-breakfast-prep.jpg";
+import breathingImg from "@/assets/blog/cortisol-nervous-system-breathing-exercise.jpg";
+import herbalTeaImg from "@/assets/blog/cortisol-adaptogen-herbal-tea-pour.jpg";
+import strengthTrainingImg from "@/assets/blog/cortisol-movement-strength-training-home.jpg";
+import recoveryCalendarImg from "@/assets/blog/cortisol-recovery-timeline-calendar.jpg";
+import specializedCareImg from "@/assets/blog/cortisol-specialized-care-phone-call.jpg";
 
 export const Route = createFileRoute("/blog/cortisol-hpa-axis-burnout-michigan-wisconsin-women")({
   head: () => ({
@@ -465,6 +488,13 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           2. What the HPA Axis Actually Is
         </h2>
+        <div className="my-10">
+          <img
+            src={brainBodyImg}
+            alt="Woman sitting quietly with her fingers pressed to her temples, representing the brain-to-adrenal signaling described in the HPA axis"
+            className="rounded-2xl shadow-lg w-full object-cover max-h-[400px]"
+          />
+        </div>
         <p className="mb-5">
           The hypothalamic-pituitary-adrenal axis, or HPA axis, is the body's central stress
           response system, and understanding it changes how you understand almost every symptom
@@ -580,6 +610,13 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           3. Why "Adrenal Fatigue" Is the Wrong Term
         </h2>
+        <div className="my-10">
+          <img
+            src={supplementShelfImg}
+            alt="Woman at her kitchen table looking skeptically at a shelf of assorted supplement bottles marketed for adrenal support"
+            className="rounded-2xl shadow-lg w-full object-cover max-h-[400px]"
+          />
+        </div>
         <p className="mb-5">
           It is worth pausing here and being direct about something the wellness industry has
           muddied for two decades: "adrenal fatigue" is not a real diagnosis, and we do not use that
@@ -693,6 +730,13 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           4. What HPA-Axis Dysfunction Actually Feels Like
         </h2>
+        <div className="my-10">
+          <img
+            src={hairSheddingImg}
+            alt="Woman examining strands of hair caught in her hairbrush in a bathroom mirror, one of the overlooked physical signs of cortisol dysfunction"
+            className="rounded-2xl shadow-lg w-full object-cover max-h-[400px]"
+          />
+        </div>
         <p className="mb-5">
           Because HPA-axis dysfunction is a spectrum rather than a single fixed condition, it does
           not present identically in every woman. That said, over years of clinical practice across
@@ -816,6 +860,13 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           5. Ruling Out Addison's Disease and Cushing's Syndrome
         </h2>
+        <div className="my-10">
+          <img
+            src={bloodPressureImg}
+            alt="Healthcare provider checking a patient's blood pressure during a home visit, part of screening for structural adrenal conditions"
+            className="rounded-2xl shadow-lg w-full object-cover max-h-[400px]"
+          />
+        </div>
         <p className="mb-5">
           Before going any further, we need to be clinically precise about something important:
           HPA-axis dysfunction, the functional pattern this article focuses on, is different from
@@ -889,6 +940,13 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           6. The Cortisol Awakening Response and Your Daily Rhythm
         </h2>
+        <div className="my-10">
+          <img
+            src={awakeningResponseImg}
+            alt="Woman stretching as she wakes up with early morning sunlight streaming through her bedroom window, illustrating the cortisol awakening response"
+            className="rounded-2xl shadow-lg w-full object-cover max-h-[400px]"
+          />
+        </div>
         <p className="mb-5">
           One of the most important, and most frequently overlooked, features of healthy cortisol
           physiology is the cortisol awakening response, often abbreviated CAR. In a well-regulated
@@ -936,6 +994,13 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           7. A Healthy Curve vs. a Dysregulated One
         </h2>
+        <div className="my-10">
+          <img
+            src={fitnessTrackerImg}
+            alt="Woman checking a fitness tracker at her kitchen counter, representing the kind of data tracking used to notice cortisol curve patterns"
+            className="rounded-2xl shadow-lg w-full object-cover max-h-[400px]"
+          />
+        </div>
         <p className="mb-5">
           It helps to picture the two curves side by side. A healthy cortisol curve looks like a
           smooth, steep hill: a strong peak in the first hour after waking, a steady, gradual
@@ -977,6 +1042,13 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           8. Three Patterns: Wired, Wired-and-Tired, Flatlined
         </h2>
+        <div className="my-10">
+          <img
+            src={coffeeCupsImg}
+            alt="Woman at an office desk with several empty coffee cups lined up in front of her, illustrating the wired but exhausted pattern"
+            className="rounded-2xl shadow-lg w-full object-cover max-h-[400px]"
+          />
+        </div>
         <p className="mb-5">
           To make this practical rather than purely theoretical, we tend to describe the pattern our
           patients most often fall into using three simplified clinical archetypes. Very few women
@@ -1052,6 +1124,13 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           9. Why Women Are More Physiologically Vulnerable
         </h2>
+        <div className="my-10">
+          <img
+            src={threeGenerationsImg}
+            alt="Three generations of women, grandmother, mother, and daughter, sitting together on a porch swing in a Michigan neighborhood"
+            className="rounded-2xl shadow-lg w-full object-cover max-h-[400px]"
+          />
+        </div>
         <p className="mb-5">
           It is not simply that women report more stress than men, though survey data consistently
           shows that too. There are genuine, measurable physiological reasons why women,
@@ -1124,6 +1203,13 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           10. Where Cortisol and Perimenopause Overlap
         </h2>
+        <div className="my-10">
+          <img
+            src={hotFlashImg}
+            alt="Woman fanning herself at her kitchen table during a hot flash, cheeks flushed, illustrating the overlap between cortisol and perimenopause"
+            className="rounded-2xl shadow-lg w-full object-cover max-h-[400px]"
+          />
+        </div>
         <p className="mb-5">
           One of the most clinically important, and most frequently missed, intersections in women's
           health is the overlap between cortisol dysregulation and perimenopause. The symptom lists
@@ -1198,6 +1284,13 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           11. The Cortisol-Thyroid Connection
         </h2>
+        <div className="my-10">
+          <img
+            src={coldIntoleranceImg}
+            alt="Woman wrapped in a thick blanket on her couch despite a warm-looking living room, illustrating the cold intolerance linked to cortisol and thyroid dysfunction"
+            className="rounded-2xl shadow-lg w-full object-cover max-h-[400px]"
+          />
+        </div>
         <p className="mb-5">
           If you have read our{" "}
           <Link
@@ -1258,6 +1351,13 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           12. Cortisol, Blood Sugar, and Abdominal Weight Gain
         </h2>
+        <div className="my-10">
+          <img
+            src={jeansFittingImg}
+            alt="Woman fastening jeans that fit more tightly around the waist than expected, illustrating cortisol-driven abdominal weight gain"
+            className="rounded-2xl shadow-lg w-full object-cover max-h-[400px]"
+          />
+        </div>
         <p className="mb-5">
           Few things are more frustrating for a patient than doing everything "right", eating
           reasonably, exercising consistently, and still watching weight accumulate specifically
@@ -1448,6 +1548,13 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           14. The Cortisol-Gut Connection
         </h2>
+        <div className="my-10">
+          <img
+            src={gutDiscomfortImg}
+            alt="Woman at a dinner table resting a hand on her stomach with mild discomfort, illustrating the cortisol-gut connection"
+            className="rounded-2xl shadow-lg w-full object-cover max-h-[400px]"
+          />
+        </div>
         <p className="mb-5">
           Digestive symptoms, bloating, irregular bowel habits, new food sensitivities, and a
           general sense that your gut has become far more reactive than it used to be, are another
@@ -1501,6 +1608,13 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           15. Allostatic Load: How Chronic Stress Accumulates
         </h2>
+        <div className="my-10">
+          <img
+            src={paperworkImg}
+            alt="Woman at a home office desk late at night surrounded by paperwork and bills, rubbing her tired eyes, illustrating accumulated allostatic load"
+            className="rounded-2xl shadow-lg w-full object-cover max-h-[400px]"
+          />
+        </div>
         <p className="mb-5">
           To understand why chronic stress produces such wide-ranging physical effects, it helps to
           understand a concept called allostatic load, developed largely through the work of
@@ -1604,6 +1718,13 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           16. The Michigan and Wisconsin Factor
         </h2>
+        <div className="my-10">
+          <img
+            src={winterCommuteImg}
+            alt="Woman scraping frost off her car windshield in early morning darkness, breath visible in the cold, illustrating the Michigan and Wisconsin winter factor"
+            className="rounded-2xl shadow-lg w-full object-cover max-h-[400px]"
+          />
+        </div>
         <p className="mb-5">
           We treat women exclusively across Michigan and Wisconsin, and over years of practice, we
           have come to recognize a regional pattern that deserves its own honest discussion rather
@@ -1834,6 +1955,13 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           19. Why Standard Testing Misses This Entirely
         </h2>
+        <div className="my-10">
+          <img
+            src={doctorWaitingImg}
+            alt="Woman waiting on an exam table in a doctor's office with a wall clock visible, illustrating the short visit window standard care allows"
+            className="rounded-2xl shadow-lg w-full object-cover max-h-[400px]"
+          />
+        </div>
         <p className="mb-5">
           If HPA-axis dysfunction is as common and as consequential as the research suggests, a
           reasonable question is why it is so rarely identified in a standard medical visit. The
@@ -2120,6 +2248,13 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           21. How We Interpret Your Results
         </h2>
+        <div className="my-10">
+          <img
+            src={labResultsImg}
+            alt="Woman closely reviewing a printed lab report next to her laptop during a telehealth results review call"
+            className="rounded-2xl shadow-lg w-full object-cover max-h-[400px]"
+          />
+        </div>
         <p className="mb-5">
           Interpreting a comprehensive cortisol panel is not simply a matter of checking whether
           each number falls within a printed reference range. As with the thyroid testing discussed
@@ -2239,6 +2374,13 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           22. The Root-Cause Treatment Framework
         </h2>
+        <div className="my-10">
+          <img
+            src={plannerImg}
+            alt="Woman writing in a paper planner at her kitchen table with a cup of tea, organizing her root-cause treatment plan"
+            className="rounded-2xl shadow-lg w-full object-cover max-h-[400px]"
+          />
+        </div>
         <p className="mb-5">
           Once we understand your specific cortisol pattern and the broader physiological context
           surrounding it, treatment is built around four interconnected pillars. None of these
@@ -2322,6 +2464,13 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           23. Nutrition and Blood Sugar Stability
         </h2>
+        <div className="my-10">
+          <img
+            src={breakfastPrepImg}
+            alt="Overhead view of hands preparing a protein-rich breakfast with eggs and avocado on a wooden cutting board"
+            className="rounded-2xl shadow-lg w-full object-cover max-h-[400px]"
+          />
+        </div>
         <p className="mb-5">
           Because blood sugar swings so directly trigger compensatory cortisol release, as described
           in Section 12, stabilizing glucose is often the single highest-leverage nutritional change
@@ -2524,6 +2673,13 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           25. Nervous System Regulation That Actually Works
         </h2>
+        <div className="my-10">
+          <img
+            src={breathingImg}
+            alt="Woman sitting cross-legged on a rug at home with one hand on her chest, eyes closed, practicing deep breathing for nervous system regulation"
+            className="rounded-2xl shadow-lg w-full object-cover max-h-[400px]"
+          />
+        </div>
         <p className="mb-5">
           "Manage your stress" is technically accurate advice that is almost useless in practice
           without specifics, and it is often the only guidance women receive before being sent home
@@ -2638,6 +2794,13 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           26. Evidence-Based Adaptogens and Nutraceuticals
         </h2>
+        <div className="my-10">
+          <img
+            src={herbalTeaImg}
+            alt="Close-up of hands pouring hot water over loose herbal tea leaves into a glass mug on a wooden kitchen counter"
+            className="rounded-2xl shadow-lg w-full object-cover max-h-[400px]"
+          />
+        </div>
         <p className="mb-5">
           The supplement market for "adrenal support" is enormous, poorly regulated, and full of
           products with little to no clinical evidence behind them. We take a deliberately narrow
@@ -2745,6 +2908,13 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           27. Movement: Why More Isn't Better Right Now
         </h2>
+        <div className="my-10">
+          <img
+            src={strengthTrainingImg}
+            alt="Woman doing a moderate bodyweight and dumbbell strength exercise in a home living room, focused calm effort"
+            className="rounded-2xl shadow-lg w-full object-cover max-h-[400px]"
+          />
+        </div>
         <p className="mb-5">
           This is often the most counterintuitive part of the conversation for the high-achieving
           professional women described in Section 18, many of whom have spent years believing that
@@ -3119,6 +3289,13 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           30. The Recovery Timeline: What to Expect
         </h2>
+        <div className="my-10">
+          <img
+            src={recoveryCalendarImg}
+            alt="Woman circling a date on a wall calendar in her kitchen with a small hopeful smile, marking progress in her recovery"
+            className="rounded-2xl shadow-lg w-full object-cover max-h-[400px]"
+          />
+        </div>
         <p className="mb-5">
           One of the most common questions we receive, understandably, is how long recovery actually
           takes. While every case is individual, and the answer depends heavily on how long the
@@ -3201,6 +3378,13 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           31. When Symptoms Warrant Specialized or Emergency Care
         </h2>
+        <div className="my-10">
+          <img
+            src={specializedCareImg}
+            alt="Woman sitting on a couch making a phone call with a concerned but composed expression, seeking specialized care"
+            className="rounded-2xl shadow-lg w-full object-cover max-h-[400px]"
+          />
+        </div>
         <p className="mb-5">
           We want to close the clinical portion of this guide by repeating something raised earlier,
           because it deserves emphasis rather than a single mention. This article describes a
