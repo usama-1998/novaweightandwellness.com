@@ -9,7 +9,6 @@ import sleepAnxietyHeroImg from "@/assets/blog/sleep-anxiety-hero-3am-awake.webp
 import pcosHeroImg from "@/assets/blog/pcos-hero-confident-woman-30s.webp";
 import brainFogHeroImg from "@/assets/blog/brain-fog-hero-woman-office.webp";
 import citiesHeroImg from "@/assets/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-hero.webp";
-import mrtHeroImg from "@/assets/blog/mrt-food-sensitivity-hero.webp";
 import mucosalHeroImg from "@/assets/blog/mucosal-barrier-hero.webp";
 import { Clock, ArrowRight, Calendar } from "lucide-react";
 
@@ -65,20 +64,6 @@ const articles = [
       "Michigan woman reflecting on chronic digestive and autoimmune symptoms while considering mucosal barrier testing",
     category: "Gut Health & Functional Medicine",
     date: "September 15, 2026",
-    readTime: "54 min read",
-    author: "Kathryn Long, NP-C",
-  },
-  {
-    slug: "food-sensitivity-testing-mrt-michigan-wisconsin-women",
-    title:
-      "Why 'Healthy' Foods Might Be Making You Sick: The Honest Guide to MRT Food Sensitivity Testing",
-    excerpt:
-      "Bloating, joint pain, brain fog, and weight resistance from 'healthy' foods? An honest, evidence-based guide to the MRT (Mediator Release Test) and LEAP protocol for women in Michigan and Wisconsin, including why IgG testing fails.",
-    image: mrtHeroImg,
-    imageAlt:
-      "Thoughtful woman in Michigan preparing a fresh meal while considering food sensitivity testing and elimination diet options",
-    category: "Gut Health & Nutrition",
-    date: "September 10, 2026",
     readTime: "54 min read",
     author: "Kathryn Long, NP-C",
   },

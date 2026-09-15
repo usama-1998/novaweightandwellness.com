@@ -22,11 +22,6 @@ export const Route = createFileRoute("/sitemap.xml")({
             changefreq: "monthly",
           },
           {
-            path: "/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women",
-            priority: "1.0",
-            changefreq: "monthly",
-          },
-          {
             path: "/blog/normal-tsh-hypothyroid-symptoms-michigan-wisconsin",
             priority: "1.0",
             changefreq: "monthly",
