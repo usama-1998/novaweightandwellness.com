@@ -89,9 +89,19 @@ function BlogComponent() {
       breadcrumbTitle="The Ultimate Guide to Hormones and Weight Resistance Over 40"
       faqSchema={faqSchema}
       relatedPosts={[
-        { slug: "why-michigan-women-over-40-cant-lose-weight-feel-exhausted", title: "Why Can't I Lose Weight in My 40s? (And Why You're Always Tired)" },
-        { slug: "gaining-weight-exhausted-after-40-wisconsin-women", title: "Gaining Weight and Exhausted After 40? What Every Wisconsin Woman Needs to Know" },
-        { slug: "ozempic-not-working-michigan-wisconsin-women", title: "Why Am I Not Losing Weight on Ozempic? A Functional Medicine Perspective for Michigan and Wisconsin Women" },
+        {
+          slug: "why-michigan-women-over-40-cant-lose-weight-feel-exhausted",
+          title: "Why Can't I Lose Weight in My 40s? (And Why You're Always Tired)",
+        },
+        {
+          slug: "gaining-weight-exhausted-after-40-wisconsin-women",
+          title: "Gaining Weight and Exhausted After 40? What Every Wisconsin Woman Needs to Know",
+        },
+        {
+          slug: "ozempic-not-working-michigan-wisconsin-women",
+          title:
+            "Why Am I Not Losing Weight on Ozempic? A Functional Medicine Perspective for Michigan and Wisconsin Women",
+        },
       ]}
     >
       <section id="introduction-the-midlife-shift">
@@ -916,7 +926,22 @@ function BlogComponent() {
             reduce systemic inflammation, we must know exactly what is living in your gut. A GI-MAP
             uses advanced DNA-PCR technology to identify pathogenic bacteria, parasites, fungal
             overgrowths (like Candida), H. Pylori infections, and markers for leaky gut (Zonulin)
-            and mucosal immunity (Secretory IgA).
+            and mucosal immunity (Secretory IgA). We cover the gut barrier side of this in much
+            greater depth, including the honest limitations of serum zonulin testing, in our{" "}
+            <Link
+              to="/blog/leaky-gut-mucosal-barrier-test-michigan-wisconsin-women"
+              className="text-secondary hover:underline"
+            >
+              full guide to the Mucosal Barrier Assessment
+            </Link>
+            , and we cover how specific foods can independently drive inflammation in our{" "}
+            <Link
+              to="/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women"
+              className="text-secondary hover:underline"
+            >
+              guide to MRT food sensitivity testing
+            </Link>
+            .
           </li>
           <li>
             <strong>Advanced Cardiometabolic Panels:</strong> We look far beyond a standard

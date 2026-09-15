@@ -9,6 +9,8 @@ import sleepAnxietyHeroImg from "@/assets/blog/sleep-anxiety-hero-3am-awake.webp
 import pcosHeroImg from "@/assets/blog/pcos-hero-confident-woman-30s.webp";
 import brainFogHeroImg from "@/assets/blog/brain-fog-hero-woman-office.webp";
 import citiesHeroImg from "@/assets/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-hero.webp";
+import mrtHeroImg from "@/assets/blog/mrt-food-sensitivity-hero.webp";
+import mucosalHeroImg from "@/assets/blog/mucosal-barrier-hero.webp";
 import { Clock, ArrowRight, Calendar } from "lucide-react";
 
 export const Route = createFileRoute("/blog/")({
@@ -53,12 +55,42 @@ export const Route = createFileRoute("/blog/")({
 
 const articles = [
   {
+    slug: "leaky-gut-mucosal-barrier-test-michigan-wisconsin-women",
+    title:
+      "Leaky Gut Is Real, But Most Tests for It Aren't: The Honest Guide to the Mucosal Barrier Assessment",
+    excerpt:
+      "An honest, evidence-based guide to intestinal permeability, why standard GI testing misses it, the serum zonulin controversy, and how the saliva-based Mucosal Barrier Assessment works for women in Michigan and Wisconsin.",
+    image: mucosalHeroImg,
+    imageAlt:
+      "Michigan woman reflecting on chronic digestive and autoimmune symptoms while considering mucosal barrier testing",
+    category: "Gut Health & Functional Medicine",
+    date: "September 15, 2026",
+    readTime: "54 min read",
+    author: "Kathryn Long, NP-C",
+  },
+  {
+    slug: "food-sensitivity-testing-mrt-michigan-wisconsin-women",
+    title:
+      "Why 'Healthy' Foods Might Be Making You Sick: The Honest Guide to MRT Food Sensitivity Testing",
+    excerpt:
+      "Bloating, joint pain, brain fog, and weight resistance from 'healthy' foods? An honest, evidence-based guide to the MRT (Mediator Release Test) and LEAP protocol for women in Michigan and Wisconsin, including why IgG testing fails.",
+    image: mrtHeroImg,
+    imageAlt:
+      "Thoughtful woman in Michigan preparing a fresh meal while considering food sensitivity testing and elimination diet options",
+    category: "Gut Health & Nutrition",
+    date: "September 10, 2026",
+    readTime: "54 min read",
+    author: "Kathryn Long, NP-C",
+  },
+  {
     slug: "normal-tsh-hypothyroid-symptoms-michigan-wisconsin",
-    title: "My TSH is 'Normal' But I'm Freezing, Losing Hair, and Exhausted: Why Standard Thyroid Tests Fail Women in Their 30s & 40s",
+    title:
+      "My TSH is 'Normal' But I'm Freezing, Losing Hair, and Exhausted: Why Standard Thyroid Tests Fail Women in Their 30s & 40s",
     excerpt:
       "Freezing, losing hair, and gaining weight despite normal TSH labs? An authoritative functional medicine guide to full thyroid panels, T4 to T3 conversion, and Hashimoto's for women in Michigan and Wisconsin.",
     image: thyroidHeroImg,
-    imageAlt: "Thoughtful woman in Michigan sitting near a window reflecting on thyroid health and vitality",
+    imageAlt:
+      "Thoughtful woman in Michigan sitting near a window reflecting on thyroid health and vitality",
     category: "Thyroid & Autoimmunity",
     date: "August 20, 2026",
     readTime: "58 min read",
@@ -66,7 +98,8 @@ const articles = [
   },
   {
     slug: "medical-weight-loss-hormone-therapy-michigan-wisconsin-cities",
-    title: "Medical Weight Loss and Hormone Therapy in Michigan & Wisconsin: The Complete City-by-City Guide",
+    title:
+      "Medical Weight Loss and Hormone Therapy in Michigan & Wisconsin: The Complete City-by-City Guide",
     excerpt:
       "See how medical weight loss and hormone therapy reach every Michigan and Wisconsin city, from Grand Rapids to Madison, plus smaller towns and rural communities. Find your city inside.",
     image: citiesHeroImg,
@@ -78,11 +111,13 @@ const articles = [
   },
   {
     slug: "perimenopause-brain-fog-memory-michigan-wisconsin",
-    title: "Why Can't I Remember Anything Anymore? Perimenopausal Brain Fog vs. Something More Serious",
+    title:
+      "Why Can't I Remember Anything Anymore? Perimenopausal Brain Fog vs. Something More Serious",
     excerpt:
       "Losing words mid-sentence, forgetting why you walked into a room, secretly worried it's early dementia? An honest guide to perimenopausal brain fog, the real science behind it, and when memory changes actually warrant further evaluation. For women in Michigan and Wisconsin.",
     image: brainFogHeroImg,
-    imageAlt: "Woman in Michigan experiencing perimenopause brain fog at work, pausing thoughtfully at her desk",
+    imageAlt:
+      "Woman in Michigan experiencing perimenopause brain fog at work, pausing thoughtfully at her desk",
     category: "Cognitive Health & Perimenopause",
     date: "August 7, 2026",
     readTime: "44 min read",
@@ -94,7 +129,8 @@ const articles = [
     excerpt:
       "Diagnosed years ago and never properly managed, or never diagnosed at all? A root-cause guide to PCOS, insulin resistance, and weight resistance for women in their 30s in Michigan and Wisconsin.",
     image: pcosHeroImg,
-    imageAlt: "Confident woman in her 30s in Wisconsin managing PCOS and weight resistance in her everyday life",
+    imageAlt:
+      "Confident woman in her 30s in Wisconsin managing PCOS and weight resistance in her everyday life",
     category: "PCOS & Insulin Resistance",
     date: "July 29, 2026",
     readTime: "32 min read",
@@ -106,7 +142,8 @@ const articles = [
     excerpt:
       "Waking up at 3am with a racing heart? New anxiety that feels different from anything before? An honest guide to the hormonal mechanics behind sleep disruption and anxiety in your late 30s and 40s, for women in Michigan and Wisconsin.",
     image: sleepAnxietyHeroImg,
-    imageAlt: "Woman in Michigan awake at 3am with hormonal sleep disruption, checking the clock beside her bed",
+    imageAlt:
+      "Woman in Michigan awake at 3am with hormonal sleep disruption, checking the clock beside her bed",
     category: "Sleep & Anxiety",
     date: "July 28, 2026",
     readTime: "47 min read",
@@ -114,11 +151,13 @@ const articles = [
   },
   {
     slug: "bioidentical-hormone-therapy-guide-michigan-wisconsin",
-    title: "The Complete Guide to Bioidentical Hormone Therapy: Risks, Benefits, and What Actually Happens",
+    title:
+      "The Complete Guide to Bioidentical Hormone Therapy: Risks, Benefits, and What Actually Happens",
     excerpt:
       "Considering BHRT? An honest, thoroughly sourced guide covering what the 2002 WHI study actually found (and got wrong), delivery methods compared, who is and isn't a good candidate, and what to expect. For women in Michigan and Wisconsin.",
     image: bhrtHeroImg,
-    imageAlt: "Woman in Michigan discussing bioidentical hormone therapy options with her provider during a calm telehealth consultation",
+    imageAlt:
+      "Woman in Michigan discussing bioidentical hormone therapy options with her provider during a calm telehealth consultation",
     category: "Hormone Therapy",
     date: "July 27, 2026",
     readTime: "31 min read",
@@ -126,7 +165,8 @@ const articles = [
   },
   {
     slug: "perimenopause-in-your-30s-michigan-wisconsin",
-    title: "Perimenopause Isn't Just an Over-40 Thing: The Complete Guide for Women in Their Mid-30s",
+    title:
+      "Perimenopause Isn't Just an Over-40 Thing: The Complete Guide for Women in Their Mid-30s",
     excerpt:
       "Think you're too young for perimenopause at 35? You're not. A decade-by-decade guide to early perimenopause symptoms, why doctors miss it in your 30s, and what to do now instead of waiting five years for answers.",
     image: perimenopauseHeroImg,
@@ -138,11 +178,13 @@ const articles = [
   },
   {
     slug: "ozempic-not-working-michigan-wisconsin-women",
-    title: "Why Am I Not Losing Weight on Ozempic? A Functional Medicine Perspective for Michigan and Wisconsin Women",
+    title:
+      "Why Am I Not Losing Weight on Ozempic? A Functional Medicine Perspective for Michigan and Wisconsin Women",
     excerpt:
       "Ozempic plateau? Discover the 6 root causes your doctor isn't checking, including thyroid dysfunction, perimenopause hormones, insulin resistance, muscle loss, and nutrient depletion. A comprehensive functional medicine guide for women in Michigan and Wisconsin.",
     image: ozempicHeroImg,
-    imageAlt: "Woman in her 40s in Michigan considering weight loss options including Ozempic, sitting contemplatively at her kitchen table",
+    imageAlt:
+      "Woman in her 40s in Michigan considering weight loss options including Ozempic, sitting contemplatively at her kitchen table",
     category: "GLP-1 & Weight Loss",
     date: "July 23, 2026",
     readTime: "32 min read",
