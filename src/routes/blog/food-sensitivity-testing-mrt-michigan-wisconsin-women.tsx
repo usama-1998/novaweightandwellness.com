@@ -12,6 +12,32 @@ import mrtTriggerFoodsImg from "@/assets/blog/mrt-trigger-foods-flatlay.webp";
 import mrtBloatingImg from "@/assets/blog/mrt-bloating-discomfort.webp";
 import mrtHormoneImg from "@/assets/blog/mrt-hormone-contemplative.webp";
 import mrtWinterTelehealthImg from "@/assets/blog/mrt-winter-telehealth.webp";
+import mrtAllergyTypesImg from "@/assets/blog/mrt-allergy-types-flatlay.webp";
+import mrtPrevalenceImg from "@/assets/blog/mrt-prevalence-research.webp";
+import mrtHistoryImg from "@/assets/blog/mrt-history-journals.webp";
+import mrtIggVialImg from "@/assets/blog/mrt-igg-blood-vial.webp";
+import mrtTestKitImg from "@/assets/blog/mrt-test-kit-comparison.webp";
+import mrtMediatorLabImg from "@/assets/blog/mrt-mediator-release-lab.webp";
+import mrtComparisonChartsImg from "@/assets/blog/mrt-comparison-charts.webp";
+import mrtSupportSystemImg from "@/assets/blog/mrt-support-system.webp";
+import mrtEvaluationVisitsImg from "@/assets/blog/mrt-evaluation-visits.webp";
+import mrtSupplementsImg from "@/assets/blog/mrt-supplements-flatlay.webp";
+import mrtEmotionalImg from "@/assets/blog/mrt-emotional-elimination.webp";
+import mrtBalancedPlateImg from "@/assets/blog/mrt-balanced-plate.webp";
+import mrtRotationPlannerImg from "@/assets/blog/mrt-rotation-planner.webp";
+import mrtVagusBreathingImg from "@/assets/blog/mrt-vagus-breathing.webp";
+import mrtGlutenFreeImg from "@/assets/blog/mrt-gluten-free-flatlay.webp";
+import mrtPatientJourneyImg from "@/assets/blog/mrt-patient-journey-portrait.webp";
+import mrtRecoveryCalendarImg from "@/assets/blog/mrt-recovery-calendar.webp";
+import mrtDoubleBlindImg from "@/assets/blog/mrt-double-blind-challenge.webp";
+import mrtResearchHonestyImg from "@/assets/blog/mrt-research-honesty.webp";
+import mrtProviderQuestionsImg from "@/assets/blog/mrt-provider-questions.webp";
+import mrtCostReviewImg from "@/assets/blog/mrt-cost-review.webp";
+import mrtCareCoordinationImg from "@/assets/blog/mrt-care-coordination.webp";
+import mrtSymptomTrackerImg from "@/assets/blog/mrt-symptom-tracker.webp";
+import mrtRealisticExpectationsImg from "@/assets/blog/mrt-realistic-expectations.webp";
+import mrtCandidacyConsultImg from "@/assets/blog/mrt-candidacy-consult.webp";
+import mrtAlternativePathImg from "@/assets/blog/mrt-alternative-path.webp";
 
 export const Route = createFileRoute("/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women")(
   {
@@ -656,6 +682,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           Allergy, Intolerance, and Sensitivity: Three Genuinely Different Things
         </h2>
+        <img
+          src={mrtAllergyTypesImg}
+          alt="Peanuts, shellfish, and milk with a magnifying glass, illustrating the difference between food allergy, intolerance, and sensitivity"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Before we go any further, we need to establish precise vocabulary, because the words
           "allergy," "intolerance," and "sensitivity" get used interchangeably in casual
@@ -762,6 +796,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           How Common Is Food Sensitivity, Really? What Prevalence Estimates Can and Cannot Tell Us
         </h2>
+        <img
+          src={mrtPrevalenceImg}
+          alt="Woman researching food sensitivity prevalence data on her laptop at a bright home office desk"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Before we go further into testing methodology, it is worth pausing on a question almost
           every patient eventually asks in one form or another: is this actually common, or am I an
@@ -825,6 +867,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           A Brief History of Food Sensitivity as a Clinical Idea
         </h2>
+        <img
+          src={mrtHistoryImg}
+          alt="Stack of vintage medical journals on a wooden desk representing the history of food sensitivity as a clinical idea"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Understanding how we arrived at today's confusing landscape of food sensitivity testing
           options helps make sense of why so much skepticism, and so much genuine promise, coexist
@@ -890,6 +940,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           Why the IgG Test You've Probably Heard Of Is Not Reliable
         </h2>
+        <img
+          src={mrtIggVialImg}
+          alt="Unbranded blood sample vial representing the IgG food antibody test that is not recommended by major allergy organizations"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           If you have looked into food sensitivity testing before, there is a strong chance you
           encountered a test measuring food-specific IgG or IgG4 antibodies, sometimes marketed
@@ -994,6 +1052,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           Other Food Sensitivity Tests You May Encounter (and Why We Don't Use Them)
         </h2>
+        <img
+          src={mrtTestKitImg}
+          alt="Several unbranded medical test tubes and sample kits arranged on a white surface, representing the many food sensitivity tests on the market"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           IgG testing is not the only questionable methodology marketed under the broad "food
           sensitivity testing" umbrella. Given how much money and hope women spend chasing answers
@@ -1076,6 +1142,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           What MRT Actually Measures: Mediator Release, Not Antibodies
         </h2>
+        <img
+          src={mrtMediatorLabImg}
+          alt="Glowing light passing through liquid in laboratory test tubes, representing what MRT actually measures at the mediator release level"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Given everything we just walked through about IgG testing, you might reasonably ask why we
           are discussing another food sensitivity test at all rather than dismissing the entire
@@ -1290,6 +1364,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           MRT vs. IgG Testing: A Direct Mechanism-Level Comparison
         </h2>
+        <img
+          src={mrtComparisonChartsImg}
+          alt="Woman comparing two printed charts side by side, illustrating the mechanism-level comparison between MRT and IgG testing"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Given how often these two tests are confused with one another, or lumped together as
           though they represent the same category of "food sensitivity testing," I think a direct
@@ -1465,6 +1547,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           Building a Support System During the Process
         </h2>
+        <img
+          src={mrtSupportSystemImg}
+          alt="Two women having a warm, supportive conversation over coffee at a kitchen table during the elimination diet process"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Beyond your clinical provider, having some form of practical support during the
           elimination and reintroduction weeks meaningfully improves the odds of completing the
@@ -1509,6 +1599,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           What a Comprehensive Evaluation Actually Looks Like, Visit by Visit
         </h2>
+        <img
+          src={mrtEvaluationVisitsImg}
+          alt="Michigan woman on a telehealth video call holding a calendar planner during a visit-by-visit MRT evaluation"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           It helps to walk through the entire process concretely, visit by visit, so you know
           exactly what to expect and can compare it against what any provider you are considering
@@ -1749,6 +1847,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           Supplements and Anti-Inflammatory Support During Elimination
         </h2>
+        <img
+          src={mrtSupplementsImg}
+          alt="Turmeric, ginger, and omega oil supplements arranged on a wooden table representing anti-inflammatory support during elimination"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Patients frequently ask whether a specific supplement can accelerate the elimination phase
           or make reintroduction go more smoothly. I want to address this directly and honestly,
@@ -1801,6 +1907,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           The Emotional Side of Elimination Diets: What We Don't Talk About Enough
         </h2>
+        <img
+          src={mrtEmotionalImg}
+          alt="Woman sitting quietly at a table looking at a limited plate of food, capturing the emotional side of elimination diets"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Clinical articles about elimination diets tend to focus almost exclusively on the physical
           mechanics, what to eat, what to avoid, how long to wait between reintroductions, and skip
@@ -1958,6 +2072,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           Nutritional Adequacy During Elimination: Protecting Your Health While You Investigate
         </h2>
+        <img
+          src={mrtBalancedPlateImg}
+          alt="Colorful balanced plate with lean protein, vegetables, and healthy fats representing nutritional adequacy during an elimination diet"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           An elimination diet, done carelessly, can create its own health problems, most commonly
           inadequate protein, calcium, fiber, or overall caloric intake if a significant category of
@@ -2019,6 +2141,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           Rotation Diets: A Long-Term Strategy Beyond the Initial LEAP Process
         </h2>
+        <img
+          src={mrtRotationPlannerImg}
+          alt="Weekly meal planner notebook open on a kitchen table representing a long-term food rotation diet strategy"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Once the elimination and reintroduction phases are complete, many women benefit from a
           long-term eating strategy called a rotation diet, which is worth understanding as a
@@ -2174,6 +2304,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           The Vagus Nerve, Chronic Stress, and Food Reactivity: A Two-Way Street
         </h2>
+        <img
+          src={mrtVagusBreathingImg}
+          alt="Woman practicing calm deep breathing at home, illustrating the two-way street between the vagus nerve, chronic stress, and food reactivity"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           One dimension of food reactivity that is easy to overlook, because it does not show up on
           any laboratory report, is the profound, well-documented connection between your nervous
@@ -2425,6 +2563,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           Non-Celiac Gluten Sensitivity: A Special Case Worth Its Own Section
         </h2>
+        <img
+          src={mrtGlutenFreeImg}
+          alt="Wheat bread contrasted with almond flour and gluten free alternatives, illustrating non-celiac gluten sensitivity"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Gluten deserves particular attention because it sits at the intersection of three
           genuinely different diagnostic categories, and untangling them clearly is one of the more
@@ -2530,6 +2676,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           Four Michigan and Wisconsin Women, Four Real Clinical Journeys
         </h2>
+        <img
+          src={mrtPatientJourneyImg}
+          alt="Confident, hopeful Michigan woman representing the four composite clinical journeys described in this section"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Case details in the following stories have been altered to protect patient privacy, but
           the clinical patterns themselves are representative of what we see regularly in practice.
@@ -2639,6 +2793,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           The Full Recovery Timeline: What to Expect Across the Entire Process
         </h2>
+        <img
+          src={mrtRecoveryCalendarImg}
+          alt="Rustic wall calendar with a pen in a cozy kitchen representing the full recovery timeline across the food sensitivity process"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Pulling together everything covered in the elimination and reintroduction sections above,
           here is a consolidated, realistic view of how the full process tends to unfold from the
@@ -2733,6 +2895,14 @@ function BlogComponent() {
           The Gold Standard: What a Double-Blind, Placebo-Controlled Food Challenge Actually Looks
           Like
         </h2>
+        <img
+          src={mrtDoubleBlindImg}
+          alt="Two identical unmarked food sample containers on a lab tray, symbolizing a double-blind, placebo-controlled food challenge"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           To evaluate any food reactivity test fairly, it helps to understand what the actual
           gold-standard method for confirming a food reaction looks like in rigorous clinical
@@ -2807,6 +2977,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           What the Research Doesn't Fully Answer Yet
         </h2>
+        <img
+          src={mrtResearchHonestyImg}
+          alt="Woman reading research papers at a wooden desk, reflecting an honest look at what MRT research does not yet fully answer"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           This is, in many ways, the most important section of this entire article, and I want to
           give it the same honest, unflinching treatment we give the WHI study in our article on
@@ -2965,6 +3143,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           Questions to Ask Before Choosing a Provider for This Process
         </h2>
+        <img
+          src={mrtProviderQuestionsImg}
+          alt="Woman writing a list of questions in a small notebook before choosing a provider for MRT testing"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Given everything covered in this article, here is a practical checklist of questions worth
           asking directly, whether you are considering our practice or any other provider offering
@@ -3026,6 +3212,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           Cost and Access: An Honest Breakdown
         </h2>
+        <img
+          src={mrtCostReviewImg}
+          alt="Wisconsin woman calmly reviewing a bill and calculator at her kitchen table while considering MRT testing costs"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           As with our article on bioidentical hormone therapy, we are intentionally not quoting a
           specific dollar figure here, because lab and consultation pricing changes over time and a
@@ -3258,6 +3452,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           Coordinating Care With Your Other Providers
         </h2>
+        <img
+          src={mrtCareCoordinationImg}
+          alt="Michigan woman taking notes during a phone call coordinating food sensitivity care with her other healthcare providers"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Food sensitivity evaluation rarely happens in isolation, and it should not. Most women who
           pursue MRT testing are already working with a primary care provider, and many are also
@@ -3314,6 +3516,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           Building Your Own Symptom-Tracking Framework
         </h2>
+        <img
+          src={mrtSymptomTrackerImg}
+          alt="Close-up of a woman's hands writing in a food and symptom journal notebook at her kitchen table"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Whether or not you pursue MRT testing, a rigorous, consistent symptom-tracking framework
           is genuinely one of the most useful tools available to you, and it costs nothing but a few
@@ -3466,6 +3676,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           Setting Realistic Expectations: What Success Actually Looks Like
         </h2>
+        <img
+          src={mrtRealisticExpectationsImg}
+          alt="Calm, hopeful woman looking out a window, representing realistic expectations for what success with MRT testing looks like"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Before moving into candidacy specifically, I want to define success honestly, because an
           unrealistic definition set at the outset is one of the most common reasons a genuinely
@@ -3517,6 +3735,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           Who Is (and Isn't) a Good Candidate for MRT Testing
         </h2>
+        <img
+          src={mrtCandidacyConsultImg}
+          alt="Woman in a thoughtful telehealth consultation considering whether she is a good candidate for MRT testing"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Consistent with how we handled candidacy in our bioidentical hormone therapy guide, I want
           to be direct here rather than presenting MRT as universally appropriate. A responsible
@@ -3631,6 +3857,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           What Happens If You Don't Pursue Testing At All
         </h2>
+        <img
+          src={mrtAlternativePathImg}
+          alt="Woman journaling alone at home in the evening, reflecting on the alternative path of not pursuing MRT testing at all"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Not every woman reading this article will decide MRT testing is the right next step for
           her, and I want to spend a moment honoring that choice directly, since a genuinely

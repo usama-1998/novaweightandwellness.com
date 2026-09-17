@@ -12,6 +12,29 @@ import mucosalWisconsinTelehealthImg from "@/assets/blog/mucosal-barrier-wiscons
 import mucosalTeaSunriseImg from "@/assets/blog/mucosal-barrier-tea-sunrise.webp";
 import mucosalWinterVisitImg from "@/assets/blog/mucosal-barrier-winter-laptop-visit.webp";
 import mucosalLeafMacroImg from "@/assets/blog/mucosal-barrier-leaf-macro.webp";
+import mucosalPermeabilityImg from "@/assets/blog/mucosal-permeability-concept.webp";
+import mucosalMicrobiomeImg from "@/assets/blog/mucosal-microbiome-garden.webp";
+import mucosalMythsImg from "@/assets/blog/mucosal-myths-reading.webp";
+import mucosalClinicWaitingImg from "@/assets/blog/mucosal-clinic-waiting.webp";
+import mucosalComparisonNotesImg from "@/assets/blog/mucosal-comparison-notes.webp";
+import mucosalZonulinVialImg from "@/assets/blog/mucosal-zonulin-blood-vial.webp";
+import mucosalSigaWebImg from "@/assets/blog/mucosal-siga-web-macro.webp";
+import mucosalGlutenBreadImg from "@/assets/blog/mucosal-gluten-bread-flatlay.webp";
+import mucosalCandidaDietImg from "@/assets/blog/mucosal-candida-diet-flatlay.webp";
+import mucosalLabReportImg from "@/assets/blog/mucosal-lab-report-review.webp";
+import mucosalFamilyHistoryImg from "@/assets/blog/mucosal-family-history.webp";
+import mucosalPerimenopauseImg from "@/assets/blog/mucosal-perimenopause-window.webp";
+import mucosalBrainFogImg from "@/assets/blog/mucosal-brain-fog-desk.webp";
+import mucosalResearchHonestyImg from "@/assets/blog/mucosal-research-honesty.webp";
+import mucosalTriedEverythingImg from "@/assets/blog/mucosal-tried-everything.webp";
+import mucosalPatientJourneyImg from "@/assets/blog/mucosal-patient-journey-portrait.webp";
+import mucosalEvaluationChecklistImg from "@/assets/blog/mucosal-evaluation-checklist.webp";
+import mucosalSymptomTrackerImg from "@/assets/blog/mucosal-symptom-tracker.webp";
+import mucosalCostReviewImg from "@/assets/blog/mucosal-cost-review.webp";
+import mucosalMidwestFarmhouseImg from "@/assets/blog/mucosal-midwest-farmhouse.webp";
+import mucosalCareCoordinationImg from "@/assets/blog/mucosal-care-coordination.webp";
+import mucosalRecoveryCalendarImg from "@/assets/blog/mucosal-recovery-calendar.webp";
+import mucosalUrgentCareImg from "@/assets/blog/mucosal-urgent-care-signal.webp";
 
 export const Route = createFileRoute(
   "/blog/leaky-gut-mucosal-barrier-test-michigan-wisconsin-women",
@@ -535,6 +558,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           What "Leaky Gut" Actually Means, Physiologically
         </h2>
+        <img
+          src={mucosalPermeabilityImg}
+          alt="Soft light filtering through a woven barrier, symbolizing intestinal permeability for Michigan and Wisconsin women learning what leaky gut actually means"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Before we go any further, I want to replace the vague, catch-all phrase "leaky gut" with
           the precise physiological concept it is standing in for, because the imprecision of that
@@ -703,6 +734,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           The Microbiome Connection: Why Bacterial Diversity Shapes Barrier Integrity
         </h2>
+        <img
+          src={mucosalMicrobiomeImg}
+          alt="Fresh yogurt, kefir, and herbs representing gut microbiome diversity important to Michigan and Wisconsin women's barrier integrity"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           No discussion of the gut barrier is complete without acknowledging the trillions of
           bacteria, viruses, and fungi living in direct, constant contact with that
@@ -775,6 +814,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           Common Myths and Misconceptions About Leaky Gut
         </h2>
+        <img
+          src={mucosalMythsImg}
+          alt="Michigan woman reading about common leaky gut myths and misconceptions at her kitchen table"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Before we move into how testing actually works, I want to spend a section directly
           addressing the specific myths and overstatements that circulate about intestinal
@@ -866,6 +913,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           Why Colonoscopies and Celiac Panels Were Never Built to Catch This
         </h2>
+        <img
+          src={mucosalClinicWaitingImg}
+          alt="Michigan woman sitting in a calm clinic waiting area after a colonoscopy or celiac panel came back normal"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Now that we understand what intestinal permeability actually is at the cellular level, it
           becomes much easier to understand exactly why the standard GI workup so many women have
@@ -972,6 +1027,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           Frequently Confused Conditions, Side by Side
         </h2>
+        <img
+          src={mucosalComparisonNotesImg}
+          alt="Wisconsin woman comparing symptom notes to sort out frequently confused gut-related conditions"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Because so many of these conditions share overlapping symptoms, and because women
           frequently arrive at our practice already carrying one or more of these labels, sometimes
@@ -1076,6 +1139,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           The Serum Zonulin Controversy: An Honest Look at Why One Popular Blood Test Fails
         </h2>
+        <img
+          src={mucosalZonulinVialImg}
+          alt="Unbranded blood sample vial representing the serum zonulin blood test whose reliability is honestly examined for Michigan and Wisconsin readers"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           This is the most important section of this article, and I want to say that as plainly as I
           said it about the WHI study when I wrote our guide to bioidentical hormone therapy. If you
@@ -1413,6 +1484,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           Secretory IgA: Your Gut's First-Line Defense
         </h2>
+        <img
+          src={mucosalSigaWebImg}
+          alt="Delicate spider web with morning dew symbolizing secretory IgA as the gut's first-line protective defense"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Of the three markers in the Mucosal Barrier Assessment, secretory IgA is the one I want
           you to understand most thoroughly, because it is the foundational piece that gives context
@@ -1580,6 +1659,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           Anti-Gliadin Antibodies: Gluten Reactivity Without Celiac Disease
         </h2>
+        <img
+          src={mucosalGlutenBreadImg}
+          alt="Artisan bread and wheat stalks representing gluten reactivity measured by anti-gliadin antibodies without celiac disease"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           The second marker in the Mucosal Barrier Assessment is anti-gliadin antibodies,
           specifically measured as IgA-class antibodies in saliva. To understand why this marker
@@ -1671,6 +1758,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           Anti-Candida Antibodies and the Low-sIgA-Candida Connection
         </h2>
+        <img
+          src={mucosalCandidaDietImg}
+          alt="Garlic, coconut oil, and leafy greens supporting a low-sIgA-candida connection strategy for Michigan and Wisconsin women"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           The third marker measured in the Mucosal Barrier Assessment is anti-candida antibodies,
           again measured as IgA-class antibodies in saliva. Candida albicans is a species of yeast
@@ -1776,6 +1871,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           Understanding Your Actual Lab Report
         </h2>
+        <img
+          src={mucosalLabReportImg}
+          alt="Michigan woman reviewing her printed Mucosal Barrier Assessment lab report at her kitchen table"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Once results actually arrive, most women open the report on their own before our scheduled
           review visit, and I understand that impulse completely. Rather than leaving you staring at
@@ -1951,6 +2054,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           The Role of Genetics and Family History
         </h2>
+        <img
+          src={mucosalFamilyHistoryImg}
+          alt="Wisconsin woman on a warm video call with an older family member discussing family history of autoimmune and gut conditions"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Fasano's danger signal framework, and the broader autoimmune research it sits within,
           consistently emphasizes that genetic predisposition and environmental trigger act
@@ -2004,6 +2115,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           Perimenopause and the Gut Barrier
         </h2>
+        <img
+          src={mucosalPerimenopauseImg}
+          alt="Michigan woman in her mid-40s by a window in autumn light considering how perimenopause affects her gut barrier"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           For women in their late 30s, 40s, and early 50s, the timing of new or worsening gut
           barrier symptoms often coincides with the earliest, most easily overlooked stage of
@@ -2050,6 +2169,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           Brain Fog, Mood, and the Gut-Brain Axis
         </h2>
+        <img
+          src={mucosalBrainFogImg}
+          alt="Wisconsin woman pausing at her home office desk experiencing a moment of gut-related brain fog"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Among the symptoms women describe most often when they finally sit down with me for a real
           conversation about their gut health, brain fog and mood changes rank near the top of the
@@ -2209,6 +2336,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           What the Research Doesn't Fully Answer Yet
         </h2>
+        <img
+          src={mucosalResearchHonestyImg}
+          alt="Woman reading research papers at a desk, reflecting the honest look at what gut barrier research does not yet fully answer"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           I promised at the outset of this article that I would be honest with you, and honesty
           about a topic like this requires more than a single section addressing the serum zonulin
@@ -2338,6 +2473,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           A Note for Women Who Have Already Tried "Everything"
         </h2>
+        <img
+          src={mucosalTriedEverythingImg}
+          alt="Tired but hopeful Michigan woman at her kitchen counter who has already tried numerous supplements and protocols"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Before we move into real clinical stories, I want to speak directly to a specific woman I
           know is reading this: the one who has already tried the elimination diet, the probiotic
@@ -2371,6 +2514,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           Five Midwestern Women, Five Gut Barrier Journeys
         </h2>
+        <img
+          src={mucosalPatientJourneyImg}
+          alt="Confident, hopeful Midwestern woman representing the five composite gut barrier patient journeys described in this section"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Physiology becomes much easier to understand when it is grounded in real clinical
           scenarios. The five composite cases below reflect patterns we see routinely across women
@@ -2538,6 +2689,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           What a Comprehensive Evaluation Actually Looks Like
         </h2>
+        <img
+          src={mucosalEvaluationChecklistImg}
+          alt="Michigan woman on a telehealth visit holding a checklist during a comprehensive gut barrier evaluation"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           If the cases above sound familiar, you deserve to know exactly what a real, thorough
           evaluation looks like at our practice, rather than being handed a single test and left to
@@ -2625,6 +2784,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           A Symptom-Tracking Framework You Can Start Today
         </h2>
+        <img
+          src={mucosalSymptomTrackerImg}
+          alt="Close-up of a woman's hands writing in a daily symptom tracker notebook at her kitchen table"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           You do not need a lab result in hand to start gathering genuinely useful clinical
           information about your own gut barrier picture. In fact, a structured symptom log kept for
@@ -2714,6 +2881,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           Cost and Access, Transparently
         </h2>
+        <img
+          src={mucosalCostReviewImg}
+          alt="Wisconsin woman calmly reviewing costs at her home desk while considering the Mucosal Barrier Assessment"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           As with our other detailed guides, we are intentionally not going to publish a specific
           dollar figure for the Mucosal Barrier Assessment or any related protocol in this article,
@@ -2896,6 +3071,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           Midwest Environmental Considerations Worth Naming
         </h2>
+        <img
+          src={mucosalMidwestFarmhouseImg}
+          alt="Rural Michigan farmhouse in autumn representing well water and older housing considerations relevant to gut barrier health"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Beyond the seasonal stress and vitamin D pattern already discussed, a handful of specific
           environmental factors come up often enough in conversation with women across Michigan and
@@ -2939,6 +3122,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           Working With Your Other Providers, Not Around Them
         </h2>
+        <img
+          src={mucosalCareCoordinationImg}
+          alt="Michigan woman taking notes during a phone call coordinating gut barrier care with her other healthcare providers"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           A gut barrier evaluation does not happen in a vacuum, and I want to address directly how
           this fits alongside the other clinicians already involved in your care, since coordinated
@@ -3244,6 +3435,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           The Recovery Timeline: What Real Healing Looks Like Month by Month
         </h2>
+        <img
+          src={mucosalRecoveryCalendarImg}
+          alt="Rustic wall calendar in a cozy Midwestern kitchen representing the month-by-month gut barrier recovery timeline"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Rebuilding mucosal immune resilience and gut barrier integrity is not an overnight event,
           and I want to give you a realistic sense of the pace this typically follows, based on both
@@ -3308,6 +3507,14 @@ function BlogComponent() {
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
           When to Seek Specialized or Urgent Care
         </h2>
+        <img
+          src={mucosalUrgentCareImg}
+          alt="Stethoscope resting beside a phone, symbolizing when to seek specialized or urgent gut-related care"
+          className="rounded-2xl shadow-lg w-full my-8"
+          width={800}
+          height={450}
+          loading="lazy"
+        />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Throughout this article we have emphasized that the Mucosal Barrier Assessment and the
           protocols that follow from it are not a substitute for conventional gastroenterology or
