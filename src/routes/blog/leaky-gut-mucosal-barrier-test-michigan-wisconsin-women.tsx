@@ -274,7 +274,7 @@ const faqSchema = {
       name: "Is the Mucosal Barrier Assessment the same as food sensitivity testing?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "No. Food sensitivity testing, such as the MRT test, evaluates your reactivity to a broad panel of individual foods and is a separate, complementary topic. The Mucosal Barrier Assessment specifically evaluates the state of your mucosal immune defenses and barrier integrity through sIgA, anti-gliadin antibodies, and anti-candida antibodies. The two tests answer different clinical questions and are sometimes used together as part of a broader gut evaluation.",
+        text: "No. Food sensitivity testing, such as the MRT test, evaluates your reactivity to a broad panel of individual foods and is a separate, complementary topic covered in our companion guide to MRT food sensitivity testing. The Mucosal Barrier Assessment specifically evaluates the state of your mucosal immune defenses and barrier integrity through sIgA, anti-gliadin antibodies, and anti-candida antibodies. The two tests answer different clinical questions and are sometimes used together as part of a broader gut evaluation.",
       },
     },
     {
@@ -2581,8 +2581,15 @@ function BlogComponent() {
           when cortisol and stress physiology appear to be significant contributing factors. Food
           sensitivity testing, such as the MRT test, is a related but genuinely separate topic
           addressing a different clinical question, reactivity to a broad panel of individual foods
-          rather than mucosal barrier status specifically, and it is sometimes a useful
-          complementary piece alongside gut barrier assessment.
+          rather than mucosal barrier status specifically. We cover it thoroughly in{" "}
+          <Link
+            to="/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women"
+            className="text-secondary font-semibold hover:underline"
+          >
+            our companion guide to MRT food sensitivity testing
+          </Link>{" "}
+          and discuss there when that kind of testing might be a useful complementary piece
+          alongside gut barrier assessment.
         </p>
         <h3 className="text-xl md:text-2xl font-display text-primary mt-10 mb-4">
           Step Three: A Sequenced, Individualized Protocol
@@ -3629,9 +3636,15 @@ function BlogComponent() {
             </h3>
             <p className="text-sm text-foreground/80 leading-relaxed">
               No. Food sensitivity testing evaluates reactivity to a broad panel of individual foods
-              and is a separate topic. The Mucosal Barrier Assessment specifically evaluates
-              mucosal immune defense and barrier integrity through sIgA, anti-gliadin, and
-              anti-candida antibodies.
+              and is a separate topic, covered in our{" "}
+              <Link
+                to="/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women"
+                className="text-secondary font-semibold hover:underline"
+              >
+                companion guide to MRT food sensitivity testing
+              </Link>
+              . The Mucosal Barrier Assessment specifically evaluates mucosal immune defense and
+              barrier integrity through sIgA, anti-gliadin, and anti-candida antibodies.
             </p>
           </div>
           <div className="bg-card border border-border p-6 rounded-2xl shadow-sm">

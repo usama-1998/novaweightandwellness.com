@@ -934,6 +934,13 @@ function BlogComponent() {
             >
               full guide to the Mucosal Barrier Assessment
             </Link>
+            , and we cover how specific foods can independently drive inflammation in our{" "}
+            <Link
+              to="/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women"
+              className="text-secondary hover:underline"
+            >
+              guide to MRT food sensitivity testing
+            </Link>
             .
           </li>
           <li>

@@ -12,5 +12,7 @@ Context: on 2026-09-15, two 25,000+ word pillar articles were drafted and publis
 request (MRT food sensitivity testing and the Mucosal Barrier Assessment / leaky gut test).
 Katie asked to unpublish one since only one article had been requested. The Mucosal Barrier
 Assessment article (`/blog/leaky-gut-mucosal-barrier-test-michigan-wisconsin-women`) was kept as
-the stronger, higher-search-volume topic; the MRT article was removed. Going forward, default to
-one article per request unless explicitly told otherwise.
+the stronger, higher-search-volume topic; the MRT article
+(`/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women`) was removed. On 2026-09-17,
+Katie explicitly asked to publish the MRT article as well, so it was restored and both are live.
+The standing default is unchanged: one article per request unless explicitly told otherwise.

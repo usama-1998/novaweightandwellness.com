@@ -34,6 +34,7 @@ import { Route as BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRout
 import { Route as BlogLeakyGutMucosalBarrierTestMichiganWisconsinWomenRouteImport } from './routes/blog/leaky-gut-mucosal-barrier-test-michigan-wisconsin-women'
 import { Route as BlogHormonalSleepAnxietyWomenMichiganWisconsinRouteImport } from './routes/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
 import { Route as BlogGainingWeightExhaustedAfter40WisconsinWomenRouteImport } from './routes/blog/gaining-weight-exhausted-after-40-wisconsin-women'
+import { Route as BlogFoodSensitivityTestingMrtMichiganWisconsinWomenRouteImport } from './routes/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women'
 import { Route as BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRouteImport } from './routes/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
 
 const WhatWeTreatRoute = WhatWeTreatRouteImport.update({
@@ -172,6 +173,12 @@ const BlogGainingWeightExhaustedAfter40WisconsinWomenRoute =
     path: '/blog/gaining-weight-exhausted-after-40-wisconsin-women',
     getParentRoute: () => rootRouteImport,
   } as any)
+const BlogFoodSensitivityTestingMrtMichiganWisconsinWomenRoute =
+  BlogFoodSensitivityTestingMrtMichiganWisconsinWomenRouteImport.update({
+    id: '/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women',
+    path: '/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute =
   BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRouteImport.update({
     id: '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin',
@@ -194,6 +201,7 @@ export interface FileRoutesByFullPath {
   '/terms-of-service': typeof TermsOfServiceRoute
   '/what-we-treat': typeof WhatWeTreatRoute
   '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin': typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
+  '/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women': typeof BlogFoodSensitivityTestingMrtMichiganWisconsinWomenRoute
   '/blog/gaining-weight-exhausted-after-40-wisconsin-women': typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin': typeof BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute
   '/blog/leaky-gut-mucosal-barrier-test-michigan-wisconsin-women': typeof BlogLeakyGutMucosalBarrierTestMichiganWisconsinWomenRoute
@@ -222,6 +230,7 @@ export interface FileRoutesByTo {
   '/terms-of-service': typeof TermsOfServiceRoute
   '/what-we-treat': typeof WhatWeTreatRoute
   '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin': typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
+  '/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women': typeof BlogFoodSensitivityTestingMrtMichiganWisconsinWomenRoute
   '/blog/gaining-weight-exhausted-after-40-wisconsin-women': typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin': typeof BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute
   '/blog/leaky-gut-mucosal-barrier-test-michigan-wisconsin-women': typeof BlogLeakyGutMucosalBarrierTestMichiganWisconsinWomenRoute
@@ -251,6 +260,7 @@ export interface FileRoutesById {
   '/terms-of-service': typeof TermsOfServiceRoute
   '/what-we-treat': typeof WhatWeTreatRoute
   '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin': typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
+  '/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women': typeof BlogFoodSensitivityTestingMrtMichiganWisconsinWomenRoute
   '/blog/gaining-weight-exhausted-after-40-wisconsin-women': typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin': typeof BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute
   '/blog/leaky-gut-mucosal-barrier-test-michigan-wisconsin-women': typeof BlogLeakyGutMucosalBarrierTestMichiganWisconsinWomenRoute
@@ -281,6 +291,7 @@ export interface FileRouteTypes {
     | '/terms-of-service'
     | '/what-we-treat'
     | '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
+    | '/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women'
     | '/blog/gaining-weight-exhausted-after-40-wisconsin-women'
     | '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
     | '/blog/leaky-gut-mucosal-barrier-test-michigan-wisconsin-women'
@@ -309,6 +320,7 @@ export interface FileRouteTypes {
     | '/terms-of-service'
     | '/what-we-treat'
     | '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
+    | '/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women'
     | '/blog/gaining-weight-exhausted-after-40-wisconsin-women'
     | '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
     | '/blog/leaky-gut-mucosal-barrier-test-michigan-wisconsin-women'
@@ -337,6 +349,7 @@ export interface FileRouteTypes {
     | '/terms-of-service'
     | '/what-we-treat'
     | '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
+    | '/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women'
     | '/blog/gaining-weight-exhausted-after-40-wisconsin-women'
     | '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
     | '/blog/leaky-gut-mucosal-barrier-test-michigan-wisconsin-women'
@@ -366,6 +379,7 @@ export interface RootRouteChildren {
   TermsOfServiceRoute: typeof TermsOfServiceRoute
   WhatWeTreatRoute: typeof WhatWeTreatRoute
   BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute: typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
+  BlogFoodSensitivityTestingMrtMichiganWisconsinWomenRoute: typeof BlogFoodSensitivityTestingMrtMichiganWisconsinWomenRoute
   BlogGainingWeightExhaustedAfter40WisconsinWomenRoute: typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute: typeof BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute
   BlogLeakyGutMucosalBarrierTestMichiganWisconsinWomenRoute: typeof BlogLeakyGutMucosalBarrierTestMichiganWisconsinWomenRoute
@@ -557,6 +571,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women': {
+      id: '/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women'
+      path: '/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women'
+      fullPath: '/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women'
+      preLoaderRoute: typeof BlogFoodSensitivityTestingMrtMichiganWisconsinWomenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin': {
       id: '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
       path: '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
@@ -583,6 +604,8 @@ const rootRouteChildren: RootRouteChildren = {
   WhatWeTreatRoute: WhatWeTreatRoute,
   BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute:
     BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute,
+  BlogFoodSensitivityTestingMrtMichiganWisconsinWomenRoute:
+    BlogFoodSensitivityTestingMrtMichiganWisconsinWomenRoute,
   BlogGainingWeightExhaustedAfter40WisconsinWomenRoute:
     BlogGainingWeightExhaustedAfter40WisconsinWomenRoute,
   BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute:
