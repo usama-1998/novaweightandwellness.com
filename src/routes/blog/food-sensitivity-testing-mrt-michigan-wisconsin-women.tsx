@@ -102,7 +102,7 @@ export const Route = createFileRoute("/blog/food-sensitivity-testing-mrt-michiga
         },
         {
           property: "article:published_time",
-          content: "2026-09-10T08:00:00Z",
+          content: "2026-09-17T08:00:00Z",
         },
         {
           property: "article:author",
@@ -453,7 +453,7 @@ function BlogComponent() {
     <BlogLayout
       title="Why 'Healthy' Foods Might Be Making You Sick: The Honest Guide to MRT Food Sensitivity Testing"
       author="Kathryn Long, NP-C"
-      date="2026-09-10"
+      date="2026-09-17"
       readTime="54 min read"
       heroImg={mrtHeroImg}
       heroAlt="Thoughtful woman in Michigan preparing a fresh meal while considering food sensitivity testing and elimination diet options"
