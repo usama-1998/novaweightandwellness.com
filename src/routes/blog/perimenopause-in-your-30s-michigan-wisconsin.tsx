@@ -98,8 +98,8 @@ function BlogComponent() {
       breadcrumbTitle="Perimenopause in Your Mid-30s"
       faqSchema={faqSchema}
       relatedPosts={[
+        { slug: "menopause-weight-gain-michigan-wisconsin", title: "Why Am I Gaining Weight After Menopause? The Real Reasons and What Actually Works" },
         { slug: "pcos-weight-resistance-women-30s-michigan-wisconsin", title: "PCOS in Your 30s: Why Weight Loss Feels Impossible and What Actually Helps" },
-        { slug: "hormonal-sleep-anxiety-women-michigan-wisconsin", title: "Why Can't I Sleep Anymore? The Hormonal Reason Behind Sleepless Nights and New Anxiety" },
         { slug: "bioidentical-hormone-therapy-guide-michigan-wisconsin", title: "The Complete Guide to Bioidentical Hormone Therapy: Risks, Benefits, and What Actually Happens" },
       ]}
     >

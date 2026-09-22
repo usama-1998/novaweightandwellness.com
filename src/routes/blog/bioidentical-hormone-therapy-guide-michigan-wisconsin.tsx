@@ -80,7 +80,7 @@ function BlogComponent() {
       breadcrumbTitle="Complete Guide to Bioidentical Hormone Therapy"
       faqSchema={faqSchema}
       relatedPosts={[
-        { slug: "the-ultimate-guide-to-hormones-and-weight-resistance-over-40", title: "The Ultimate Guide to Hormones and Weight Resistance Over 40" },
+        { slug: "menopause-weight-gain-michigan-wisconsin", title: "Why Am I Gaining Weight After Menopause? The Real Reasons and What Actually Works" },
         { slug: "perimenopause-in-your-30s-michigan-wisconsin", title: "Perimenopause Isn't Just an Over-40 Thing: The Complete Guide for Women in Their Mid-30s" },
         { slug: "hormonal-sleep-anxiety-women-michigan-wisconsin", title: "Why Can't I Sleep Anymore? The Hormonal Reason Behind Sleepless Nights and New Anxiety" },
       ]}

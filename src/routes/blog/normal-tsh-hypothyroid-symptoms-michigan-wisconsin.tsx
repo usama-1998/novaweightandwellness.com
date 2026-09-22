@@ -221,16 +221,16 @@ function BlogComponent() {
       faqSchema={faqSchema}
       relatedPosts={[
         {
+          slug: "menopause-weight-gain-michigan-wisconsin",
+          title: "Why Am I Gaining Weight After Menopause? The Real Reasons and What Actually Works",
+        },
+        {
           slug: "perimenopause-brain-fog-memory-michigan-wisconsin",
           title: "Why Can't I Remember Anything Anymore? Perimenopausal Brain Fog vs. Something More Serious",
         },
         {
           slug: "hormonal-sleep-anxiety-women-michigan-wisconsin",
           title: "Why Can't I Sleep Anymore? The Hormonal Reason Behind Sleepless Nights and New Anxiety",
-        },
-        {
-          slug: "the-ultimate-guide-to-hormones-and-weight-resistance-over-40",
-          title: "The Ultimate Guide to Hormones and Weight Resistance Over 40",
         },
       ]}
     >

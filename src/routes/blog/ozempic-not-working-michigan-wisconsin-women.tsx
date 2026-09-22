@@ -111,9 +111,9 @@ function BlogComponent() {
       breadcrumbTitle="Why Ozempic Isn't Working"
       faqSchema={faqSchema}
       relatedPosts={[
+        { slug: "menopause-weight-gain-michigan-wisconsin", title: "Why Am I Gaining Weight After Menopause? The Real Reasons and What Actually Works" },
         { slug: "the-ultimate-guide-to-hormones-and-weight-resistance-over-40", title: "The Ultimate Guide to Hormones and Weight Resistance Over 40" },
         { slug: "why-michigan-women-over-40-cant-lose-weight-feel-exhausted", title: "Why Can't I Lose Weight in My 40s? (And Why You're Always Tired)" },
-        { slug: "gaining-weight-exhausted-after-40-wisconsin-women", title: "Gaining Weight and Exhausted After 40? What Every Wisconsin Woman Needs to Know" },
       ]}
     >
       {/* Disclaimer */}
