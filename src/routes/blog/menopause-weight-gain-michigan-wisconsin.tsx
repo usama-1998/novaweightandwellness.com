@@ -8,6 +8,28 @@ import boneHealthImg from "@/assets/blog/menopause-bone-health-hiking-wisconsin.
 import farmersMarketImg from "@/assets/blog/menopause-michigan-farmers-market.webp";
 import journalImg from "@/assets/blog/menopause-evening-reflection-journal.webp";
 import orchardImg from "@/assets/blog/menopause-orchard-confidence.webp";
+import timelineCalendarImg from "@/assets/blog/menopause-timeline-calendar.webp";
+import bodyCompositionImg from "@/assets/blog/menopause-body-composition-mirror.webp";
+import carryingGroceriesImg from "@/assets/blog/menopause-muscle-loss-carrying-groceries.webp";
+import balancedMealImg from "@/assets/blog/menopause-insulin-balanced-meal.webp";
+import hotFlashImg from "@/assets/blog/menopause-hot-flash-office.webp";
+import restfulSleepImg from "@/assets/blog/menopause-restful-sleep.webp";
+import throatTouchImg from "@/assets/blog/menopause-thyroid-throat-touch.webp";
+import waitingRoomImg from "@/assets/blog/menopause-waiting-room-frustration.webp";
+import concernedPhoneImg from "@/assets/blog/menopause-concerned-phone-call.webp";
+import pharmacistImg from "@/assets/blog/menopause-pharmacist-consultation.webp";
+import supplementsImg from "@/assets/blog/menopause-supplements-counter.webp";
+import medicationOrganizerImg from "@/assets/blog/menopause-medication-organizer.webp";
+import gutHealthyFoodsImg from "@/assets/blog/menopause-gut-healthy-foods.webp";
+import emotionalReflectionImg from "@/assets/blog/menopause-emotional-reflection-window.webp";
+import coupleConversationImg from "@/assets/blog/menopause-couple-supportive-conversation.webp";
+import wisconsinWinterImg from "@/assets/blog/menopause-wisconsin-winter-street.webp";
+import rushedDoctorImg from "@/assets/blog/menopause-rushed-doctor-visit.webp";
+import labResultsReviewImg from "@/assets/blog/menopause-lab-results-review-telehealth.webp";
+import friendsSupportImg from "@/assets/blog/menopause-friends-support-group.webp";
+import caseStudiesImg from "@/assets/blog/menopause-case-studies-folders.webp";
+import confidentBeforeAfterImg from "@/assets/blog/menopause-confident-before-after.webp";
+import plannerTimelineImg from "@/assets/blog/menopause-planner-timeline-tracking.webp";
 
 import { BlogLayout } from "@/components/blog/BlogLayout";
 
@@ -469,6 +491,16 @@ function BlogComponent() {
           ago. It is never too late to have a comprehensive evaluation and build a plan around your
           actual physiology, regardless of how long you have been living in this hormonal chapter.
         </p>
+        <div className="my-10">
+          <img
+            src={timelineCalendarImg}
+            alt="Woman circling a date on her calendar, marking the milestone of twelve months since her last period"
+            className="rounded-2xl shadow-lg w-full object-cover"
+            width={1200}
+            height={800}
+            loading="lazy"
+          />
+        </div>
       </section>
 
       {/* Section 3 */}
@@ -603,6 +635,16 @@ function BlogComponent() {
           metabolic health, particularly for postmenopausal women, and why a comprehensive
           evaluation looks considerably deeper than a single height-and-weight calculation.
         </p>
+        <div className="my-10">
+          <img
+            src={bodyCompositionImg}
+            alt="Woman looking thoughtfully at her reflection, noticing how her body composition has changed after menopause"
+            className="rounded-2xl shadow-lg w-full object-cover"
+            width={1200}
+            height={800}
+            loading="lazy"
+          />
+        </div>
       </section>
 
       {/* Section 4 */}
@@ -831,6 +873,16 @@ function BlogComponent() {
           genuinely useful, low-cost ways to track progress over time without requiring specialized
           equipment.
         </p>
+        <div className="my-10">
+          <img
+            src={carryingGroceriesImg}
+            alt="Woman carrying grocery bags up her porch steps, an everyday test of functional muscle strength"
+            className="rounded-2xl shadow-lg w-full object-cover"
+            width={1200}
+            height={800}
+            loading="lazy"
+          />
+        </div>
       </section>
 
       {/* Section 6 */}
@@ -940,6 +992,16 @@ function BlogComponent() {
           interpretation that a single annual snapshot, without consistent, comparable testing over
           time, simply cannot provide.
         </p>
+        <div className="my-10">
+          <img
+            src={balancedMealImg}
+            alt="A blood sugar friendly plate of grilled protein, leafy greens, and whole grains"
+            className="rounded-2xl shadow-lg w-full object-cover"
+            width={1200}
+            height={800}
+            loading="lazy"
+          />
+        </div>
       </section>
 
       {/* Section 7 */}
@@ -1037,6 +1099,16 @@ function BlogComponent() {
           makes sense depends heavily on your individual symptom pattern, medical history, and
           personal preference, and is worth a direct conversation with your provider.
         </p>
+        <div className="my-10">
+          <img
+            src={hotFlashImg}
+            alt="Woman fanning herself at her desk during a hot flash"
+            className="rounded-2xl shadow-lg w-full object-cover"
+            width={1200}
+            height={800}
+            loading="lazy"
+          />
+        </div>
       </section>
 
       {/* Section 8 */}
@@ -1139,6 +1211,16 @@ function BlogComponent() {
           falling asleep on days they exercise later in the evening, shifting resistance training
           earlier in the day, even by a few hours, is a simple experiment worth trying.
         </p>
+        <div className="my-10">
+          <img
+            src={restfulSleepImg}
+            alt="Woman sleeping peacefully in a cool, dark bedroom"
+            className="rounded-2xl shadow-lg w-full object-cover"
+            width={1200}
+            height={800}
+            loading="lazy"
+          />
+        </div>
       </section>
 
       {/* Section 9 */}
@@ -1241,6 +1323,16 @@ function BlogComponent() {
           common thing to bring to your provider for reassessment, not a sign that something has
           gone unusually wrong.
         </p>
+        <div className="my-10">
+          <img
+            src={throatTouchImg}
+            alt="Woman thoughtfully touching her throat, aware of thyroid-related symptoms"
+            className="rounded-2xl shadow-lg w-full object-cover"
+            width={1200}
+            height={800}
+            loading="lazy"
+          />
+        </div>
       </section>
 
       {/* Section 10 */}
@@ -1336,6 +1428,16 @@ function BlogComponent() {
             average.
           </p>
         </div>
+        <div className="my-10">
+          <img
+            src={waitingRoomImg}
+            alt="Woman sitting in a clinical waiting room holding a folder of paperwork, waiting on lab results"
+            className="rounded-2xl shadow-lg w-full object-cover"
+            width={1200}
+            height={800}
+            loading="lazy"
+          />
+        </div>
       </section>
 
       {/* Section 11: NEW */}
@@ -1393,6 +1495,16 @@ function BlogComponent() {
           expect, and advocate for further evaluation when that instinct is telling you something
           worth listening to.
         </p>
+        <div className="my-10">
+          <img
+            src={concernedPhoneImg}
+            alt="Woman on the phone with her provider, taking a symptom seriously enough to call"
+            className="rounded-2xl shadow-lg w-full object-cover"
+            width={1200}
+            height={800}
+            loading="lazy"
+          />
+        </div>
       </section>
 
       {/* Section 12 */}
@@ -1767,6 +1879,16 @@ function BlogComponent() {
           rather than simply accepting reduced protein intake as an unavoidable tradeoff of the
           medication.
         </p>
+        <div className="my-10">
+          <img
+            src={pharmacistImg}
+            alt="Woman discussing a prescription medication with her pharmacist"
+            className="rounded-2xl shadow-lg w-full object-cover"
+            width={1200}
+            height={800}
+            loading="lazy"
+          />
+        </div>
       </section>
 
       {/* Section 14b: NEW */}
@@ -1865,6 +1987,16 @@ function BlogComponent() {
           and a healthy dose of skepticism, paired with a conversation with a qualified provider, is
           a genuinely reasonable default posture.
         </p>
+        <div className="my-10">
+          <img
+            src={supplementsImg}
+            alt="Vitamin and supplement bottles arranged neatly on a kitchen counter"
+            className="rounded-2xl shadow-lg w-full object-cover"
+            width={1200}
+            height={800}
+            loading="lazy"
+          />
+        </div>
       </section>
 
       {/* Section 14c: NEW */}
@@ -1901,6 +2033,16 @@ function BlogComponent() {
           more realistic, medication-informed expectations for what a comprehensive nutrition and
           movement plan can and cannot fully counteract on its own.
         </p>
+        <div className="my-10">
+          <img
+            src={medicationOrganizerImg}
+            alt="A weekly pill organizer and notebook on a kitchen table"
+            className="rounded-2xl shadow-lg w-full object-cover"
+            width={1200}
+            height={800}
+            loading="lazy"
+          />
+        </div>
       </section>
 
       {/* Section 15 */}
@@ -2216,6 +2358,16 @@ function BlogComponent() {
           directly, meaning digestive changes around this transition often have a genuine hormonal
           component worth investigating rather than dismissing as unrelated.
         </p>
+        <div className="my-10">
+          <img
+            src={gutHealthyFoodsImg}
+            alt="Fermented vegetables and gut-healthy foods on a wooden table"
+            className="rounded-2xl shadow-lg w-full object-cover"
+            width={1200}
+            height={800}
+            loading="lazy"
+          />
+        </div>
       </section>
 
       {/* Section 18 */}
@@ -2349,6 +2501,16 @@ function BlogComponent() {
           unrealistic comparison with a body that belonged to an entirely different hormonal decade
           of life.
         </p>
+        <div className="my-10">
+          <img
+            src={emotionalReflectionImg}
+            alt="Woman sitting quietly by a window, reflecting on this chapter of life"
+            className="rounded-2xl shadow-lg w-full object-cover"
+            width={1200}
+            height={800}
+            loading="lazy"
+          />
+        </div>
       </section>
 
       {/* Section 19b: NEW */}
@@ -2393,6 +2555,16 @@ function BlogComponent() {
           even within a more stable postmenopausal hormonal baseline, so real variability in energy
           and mood is genuinely expected, not a sign of inconsistency or exaggeration.
         </p>
+        <div className="my-10">
+          <img
+            src={coupleConversationImg}
+            alt="A couple having a warm, supportive conversation on their porch"
+            className="rounded-2xl shadow-lg w-full object-cover"
+            width={1200}
+            height={800}
+            loading="lazy"
+          />
+        </div>
       </section>
 
       {/* Section 20 */}
@@ -2535,6 +2707,16 @@ function BlogComponent() {
           away, if one exists within the state at all. Geography within Michigan or Wisconsin's
           borders does not determine access to this kind of care; a state-issued license does.
         </p>
+        <div className="my-10">
+          <img
+            src={wisconsinWinterImg}
+            alt="A snowy Wisconsin residential street at dusk in winter"
+            className="rounded-2xl shadow-lg w-full object-cover"
+            width={1200}
+            height={800}
+            loading="lazy"
+          />
+        </div>
       </section>
 
       {/* Section 21 */}
@@ -2590,6 +2772,16 @@ function BlogComponent() {
           we generally encourage that continuity of care rather than positioning this as an
           either-or choice.
         </p>
+        <div className="my-10">
+          <img
+            src={rushedDoctorImg}
+            alt="A rushed doctor glancing at the clock during a short appointment"
+            className="rounded-2xl shadow-lg w-full object-cover"
+            width={1200}
+            height={800}
+            loading="lazy"
+          />
+        </div>
       </section>
 
       {/* Section 22 */}
@@ -2651,6 +2843,16 @@ function BlogComponent() {
           timeline described later in this article, rather than an expectation of instant results
           that this physiology simply does not support.
         </p>
+        <div className="my-10">
+          <img
+            src={labResultsReviewImg}
+            alt="Woman reviewing comprehensive lab results with her provider during a telehealth visit"
+            className="rounded-2xl shadow-lg w-full object-cover"
+            width={1200}
+            height={800}
+            loading="lazy"
+          />
+        </div>
       </section>
 
       {/* Section 22b: NEW */}
@@ -2687,6 +2889,16 @@ function BlogComponent() {
           for a woman's full care team. The goal is a coordinated, well-rounded support system, not
           a single provider trying to be everything at once.
         </p>
+        <div className="my-10">
+          <img
+            src={friendsSupportImg}
+            alt="Three women sitting together at a cafe table, part of a woman's support network"
+            className="rounded-2xl shadow-lg w-full object-cover"
+            width={1200}
+            height={800}
+            loading="lazy"
+          />
+        </div>
       </section>
 
       {/* Section 23 */}
@@ -2787,6 +2999,16 @@ function BlogComponent() {
           a shared presenting complaint with several genuinely distinct possible root causes, each
           requiring its own evaluation and its own targeted plan.
         </p>
+        <div className="my-10">
+          <img
+            src={caseStudiesImg}
+            alt="Three patient case folders on a provider's desk, representing the distinct root causes behind each case study below"
+            className="rounded-2xl shadow-lg w-full object-cover"
+            width={1200}
+            height={800}
+            loading="lazy"
+          />
+        </div>
       </section>
 
       {/* Section 24: NEW */}
@@ -2837,6 +3059,16 @@ function BlogComponent() {
           women who "failed" to lose weight fast enough. It is, in our experience, what sustainable,
           lasting change in this life stage actually looks like from the inside.
         </p>
+        <div className="my-10">
+          <img
+            src={confidentBeforeAfterImg}
+            alt="Confident woman standing outdoors, strong and at ease in her postmenopausal body"
+            className="rounded-2xl shadow-lg w-full object-cover"
+            width={1200}
+            height={800}
+            loading="lazy"
+          />
+        </div>
       </section>
 
       {/* Section 25 */}
@@ -2881,6 +3113,16 @@ function BlogComponent() {
           understanding of the underlying physiology to return to steady progress after them, rather
           than abandoning the whole approach at the first sign of a difficult week.
         </p>
+        <div className="my-10">
+          <img
+            src={plannerTimelineImg}
+            alt="Woman writing in a planner, tracking her progress week by week"
+            className="rounded-2xl shadow-lg w-full object-cover"
+            width={1200}
+            height={800}
+            loading="lazy"
+          />
+        </div>
       </section>
 
       {/* Section 26 */}
