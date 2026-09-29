@@ -12,6 +12,28 @@ import lakeImg from "@/assets/blog/hair-loss-lake-michigan-confidence.webp";
 import naturalHairImg from "@/assets/blog/hair-loss-natural-hair-detroit-hairline.webp";
 import porchImg from "@/assets/blog/hair-loss-wisconsin-porch-reflection.webp";
 import flatlayImg from "@/assets/blog/hair-loss-nutrient-flatlay-notebook.webp";
+import hairStrandsImg from "@/assets/blog/hair-loss-hair-strands-macro-growth-cycle.webp";
+import checkPartImg from "@/assets/blog/hair-loss-checking-part-line-mirror.webp";
+import calendarImg from "@/assets/blog/hair-loss-timeline-calendar-tracking.webp";
+import crownImg from "@/assets/blog/hair-loss-part-line-crown-overhead.webp";
+import lifeStagesImg from "@/assets/blog/hair-loss-three-women-wisconsin-lake.webp";
+import postpartumImg from "@/assets/blog/hair-loss-postpartum-mother-michigan-nursery.webp";
+import glucoseImg from "@/assets/blog/hair-loss-glucose-monitor-oatmeal.webp";
+import strengthImg from "@/assets/blog/hair-loss-strength-training-snowy-wisconsin.webp";
+import proteinPrepImg from "@/assets/blog/hair-loss-protein-breakfast-prep-glp1.webp";
+import pillsImg from "@/assets/blog/hair-loss-pill-organizer-medication-list.webp";
+import detangleImg from "@/assets/blog/hair-loss-gentle-detangling-hair-care.webp";
+import trailImg from "@/assets/blog/hair-loss-trail-fork-decision-michigan.webp";
+import highlightImg from "@/assets/blog/hair-loss-highlighting-lab-report.webp";
+import topicalImg from "@/assets/blog/hair-loss-topical-scalp-treatment-dropper.webp";
+import fourWomenImg from "@/assets/blog/hair-loss-four-women-farmers-market.webp";
+import springWalkImg from "@/assets/blog/hair-loss-spring-walk-wisconsin-renewal.webp";
+import mythsImg from "@/assets/blog/hair-loss-skeptical-reading-phone.webp";
+import redFlagsImg from "@/assets/blog/hair-loss-dermatology-review-scalp-photo.webp";
+import careTeamImg from "@/assets/blog/hair-loss-care-team-nurse-derm-dietitian.webp";
+import preparePhotoImg from "@/assets/blog/hair-loss-photographing-part-line-prep.webp";
+import faqImg from "@/assets/blog/hair-loss-questions-coffee-shop-wisconsin.webp";
+import noteImg from "@/assets/blog/hair-loss-handwritten-note-lake-sunrise.webp";
 
 export const Route = createFileRoute("/blog/hair-loss-women-35-to-55-michigan-wisconsin")({
   head: () => ({
@@ -775,6 +797,10 @@ function BlogComponent() {
 
       <section id="how-hair-grows">
         <H2>How Hair Actually Grows (and Why Loss Runs on a Delay)</H2>
+        <Fig
+          src={hairStrandsImg}
+          alt="Macro view of healthy hair strands in soft morning light illustrating the hair growth cycle"
+        />
         <P>
           To understand hair loss you need one piece of biology, and it explains more than you would
           expect. Every hair on your head is growing out of a tiny organ called a follicle, and each
@@ -862,6 +888,10 @@ function BlogComponent() {
 
       <section id="shedding-or-thinning">
         <H2>Shedding or Thinning? How to Read What You See</H2>
+        <Fig
+          src={checkPartImg}
+          alt="Michigan woman using a handheld mirror to check her part line and tell shedding from thinning"
+        />
         <P>
           The single most useful distinction you can make before you ever see a clinician is whether
           you are primarily noticing shedding or primarily noticing thinning. The two overlap, and
@@ -1120,6 +1150,10 @@ function BlogComponent() {
 
       <section id="telogen-effluvium">
         <H2>Telogen Effluvium: The Great Delayed Reaction</H2>
+        <Fig
+          src={calendarImg}
+          alt="Woman marking a wall calendar to track the timeline of triggers before a telogen effluvium shedding episode"
+        />
         <P>
           Telogen effluvium is the medical name for excessive shedding of resting hairs. Reviews
           describe it as one of the most common causes of alopecia, with triggers that include
@@ -1256,6 +1290,10 @@ function BlogComponent() {
 
       <section id="female-pattern-hair-loss">
         <H2>Female Pattern Hair Loss: The Slow Pattern That Gets Missed</H2>
+        <Fig
+          src={crownImg}
+          alt="Overhead view of a widening central part line and crown in silver-blonde hair, typical of female pattern hair loss"
+        />
         <P>
           Female pattern hair loss, also called androgenetic alopecia in women, is the most common
           cause of chronic hair loss in women worldwide, and it is also the one that women most
@@ -1558,6 +1596,10 @@ function BlogComponent() {
 
       <section id="life-stages">
         <H2>Perimenopause, Menopause, and Beyond: How Hair Changes by Stage</H2>
+        <Fig
+          src={lifeStagesImg}
+          alt="Three women in their 30s, 40s, and 50s laughing together on a Wisconsin lake dock in autumn, representing hair changes across life stages"
+        />
         <P>
           The women who read this article range from 35 to 55 and beyond, and their hair is
           answering different questions at different stages. It helps to know which stage you are
@@ -1658,6 +1700,10 @@ function BlogComponent() {
 
       <section id="pregnancy-postpartum">
         <H2>Pregnancy, Postpartum, Loss, and Fertility Treatment</H2>
+        <Fig
+          src={postpartumImg}
+          alt="Mother holding her newborn in a Michigan nursery, illustrating postpartum hair shedding and recovery"
+        />
         <P>
           For women in their late 30s and early 40s, reproductive events are among the most common
           and most overlooked hair loss triggers. If you have had a baby, a pregnancy loss, a course
@@ -1888,10 +1934,6 @@ function BlogComponent() {
           physician-supervised treatment. Hair responds slowly and late; it is common to see energy
           improve before shedding does.
         </P>
-        <Fig
-          src={nutritionImg}
-          alt="Protein-rich Midwest meal of salmon, eggs, lentils, Greek yogurt, and Michigan cherries to support hair health"
-        />
         <H3>Vitamin D: The Michigan and Wisconsin Angle</H3>
         <P>
           In the study by Rasheed and colleagues, serum vitamin D levels in women with telogen
@@ -1984,6 +2026,11 @@ function BlogComponent() {
 
       <section id="eating-plan">
         <H2>Eating for Your Follicles: A Practical Plan</H2>
+
+        <Fig
+          src={nutritionImg}
+          alt="Protein-rich Midwest meal of salmon, eggs, lentils, Greek yogurt, and Michigan cherries to support hair health"
+        />
         <P>
           Nutrition advice about hair is easy to overcomplicate. There is no single "hair food," and
           no meal plan has been proven to regrow pattern hair loss. But the follicle is a demanding
@@ -2102,6 +2149,10 @@ function BlogComponent() {
 
       <section id="thyroid-insulin-stress">
         <H2>Thyroid, Insulin, and the Stress Question</H2>
+        <Fig
+          src={glucoseImg}
+          alt="Forearm with a continuous glucose monitor beside a balanced breakfast bowl, illustrating insulin resistance and blood sugar in hair loss"
+        />
         <P>
           Three metabolic systems come up in almost every evaluation I do for a woman in this age
           range with hair loss: thyroid function, insulin and blood sugar regulation, and the stress
@@ -2234,6 +2285,10 @@ function BlogComponent() {
 
       <section id="sleep-movement">
         <H2>Sleep, Movement, and Nervous System Support</H2>
+        <Fig
+          src={strengthImg}
+          alt="Woman in her late 40s strength training at home beside a window with snowy Wisconsin pines"
+        />
         <P>
           I want to be careful here, because "reduce your stress" is the least useful advice in
           medicine. It is also, when translated into something concrete, one of the more valuable.
@@ -2291,6 +2346,10 @@ function BlogComponent() {
 
       <section id="glp-1-hair">
         <H2>GLP-1 Medications and Hair Shedding</H2>
+        <Fig
+          src={proteinPrepImg}
+          alt="Woman preparing a protein-rich breakfast in a Michigan kitchen, a key habit for preventing GLP-1 related hair shedding"
+        />
         <P>
           In my conversations with women over the last few years, no topic in hair loss has grown
           faster than shedding on GLP-1 medications such as semaglutide (Ozempic, Wegovy) and
@@ -2433,6 +2492,10 @@ function BlogComponent() {
 
       <section id="medications-conditions">
         <H2>Medications, Surgery, and Medical Conditions: A Practical Checklist</H2>
+        <Fig
+          src={pillsImg}
+          alt="Pill organizer, handwritten medication list, and reading glasses for reviewing medications that can affect hair"
+        />
         <P>
           When a woman brings me a shedding story with no obvious trigger, I go back through a
           checklist of the less obvious things. This is the part of the evaluation where a patient
@@ -2667,6 +2730,10 @@ function BlogComponent() {
 
       <section id="hair-care-scalp">
         <H2>Hair Care, Traction, and Scalp Health</H2>
+        <Fig
+          src={detangleImg}
+          alt="Woman gently detangling wavy hair with a wide-tooth comb, an example of gentle hair care to reduce breakage"
+        />
         <P>
           Hair care is rarely the sole cause of significant hair loss in women, but it is a frequent
           contributor and the one factor entirely within your control. It also gets blamed too
@@ -2854,6 +2921,10 @@ function BlogComponent() {
 
       <section id="where-to-start">
         <H2>Where Should You Start? A Decision Guide</H2>
+        <Fig
+          src={trailImg}
+          alt="Woman at a fork in a northern Michigan forest trail deciding which path to take, symbolizing choosing a first step for hair loss"
+        />
         <P>
           By this point you may be wondering how all of this translates into a first step. Here is
           the guide I would give a friend, organized by what you are seeing. It is not a substitute
@@ -3084,6 +3155,10 @@ function BlogComponent() {
 
       <section id="reading-your-labs">
         <H2>Reading Your Lab Results in Plain Language</H2>
+        <Fig
+          src={highlightImg}
+          alt="Woman highlighting a printed lab report beside a laptop to understand ferritin, vitamin D, and thyroid results"
+        />
         <P>
           One of the most disempowering experiences in healthcare is receiving a portal message that
           says "your labs are normal" without any sense of what "normal" means or how it was
@@ -3188,6 +3263,10 @@ function BlogComponent() {
 
       <section id="treatments">
         <H2>Treatments: What the Evidence Actually Supports</H2>
+        <Fig
+          src={topicalImg}
+          alt="Applying a clear topical scalp treatment along the hair part with a dropper"
+        />
         <P>
           Now to the question you may have skipped ahead for. What actually grows hair, and how
           well? I will go through the main options with the evidence for each, and I will try hard
@@ -3490,6 +3569,10 @@ function BlogComponent() {
 
       <section id="four-women">
         <H2>Four Women, Four Different Answers</H2>
+        <Fig
+          src={fourWomenImg}
+          alt="Four women of different ages and backgrounds chatting at a Midwest farmers market, representing four different hair loss stories"
+        />
         <P>
           To make all of this concrete, here are four composite scenarios drawn from patterns I see
           repeatedly. They are illustrations and not descriptions of specific individuals, and the
@@ -3583,6 +3666,10 @@ function BlogComponent() {
 
       <section id="timeline">
         <H2>The 12-Month Timeline: What Recovery Really Looks Like</H2>
+        <Fig
+          src={springWalkImg}
+          alt="Woman walking a Wisconsin park path in spring with new green leaves, representing gradual hair recovery over twelve months"
+        />
         <P>
           One of the most helpful things I can do for a woman starting this process is to give her
           an honest timeline, because the biggest cause of discouragement is expecting results in
@@ -3651,6 +3738,10 @@ function BlogComponent() {
 
       <section id="myths">
         <H2>Twelve Myths About Women's Hair Loss</H2>
+        <Fig
+          src={mythsImg}
+          alt="Woman looking skeptically at her phone while evaluating hair loss myths and supplement claims"
+        />
         <H3>1. "Washing or brushing my hair makes it fall out."</H3>
         <P>
           Hairs that are already at the end of their cycle simply come out when you wash or brush.
@@ -3726,6 +3817,10 @@ function BlogComponent() {
 
       <section id="red-flags">
         <H2>Red Flags: When to See a Dermatologist Quickly</H2>
+        <Fig
+          src={redFlagsImg}
+          alt="Dermatologist and patient reviewing a scalp photo on a tablet during an urgent hair loss evaluation"
+        />
         <P>
           Most women can begin with the root-cause evaluation described above. But some features
           should make you seek in-person dermatology care promptly, ideally within weeks, and not
@@ -3850,6 +3945,10 @@ function BlogComponent() {
 
       <section id="choosing-provider">
         <H2>Building Your Team and Choosing a Provider in Michigan or Wisconsin</H2>
+        <Fig
+          src={careTeamImg}
+          alt="Nurse practitioner, dermatologist, and dietitian collaborating as a hair loss care team"
+        />
         <P>
           Hair loss care in midlife is rarely a one-person job. The most successful patients I see
           assemble a small team, each member covering a piece of the picture. And because this is a
@@ -3968,6 +4067,10 @@ function BlogComponent() {
 
       <section id="prepare">
         <H2>How to Prepare for Your First Visit</H2>
+        <Fig
+          src={preparePhotoImg}
+          alt="Woman photographing her own hair part by a bright window to prepare for a hair loss evaluation"
+        />
         <P>
           A prepared patient shortens the road. Here is a checklist I share with women booking a
           hair loss evaluation.
@@ -4071,6 +4174,10 @@ function BlogComponent() {
 
       <section id="comprehensive-faq">
         <H2>Comprehensive FAQ</H2>
+        <Fig
+          src={faqImg}
+          alt="Curious woman with a notepad and laptop in a small Wisconsin coffee shop, representing common hair loss questions"
+        />
         <P>
           These are the questions women in Michigan and Wisconsin ask me most often about hair loss.
           The answers are also summarized for search engines, so you may see them appear in results.
@@ -4085,6 +4192,10 @@ function BlogComponent() {
 
       <section id="closing-katies-note">
         <H2>A Personal Note from Katie</H2>
+        <Fig
+          src={noteImg}
+          alt="Handwritten note card and tea beside a window overlooking a Lake Michigan sunrise"
+        />
         <div className="bg-primary/5 border border-primary/10 rounded-2xl p-8 md:p-10 my-10 text-center">
           <p className="font-display text-2xl md:text-3xl text-primary mb-4">
             It was never just your hair.
