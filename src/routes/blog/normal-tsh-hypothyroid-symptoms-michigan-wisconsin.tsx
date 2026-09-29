@@ -1280,6 +1280,14 @@ function BlogComponent() {
           If you have been struggling with persistent fatigue, unexplained weight gain, brain fog, or hair thinning, and your routine bloodwork has been dismissed as normal, you do not have to continue suffering in silence.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
+          If hair thinning is the symptom that bothers you most, see our full guide to <Link
+            to="/blog/hair-loss-women-35-to-55-michigan-wisconsin"
+            className="text-secondary font-semibold hover:underline"
+          >
+            Why Is My Hair Thinning? A Root-Cause Guide to Hair Loss in Women 35 to 55
+          </Link> for how thyroid function fits alongside iron, vitamin D, hormones, and insulin in a complete hair loss evaluation.
+        </p>
+        <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           You should consider scheduling a specialized functional evaluation if:
         </p>
         <ul className="space-y-3 my-4 text-foreground/85 pl-6 list-disc">

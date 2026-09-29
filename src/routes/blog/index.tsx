@@ -9,6 +9,7 @@ import sleepAnxietyHeroImg from "@/assets/blog/sleep-anxiety-hero-3am-awake.webp
 import pcosHeroImg from "@/assets/blog/pcos-hero-confident-woman-30s.webp";
 import brainFogHeroImg from "@/assets/blog/brain-fog-hero-woman-office.webp";
 import citiesHeroImg from "@/assets/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-hero.webp";
+import hairLossHeroImg from "@/assets/blog/hair-loss-hero-woman-michigan-kitchen.webp";
 import { Clock, ArrowRight, Calendar } from "lucide-react";
 
 export const Route = createFileRoute("/blog/")({
@@ -52,6 +53,20 @@ export const Route = createFileRoute("/blog/")({
 });
 
 const articles = [
+  {
+    slug: "hair-loss-women-35-to-55-michigan-wisconsin",
+    title:
+      "Why Is My Hair Thinning? A Root-Cause Guide to Hair Loss in Women 35 to 55 in Michigan and Wisconsin",
+    excerpt:
+      "A thinning part, more hair in the shower, or a ponytail that keeps shrinking? A deeply sourced guide to shedding versus pattern loss, iron and thyroid, midlife hormones, GLP-1 shedding, and evidence-based treatment for women in Michigan and Wisconsin.",
+    image: hairLossHeroImg,
+    imageAlt:
+      "Woman in Michigan noticing hair thinning at her temple in a bright kitchen on an autumn morning",
+    category: "Hair & Scalp Health",
+    date: "September 29, 2026",
+    readTime: "61 min read",
+    author: "Kathryn Long, NP-C",
+  },
   {
     slug: "normal-tsh-hypothyroid-symptoms-michigan-wisconsin",
     title: "My TSH is 'Normal' But I'm Freezing, Losing Hair, and Exhausted: Why Standard Thyroid Tests Fail Women in Their 30s & 40s",

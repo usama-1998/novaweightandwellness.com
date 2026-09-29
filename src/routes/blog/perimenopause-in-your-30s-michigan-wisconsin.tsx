@@ -560,6 +560,14 @@ function BlogComponent() {
           PCOS is a hormonal condition, common during reproductive years, involving irregular ovulation and often elevated androgens (male-pattern hormones like testosterone that all women produce in smaller amounts). It affects an estimated 6 to 12 percent of women of reproductive age, and it is frequently diagnosed late, sometimes not until a woman is well into her 30s, because milder presentations can be subtle for years. PCOS can produce irregular or absent periods, acne, increased facial or body hair growth, scalp hair thinning, weight gain that concentrates around the abdomen, and difficulty losing weight despite consistent effort, several of which overlap directly with the early perimenopause symptom list above.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
+          Thinning at the part line or increased shedding is another early signal that women in their 30s often dismiss. Our guide to <Link
+            to="/blog/hair-loss-women-35-to-55-michigan-wisconsin"
+            className="text-secondary font-semibold hover:underline"
+          >
+            hair loss in women 35 to 55
+          </Link> covers how estrogen, progesterone, iron, and thyroid changes can each affect the hair cycle, and what to check first.
+        </p>
+        <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           The distinguishing clinical picture usually involves androgen levels (total and free testosterone, DHEA-S), the LH-to-FSH ratio (luteinizing hormone relative to follicle-stimulating hormone, often elevated in PCOS), and evidence of ongoing anovulation (cycles without ovulation) rather than the gradually declining ovulatory function typical of perimenopause. A woman newly noticing irregular cycles at 33 or 34 is, statistically, more likely to be encountering a first real look at previously undiagnosed PCOS than she is to be perimenopausal, which makes accurate testing essential rather than optional.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">

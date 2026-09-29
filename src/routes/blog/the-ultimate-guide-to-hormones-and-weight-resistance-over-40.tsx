@@ -311,6 +311,14 @@ function BlogComponent() {
           the eyebrows), dry skin, chronic constipation, brain fog, and depression. Yet, millions of
           women suffering from these exact symptoms are told their thyroid is functioning perfectly.
         </p>
+        <p className="text-lg leading-relaxed text-foreground/85 mb-5">
+          For a dedicated look at midlife hair loss, including shedding versus pattern thinning, ferritin, GLP-1-related shedding, and evidence-based treatments, read our guide to <Link
+            to="/blog/hair-loss-women-35-to-55-michigan-wisconsin"
+            className="text-secondary font-semibold hover:underline"
+          >
+            hair loss in women 35 to 55 in Michigan and Wisconsin
+          </Link>.
+        </p>
         <h3 className="text-2xl font-display text-primary mt-8 mb-4">
           The TSH Illusion: Why Standard Testing Fails
         </h3>

@@ -261,6 +261,14 @@ function BlogComponent() {
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           I also want to say something directly about the symptoms on this list that tend to feel the hardest to name out loud, the facial hair, the hair thinning, the acne. Women frequently manage these symptoms privately for years, plucking, waxing, covering, before ever mentioning them to a provider, often because they assume these are cosmetic issues unrelated to anything a doctor would take seriously, or because they feel embarrassed bringing them up at all. These are not cosmetic footnotes. They are clinically meaningful signs of a hormonal pattern, and naming them plainly to a provider, using exactly the words used in this checklist, is one of the most useful things you can do to get an accurate evaluation. There is nothing to be embarrassed about in describing what your body is actually doing.
         </p>
+        <p className="text-lg leading-relaxed text-foreground/85 mb-5">
+          If hair thinning is your main concern, our detailed guide to <Link
+            to="/blog/hair-loss-women-35-to-55-michigan-wisconsin"
+            className="text-secondary font-semibold hover:underline"
+          >
+            hair loss in women 35 to 55
+          </Link> explains how PCOS-related pattern loss differs from shedding, iron-related loss, and perimenopausal thinning, and which tests help tell them apart.
+        </p>
         <h3 className="text-xl md:text-2xl font-display text-primary mt-10 mb-4">
           How to Actually Use This Checklist
         </h3>

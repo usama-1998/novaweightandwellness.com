@@ -327,6 +327,14 @@ function BlogComponent() {
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Many of these deficiencies are clinically silent for months. The downstream effects accumulate as fatigue that feels like the drug is not working, brain fog, mood changes, poor sleep quality, hair thinning, and compounding difficulty losing weight. When we run comprehensive micronutrient panels on women who have been on GLP-1 medications for several months, the results are almost always illuminating and almost always directly relevant to the plateau they are experiencing.
         </p>
+        <p className="text-lg leading-relaxed text-foreground/85 mb-5">
+          Hair shedding is one of the most common and most distressing signs that nutrient intake has fallen short during rapid weight loss. The label data, the likely mechanism, and a protective plan are laid out in our companion guide, <Link
+            to="/blog/hair-loss-women-35-to-55-michigan-wisconsin"
+            className="text-secondary font-semibold hover:underline"
+          >
+            Why Is My Hair Thinning? A Root-Cause Guide to Hair Loss in Women 35 to 55
+          </Link>, which includes a full section on GLP-1 medications and hair.
+        </p>
       </section>
 
       {/* CTA 1 */}
