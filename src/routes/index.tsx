@@ -33,14 +33,14 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: "Functional Medicine for Women in MI & WI | Novaleo" },
       {
         property: "og:description",
-        content: "Root-cause functional medicine via telehealth for women in their 40s & 50s. Free 15-min assessment call.",
+        content: "Root-cause functional medicine via telehealth for women in their 40s & 50s. Free assessment call.",
       },
       { property: "og:url", content: "https://novaweightandwellness.com/" },
       { property: "og:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Functional Medicine for Women in MI & WI | Novaleo" },
-      { name: "twitter:description", content: "Root-cause functional medicine via telehealth for women in their 40s & 50s. Free 15-min assessment call." },
+      { name: "twitter:description", content: "Root-cause functional medicine via telehealth for women in their 40s & 50s. Free assessment call." },
       { name: "twitter:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
     ],
   }),
@@ -152,8 +152,8 @@ function Home() {
               cause.
             </p>
             <div className="mt-6 md:mt-9 flex flex-wrap gap-3">
-              <Link to="/free-15-min-call-with-katie"  className="btn-gold">
-                Book Free 15-Min Assessment Call <ArrowRight className="ml-2 h-4 w-4" />
+              <Link to="/free-call-with-katie"  className="btn-gold">
+                Book Free Assessment Call <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
               <Link to="/approach" className="btn-ghost">
                 How it works
@@ -342,8 +342,8 @@ function Home() {
           </CarouselContent>
         </Carousel>
         <div className="mt-12 flex justify-center">
-          <Link to="/free-15-min-call-with-katie"  className="btn-primary">
-            Book Free 15-Min Assessment Call
+          <Link to="/free-call-with-katie"  className="btn-primary">
+            Book Free Assessment Call
           </Link>
         </div>
       </section>
@@ -398,8 +398,8 @@ function Home() {
             ))}
           </div>
           <div className="mt-12 flex flex-wrap gap-3">
-            <Link to="/free-15-min-call-with-katie"  className="btn-gold">
-              Book Free 15-Min Assessment Call
+            <Link to="/free-call-with-katie"  className="btn-gold">
+              Book Free Assessment Call
             </Link>
           </div>
         </div>
@@ -469,8 +469,8 @@ function Home() {
           want to talk first or dive straight in, I'm here for you.
         </p>
         <div className="mt-8 flex justify-center gap-3 flex-wrap">
-          <Link to="/free-15-min-call-with-katie"  className="btn-gold">
-            Book Free 15-Min Assessment Call
+          <Link to="/free-call-with-katie"  className="btn-gold">
+            Book Free Assessment Call
           </Link>
           <Link to="/clarity-session" className="btn-ghost">
             Book $97 Root-Cause Intake

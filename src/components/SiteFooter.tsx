@@ -131,8 +131,8 @@ export function SiteFooter() {
               </Link>
             </li>
             <li>
-              <Link to="/free-15-min-call-with-katie" className="hover:text-gold">
-                Book Free 15-Min Assessment Call
+              <Link to="/free-call-with-katie" className="hover:text-gold">
+                Book Free Assessment Call
               </Link>
             </li>
           </ul>
@@ -163,8 +163,8 @@ export function SiteFooter() {
             <li>Mon – Fri · 7 AM – 6 PM</li>
 
             <li className="pt-2">
-              <Link to="/free-15-min-call-with-katie" className="hover:text-gold text-left">
-                Book Free 15-Min Assessment Call
+              <Link to="/free-call-with-katie" className="hover:text-gold text-left">
+                Book Free Assessment Call
               </Link>
             </li>
           </ul>

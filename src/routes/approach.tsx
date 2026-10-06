@@ -145,10 +145,10 @@ function Approach() {
       <section className="container-prose py-24 text-center">
         <h2 className="text-4xl md:text-5xl">Start where you are.</h2>
         <p className="mt-5 text-muted-foreground max-w-xl mx-auto">
-          The process begins with a single 15-minute conversation. No cost. No commitment.
+          The process begins with a single conversation. No cost. No commitment.
         </p>
-        <Link to="/free-15-min-call-with-katie"  className="btn-gold mt-8 inline-flex">
-          Book Free 15-Min Assessment Call
+        <Link to="/free-call-with-katie"  className="btn-gold mt-8 inline-flex">
+          Book Free Assessment Call
         </Link>
       </section>
     </>

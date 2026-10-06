@@ -281,11 +281,11 @@ function BlogIndex() {
           <h2 className="text-3xl md:text-4xl text-primary">Ready to Find Real Answers?</h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-xl mx-auto leading-relaxed">
             If you're a Michigan or Wisconsin woman struggling with fatigue, weight resistance, or
-            hormonal symptoms, let's talk. Your free 15-minute assessment call is the first step.
+            hormonal symptoms, let's talk. Your free assessment call is the first step.
           </p>
           <div className="mt-8">
-            <Link to="/free-15-min-call-with-katie" className="btn-gold text-base">
-              Book Your Free 15-Min Assessment Call <ArrowRight className="ml-2 h-4 w-4" />
+            <Link to="/free-call-with-katie" className="btn-gold text-base">
+              Book Your Free Assessment Call <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </div>
         </div>

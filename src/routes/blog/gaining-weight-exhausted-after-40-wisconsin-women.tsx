@@ -74,7 +74,7 @@ const tocItems = [
   },
   {
     id: "fifteen-minutes-that-change-everything",
-    label: "15 Minutes That Could Change Everything",
+    label: "A Call That Could Change Everything",
   },
   {
     id: "milwaukee-to-minocqua",
@@ -298,12 +298,12 @@ function BlogComponent() {
           Tired of hearing "your labs look normal" when you know something is off?
         </p>
         <p className="text-foreground/70 mb-5">
-          Start with a free 15-minute assessment call. No pressure, no commitment, no sales pitch.
+          Start with a free assessment call. No pressure, no commitment, no sales pitch.
           Just a real conversation about what you're experiencing and whether functional medicine
           might be the missing piece.
         </p>
-        <Link to="/free-15-min-call-with-katie" className="btn-gold">
-          Book Your Free 15-Minute Assessment Call
+        <Link to="/free-call-with-katie" className="btn-gold">
+          Book Your Free Assessment Call
         </Link>
       </div>
 
@@ -610,11 +610,11 @@ function BlogComponent() {
           Ready to find out what's really going on?
         </p>
         <p className="text-foreground/70 mb-5">
-          The free 15-minute assessment call is designed for women exactly like you: smart,
+          The free assessment call is designed for women exactly like you: smart,
           proactive, and tired of getting brushed off. Let's talk about what you're going through
           and explore whether functional medicine is the right next step.
         </p>
-        <Link to="/free-15-min-call-with-katie" className="btn-gold">
+        <Link to="/free-call-with-katie" className="btn-gold">
           Schedule Your Free Call Today
         </Link>
       </div>
@@ -773,7 +773,7 @@ function BlogComponent() {
       {/* ========== Section 8: Your First Conversation ========== */}
       <section id="fifteen-minutes-that-change-everything">
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
-          15 Minutes That Could Change Everything
+          A Call That Could Change Everything
         </h2>
 
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
@@ -784,7 +784,7 @@ function BlogComponent() {
 
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           At Novaleo, everything starts with a conversation, not a commitment. We begin with a free,
-          no-pressure 15-minute assessment call where we talk about what you're experiencing. You can
+          no-pressure assessment call where we talk about what you're experiencing. You can
           share your symptoms, the frustration of "normal" lab results, and what you actually want
           for your health going forward.
         </p>
@@ -898,10 +898,10 @@ function BlogComponent() {
         </p>
         <p className="text-foreground/70 mb-5">
           From Superior to Kenosha, from La Crosse to Green Bay, our telehealth services bring
-          personalized functional medicine directly to you. Start with a free 15-minute call and
+          personalized functional medicine directly to you. Start with a free call and
           discover what a root-cause approach can do for you.
         </p>
-        <Link to="/free-15-min-call-with-katie" className="btn-gold">
+        <Link to="/free-call-with-katie" className="btn-gold">
           Book Your Free Assessment Call
         </Link>
       </div>
@@ -939,7 +939,7 @@ function BlogComponent() {
         </p>
 
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          The free 15-minute assessment call is the first step. It is genuinely free, with no strings
+          The free assessment call is the first step. It is genuinely free, with no strings
           attached. You'll speak directly with a member of our care team, share what you've been
           going through, and find out if functional medicine is the right path forward. No
           commitment. No pressure. Just a conversation that could change the entire direction of
@@ -951,11 +951,11 @@ function BlogComponent() {
             You've waited long enough for answers.
           </p>
           <p className="text-lg text-foreground/70 mb-6 max-w-xl mx-auto">
-            Book your free 15-minute assessment call today and take the first step toward
+            Book your free assessment call today and take the first step toward
             understanding what's really happening inside your body.
           </p>
-          <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
-            Book Your Free 15-Minute Assessment Call
+          <Link to="/free-call-with-katie" className="btn-gold text-lg px-8 py-4">
+            Book Your Free Assessment Call
           </Link>
         </div>
 
@@ -1000,11 +1000,11 @@ function BlogComponent() {
         </h2>
         <p className="text-white/80 text-lg mb-8 max-w-2xl mx-auto">
           Join the growing number of Wisconsin women who have discovered what conventional medicine
-          missed. Your free 15-minute assessment call is the first step toward answers, clarity, and
+          missed. Your free assessment call is the first step toward answers, clarity, and
           feeling like yourself again.
         </p>
-        <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
-          Book Your Free 15-Minute Assessment Call
+        <Link to="/free-call-with-katie" className="btn-gold text-lg px-8 py-4">
+          Book Your Free Assessment Call
         </Link>
       </section>
     </BlogLayout>

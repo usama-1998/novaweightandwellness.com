@@ -227,8 +227,8 @@ function BlogComponent() {
         <p className="text-foreground/70 mb-5">
           Wherever you are reading this from in Michigan or Wisconsin, licensed telehealth care means real, comprehensive, root-cause support is genuinely within reach.
         </p>
-        <Link to="/free-15-min-call-with-katie" className="btn-gold">
-          Book Your Free 15-Minute Assessment Call
+        <Link to="/free-call-with-katie" className="btn-gold">
+          Book Your Free Assessment Call
         </Link>
       </div>
 
@@ -702,10 +702,10 @@ function BlogComponent() {
           You don't have to live near a big city for this to be real, accessible care.
         </p>
         <p className="text-foreground/70 mb-5">
-          If you're in a smaller town or rural community anywhere in Michigan or Wisconsin, book your free 15-minute assessment call and see for yourself how straightforward this actually is, wherever you're calling in from.
+          If you're in a smaller town or rural community anywhere in Michigan or Wisconsin, book your free assessment call and see for yourself how straightforward this actually is, wherever you're calling in from.
         </p>
-        <Link to="/free-15-min-call-with-katie" className="btn-gold">
-          Book Your Free 15-Minute Assessment Call
+        <Link to="/free-call-with-katie" className="btn-gold">
+          Book Your Free Assessment Call
         </Link>
       </div>
 
@@ -924,10 +924,10 @@ function BlogComponent() {
             Wherever you are in Michigan or Wisconsin, this is genuinely available to you.
           </p>
           <p className="text-lg text-foreground/70 mb-6 max-w-xl mx-auto">
-            Book your free 15-minute assessment call and let's talk about what's actually going on with your body, and what real, root-cause care looks like for you specifically.
+            Book your free assessment call and let's talk about what's actually going on with your body, and what real, root-cause care looks like for you specifically.
           </p>
-          <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
-            Book Your Free 15-Minute Assessment Call
+          <Link to="/free-call-with-katie" className="btn-gold text-lg px-8 py-4">
+            Book Your Free Assessment Call
           </Link>
         </div>
 
@@ -960,10 +960,10 @@ function BlogComponent() {
           Real, Root-Cause Care, Wherever You Live
         </h2>
         <p className="text-white/80 text-lg mb-8 max-w-2xl mx-auto">
-          Whether you're in a downtown high-rise or a farmhouse kitchen, your free 15-minute assessment call is the first step toward real answers.
+          Whether you're in a downtown high-rise or a farmhouse kitchen, your free assessment call is the first step toward real answers.
         </p>
-        <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
-          Book Your Free 15-Minute Assessment Call
+        <Link to="/free-call-with-katie" className="btn-gold text-lg px-8 py-4">
+          Book Your Free Assessment Call
         </Link>
       </section>
 

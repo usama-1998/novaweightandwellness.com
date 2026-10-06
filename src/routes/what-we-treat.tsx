@@ -152,8 +152,8 @@ function Conditions() {
           <p className="mt-4 text-primary/80 max-w-xl mx-auto">
             We'll tell you honestly whether functional medicine is the right path for your case.
           </p>
-          <Link to="/free-15-min-call-with-katie"  className="btn-primary mt-7 inline-flex">
-            Book Free 15-Min Assessment Call
+          <Link to="/free-call-with-katie"  className="btn-primary mt-7 inline-flex">
+            Book Free Assessment Call
           </Link>
         </div>
       </section>

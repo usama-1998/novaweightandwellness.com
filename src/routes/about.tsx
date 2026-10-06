@@ -198,11 +198,11 @@ function About() {
             Let's start with a conversation.
           </h2>
           <p className="mt-4 text-primary-foreground/75 max-w-xl mx-auto">
-            A relaxed, judgment-free 15-minute Google Meet call with Kathryn. Zero cost, zero
+            A relaxed, judgment-free Google Meet call with Kathryn. Zero cost, zero
             pressure.
           </p>
-          <Link to="/free-15-min-call-with-katie"  className="btn-gold mt-7 inline-flex">
-            Book Free 15-Min Assessment Call
+          <Link to="/free-call-with-katie"  className="btn-gold mt-7 inline-flex">
+            Book Free Assessment Call
           </Link>
         </div>
       </section>

@@ -2,29 +2,29 @@ import { createFileRoute } from '@tanstack/react-router';
 import React, { useState } from 'react';
 import BookingVariantA from '@/components/BookingVariantA';
 
-export const Route = createFileRoute('/free-15-min-call-with-katie')({
+export const Route = createFileRoute('/free-call-with-katie')({
   head: () => ({
     links: [
-      { rel: "canonical", href: "https://novaweightandwellness.com/free-15-min-call-with-katie" },
+      { rel: "canonical", href: "https://novaweightandwellness.com/free-call-with-katie" },
     ],
     meta: [
       { title: "Book a Free Assessment Call | Novaleo Weight & Wellness" },
       {
         name: "description",
         content:
-          "Schedule your complimentary 15-minute assessment call with one of our practitioners. Available via telehealth in Michigan and Wisconsin.",
+          "Schedule your complimentary assessment call with one of our practitioners. Available via telehealth in Michigan and Wisconsin.",
       },
       { property: "og:title", content: "Book a Free Assessment Call | Novaleo" },
       {
         property: "og:description",
-        content: "Schedule your complimentary 15-minute assessment call with one of our practitioners.",
+        content: "Schedule your complimentary assessment call with one of our practitioners.",
       },
-      { property: "og:url", content: "https://novaweightandwellness.com/free-15-min-call-with-katie" },
+      { property: "og:url", content: "https://novaweightandwellness.com/free-call-with-katie" },
       { property: "og:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Book a Free Assessment Call | Novaleo" },
-      { name: "twitter:description", content: "Schedule your complimentary 15-minute assessment call with one of our practitioners." },
+      { name: "twitter:description", content: "Schedule your complimentary assessment call with one of our practitioners." },
       { name: "twitter:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
     ],
   }),

@@ -375,7 +375,7 @@ function BlogComponent() {
           Why a Comprehensive Evaluation Matters More Than a Single Guess
         </h3>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          The reason I am walking through all of this is not to make you more anxious about a longer list of possibilities. It is the opposite. A woman who receives a genuinely comprehensive evaluation, one that considers her hormonal picture alongside thyroid function, sleep quality, and relevant cardiovascular screening where appropriate, ends up with real clarity rather than a guess. This is precisely why a single explanation offered in a 15 minute appointment, whether that explanation is "it's just hormones" or "it's just anxiety" or "it's just stress," so often leaves women feeling like they have not gotten the full picture. The goal of this article, and of the evaluation process described in Section 6, is to replace a guess with an actual answer.
+          The reason I am walking through all of this is not to make you more anxious about a longer list of possibilities. It is the opposite. A woman who receives a genuinely comprehensive evaluation, one that considers her hormonal picture alongside thyroid function, sleep quality, and relevant cardiovascular screening where appropriate, ends up with real clarity rather than a guess. This is precisely why a single explanation offered in a brief appointment, whether that explanation is "it's just hormones" or "it's just anxiety" or "it's just stress," so often leaves women feeling like they have not gotten the full picture. The goal of this article, and of the evaluation process described in Section 6, is to replace a guess with an actual answer.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           None of these other explanations are mutually exclusive with the hormonal mechanisms described in Section 3, and in practice, they often overlap and compound each other rather than existing as separate, competing diagnoses. A woman with mild sleep apnea and declining progesterone is dealing with two contributors at once, not one or the other, and a plan that addresses only one will likely produce only partial relief. This is, again, the argument for comprehensive rather than piecemeal evaluation, and it is why this article has spent as much time on what this is not as it has on what it is.
@@ -449,10 +449,10 @@ function BlogComponent() {
           Already tried the sleep tips and the standard advice?
         </p>
         <p className="text-foreground/70 mb-5">
-          If you've done the things you're supposed to do and you're still waking up at 3am, it's time to look at what's actually driving it. A free 15-minute assessment call is a low-pressure place to start.
+          If you've done the things you're supposed to do and you're still waking up at 3am, it's time to look at what's actually driving it. A free assessment call is a low-pressure place to start.
         </p>
-        <Link to="/free-15-min-call-with-katie" className="btn-gold">
-          Book Your Free 15-Minute Assessment Call
+        <Link to="/free-call-with-katie" className="btn-gold">
+          Book Your Free Assessment Call
         </Link>
       </div>
 
@@ -605,9 +605,9 @@ function BlogComponent() {
           Ready to find out what's actually driving your 3am wake-ups?
         </p>
         <p className="text-foreground/70 mb-5">
-          A free 15-minute assessment call is a chance to talk through your specific pattern and what a real evaluation could look like for you, no generic tip list, no pressure.
+          A free assessment call is a chance to talk through your specific pattern and what a real evaluation could look like for you, no generic tip list, no pressure.
         </p>
-        <Link to="/free-15-min-call-with-katie" className="btn-gold">
+        <Link to="/free-call-with-katie" className="btn-gold">
           Schedule Your Free Assessment Call
         </Link>
       </div>
@@ -935,10 +935,10 @@ function BlogComponent() {
             Let's find out what's actually keeping you up at night.
           </p>
           <p className="text-lg text-foreground/70 mb-6 max-w-xl mx-auto">
-            Book your free 15-minute assessment call. No generic sleep tips, no pressure, just a real conversation about your specific symptoms and what to do next.
+            Book your free assessment call. No generic sleep tips, no pressure, just a real conversation about your specific symptoms and what to do next.
           </p>
-          <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
-            Book Your Free 15-Minute Assessment Call
+          <Link to="/free-call-with-katie" className="btn-gold text-lg px-8 py-4">
+            Book Your Free Assessment Call
           </Link>
         </div>
 
@@ -998,10 +998,10 @@ function BlogComponent() {
           You Don't Have to White-Knuckle Through Another Night
         </h2>
         <p className="text-white/80 text-lg mb-8 max-w-2xl mx-auto">
-          If 3am has become a familiar, unwelcome part of your routine, there is a real, identifiable reason, and a real path forward. Your free 15-minute assessment call is the first step.
+          If 3am has become a familiar, unwelcome part of your routine, there is a real, identifiable reason, and a real path forward. Your free assessment call is the first step.
         </p>
-        <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
-          Book Your Free 15-Minute Assessment Call
+        <Link to="/free-call-with-katie" className="btn-gold text-lg px-8 py-4">
+          Book Your Free Assessment Call
         </Link>
       </section>
 

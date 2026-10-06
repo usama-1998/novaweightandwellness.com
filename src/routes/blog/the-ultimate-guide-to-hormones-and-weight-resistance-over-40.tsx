@@ -199,7 +199,7 @@ function BlogComponent() {
           gathering the courage to bring her myriad symptoms to her primary care physician, only to
           be met with clinical dismissal. You describe the profound fatigue, the thinning hair, the
           brain fog, and the rapid weight gain that defies explanation. Your doctor, working within
-          the constraints of a standard 15-minute appointment, orders a routine blood panel.
+          the constraints of a standard appointment, orders a routine blood panel.
         </p>
         <p className="mb-5">
           A few days later, you receive a message stating that your labs are "completely normal."
@@ -283,12 +283,12 @@ function BlogComponent() {
           Tired of hearing "your labs look normal" when you know something is off?
         </p>
         <p className="text-foreground/70 mb-5">
-          Start with a free 15-minute assessment call. No pressure, no commitment, no sales pitch.
+          Start with a free assessment call. No pressure, no commitment, no sales pitch.
           Just a real conversation about what you're experiencing and whether functional medicine
           might be the missing piece.
         </p>
-        <Link to="/free-15-min-call-with-katie" className="btn-gold">
-          Book Your Free 15-Minute Assessment Call
+        <Link to="/free-call-with-katie" className="btn-gold">
+          Book Your Free Assessment Call
         </Link>
       </div>
 
@@ -710,10 +710,10 @@ function BlogComponent() {
         </p>
         <p className="text-foreground/70 mb-5">
           If you are struggling with belly fat and fatigue, you need the complete metabolic picture.
-          Book a free 15-minute assessment call to discuss comprehensive functional testing.
+          Book a free assessment call to discuss comprehensive functional testing.
         </p>
-        <Link to="/free-15-min-call-with-katie" className="btn-gold">
-          Book Your Free 15-Minute Assessment Call
+        <Link to="/free-call-with-katie" className="btn-gold">
+          Book Your Free Assessment Call
         </Link>
       </div>
 
@@ -1101,7 +1101,7 @@ function BlogComponent() {
             of your symptoms together.
           </p>
           <Link
-            to="/free-15-min-call-with-katie"
+            to="/free-call-with-katie"
             className="inline-flex items-center justify-center bg-secondary text-white font-semibold px-8 py-4 rounded-full hover:bg-secondary/90 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
           >
             Book Your Free Assessment Call

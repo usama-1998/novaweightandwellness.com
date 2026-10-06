@@ -341,10 +341,10 @@ export function BlogLayout({
                     Book a free assessment call to discuss functional lab testing.
                   </p>
                   <Link
-                    to="/free-15-min-call-with-katie"
+                    to="/free-call-with-katie"
                     className="btn-primary text-sm w-full py-2.5"
                   >
-                    Free 15-Min Call
+                    Free Call
                   </Link>
                 </div>
               </div>

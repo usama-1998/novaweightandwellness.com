@@ -74,12 +74,12 @@ npm run build
   - **Dynamic Permalinks**: Routes are intuitively named (`/services`, `/what-we-treat`) to match navigation items exactly, reinforcing semantic relevance.
 - **The Root Cause Restoration Program**: Renamed from "The Executive Longevity Partnership." A 6-month functional medicine program for women 35 to 55, structured around 4 non-negotiables: nutrition + blood sugar stability, sleep + circadian rhythm, stress + nervous system regulation, and movement + metabolic strength.
 - **Lead Magnet / Free Guide (`/free-guide`)**: A dedicated landing page for the "What Your Labs Aren't Telling You" PDF guide. Redesigned with a premium glassmorphism aesthetic, featuring dynamic animations, a 3D physical book mockup, a sleek inline form for lead generation, an interactive 'Meet Your Guide' author section, and detailed info sections highlighting the core contents of the ebook.
-- **Dedicated Free Assessment Call Page (`/free-15-min-call-with-katie`)**: Replaces the global pop-up modal with a dedicated landing page for scheduling the free 15-minute assessment call.
+- **Dedicated Free Assessment Call Page (`/free-call-with-katie`)**: Replaces the global pop-up modal with a dedicated landing page for scheduling the free assessment call.
   - Features a native GoHighLevel calendar embed integrated seamlessly into the page, complete with a custom, branded loading overlay to ensure a premium user experience while the iframe initializes.
   - Supports dynamic iframe height recalculations with native mobile scrolling, breaking out of standard modal constraints for improved accessibility on smaller devices.
   - **High-Converting Bio Layout**: The standard location gate has been completely replaced with a high-converting, trust-building clinician bio. This layout includes an Instagram-style verified badge and a rotating carousel of verified 5-star patient reviews.
   - **Optimized Copy & Sequence**: The pre-booking flow uses a specific sequence (Photo/Badge -> Headline -> Symptoms Checklist -> CTA -> Testimonials) perfectly mirrored from high-performing ad copy to maximize conversions and message-match.
-- **Dedicated Ad Landing Pages**: Note: the leftover `/michigan-discovery-call` route was a duplicate and has been redirected to `/free-15-min-call-with-katie`.
+- **Dedicated Ad Landing Pages**: Note: the leftover `/michigan-discovery-call` route was a duplicate and has been redirected to `/free-call-with-katie`.
   - **Inline Native Rendering**: Decoupled from the global modal architecture, rendering the scheduling flow natively inline as an embedded landing page rather than a pop-up overlay.
 - **Dynamic Meta Pixel Tracking**:
   - Automatically initializes and tracks Facebook `PageView` and `Schedule` events natively through the React Router.

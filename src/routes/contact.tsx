@@ -18,19 +18,19 @@ export const Route = createFileRoute("/contact")({
       {
         name: "description",
         content:
-          "Book a free 15-minute Google Meet assessment call with Kathryn Long, NP-C. Telehealth functional medicine for women in Michigan & Wisconsin.",
+          "Book a free Google Meet assessment call with Kathryn Long, NP-C. Telehealth functional medicine for women in Michigan & Wisconsin.",
       },
       { property: "og:title", content: "Contact Novaleo Weight & Wellness | Book a Free Call" },
       {
         property: "og:description",
-        content: "Free 15-minute assessment call. No cost, no commitment. Telehealth functional medicine for women in Michigan & Wisconsin.",
+        content: "Free assessment call. No cost, no commitment. Telehealth functional medicine for women in Michigan & Wisconsin.",
       },
       { property: "og:url", content: "https://novaweightandwellness.com/contact" },
       { property: "og:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Contact Novaleo Weight & Wellness | Book a Free Call" },
-      { name: "twitter:description", content: "Book a free 15-minute Google Meet assessment call with Kathryn Long, NP-C." },
+      { name: "twitter:description", content: "Book a free Google Meet assessment call with Kathryn Long, NP-C." },
       { name: "twitter:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
     ],
   }),
@@ -51,7 +51,7 @@ function Contact() {
               {
                 "@type": "ContactPage",
                 "name": "Contact Novaleo Weight & Wellness",
-                "description": "Book a free 15-minute assessment call.",
+                "description": "Book a free assessment call.",
                 "url": "https://novaweightandwellness.com/contact"
               },
               {
@@ -102,7 +102,7 @@ function Contact() {
                 "name": "Is the free call really free? What's the catch?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "There is no catch. The 15-minute assessment call is completely free with no obligation to book anything after. I only work with clients I genuinely believe I can help."
+                  "text": "There is no catch. The assessment call is completely free with no obligation to book anything after. I only work with clients I genuinely believe I can help."
                 }
               },
               {
@@ -132,7 +132,7 @@ function Contact() {
           <div className="lg:col-span-7">
             <div className="eyebrow mb-5">Contact · No cost. No commitment.</div>
             <h1 className="text-5xl md:text-6xl leading-[1.05]">
-              Book your free <em className="text-secondary not-italic">15-minute</em> assessment call.
+              Book your free <em className="text-secondary not-italic"></em> assessment call.
             </h1>
             <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
               Not sure if functional medicine is right for you? Let's talk. This call is designed to
@@ -141,8 +141,8 @@ function Contact() {
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
-              <Link to="/free-15-min-call-with-katie" className="btn-gold">
-                Book Free 15-Min Assessment Call
+              <Link to="/free-call-with-katie" className="btn-gold">
+                Book Free Assessment Call
               </Link>
               <a
                 href="https://www.optimantra.com/optimus/patient/patientaccess/practsNslots?sid=OFREc0ROeWQyL0kvdE9OaU5GRlVOQT09&pid=ZW1nazRycGdvZWxwQjA2eEpiOE5kQT09&lid=UlNxTzY0a0dyR1hJNGJsSkR2NDF5UT09"
@@ -241,7 +241,7 @@ function Contact() {
                 },
                 {
                   q: "Is the free call really free? What's the catch?",
-                  a: "There is no catch. The 15-minute assessment call is completely free with no obligation to book anything after. I only work with clients I genuinely believe I can help.",
+                  a: "There is no catch. The assessment call is completely free with no obligation to book anything after. I only work with clients I genuinely believe I can help.",
                 },
                 {
                   q: "Do you take insurance?",

@@ -46,7 +46,7 @@ const services: Service[] = [
   {
     id: "assessment",
     name: "Root Cause Assessment Call",
-    duration: "15 Min",
+    duration: "",
     price: "Free",
     highlight: "Start here",
     description: (

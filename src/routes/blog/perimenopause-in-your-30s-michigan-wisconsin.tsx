@@ -386,10 +386,10 @@ function BlogComponent() {
           You noticed something. You deserve an answer now, not in five years.
         </p>
         <p className="text-foreground/70 mb-5">
-          A free 15-minute assessment call is a no-pressure conversation about what you're experiencing and whether it's worth investigating further. You don't need to have it all figured out first.
+          A free assessment call is a no-pressure conversation about what you're experiencing and whether it's worth investigating further. You don't need to have it all figured out first.
         </p>
-        <Link to="/free-15-min-call-with-katie" className="btn-gold">
-          Book Your Free 15-Minute Assessment Call
+        <Link to="/free-call-with-katie" className="btn-gold">
+          Book Your Free Assessment Call
         </Link>
       </div>
 
@@ -431,7 +431,7 @@ function BlogComponent() {
           The average primary care appointment in the United States runs somewhere in the range of 13 to 18 minutes, and that window has to cover everything: your reason for the visit, a review of any ongoing concerns, medication management, preventive screening reminders, and documentation. Within that structure, a nuanced, decade-spanning conversation about subtle hormonal variability, the kind this article is having with you right now, simply does not fit. There is not enough time to ask the follow-up questions that would surface a genuine pattern: how has your cycle length changed over the past two years specifically, what does your sleep disruption actually feel like, is the anxiety cyclical or constant, has your family history included earlier-than-average menopause. Those questions take time that the structure of a typical appointment does not allow, and without them, the pattern that a longer, more curious conversation might reveal simply never gets seen.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          This is not a criticism of individual providers, many of whom are working within a system that structurally rewards volume and speed over depth. A primary care physician managing a full patient panel is often making genuinely difficult trade-offs about where to spend limited appointment time, and a 34-year-old with normal-looking vital signs and a routine annual exam on the schedule is, understandably, not where a 15-minute visit is likely to go deep on subtle, cycle-dependent symptoms that would take real time to unpack properly. The system is not built for this conversation. That is a structural problem, not a personal failing on either side of the exam table, but it is still a problem worth naming clearly, because understanding it is what allows you to seek out a different kind of appointment, one specifically structured to have the time this conversation actually requires.
+          This is not a criticism of individual providers, many of whom are working within a system that structurally rewards volume and speed over depth. A primary care physician managing a full patient panel is often making genuinely difficult trade-offs about where to spend limited appointment time, and a 34-year-old with normal-looking vital signs and a routine annual exam on the schedule is, understandably, not where a visit is likely to go deep on subtle, cycle-dependent symptoms that would take real time to unpack properly. The system is not built for this conversation. That is a structural problem, not a personal failing on either side of the exam table, but it is still a problem worth naming clearly, because understanding it is what allows you to seek out a different kind of appointment, one specifically structured to have the time this conversation actually requires.
         </p>
         <h3 className="text-xl md:text-2xl font-display text-primary mt-10 mb-4">
           Why a Single Blood Draw Misses a Condition Defined by Variability
@@ -674,9 +674,9 @@ function BlogComponent() {
           You don't have to wait five years for this to get worse before someone takes it seriously.
         </p>
         <p className="text-foreground/70 mb-5">
-          A free 15-minute assessment call is the place to start. No pressure, no assumptions about your age, just a real conversation about what testing could tell you now.
+          A free assessment call is the place to start. No pressure, no assumptions about your age, just a real conversation about what testing could tell you now.
         </p>
-        <Link to="/free-15-min-call-with-katie" className="btn-gold">
+        <Link to="/free-call-with-katie" className="btn-gold">
           Schedule Your Free Assessment Call
         </Link>
       </div>
@@ -860,10 +860,10 @@ function BlogComponent() {
             You noticed something. Let's find out what it is.
           </p>
           <p className="text-lg text-foreground/70 mb-6 max-w-xl mx-auto">
-            Book your free 15-minute assessment call. No sales pitch, no assumptions about your age, just an honest conversation about what testing could tell you right now instead of five years from now.
+            Book your free assessment call. No sales pitch, no assumptions about your age, just an honest conversation about what testing could tell you right now instead of five years from now.
           </p>
-          <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
-            Book Your Free 15-Minute Assessment Call
+          <Link to="/free-call-with-katie" className="btn-gold text-lg px-8 py-4">
+            Book Your Free Assessment Call
           </Link>
         </div>
 
@@ -917,10 +917,10 @@ function BlogComponent() {
           You Deserve an Answer Now, Not in Five Years
         </h2>
         <p className="text-white/80 text-lg mb-8 max-w-2xl mx-auto">
-          Join the growing number of Michigan and Wisconsin women in their 30s who decided not to wait. Your free 15-minute assessment call is the first step toward understanding what your body is telling you.
+          Join the growing number of Michigan and Wisconsin women in their 30s who decided not to wait. Your free assessment call is the first step toward understanding what your body is telling you.
         </p>
-        <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
-          Book Your Free 15-Minute Assessment Call
+        <Link to="/free-call-with-katie" className="btn-gold text-lg px-8 py-4">
+          Book Your Free Assessment Call
         </Link>
       </section>
 
