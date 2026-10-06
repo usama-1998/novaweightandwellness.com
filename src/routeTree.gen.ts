@@ -14,7 +14,7 @@ import { Route as TermsOfServiceRouteImport } from './routes/terms-of-service'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as ServicesRouteImport } from './routes/services'
 import { Route as PrivacyPolicyRouteImport } from './routes/privacy-policy'
-import { Route as MichiganAssessmentCallRouteImport } from './routes/michigan-assessment-call'
+import { Route as MichiganDiscoveryCallRouteImport } from './routes/michigan-discovery-call'
 import { Route as FreeGuideRouteImport } from './routes/free-guide'
 import { Route as Free15MinCallWithKatieRouteImport } from './routes/free-15-min-call-with-katie'
 import { Route as ContactRouteImport } from './routes/contact'
@@ -60,9 +60,9 @@ const PrivacyPolicyRoute = PrivacyPolicyRouteImport.update({
   path: '/privacy-policy',
   getParentRoute: () => rootRouteImport,
 } as any)
-const MichiganAssessmentCallRoute = MichiganAssessmentCallRouteImport.update({
-  id: '/michigan-assessment-call',
-  path: '/michigan-assessment-call',
+const MichiganDiscoveryCallRoute = MichiganDiscoveryCallRouteImport.update({
+  id: '/michigan-discovery-call',
+  path: '/michigan-discovery-call',
   getParentRoute: () => rootRouteImport,
 } as any)
 const FreeGuideRoute = FreeGuideRouteImport.update({
@@ -180,7 +180,7 @@ export interface FileRoutesByFullPath {
   '/contact': typeof ContactRoute
   '/free-15-min-call-with-katie': typeof Free15MinCallWithKatieRoute
   '/free-guide': typeof FreeGuideRoute
-  '/michigan-assessment-call': typeof MichiganAssessmentCallRoute
+  '/michigan-discovery-call': typeof MichiganDiscoveryCallRoute
   '/privacy-policy': typeof PrivacyPolicyRoute
   '/services': typeof ServicesRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
@@ -207,7 +207,7 @@ export interface FileRoutesByTo {
   '/contact': typeof ContactRoute
   '/free-15-min-call-with-katie': typeof Free15MinCallWithKatieRoute
   '/free-guide': typeof FreeGuideRoute
-  '/michigan-assessment-call': typeof MichiganAssessmentCallRoute
+  '/michigan-discovery-call': typeof MichiganDiscoveryCallRoute
   '/privacy-policy': typeof PrivacyPolicyRoute
   '/services': typeof ServicesRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
@@ -235,7 +235,7 @@ export interface FileRoutesById {
   '/contact': typeof ContactRoute
   '/free-15-min-call-with-katie': typeof Free15MinCallWithKatieRoute
   '/free-guide': typeof FreeGuideRoute
-  '/michigan-assessment-call': typeof MichiganAssessmentCallRoute
+  '/michigan-discovery-call': typeof MichiganDiscoveryCallRoute
   '/privacy-policy': typeof PrivacyPolicyRoute
   '/services': typeof ServicesRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
@@ -264,7 +264,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/free-15-min-call-with-katie'
     | '/free-guide'
-    | '/michigan-assessment-call'
+    | '/michigan-discovery-call'
     | '/privacy-policy'
     | '/services'
     | '/sitemap.xml'
@@ -291,7 +291,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/free-15-min-call-with-katie'
     | '/free-guide'
-    | '/michigan-assessment-call'
+    | '/michigan-discovery-call'
     | '/privacy-policy'
     | '/services'
     | '/sitemap.xml'
@@ -318,7 +318,7 @@ export interface FileRouteTypes {
     | '/contact'
     | '/free-15-min-call-with-katie'
     | '/free-guide'
-    | '/michigan-assessment-call'
+    | '/michigan-discovery-call'
     | '/privacy-policy'
     | '/services'
     | '/sitemap.xml'
@@ -346,7 +346,7 @@ export interface RootRouteChildren {
   ContactRoute: typeof ContactRoute
   Free15MinCallWithKatieRoute: typeof Free15MinCallWithKatieRoute
   FreeGuideRoute: typeof FreeGuideRoute
-  MichiganAssessmentCallRoute: typeof MichiganAssessmentCallRoute
+  MichiganDiscoveryCallRoute: typeof MichiganDiscoveryCallRoute
   PrivacyPolicyRoute: typeof PrivacyPolicyRoute
   ServicesRoute: typeof ServicesRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
@@ -403,11 +403,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PrivacyPolicyRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/michigan-assessment-call': {
-      id: '/michigan-assessment-call'
-      path: '/michigan-assessment-call'
-      fullPath: '/michigan-assessment-call'
-      preLoaderRoute: typeof MichiganAssessmentCallRouteImport
+    '/michigan-discovery-call': {
+      id: '/michigan-discovery-call'
+      path: '/michigan-discovery-call'
+      fullPath: '/michigan-discovery-call'
+      preLoaderRoute: typeof MichiganDiscoveryCallRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/free-guide': {
@@ -554,7 +554,7 @@ const rootRouteChildren: RootRouteChildren = {
   ContactRoute: ContactRoute,
   Free15MinCallWithKatieRoute: Free15MinCallWithKatieRoute,
   FreeGuideRoute: FreeGuideRoute,
-  MichiganAssessmentCallRoute: MichiganAssessmentCallRoute,
+  MichiganDiscoveryCallRoute: MichiganDiscoveryCallRoute,
   PrivacyPolicyRoute: PrivacyPolicyRoute,
   ServicesRoute: ServicesRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,

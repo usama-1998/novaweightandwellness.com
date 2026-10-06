@@ -202,7 +202,7 @@ function About() {
             pressure.
           </p>
           <Link to="/free-15-min-call-with-katie"  className="btn-gold mt-7 inline-flex">
-            Book Free 15-Min Call
+            Book Free 15-Min Assessment Call
           </Link>
         </div>
       </section>

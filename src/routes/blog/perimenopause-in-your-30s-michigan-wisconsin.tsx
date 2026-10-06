@@ -389,7 +389,7 @@ function BlogComponent() {
           A free 15-minute assessment call is a no-pressure conversation about what you're experiencing and whether it's worth investigating further. You don't need to have it all figured out first.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold">
-          Book Your Free 15-Minute Call
+          Book Your Free 15-Minute Assessment Call
         </Link>
       </div>
 
@@ -920,7 +920,7 @@ function BlogComponent() {
           Join the growing number of Michigan and Wisconsin women in their 30s who decided not to wait. Your free 15-minute assessment call is the first step toward understanding what your body is telling you.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
-          Book Your Free 15-Minute Call
+          Book Your Free 15-Minute Assessment Call
         </Link>
       </section>
 

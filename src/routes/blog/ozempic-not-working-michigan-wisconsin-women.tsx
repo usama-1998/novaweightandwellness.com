@@ -338,7 +338,7 @@ function BlogComponent() {
           A free 15-minute assessment call is the starting point. No pressure, no commitment, no sales pitch. Just an honest conversation about what might be missing from your current approach and whether functional medicine is the right next step.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold">
-          Book Your Free 15-Minute Call
+          Book Your Free 15-Minute Assessment Call
         </Link>
       </div>
 
@@ -871,7 +871,7 @@ function BlogComponent() {
           Join the growing number of Michigan and Wisconsin women who have discovered what conventional medicine missed. Your free 15-minute assessment call is the first step toward understanding what is really happening and what to do about it.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
-          Book Your Free 15-Minute Call
+          Book Your Free 15-Minute Assessment Call
         </Link>
       </section>
 

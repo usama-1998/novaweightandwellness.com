@@ -370,7 +370,7 @@ function BlogComponent() {
           If you've spent years being told weight gain was simply your tendency, it's time for someone to look at the actual mechanism. A free 15-minute assessment call is a low-pressure place to start.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold">
-          Book Your Free 15-Minute Call
+          Book Your Free 15-Minute Assessment Call
         </Link>
       </div>
 
@@ -1064,7 +1064,7 @@ function BlogComponent() {
           You deserve an actual explanation, not another instruction to try harder. Your free 15-minute assessment call is the first step toward finally understanding what's actually going on.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
-          Book Your Free 15-Minute Call
+          Book Your Free 15-Minute Assessment Call
         </Link>
       </section>
 

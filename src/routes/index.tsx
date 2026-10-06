@@ -153,7 +153,7 @@ function Home() {
             </p>
             <div className="mt-6 md:mt-9 flex flex-wrap gap-3">
               <Link to="/free-15-min-call-with-katie"  className="btn-gold">
-                Book Free 15-Min Call <ArrowRight className="ml-2 h-4 w-4" />
+                Book Free 15-Min Assessment Call <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
               <Link to="/approach" className="btn-ghost">
                 How it works
@@ -343,7 +343,7 @@ function Home() {
         </Carousel>
         <div className="mt-12 flex justify-center">
           <Link to="/free-15-min-call-with-katie"  className="btn-primary">
-            Book Free 15-Min Call
+            Book Free 15-Min Assessment Call
           </Link>
         </div>
       </section>
@@ -399,7 +399,7 @@ function Home() {
           </div>
           <div className="mt-12 flex flex-wrap gap-3">
             <Link to="/free-15-min-call-with-katie"  className="btn-gold">
-              Book Free 15-Min Call
+              Book Free 15-Min Assessment Call
             </Link>
           </div>
         </div>
@@ -470,7 +470,7 @@ function Home() {
         </p>
         <div className="mt-8 flex justify-center gap-3 flex-wrap">
           <Link to="/free-15-min-call-with-katie"  className="btn-gold">
-            Book Free 15-Min Call
+            Book Free 15-Min Assessment Call
           </Link>
           <Link to="/clarity-session" className="btn-ghost">
             Book $97 Root-Cause Intake

@@ -79,8 +79,7 @@ npm run build
   - Supports dynamic iframe height recalculations with native mobile scrolling, breaking out of standard modal constraints for improved accessibility on smaller devices.
   - **High-Converting Bio Layout**: The standard location gate has been completely replaced with a high-converting, trust-building clinician bio. This layout includes an Instagram-style verified badge and a rotating carousel of verified 5-star patient reviews.
   - **Optimized Copy & Sequence**: The pre-booking flow uses a specific sequence (Photo/Badge -> Headline -> Symptoms Checklist -> CTA -> Testimonials) perfectly mirrored from high-performing ad copy to maximize conversions and message-match.
-- **Dedicated Ad Landing Pages (`/michigan-assessment-call`)**: 
-  - Special landing pages designed purely for ad traffic. Features identical high-converting components but perfectly tracks conversions using distinct Meta Pixel IDs dynamically.
+- **Dedicated Ad Landing Pages**: Note: the leftover `/michigan-discovery-call` route was a duplicate and has been redirected to `/free-15-min-call-with-katie`.
   - **Inline Native Rendering**: Decoupled from the global modal architecture, rendering the scheduling flow natively inline as an embedded landing page rather than a pop-up overlay.
 - **Dynamic Meta Pixel Tracking**:
   - Automatically initializes and tracks Facebook `PageView` and `Schedule` events natively through the React Router.

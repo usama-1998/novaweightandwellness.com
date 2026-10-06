@@ -142,7 +142,7 @@ function Contact() {
 
             <div className="mt-8 flex flex-wrap gap-3">
               <Link to="/free-15-min-call-with-katie" className="btn-gold">
-                Book Free 15-Min Call
+                Book Free 15-Min Assessment Call
               </Link>
               <a
                 href="https://www.optimantra.com/optimus/patient/patientaccess/practsNslots?sid=OFREc0ROeWQyL0kvdE9OaU5GRlVOQT09&pid=ZW1nazRycGdvZWxwQjA2eEpiOE5kQT09&lid=UlNxTzY0a0dyR1hJNGJsSkR2NDF5UT09"

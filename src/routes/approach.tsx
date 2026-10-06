@@ -148,7 +148,7 @@ function Approach() {
           The process begins with a single 15-minute conversation. No cost. No commitment.
         </p>
         <Link to="/free-15-min-call-with-katie"  className="btn-gold mt-8 inline-flex">
-          Book Free 15-Min Call
+          Book Free 15-Min Assessment Call
         </Link>
       </section>
     </>

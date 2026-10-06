@@ -452,7 +452,7 @@ function BlogComponent() {
           If you've done the things you're supposed to do and you're still waking up at 3am, it's time to look at what's actually driving it. A free 15-minute assessment call is a low-pressure place to start.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold">
-          Book Your Free 15-Minute Call
+          Book Your Free 15-Minute Assessment Call
         </Link>
       </div>
 
@@ -1001,7 +1001,7 @@ function BlogComponent() {
           If 3am has become a familiar, unwelcome part of your routine, there is a real, identifiable reason, and a real path forward. Your free 15-minute assessment call is the first step.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
-          Book Your Free 15-Minute Call
+          Book Your Free 15-Minute Assessment Call
         </Link>
       </section>
 

@@ -1466,7 +1466,7 @@ function BlogComponent() {
               <p className="text-sm text-muted-foreground">Founder & Clinical Director, Novaleo Weight & Wellness</p>
             </div>
             <Link to="/free-15-min-call-with-katie" className="btn-gold text-sm py-2.5 px-6">
-              Book Your Free 15-Min Call
+              Book Your Free 15-Min Assessment Call
             </Link>
           </div>
         </div>

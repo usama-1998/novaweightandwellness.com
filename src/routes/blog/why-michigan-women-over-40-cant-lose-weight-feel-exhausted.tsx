@@ -290,7 +290,7 @@ function BlogComponent() {
           missing piece.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold">
-          Book Your Free 15-Minute Call
+          Book Your Free 15-Minute Assessment Call
         </Link>
       </div>
 
@@ -960,7 +960,7 @@ function BlogComponent() {
           like yourself again.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
-          Book Your Free 15-Minute Call
+          Book Your Free 15-Minute Assessment Call
         </Link>
       </section>
     </BlogLayout>

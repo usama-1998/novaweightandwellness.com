@@ -705,7 +705,7 @@ function BlogComponent() {
           If you're in a smaller town or rural community anywhere in Michigan or Wisconsin, book your free 15-minute assessment call and see for yourself how straightforward this actually is, wherever you're calling in from.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold">
-          Book Your Free 15-Minute Call
+          Book Your Free 15-Minute Assessment Call
         </Link>
       </div>
 
@@ -927,7 +927,7 @@ function BlogComponent() {
             Book your free 15-minute assessment call and let's talk about what's actually going on with your body, and what real, root-cause care looks like for you specifically.
           </p>
           <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
-            Book Your Free 15-Minute Call
+            Book Your Free 15-Minute Assessment Call
           </Link>
         </div>
 
@@ -963,7 +963,7 @@ function BlogComponent() {
           Whether you're in a downtown high-rise or a farmhouse kitchen, your free 15-minute assessment call is the first step toward real answers.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
-          Book Your Free 15-Minute Call
+          Book Your Free 15-Minute Assessment Call
         </Link>
       </section>
 

@@ -263,7 +263,7 @@ function BlogComponent() {
           A free 15-minute assessment call is a low-pressure next step, a conversation about whether BHRT is right for you specifically, not a sales pitch and not a commitment.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold">
-          Book Your Free 15-Minute Call
+          Book Your Free 15-Minute Assessment Call
         </Link>
       </div>
 
@@ -791,7 +791,7 @@ function BlogComponent() {
           You've done the reading. Now let's have a real, honest conversation about what it means for you specifically. Your free 15-minute assessment call is a low-pressure next step, not a commitment.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
-          Book Your Free 15-Minute Call
+          Book Your Free 15-Minute Assessment Call
         </Link>
       </section>
 

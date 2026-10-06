@@ -451,7 +451,7 @@ function BlogComponent() {
           If you've been quietly worried about what you're experiencing, a free 15-minute assessment call is a low-pressure place to talk it through and understand what might actually be going on.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold">
-          Book Your Free 15-Minute Call
+          Book Your Free 15-Minute Assessment Call
         </Link>
       </div>
 
@@ -1670,7 +1670,7 @@ function BlogComponent() {
           Whatever you've been quietly wondering, there is a real, honest conversation waiting for you. Your free 15-minute assessment call is the first step.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
-          Book Your Free 15-Minute Call
+          Book Your Free 15-Minute Assessment Call
         </Link>
       </section>
 
