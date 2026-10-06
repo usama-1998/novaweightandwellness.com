@@ -7,8 +7,8 @@ import BookingVariantA from './BookingVariantA';
 export function BookingModal() {
   const { isOpen, close } = useBookingModal();
   const routerState = useRouterState();
-  const isMichiganPage = routerState.location.pathname.includes('/michigan-discovery-call');
-  const isDiscoveryPage = routerState.location.pathname.includes('/free-15-min-call-with-katie') || isMichiganPage;
+  const isMichiganPage = routerState.location.pathname.includes('/michigan-assessment-call');
+  const isAssessmentPage = routerState.location.pathname.includes('/free-15-min-call-with-katie') || isMichiganPage;
   
   if (isMichiganPage) return null;
 
@@ -45,11 +45,11 @@ export function BookingModal() {
   // Close on Escape
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
-      if (e.key === 'Escape' && !isDiscoveryPage) close();
+      if (e.key === 'Escape' && !isAssessmentPage) close();
     };
     if (isOpen) window.addEventListener('keydown', handler);
     return () => window.removeEventListener('keydown', handler);
-  }, [isOpen, close, isDiscoveryPage]);
+  }, [isOpen, close, isAssessmentPage]);
 
   const dates = [
     { day: 'Mon', date: '15', month: 'Jun', full: 'June 15, 2026' },
@@ -75,13 +75,13 @@ export function BookingModal() {
       className={`${isOpen ? 'visible pointer-events-auto' : 'invisible pointer-events-none'}`}
       aria-hidden={!isOpen}
     >
-      <div className={`fixed inset-0 z-50 flex items-center justify-center p-0 md:p-6 ${isDiscoveryPage ? 'bg-white' : ''}`}>
+      <div className={`fixed inset-0 z-50 flex items-center justify-center p-0 md:p-6 ${isAssessmentPage ? 'bg-white' : ''}`}>
         {/* Backdrop */}
         <div
           className={`absolute inset-0 bg-primary/40 backdrop-blur-sm transition-opacity duration-300 ${
             visible ? 'opacity-100' : 'opacity-0'
-          } ${isDiscoveryPage ? 'hidden md:block' : ''}`}
-          onClick={isDiscoveryPage ? undefined : close}
+          } ${isAssessmentPage ? 'hidden md:block' : ''}`}
+          onClick={isAssessmentPage ? undefined : close}
         />
 
         {/* Modal container */}
@@ -93,7 +93,7 @@ export function BookingModal() {
           }`}
         >
           {/* Close button */}
-          {!isDiscoveryPage && (
+          {!isAssessmentPage && (
             <button
               onClick={close}
               className="absolute top-4 right-4 z-40 w-10 h-10 rounded-full bg-white/90 backdrop-blur-sm border border-gray-200 flex items-center justify-center text-primary/60 hover:text-primary hover:bg-white hover:shadow-md transition-all duration-300 hover:scale-110"

@@ -448,7 +448,7 @@ function BlogComponent() {
           You don't have to figure this out alone.
         </p>
         <p className="text-foreground/70 mb-5">
-          If you've been quietly worried about what you're experiencing, a free 15-minute discovery call is a low-pressure place to talk it through and understand what might actually be going on.
+          If you've been quietly worried about what you're experiencing, a free 15-minute assessment call is a low-pressure place to talk it through and understand what might actually be going on.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold">
           Book Your Free 15-Minute Call
@@ -624,10 +624,10 @@ function BlogComponent() {
           You don't have to keep wondering.
         </p>
         <p className="text-foreground/70 mb-5">
-          A free 15-minute discovery call is a chance to talk through what you've been experiencing and what a real, comprehensive evaluation could look like for you.
+          A free 15-minute assessment call is a chance to talk through what you've been experiencing and what a real, comprehensive evaluation could look like for you.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold">
-          Schedule Your Free Discovery Call
+          Schedule Your Free Assessment Call
         </Link>
       </div>
 
@@ -837,7 +837,7 @@ function BlogComponent() {
           Bringing This to Your Evaluation
         </h3>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          You do not need to track for months before seeking evaluation, and tracking is not a prerequisite for booking a discovery call. But if you have even a week or two of notes by the time of your intake visit described in the section on what a comprehensive evaluation looks like, it gives your provider a genuinely useful head start in tailoring your testing and protocol to your specific pattern.
+          You do not need to track for months before seeking evaluation, and tracking is not a prerequisite for booking a assessment call. But if you have even a week or two of notes by the time of your intake visit described in the section on what a comprehensive evaluation looks like, it gives your provider a genuinely useful head start in tailoring your testing and protocol to your specific pattern.
         </p>
         <h3 className="text-xl md:text-2xl font-display text-primary mt-10 mb-4">
           A Simple Format That Works
@@ -946,10 +946,10 @@ function BlogComponent() {
           Uncertainty about what an evaluation actually involves, step by step, keeps many women from ever booking that first conversation, so it is worth walking through the entire process concretely and specifically rather than leaving it vague or abstract. Knowing exactly what to expect at each individual step often makes that first, sometimes intimidating step noticeably easier to actually take.
         </p>
         <h3 className="text-xl md:text-2xl font-display text-primary mt-10 mb-4">
-          Step One: The Discovery Call
+          Step One: The Assessment Call
         </h3>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          The process starts with a free 15-minute discovery call, a low-pressure conversation to talk through what you have been experiencing, ask any questions you have, and understand whether a full evaluation makes sense for your specific situation. There is no obligation attached to this call, and no pressure to commit to anything on the spot.
+          The process starts with a free 15-minute assessment call, a low-pressure conversation to talk through what you have been experiencing, ask any questions you have, and understand whether a full evaluation makes sense for your specific situation. There is no obligation attached to this call, and no pressure to commit to anything on the spot.
         </p>
         <h3 className="text-xl md:text-2xl font-display text-primary mt-10 mb-4">
           Step Two: The Comprehensive Intake
@@ -1211,19 +1211,19 @@ function BlogComponent() {
           Cost and What to Expect Financially
         </h2>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          Uncertainty about cost keeps some women from ever booking that first discovery call, and that hesitation is completely understandable, so it is worth addressing directly and honestly rather than leaving it as an unspoken question hanging over the entire decision.
+          Uncertainty about cost keeps some women from ever booking that first assessment call, and that hesitation is completely understandable, so it is worth addressing directly and honestly rather than leaving it as an unspoken question hanging over the entire decision.
         </p>
         <h3 className="text-xl md:text-2xl font-display text-primary mt-10 mb-4">
-          The Discovery Call Is Free
+          The Assessment Call Is Free
         </h3>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          As mentioned throughout this article, the initial 15-minute discovery call carries no cost and no obligation. It exists specifically so you can ask questions and understand whether moving forward makes sense before any financial commitment is involved.
+          As mentioned throughout this article, the initial 15-minute assessment call carries no cost and no obligation. It exists specifically so you can ask questions and understand whether moving forward makes sense before any financial commitment is involved.
         </p>
         <h3 className="text-xl md:text-2xl font-display text-primary mt-10 mb-4">
           Transparent Pricing for the Comprehensive Evaluation
         </h3>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          Specific pricing for the comprehensive intake visit, testing, and ongoing care is discussed directly and transparently during your discovery call, so you have clear, upfront information before deciding whether to move forward, rather than encountering unexpected costs partway through the process.
+          Specific pricing for the comprehensive intake visit, testing, and ongoing care is discussed directly and transparently during your assessment call, so you have clear, upfront information before deciding whether to move forward, rather than encountering unexpected costs partway through the process.
         </p>
         <h3 className="text-xl md:text-2xl font-display text-primary mt-10 mb-4">
           Lab Testing and Insurance
@@ -1353,7 +1353,7 @@ function BlogComponent() {
           For women outside the major metro areas, whether that is a smaller community in northern Michigan or rural Wisconsin, telehealth closes a real access gap. A woman in Traverse City or Marquette faces the same limited local access to functional medicine specialists as a woman in a small town outside Eau Claire or Wausau, and the same is often true for women in mid-sized cities like Lansing, Kalamazoo, Appleton, or Oshkosh, where specialist wait times can stretch for months. A telehealth model means none of that geography determines how quickly you can get a real evaluation.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          This matters especially for a symptom this emotionally loaded. Waiting three or four months for the next available specialist appointment while privately carrying the fear described in Section 1 is its own kind of harm, independent of whatever the eventual evaluation finds. Being able to book a discovery call this week, rather than joining a months-long waitlist, is not a minor convenience, it directly shortens how long a woman has to sit alone with an unspoken fear before getting real answers, and that difference in itself has genuine value.
+          This matters especially for a symptom this emotionally loaded. Waiting three or four months for the next available specialist appointment while privately carrying the fear described in Section 1 is its own kind of harm, independent of whatever the eventual evaluation finds. Being able to book a assessment call this week, rather than joining a months-long waitlist, is not a minor convenience, it directly shortens how long a woman has to sit alone with an unspoken fear before getting real answers, and that difference in itself has genuine value.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           If your evaluation does point toward one of the warning features described in Section 4 rather than the typical hormonal pattern, we will tell you directly and honestly, and help you understand the right next step, including a prompt referral to a neurologist or your primary care physician for further evaluation. That honest referral, when it is genuinely warranted by what your evaluation actually shows, is every bit as much a part of responsible care as the hormonal evaluation itself, and it is not something a comprehensive telehealth evaluation should ever avoid, soften, or delay out of a reluctance to send you elsewhere.
@@ -1512,7 +1512,7 @@ function BlogComponent() {
               How long does a comprehensive evaluation take from start to finish?
             </h3>
             <p className="text-lg leading-relaxed text-foreground/85">
-              Most women complete the process described in the section above, discovery call, intake visit, lab work, and results review, within two to three weeks, though this can vary depending on lab processing times and your own scheduling availability. The discovery call itself can typically be scheduled within a few days.
+              Most women complete the process described in the section above, assessment call, intake visit, lab work, and results review, within two to three weeks, though this can vary depending on lab processing times and your own scheduling availability. The assessment call itself can typically be scheduled within a few days.
             </p>
           </div>
           <div>
@@ -1528,7 +1528,7 @@ function BlogComponent() {
               Do I need a referral to be evaluated for this?
             </h3>
             <p className="text-lg leading-relaxed text-foreground/85">
-              No. You can book a free discovery call directly, without a referral from another provider, to discuss your symptoms and determine whether a comprehensive evaluation makes sense for you.
+              No. You can book a free assessment call directly, without a referral from another provider, to discuss your symptoms and determine whether a comprehensive evaluation makes sense for you.
             </p>
           </div>
           <div>
@@ -1593,13 +1593,13 @@ function BlogComponent() {
       {/* Section 10: Closing */}
       <section id="closing-katies-note">
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
-          Book a Free Discovery Call
+          Book a Free Assessment Call
         </h2>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           If you have read this far, all fourteen-plus thousand words of it, thank you for giving this the attention it deserves. I hope you are feeling something close to relief. Not because I have told you everything is automatically fine, but because you now have real language and a real, common, well-documented explanation for what you have likely been carrying quietly for a while. You are not losing your mind. You are not alone in this specific fear. And you now know exactly what to watch for and when a different kind of evaluation genuinely matters.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          The next step is simply a conversation, not a diagnosis and not a leap, and certainly not a commitment to anything beyond that first honest exchange. Whether you want to talk through your specific symptoms, understand what a comprehensive evaluation would actually involve, or simply say the fear out loud to someone for the first time, that conversation is exactly what a discovery call is for.
+          The next step is simply a conversation, not a diagnosis and not a leap, and certainly not a commitment to anything beyond that first honest exchange. Whether you want to talk through your specific symptoms, understand what a comprehensive evaluation would actually involve, or simply say the fear out loud to someone for the first time, that conversation is exactly what a assessment call is for.
         </p>
 
         <div className="bg-primary/5 border border-primary/10 rounded-2xl p-8 md:p-10 my-10 text-center">
@@ -1607,10 +1607,10 @@ function BlogComponent() {
             You don't have to figure this out alone.
           </p>
           <p className="text-lg text-foreground/70 mb-6 max-w-xl mx-auto">
-            Book your free 15-minute discovery call. No judgment, no assumptions, just a real conversation about what you've been experiencing and what a thoughtful evaluation could look like.
+            Book your free 15-minute assessment call. No judgment, no assumptions, just a real conversation about what you've been experiencing and what a thoughtful evaluation could look like.
           </p>
           <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
-            Book Your Free 15-Minute Discovery Call
+            Book Your Free 15-Minute Assessment Call
           </Link>
         </div>
 
@@ -1627,7 +1627,7 @@ function BlogComponent() {
           If you are a woman in Michigan or Wisconsin who has been quietly carrying this fear, I would be honored to be the person you finally say it to. Not to brush it aside. To actually look, and to walk through whatever we find together.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          I also want to acknowledge, directly, that reading an article like this one can stir up a lot, relief for some of it, lingering worry about other parts, maybe even a renewed determination to finally stop putting this off. Whatever combination of those you are feeling right now is a completely reasonable response to fourteen thousand words about something this personal. You do not have to have it all sorted out before reaching out. The whole point of a discovery call is to sort through exactly that together, at whatever pace feels right for you.
+          I also want to acknowledge, directly, that reading an article like this one can stir up a lot, relief for some of it, lingering worry about other parts, maybe even a renewed determination to finally stop putting this off. Whatever combination of those you are feeling right now is a completely reasonable response to fourteen thousand words about something this personal. You do not have to have it all sorted out before reaching out. The whole point of a assessment call is to sort through exactly that together, at whatever pace feels right for you.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           And if you read this and realized it is not you this applies to, but someone you love, a sister, a colleague, a friend who has mentioned in passing that she feels like she is "losing it," consider sending this to her. So many women carry this fear entirely alone, convinced they are the only one experiencing it, when in reality it is one of the most common, least openly discussed experiences of this life stage. A single shared article has, more than once, been the thing that finally gave someone permission to say the fear out loud.
@@ -1636,7 +1636,7 @@ function BlogComponent() {
           You are not losing your mind. Reach out whenever you are ready.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          One last thing before you go: if anything in this article resonated but you are still unsure whether reaching out makes sense for you specifically, that uncertainty itself is a completely reasonable thing to bring to the discovery call. You do not need to have already decided this is definitely hormonal, definitely worth pursuing, or definitely anything at all. You just need to be curious enough to ask the question out loud, to someone who will actually listen and help you find real answers rather than more guesswork.
+          One last thing before you go: if anything in this article resonated but you are still unsure whether reaching out makes sense for you specifically, that uncertainty itself is a completely reasonable thing to bring to the assessment call. You do not need to have already decided this is definitely hormonal, definitely worth pursuing, or definitely anything at all. You just need to be curious enough to ask the question out loud, to someone who will actually listen and help you find real answers rather than more guesswork.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5 font-semibold">
           Katie Long, NP-C
@@ -1667,7 +1667,7 @@ function BlogComponent() {
           You Don't Have to Carry This Fear Alone
         </h2>
         <p className="text-white/80 text-lg mb-8 max-w-2xl mx-auto">
-          Whatever you've been quietly wondering, there is a real, honest conversation waiting for you. Your free 15-minute discovery call is the first step.
+          Whatever you've been quietly wondering, there is a real, honest conversation waiting for you. Your free 15-minute assessment call is the first step.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
           Book Your Free 15-Minute Call
@@ -1837,7 +1837,7 @@ const faqSchema = {
       name: "How long does a comprehensive evaluation take from start to finish?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Most women complete the process, discovery call, intake visit, lab work, and results review, within two to three weeks, though this can vary depending on lab processing times and scheduling availability.",
+        text: "Most women complete the process, assessment call, intake visit, lab work, and results review, within two to three weeks, though this can vary depending on lab processing times and scheduling availability.",
       },
     },
     {
@@ -1853,7 +1853,7 @@ const faqSchema = {
       name: "Do I need a referral to be evaluated for this?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "No. You can book a free discovery call directly, without a referral, to discuss your symptoms and determine whether a comprehensive evaluation makes sense for you.",
+        text: "No. You can book a free assessment call directly, without a referral, to discuss your symptoms and determine whether a comprehensive evaluation makes sense for you.",
       },
     },
     {

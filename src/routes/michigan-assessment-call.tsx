@@ -2,38 +2,38 @@ import { createFileRoute } from '@tanstack/react-router';
 import React, { useState } from 'react';
 import BookingVariantA from '@/components/BookingVariantA';
 
-export const Route = createFileRoute('/michigan-discovery-call')({
+export const Route = createFileRoute('/michigan-assessment-call')({
   head: () => ({
     links: [
-      { rel: "canonical", href: "https://novaweightandwellness.com/michigan-discovery-call" },
+      { rel: "canonical", href: "https://novaweightandwellness.com/michigan-assessment-call" },
     ],
     meta: [
       { name: "robots", content: "noindex, follow" },
-      { title: "Book a Free Discovery Call | Michigan | Novaleo" },
+      { title: "Book a Free Assessment Call | Michigan | Novaleo" },
       {
         name: "description",
         content:
-          "Schedule your complimentary 15-minute discovery call with one of our practitioners. Available via telehealth in Michigan.",
+          "Schedule your complimentary 15-minute assessment call with one of our practitioners. Available via telehealth in Michigan.",
       },
-      { property: "og:title", content: "Book a Free Discovery Call | Michigan | Novaleo" },
+      { property: "og:title", content: "Book a Free Assessment Call | Michigan | Novaleo" },
       {
         property: "og:description",
-        content: "Schedule your complimentary 15-minute discovery call with one of our practitioners.",
+        content: "Schedule your complimentary 15-minute assessment call with one of our practitioners.",
       },
-      { property: "og:url", content: "https://novaweightandwellness.com/michigan-discovery-call" },
+      { property: "og:url", content: "https://novaweightandwellness.com/michigan-assessment-call" },
       { property: "og:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Book a Free Discovery Call | Michigan | Novaleo" },
-      { name: "twitter:description", content: "Schedule your complimentary 15-minute discovery call with one of our practitioners." },
+      { name: "twitter:title", content: "Book a Free Assessment Call | Michigan | Novaleo" },
+      { name: "twitter:description", content: "Schedule your complimentary 15-minute assessment call with one of our practitioners." },
       { name: "twitter:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
     ],
   }),
-  component: DiscoveryPage,
+  component: AssessmentPage,
 });
 
 
-function DiscoveryPage() {
+function AssessmentPage() {
   const [step, setStep] = useState(0);
   const [selectedDate, setSelectedDate] = useState<any>(null);
   const [selectedTime, setSelectedTime] = useState<any>(null);
@@ -55,7 +55,7 @@ function DiscoveryPage() {
 
   return (
     <main className="min-h-screen flex flex-col items-center justify-start md:justify-center relative p-0 md:p-8 bg-white">
-      <h1 className="sr-only">Book a Free Discovery Call in Michigan</h1>
+      <h1 className="sr-only">Book a Free Assessment Call in Michigan</h1>
       <div className={`w-full max-w-2xl mx-auto relative z-10 flex flex-col min-h-screen md:min-h-0 bg-white`}>
         <BookingVariantA
           step={step}

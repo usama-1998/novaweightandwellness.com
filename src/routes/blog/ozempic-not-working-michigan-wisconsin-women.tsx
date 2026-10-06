@@ -335,7 +335,7 @@ function BlogComponent() {
           If your Ozempic results have stalled, there is a reason. Let's find it.
         </p>
         <p className="text-foreground/70 mb-5">
-          A free 15-minute discovery call is the starting point. No pressure, no commitment, no sales pitch. Just an honest conversation about what might be missing from your current approach and whether functional medicine is the right next step.
+          A free 15-minute assessment call is the starting point. No pressure, no commitment, no sales pitch. Just an honest conversation about what might be missing from your current approach and whether functional medicine is the right next step.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold">
           Book Your Free 15-Minute Call
@@ -468,10 +468,10 @@ function BlogComponent() {
           On a GLP-1 and not getting the results you expected?
         </p>
         <p className="text-foreground/70 mb-5">
-          You deserve a complete picture of what is happening in your body. Our free 15-minute discovery call is a no-pressure, no-commitment conversation to explore whether a functional medicine approach can help you get better outcomes from your current treatment, or find a better path forward.
+          You deserve a complete picture of what is happening in your body. Our free 15-minute assessment call is a no-pressure, no-commitment conversation to explore whether a functional medicine approach can help you get better outcomes from your current treatment, or find a better path forward.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold">
-          Schedule Your Free Discovery Call
+          Schedule Your Free Assessment Call
         </Link>
       </div>
 
@@ -516,7 +516,7 @@ function BlogComponent() {
           This is not a guarantee against any weight regain. But it is the difference between regaining most of the weight within a year and maintaining a meaningful, lasting portion of the results. And for women considering these medications, it is the most important piece of information they need before they start.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          There is also a growing cohort of women who are using the semaglutide plateau experience as a turning point to ask whether the medication was the right primary approach in the first place, and whether a comprehensive functional medicine approach that builds lasting metabolic change without the medication might serve them better long-term. That is a legitimate, individualized question that deserves an honest, personalized conversation, which is exactly what a discovery call is designed for.
+          There is also a growing cohort of women who are using the semaglutide plateau experience as a turning point to ask whether the medication was the right primary approach in the first place, and whether a comprehensive functional medicine approach that builds lasting metabolic change without the medication might serve them better long-term. That is a legitimate, individualized question that deserves an honest, personalized conversation, which is exactly what a assessment call is designed for.
         </p>
       </section>
 
@@ -610,7 +610,7 @@ function BlogComponent() {
           It is worth stating clearly that for some women, a comprehensive functional medicine approach without GLP-1 medication is the better path. Women whose thyroid, hormonal, and metabolic dysfunction is the primary driver of their weight struggles often find that addressing those root causes produces meaningful, durable weight loss without the side effect burden, cost, or dependency of a GLP-1 medication.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          The women most likely to do well with functional medicine alone are those whose metabolic dysfunction is driven primarily by identifiable, treatable hormonal or thyroid issues; those who do not have significant appetite dysregulation that would benefit from pharmacological suppression; those who are motivated to engage with dietary and lifestyle changes as their primary intervention; and those who are in a position to address root causes comprehensively over a six to twelve month timeline. This conversation, which path is right for you, is exactly what a free discovery call is designed to facilitate, without pressure in either direction.
+          The women most likely to do well with functional medicine alone are those whose metabolic dysfunction is driven primarily by identifiable, treatable hormonal or thyroid issues; those who do not have significant appetite dysregulation that would benefit from pharmacological suppression; those who are motivated to engage with dietary and lifestyle changes as their primary intervention; and those who are in a position to address root causes comprehensively over a six to twelve month timeline. This conversation, which path is right for you, is exactly what a free assessment call is designed to facilitate, without pressure in either direction.
         </p>
       </section>
 
@@ -785,7 +785,7 @@ function BlogComponent() {
               What signs suggest GLP-1 medication is not the right approach for me?
             </h3>
             <p className="text-lg leading-relaxed text-foreground/85">
-              GLP-1 medications may not be the right primary approach if your weight challenges are driven primarily by identifiable, correctable hormonal or metabolic dysfunction such as Hashimoto's thyroiditis, progesterone deficiency, or significant untreated insulin resistance that a functional medicine protocol can address more directly. If you have already tried a GLP-1 with disappointing results, this is a strong signal that underlying dysfunction needs to be assessed and addressed. A comprehensive evaluation, which is exactly what the free discovery call is designed to facilitate, is the appropriate starting point for any of these questions.
+              GLP-1 medications may not be the right primary approach if your weight challenges are driven primarily by identifiable, correctable hormonal or metabolic dysfunction such as Hashimoto's thyroiditis, progesterone deficiency, or significant untreated insulin resistance that a functional medicine protocol can address more directly. If you have already tried a GLP-1 with disappointing results, this is a strong signal that underlying dysfunction needs to be assessed and addressed. A comprehensive evaluation, which is exactly what the free assessment call is designed to facilitate, is the appropriate starting point for any of these questions.
             </p>
           </div>
         </div>
@@ -814,10 +814,10 @@ function BlogComponent() {
             Your Ozempic plateau has a reason. Let's find it.
           </p>
           <p className="text-lg text-foreground/70 mb-6 max-w-xl mx-auto">
-            Book your free 15-minute discovery call with our care team. No sales pitch, no commitment, no pressure. Just an honest conversation about what might be missing and what a root-cause approach could do for you.
+            Book your free 15-minute assessment call with our care team. No sales pitch, no commitment, no pressure. Just an honest conversation about what might be missing and what a root-cause approach could do for you.
           </p>
           <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
-            Book Your Free 15-Minute Discovery Call
+            Book Your Free 15-Minute Assessment Call
           </Link>
         </div>
 
@@ -868,7 +868,7 @@ function BlogComponent() {
           Ready for Answers That Actually Stick?
         </h2>
         <p className="text-white/80 text-lg mb-8 max-w-2xl mx-auto">
-          Join the growing number of Michigan and Wisconsin women who have discovered what conventional medicine missed. Your free 15-minute discovery call is the first step toward understanding what is really happening and what to do about it.
+          Join the growing number of Michigan and Wisconsin women who have discovered what conventional medicine missed. Your free 15-minute assessment call is the first step toward understanding what is really happening and what to do about it.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
           Book Your Free 15-Minute Call

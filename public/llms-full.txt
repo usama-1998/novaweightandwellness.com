@@ -14,7 +14,7 @@ Credentials:
 
 ## Core Services & Pricing
 
-### Root Cause Discovery Call
+### Root Cause Assessment Call
 - **Duration:** 10 minutes
 - **Price:** Free
 - **Description:** A short no-cost consultation to ask questions, get clarity, and determine next steps. Designed for new or current clients.
@@ -81,7 +81,7 @@ A: Conventional medicine is designed to diagnose and treat disease. Functional m
 **Q: My labs always come back normal. Can you still help me?**
 A: Absolutely — this is the most common situation Novaleo sees. "Normal" ranges are based on averages, not optimal health. There's a big difference between "not sick" and "thriving." Functional lab analysis identifies patterns that standard testing often misses.
 
-**Q: What happens after the free discovery call?**
+**Q: What happens after the free assessment call?**
 A: You'll have a clear understanding of how the process works and whether it's the right fit. If you decide to move forward, the next step is the Root-Cause Intake & Clinical Strategy session at $97. Zero pressure — you decide what happens next.
 
 **Q: What happens during the $97 Root-Cause Intake?**
@@ -91,7 +91,7 @@ A: A comprehensive 60-minute clinical assessment where we go deep — full healt
 A: Because most approaches treat symptoms — not causes. Functional medicine starts by asking why and works backwards from there. When you address the actual root cause, the results are sustainable instead of temporary.
 
 **Q: Is the free call really free? What's the catch?**
-A: There is no catch. The 15-minute discovery call is completely free with no obligation to book anything after. Kathryn only works with clients she genuinely believes she can help.
+A: There is no catch. The 15-minute assessment call is completely free with no obligation to book anything after. Kathryn only works with clients she genuinely believes she can help.
 
 **Q: Do you take insurance?**
 A: No, Novaleo accepts FSA/HSA, credit, and debit card only.
@@ -115,7 +115,7 @@ A: Due to the digital and service-based nature of programs, consultations, educa
 
 ## The Novaleo Approach (4 Steps)
 
-1. **Choose your starting point:** Book a free discovery call, start with a Root-Cause Intake, or apply directly for one of the personalized programs.
+1. **Choose your starting point:** Book a free assessment call, start with a Root-Cause Intake, or apply directly for one of the personalized programs.
 2. **Root-Cause Review:** Review symptoms, health history, lifestyle, and available labs to understand what may be driving fatigue, brain fog, weight resistance, hormone shifts, or metabolic changes.
 3. **Build your personalized plan:** Analyze symptoms, labs, lifestyle, stress, sleep, nutrition, hormones, metabolism, and real-life demands to identify the best starting point.
 4. **Guided Support:** Structured roadmap designed around your body with ongoing support, education, adjustments, and accountability.
@@ -132,4 +132,4 @@ A: Due to the digital and service-based nature of programs, consultations, educa
 - **Payment Accepted:** FSA/HSA, credit card, debit card (no insurance)
 - **Website:** https://novaweightandwellness.com
 - **Booking:** https://novaweightandwellness.com/free-15-min-call-with-katie
-- **Free Discovery Call:** https://novaweightandwellness.com/free-15-min-call-with-katie
+- **Free Assessment Call:** https://novaweightandwellness.com/free-15-min-call-with-katie

@@ -1478,11 +1478,11 @@ function BlogComponent() {
           Ready to Uncover What Your Standard Labs Missed?
         </h2>
         <p className="text-lg text-foreground/80 max-w-2xl mx-auto mb-8 leading-relaxed">
-          Schedule your 60-Minute Root Cause Intake ($97) or book a free 15-minute discovery call to discuss our comprehensive thyroid panel and root-cause restoration programs for women in Michigan and Wisconsin.
+          Schedule your 60-Minute Root Cause Intake ($97) or book a free 15-minute assessment call to discuss our comprehensive thyroid panel and root-cause restoration programs for women in Michigan and Wisconsin.
         </p>
         <div className="flex flex-wrap items-center justify-center gap-4">
           <Link to="/free-15-min-call-with-katie" className="btn-gold text-base py-3 px-8">
-            Book Free 15-Min Discovery Call
+            Book Free 15-Min Assessment Call
           </Link>
           <Link to="/services" className="btn-primary text-base py-3 px-8">
             Explore Services & Lab Panels

@@ -10,19 +10,19 @@ export const Route = createFileRoute("/services")({
       {
         name: "description",
         content:
-          "Schedule your visit with Novaleo Weight & Wellness. Choose a Discovery Call, Root Cause Intake, Lab Panel, Follow-up, or the Root Cause Restoration Program.",
+          "Schedule your visit with Novaleo Weight & Wellness. Choose a Assessment Call, Root Cause Intake, Lab Panel, Follow-up, or the Root Cause Restoration Program.",
       },
       { property: "og:title", content: "Book a Visit | Novaleo Weight & Wellness" },
       {
         property: "og:description",
-        content: "Choose a Discovery Call, Root Cause Intake, Lab Panel, or Executive Partnership and book online.",
+        content: "Choose a Assessment Call, Root Cause Intake, Lab Panel, or Executive Partnership and book online.",
       },
       { property: "og:url", content: "https://novaweightandwellness.com/services" },
       { property: "og:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Book a Visit | Novaleo Weight & Wellness Services" },
-      { name: "twitter:description", content: "Choose a Discovery Call, Root Cause Intake, Lab Panel, or Executive Partnership and book online." },
+      { name: "twitter:description", content: "Choose a Assessment Call, Root Cause Intake, Lab Panel, or Executive Partnership and book online." },
       { name: "twitter:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
     ],
   }),
@@ -44,8 +44,8 @@ const BOOK_BASE =
 
 const services: Service[] = [
   {
-    id: "discovery",
-    name: "Root Cause Discovery Call",
+    id: "assessment",
+    name: "Root Cause Assessment Call",
     duration: "15 Min",
     price: "Free",
     highlight: "Start here",
@@ -63,7 +63,7 @@ const services: Service[] = [
           <li>Answers to your questions</li>
         </ul>
         <p className="mt-3 italic">
-          Or skip the Discovery Call and schedule the Root Cause Intake to start feeling like
+          Or skip the Assessment Call and schedule the Root Cause Intake to start feeling like
           yourself again.
         </p>
       </>

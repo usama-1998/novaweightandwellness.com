@@ -44,7 +44,7 @@ export default function BookingVariantA({
   const [successAnim, setSuccessAnim] = useState(false);
   const [reviewIndex, setReviewIndex] = useState(0);
   const routerState = useRouterState();
-  const isMichiganPage = routerState.location.pathname.includes('/michigan-discovery-call');
+  const isMichiganPage = routerState.location.pathname.includes('/michigan-assessment-call');
 
   const reviews = [
     { text: "Katie genuinely listens. For the first time in years, I feel heard and I'm finally seeing results with my fatigue and weight.", name: "Sarah M." },
@@ -244,7 +244,7 @@ export default function BookingVariantA({
                         >
                           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-in-out" />
                           <CalendarDays size={20} className="text-[#F0D060] relative z-10" />
-                          <span className="text-[15px] tracking-wide relative z-10">Book Your Free 15-Min Discovery Call</span>
+                          <span className="text-[15px] tracking-wide relative z-10">Book Your Free 15-Min Assessment Call</span>
                         </button>
                       </div>
 

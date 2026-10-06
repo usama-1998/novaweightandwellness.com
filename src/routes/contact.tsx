@@ -18,19 +18,19 @@ export const Route = createFileRoute("/contact")({
       {
         name: "description",
         content:
-          "Book a free 15-minute Google Meet discovery call with Kathryn Long, NP-C. Telehealth functional medicine for women in Michigan & Wisconsin.",
+          "Book a free 15-minute Google Meet assessment call with Kathryn Long, NP-C. Telehealth functional medicine for women in Michigan & Wisconsin.",
       },
       { property: "og:title", content: "Contact Novaleo Weight & Wellness | Book a Free Call" },
       {
         property: "og:description",
-        content: "Free 15-minute discovery call. No cost, no commitment. Telehealth functional medicine for women in Michigan & Wisconsin.",
+        content: "Free 15-minute assessment call. No cost, no commitment. Telehealth functional medicine for women in Michigan & Wisconsin.",
       },
       { property: "og:url", content: "https://novaweightandwellness.com/contact" },
       { property: "og:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Contact Novaleo Weight & Wellness | Book a Free Call" },
-      { name: "twitter:description", content: "Book a free 15-minute Google Meet discovery call with Kathryn Long, NP-C." },
+      { name: "twitter:description", content: "Book a free 15-minute Google Meet assessment call with Kathryn Long, NP-C." },
       { name: "twitter:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
     ],
   }),
@@ -51,7 +51,7 @@ function Contact() {
               {
                 "@type": "ContactPage",
                 "name": "Contact Novaleo Weight & Wellness",
-                "description": "Book a free 15-minute discovery call.",
+                "description": "Book a free 15-minute assessment call.",
                 "url": "https://novaweightandwellness.com/contact"
               },
               {
@@ -75,7 +75,7 @@ function Contact() {
               },
               {
                 "@type": "Question",
-                "name": "What happens after the free discovery call?",
+                "name": "What happens after the free assessment call?",
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "You'll have a clear understanding of how my process works and whether it's the right fit for you. If you decide to move forward, the next step is the Root-Cause Intake & Clinical Strategy session at $97. Zero pressure — you decide what happens next."
@@ -102,7 +102,7 @@ function Contact() {
                 "name": "Is the free call really free? What's the catch?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "There is no catch. The 15-minute discovery call is completely free with no obligation to book anything after. I only work with clients I genuinely believe I can help."
+                  "text": "There is no catch. The 15-minute assessment call is completely free with no obligation to book anything after. I only work with clients I genuinely believe I can help."
                 }
               },
               {
@@ -132,7 +132,7 @@ function Contact() {
           <div className="lg:col-span-7">
             <div className="eyebrow mb-5">Contact · No cost. No commitment.</div>
             <h1 className="text-5xl md:text-6xl leading-[1.05]">
-              Book your free <em className="text-secondary not-italic">15-minute</em> discovery call.
+              Book your free <em className="text-secondary not-italic">15-minute</em> assessment call.
             </h1>
             <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
               Not sure if functional medicine is right for you? Let's talk. This call is designed to
@@ -228,7 +228,7 @@ function Contact() {
                   a: "Absolutely  this is the most common situation I see. 'Normal' ranges are based on averages, not optimal health. There's a big difference between 'not sick' and 'thriving.' Functional lab analysis identifies patterns that standard testing often misses.",
                 },
                 {
-                  q: "What happens after the free discovery call?",
+                  q: "What happens after the free assessment call?",
                   a: "You'll have a clear understanding of how my process works and whether it's the right fit for you. If you decide to move forward, the next step is the Root-Cause Intake & Clinical Strategy session at $97. Zero pressure  you decide what happens next.",
                 },
                 {
@@ -241,7 +241,7 @@ function Contact() {
                 },
                 {
                   q: "Is the free call really free? What's the catch?",
-                  a: "There is no catch. The 15-minute discovery call is completely free with no obligation to book anything after. I only work with clients I genuinely believe I can help.",
+                  a: "There is no catch. The 15-minute assessment call is completely free with no obligation to book anything after. I only work with clients I genuinely believe I can help.",
                 },
                 {
                   q: "Do you take insurance?",

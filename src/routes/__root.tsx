@@ -208,7 +208,7 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
                     "@type": "Offer",
                     "itemOffered": {
                       "@type": "MedicalProcedure",
-                      "name": "Root Cause Discovery Call",
+                      "name": "Root Cause Assessment Call",
                       "description": "Free 10-minute consultation to determine next steps."
                     },
                     "price": "0",
@@ -282,14 +282,14 @@ function RootComponent() {
   const { queryClient } = Route.useRouteContext();
   const routerState = useRouterState();
   const isClaritySessionPage = routerState.location.pathname.includes('/clarity-session');
-  const isMichiganPage = routerState.location.pathname.includes('/michigan-discovery-call');
+  const isMichiganPage = routerState.location.pathname.includes('/michigan-assessment-call');
   const isFreeCallPage = routerState.location.pathname.includes('/free-15-min-call-with-katie');
   const isFreeGuidePage = routerState.location.pathname.includes('/free-guide');
   const hideHeaderFooter = isClaritySessionPage || isMichiganPage || isFreeCallPage || isFreeGuidePage;
 
   React.useEffect(() => {
     if (typeof window !== 'undefined' && (window as any).fbq) {
-      const isMichiganPage = window.location.pathname.includes('/michigan-discovery-call');
+      const isMichiganPage = window.location.pathname.includes('/michigan-assessment-call');
       if (isMichiganPage) {
         (window as any).fbq('init', '3180422178824404');
         (window as any).fbq('track', 'PageView');

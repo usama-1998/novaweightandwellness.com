@@ -8,32 +8,32 @@ export const Route = createFileRoute('/free-15-min-call-with-katie')({
       { rel: "canonical", href: "https://novaweightandwellness.com/free-15-min-call-with-katie" },
     ],
     meta: [
-      { title: "Book a Free Discovery Call | Novaleo Weight & Wellness" },
+      { title: "Book a Free Assessment Call | Novaleo Weight & Wellness" },
       {
         name: "description",
         content:
-          "Schedule your complimentary 15-minute discovery call with one of our practitioners. Available via telehealth in Michigan and Wisconsin.",
+          "Schedule your complimentary 15-minute assessment call with one of our practitioners. Available via telehealth in Michigan and Wisconsin.",
       },
-      { property: "og:title", content: "Book a Free Discovery Call | Novaleo" },
+      { property: "og:title", content: "Book a Free Assessment Call | Novaleo" },
       {
         property: "og:description",
-        content: "Schedule your complimentary 15-minute discovery call with one of our practitioners.",
+        content: "Schedule your complimentary 15-minute assessment call with one of our practitioners.",
       },
       { property: "og:url", content: "https://novaweightandwellness.com/free-15-min-call-with-katie" },
       { property: "og:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Book a Free Discovery Call | Novaleo" },
-      { name: "twitter:description", content: "Schedule your complimentary 15-minute discovery call with one of our practitioners." },
+      { name: "twitter:title", content: "Book a Free Assessment Call | Novaleo" },
+      { name: "twitter:description", content: "Schedule your complimentary 15-minute assessment call with one of our practitioners." },
       { name: "twitter:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
     ],
   }),
-  component: DiscoveryPage,
+  component: AssessmentPage,
 });
 
 
 
-function DiscoveryPage() {
+function AssessmentPage() {
   const [step, setStep] = useState(0);
   const [selectedDate, setSelectedDate] = useState<any>(null);
   const [selectedTime, setSelectedTime] = useState<any>(null);
@@ -55,7 +55,7 @@ function DiscoveryPage() {
 
   return (
     <main className="min-h-screen flex flex-col items-center justify-start md:justify-center relative p-0 md:p-8 bg-white">
-      <h1 className="sr-only">Book a Free Discovery Call</h1>
+      <h1 className="sr-only">Book a Free Assessment Call</h1>
       <div className={`w-full max-w-2xl mx-auto relative z-10 flex flex-col min-h-screen md:min-h-0 bg-white`}>
         <BookingVariantA
           step={step}

@@ -283,7 +283,7 @@ function BlogComponent() {
           Tired of hearing "your labs look normal" when you know something is off?
         </p>
         <p className="text-foreground/70 mb-5">
-          Start with a free 15-minute discovery call. No pressure, no commitment, no sales pitch.
+          Start with a free 15-minute assessment call. No pressure, no commitment, no sales pitch.
           Just a real conversation about what you're experiencing and whether functional medicine
           might be the missing piece.
         </p>
@@ -710,7 +710,7 @@ function BlogComponent() {
         </p>
         <p className="text-foreground/70 mb-5">
           If you are struggling with belly fat and fatigue, you need the complete metabolic picture.
-          Book a free 15-minute discovery call to discuss comprehensive functional testing.
+          Book a free 15-minute assessment call to discuss comprehensive functional testing.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold">
           Book Your Free 15-Minute Call
@@ -1104,7 +1104,7 @@ function BlogComponent() {
             to="/free-15-min-call-with-katie"
             className="inline-flex items-center justify-center bg-secondary text-white font-semibold px-8 py-4 rounded-full hover:bg-secondary/90 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
           >
-            Book Your Free Discovery Call
+            Book Your Free Assessment Call
           </Link>
         </div>
       </section>

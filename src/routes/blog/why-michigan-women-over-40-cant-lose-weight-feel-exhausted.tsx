@@ -285,7 +285,7 @@ function BlogComponent() {
           Tired of hearing "your labs look normal" when you know something is off?
         </p>
         <p className="text-foreground/70 mb-5">
-          Start with a free 15-minute discovery call. No pressure, no commitment. Just a real
+          Start with a free 15-minute assessment call. No pressure, no commitment. Just a real
           conversation about what you're experiencing and whether functional medicine might be the
           missing piece.
         </p>
@@ -567,7 +567,7 @@ function BlogComponent() {
           Ready to find out what's really going on?
         </p>
         <p className="text-foreground/70 mb-5">
-          The free 15-minute discovery call is designed for women exactly like you: smart,
+          The free 15-minute assessment call is designed for women exactly like you: smart,
           proactive, and tired of not getting answers. Let's talk about what you're experiencing and
           explore whether functional medicine is the right fit.
         </p>
@@ -741,7 +741,7 @@ function BlogComponent() {
 
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           At Novaleo, everything begins with a conversation, not a commitment. We start with a free,
-          no-pressure 15-minute discovery call where we talk about what you're experiencing. You
+          no-pressure 15-minute assessment call where we talk about what you're experiencing. You
           have the opportunity to share your symptoms, the frustration of "normal" lab results, and
           your health goals.
         </p>
@@ -860,7 +860,7 @@ function BlogComponent() {
           difference a root-cause approach can make.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold">
-          Book Your Free Discovery Call
+          Book Your Free Assessment Call
         </Link>
       </div>
 
@@ -896,7 +896,7 @@ function BlogComponent() {
         </p>
 
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          The free 15-minute discovery call is the first step, and it is genuinely free with no
+          The free 15-minute assessment call is the first step, and it is genuinely free with no
           strings attached. You'll speak directly with a member of our care team, share what you've
           been experiencing, and find out if functional medicine is the right path forward. There's
           no commitment required and no pressure to proceed. It's simply a conversation, and it
@@ -908,11 +908,11 @@ function BlogComponent() {
             You've waited long enough for answers.
           </p>
           <p className="text-lg text-foreground/70 mb-6 max-w-xl mx-auto">
-            Book your free 15-minute discovery call today and take the first step toward
+            Book your free 15-minute assessment call today and take the first step toward
             understanding what's really going on inside your body.
           </p>
           <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
-            Book Your Free 15-Minute Discovery Call
+            Book Your Free 15-Minute Assessment Call
           </Link>
         </div>
 
@@ -956,7 +956,7 @@ function BlogComponent() {
         </h2>
         <p className="text-white/80 text-lg mb-8 max-w-2xl mx-auto">
           Join the hundreds of Michigan women who have discovered what conventional medicine missed.
-          Your free 15-minute discovery call is the first step toward answers, clarity, and feeling
+          Your free 15-minute assessment call is the first step toward answers, clarity, and feeling
           like yourself again.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">

@@ -74,12 +74,12 @@ npm run build
   - **Dynamic Permalinks**: Routes are intuitively named (`/services`, `/what-we-treat`) to match navigation items exactly, reinforcing semantic relevance.
 - **The Root Cause Restoration Program**: Renamed from "The Executive Longevity Partnership." A 6-month functional medicine program for women 35 to 55, structured around 4 non-negotiables: nutrition + blood sugar stability, sleep + circadian rhythm, stress + nervous system regulation, and movement + metabolic strength.
 - **Lead Magnet / Free Guide (`/free-guide`)**: A dedicated landing page for the "What Your Labs Aren't Telling You" PDF guide. Redesigned with a premium glassmorphism aesthetic, featuring dynamic animations, a 3D physical book mockup, a sleek inline form for lead generation, an interactive 'Meet Your Guide' author section, and detailed info sections highlighting the core contents of the ebook.
-- **Dedicated Free Discovery Call Page (`/free-15-min-call-with-katie`)**: Replaces the global pop-up modal with a dedicated landing page for scheduling the free 15-minute discovery call.
+- **Dedicated Free Assessment Call Page (`/free-15-min-call-with-katie`)**: Replaces the global pop-up modal with a dedicated landing page for scheduling the free 15-minute assessment call.
   - Features a native GoHighLevel calendar embed integrated seamlessly into the page, complete with a custom, branded loading overlay to ensure a premium user experience while the iframe initializes.
   - Supports dynamic iframe height recalculations with native mobile scrolling, breaking out of standard modal constraints for improved accessibility on smaller devices.
   - **High-Converting Bio Layout**: The standard location gate has been completely replaced with a high-converting, trust-building clinician bio. This layout includes an Instagram-style verified badge and a rotating carousel of verified 5-star patient reviews.
   - **Optimized Copy & Sequence**: The pre-booking flow uses a specific sequence (Photo/Badge -> Headline -> Symptoms Checklist -> CTA -> Testimonials) perfectly mirrored from high-performing ad copy to maximize conversions and message-match.
-- **Dedicated Ad Landing Pages (`/michigan-discovery-call`)**: 
+- **Dedicated Ad Landing Pages (`/michigan-assessment-call`)**: 
   - Special landing pages designed purely for ad traffic. Features identical high-converting components but perfectly tracks conversions using distinct Meta Pixel IDs dynamically.
   - **Inline Native Rendering**: Decoupled from the global modal architecture, rendering the scheduling flow natively inline as an embedded landing page rather than a pop-up overlay.
 - **Dynamic Meta Pixel Tracking**:
@@ -99,7 +99,7 @@ npm run build
 - **UI Enhancements**: Consistent pointer interactions, standardized branding colours, and a personalized clinician avatar with active availability indicators.
   - Buttons across the site feature subtle, elegant box shadows and smooth lift animations on hover.
   - Social media links in the footer have been updated to reflect the `katielong.np` handles across TikTok, Facebook, and Instagram.
-  - Mobile-first refinements ensure the primary "Free Discovery Call" button stays visible above the fold on the homepage hero section.
+  - Mobile-first refinements ensure the primary "Free Assessment Call" button stays visible above the fold on the homepage hero section.
   - All site images and assets have been optimized by converting them to the WebP format for faster page load times and improved performance.
   - Site-wide logo updated to the latest branding across header, footer, and social preview images (Open Graph).
   - **Robust Cal.com API Integration**: Directly interfaces with Cal.com TRPC server functions and REST API to query live availability and book slots seamlessly in the background.

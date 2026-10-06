@@ -338,7 +338,7 @@ export function BlogLayout({
                     Tired of feeling exhausted?
                   </h4>
                   <p className="text-sm text-foreground/70 mb-4">
-                    Book a free discovery call to discuss functional lab testing.
+                    Book a free assessment call to discuss functional lab testing.
                   </p>
                   <Link
                     to="/free-15-min-call-with-katie"

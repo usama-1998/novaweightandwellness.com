@@ -386,7 +386,7 @@ function BlogComponent() {
           You noticed something. You deserve an answer now, not in five years.
         </p>
         <p className="text-foreground/70 mb-5">
-          A free 15-minute discovery call is a no-pressure conversation about what you're experiencing and whether it's worth investigating further. You don't need to have it all figured out first.
+          A free 15-minute assessment call is a no-pressure conversation about what you're experiencing and whether it's worth investigating further. You don't need to have it all figured out first.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold">
           Book Your Free 15-Minute Call
@@ -674,10 +674,10 @@ function BlogComponent() {
           You don't have to wait five years for this to get worse before someone takes it seriously.
         </p>
         <p className="text-foreground/70 mb-5">
-          A free 15-minute discovery call is the place to start. No pressure, no assumptions about your age, just a real conversation about what testing could tell you now.
+          A free 15-minute assessment call is the place to start. No pressure, no assumptions about your age, just a real conversation about what testing could tell you now.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold">
-          Schedule Your Free Discovery Call
+          Schedule Your Free Assessment Call
         </Link>
       </div>
 
@@ -846,7 +846,7 @@ function BlogComponent() {
       {/* Section 10: Closing */}
       <section id="closing-katies-note">
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
-          Book a Free Discovery Call, and a Personal Note from Katie
+          Book a Free Assessment Call, and a Personal Note from Katie
         </h2>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           If you have read this far, you now understand something that most women in their 30s are never given the chance to understand: that what you are feeling has a real, biologically plausible explanation, that "too young" is not a diagnosis, and that there is a meaningful difference between waiting five years for things to get undeniable and starting an honest investigation today.
@@ -860,10 +860,10 @@ function BlogComponent() {
             You noticed something. Let's find out what it is.
           </p>
           <p className="text-lg text-foreground/70 mb-6 max-w-xl mx-auto">
-            Book your free 15-minute discovery call. No sales pitch, no assumptions about your age, just an honest conversation about what testing could tell you right now instead of five years from now.
+            Book your free 15-minute assessment call. No sales pitch, no assumptions about your age, just an honest conversation about what testing could tell you right now instead of five years from now.
           </p>
           <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
-            Book Your Free 15-Minute Discovery Call
+            Book Your Free 15-Minute Assessment Call
           </Link>
         </div>
 
@@ -917,7 +917,7 @@ function BlogComponent() {
           You Deserve an Answer Now, Not in Five Years
         </h2>
         <p className="text-white/80 text-lg mb-8 max-w-2xl mx-auto">
-          Join the growing number of Michigan and Wisconsin women in their 30s who decided not to wait. Your free 15-minute discovery call is the first step toward understanding what your body is telling you.
+          Join the growing number of Michigan and Wisconsin women in their 30s who decided not to wait. Your free 15-minute assessment call is the first step toward understanding what your body is telling you.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
           Book Your Free 15-Minute Call

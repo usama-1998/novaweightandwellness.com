@@ -367,7 +367,7 @@ function BlogComponent() {
           This was never just about willpower.
         </p>
         <p className="text-foreground/70 mb-5">
-          If you've spent years being told weight gain was simply your tendency, it's time for someone to look at the actual mechanism. A free 15-minute discovery call is a low-pressure place to start.
+          If you've spent years being told weight gain was simply your tendency, it's time for someone to look at the actual mechanism. A free 15-minute assessment call is a low-pressure place to start.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold">
           Book Your Free 15-Minute Call
@@ -685,10 +685,10 @@ function BlogComponent() {
           You were never just "prone to weight gain."
         </p>
         <p className="text-foreground/70 mb-5">
-          If a birth control prescription or a single Metformin script was the extent of your care so far, there's a fuller picture waiting to be looked at. Book a free 15-minute discovery call to talk it through.
+          If a birth control prescription or a single Metformin script was the extent of your care so far, there's a fuller picture waiting to be looked at. Book a free 15-minute assessment call to talk it through.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold">
-          Schedule Your Free Discovery Call
+          Schedule Your Free Assessment Call
         </Link>
       </div>
 
@@ -978,7 +978,7 @@ function BlogComponent() {
       {/* Section 10: Closing */}
       <section id="closing-katies-note">
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
-          Book a Free Discovery Call
+          Book a Free Assessment Call
         </h2>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           If you have read this far, you now understand more about what PCOS actually is, and what actually drives the weight resistance that comes with it, than most women get in a decade of piecemeal appointments. You understand that the advice you may have received years ago, lose the weight and your periods will fix themselves, had the causality backwards. You understand the insulin-androgen cycle at the center of this condition, and what a genuinely comprehensive evaluation and protocol can look like.
@@ -992,10 +992,10 @@ function BlogComponent() {
             This was never the full story. Let's find the rest of it.
           </p>
           <p className="text-lg text-foreground/70 mb-6 max-w-xl mx-auto">
-            Book your free 15-minute discovery call. No judgment, no generic advice you've already heard, just a real conversation about what has actually been happening in your body.
+            Book your free 15-minute assessment call. No judgment, no generic advice you've already heard, just a real conversation about what has actually been happening in your body.
           </p>
           <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
-            Book Your Free 15-Minute Discovery Call
+            Book Your Free 15-Minute Assessment Call
           </Link>
         </div>
 
@@ -1061,7 +1061,7 @@ function BlogComponent() {
           Your Body Was Never the Problem
         </h2>
         <p className="text-white/80 text-lg mb-8 max-w-2xl mx-auto">
-          You deserve an actual explanation, not another instruction to try harder. Your free 15-minute discovery call is the first step toward finally understanding what's actually going on.
+          You deserve an actual explanation, not another instruction to try harder. Your free 15-minute assessment call is the first step toward finally understanding what's actually going on.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
           Book Your Free 15-Minute Call

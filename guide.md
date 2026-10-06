@@ -489,7 +489,7 @@ Your body doesn't need to be forced into balance. It needs support, regulation, 
 
 I wrote this guide because I wish someone had handed it to me in my early forties, when I was sitting in a waiting room with a folder of normal labs and a body that was unmistakably not.
 
-If something in these pages found you, I am glad you are here. If you are ready, book a Discovery Call.
+If something in these pages found you, I am glad you are here. If you are ready, book a Assessment Call.
 
 If you are not, stay close. Join my Facebook group.
 

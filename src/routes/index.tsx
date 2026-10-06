@@ -33,14 +33,14 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: "Functional Medicine for Women in MI & WI | Novaleo" },
       {
         property: "og:description",
-        content: "Root-cause functional medicine via telehealth for women in their 40s & 50s. Free 15-min discovery call.",
+        content: "Root-cause functional medicine via telehealth for women in their 40s & 50s. Free 15-min assessment call.",
       },
       { property: "og:url", content: "https://novaweightandwellness.com/" },
       { property: "og:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Functional Medicine for Women in MI & WI | Novaleo" },
-      { name: "twitter:description", content: "Root-cause functional medicine via telehealth for women in their 40s & 50s. Free 15-min discovery call." },
+      { name: "twitter:description", content: "Root-cause functional medicine via telehealth for women in their 40s & 50s. Free 15-min assessment call." },
       { name: "twitter:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
     ],
   }),
@@ -185,7 +185,7 @@ function Home() {
             <div className="absolute -bottom-6 -right-4 bg-card border border-border rounded-2xl shadow-xl p-5 max-w-[16rem]">
               <div className="text-3xl font-display text-primary">Free</div>
               <p className="text-sm text-muted-foreground mt-1">
-                Discovery Call. Let's find out what's really going on.
+                Assessment Call. Let's find out what's really going on.
               </p>
             </div>
           </div>
@@ -369,7 +369,7 @@ function Home() {
               {
                 n: "01",
                 t: "Choose your starting point",
-                d: "Not everyone needs the same first step. You can book a free discovery call, start with a Root-Cause Intake, or apply directly for one of our personalized programs.",
+                d: "Not everyone needs the same first step. You can book a free assessment call, start with a Root-Cause Intake, or apply directly for one of our personalized programs.",
               },
               {
                 n: "02",

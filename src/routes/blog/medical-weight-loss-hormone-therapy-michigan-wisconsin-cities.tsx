@@ -158,7 +158,7 @@ function BlogComponent() {
           <a href="https://dsps.wi.gov/Pages/Professions/APNP/Default.aspx" target="_blank" rel="noopener noreferrer" className="text-secondary font-semibold hover:underline">
             Wisconsin Department of Safety and Professional Services (DSPS)
           </a>
-          . If you are ever uncertain whether your specific location qualifies, the fastest way to know for certain is to ask directly on a free discovery call rather than guess from an article, however carefully written.
+          . If you are ever uncertain whether your specific location qualifies, the fastest way to know for certain is to ask directly on a free assessment call rather than guess from an article, however carefully written.
         </p>
         <h3 className="text-xl md:text-2xl font-display text-primary mt-10 mb-4">
           What a Telehealth Visit Actually Looks Like
@@ -209,7 +209,7 @@ function BlogComponent() {
           Cost and Structure
         </h3>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          This practice operates on a direct-pay model rather than billing insurance for visits, which is part of what allows for the kind of unhurried, comprehensive appointments described throughout this section, visits are not compressed to fit an insurance-reimbursable time slot. Specific pricing and structure are best discussed directly on your discovery call, where you can ask candid questions about cost before committing to anything.
+          This practice operates on a direct-pay model rather than billing insurance for visits, which is part of what allows for the kind of unhurried, comprehensive appointments described throughout this section, visits are not compressed to fit an insurance-reimbursable time slot. Specific pricing and structure are best discussed directly on your assessment call, where you can ask candid questions about cost before committing to anything.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           One more logistical question worth answering directly: what happens if a video call drops, or you're in an area with unreliable internet, which is a genuine concern in some parts of rural Michigan and Wisconsin covered later in this article. If a connection issue interrupts a visit, the standard practice is simply to reconnect and pick back up, or reschedule if the interruption is significant, the same way an in-person visit would be rebooked if you were unexpectedly called away. Phone-based follow-up is also available as a backup for markets with genuinely unreliable broadband, ensuring a connectivity issue never becomes the reason care doesn't happen.
@@ -228,7 +228,7 @@ function BlogComponent() {
           Wherever you are reading this from in Michigan or Wisconsin, licensed telehealth care means real, comprehensive, root-cause support is genuinely within reach.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold">
-          Book Your Free 15-Minute Discovery Call
+          Book Your Free 15-Minute Assessment Call
         </Link>
       </div>
 
@@ -533,7 +533,7 @@ function BlogComponent() {
           Milwaukee's suburban ring adds its own texture worth naming individually. Brookfield and Elm Grove carry an affluent, corporate-executive character built around the Milwaukee Regional Medical Center campus and the Brookfield Square business corridor, women here often in senior leadership roles managing large teams alongside a demanding household schedule. Waukesha, the county seat and a manufacturing and healthcare hub in its own right (home to GE Healthcare's diagnostic imaging headquarters), has a more middle-market, family-oriented professional culture. Mequon and the North Shore suburbs along Lake Michigan skew toward established, multigenerational households with a slower, more settled pace than downtown Milwaukee itself. Each of these communities searches for care a little differently, but the underlying pattern, symptoms dismissed as normal aging or normal stress, standard labs that miss the fuller picture, is remarkably consistent across all of them.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          It's also worth acknowledging Milwaukee's real economic diversity directly, because "medical weight loss Milwaukee" searches come from a genuinely wide income and lifestyle range, from Third Ward condo residents working downtown finance jobs to Oak Creek manufacturing employees to South Side small business owners. Root-cause, comprehensive care has, historically, often been marketed and priced as though it were exclusively for the first group. We'd rather be direct about the fact that the same telehealth model, and the same conversation about cost and structure available on a free discovery call, is open to anyone in the Milwaukee area asking the question, regardless of which of those categories describes your day-to-day life.
+          It's also worth acknowledging Milwaukee's real economic diversity directly, because "medical weight loss Milwaukee" searches come from a genuinely wide income and lifestyle range, from Third Ward condo residents working downtown finance jobs to Oak Creek manufacturing employees to South Side small business owners. Root-cause, comprehensive care has, historically, often been marketed and priced as though it were exclusively for the first group. We'd rather be direct about the fact that the same telehealth model, and the same conversation about cost and structure available on a free assessment call, is open to anyone in the Milwaukee area asking the question, regardless of which of those categories describes your day-to-day life.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Shorewood and the smaller lakefront communities just north of downtown Milwaukee carry their own distinct, walkable, tightly-knit character, popular with young families and professionals who want city access without a full suburban commute, while Oak Creek and the communities south of Milwaukee lean more industrial and working-class, home to a significant manufacturing and logistics workforce whose physically demanding schedules echo the shift-work patterns we described in Dana's story above. Across this entire range, from Shorewood's walkable streets to Oak Creek's industrial parks, the same underlying reality holds: the video visit and lab draw structure described in Section 2 works identically regardless of which version of Milwaukee's economy your daily life runs on.
@@ -662,7 +662,7 @@ function BlogComponent() {
           Think about what specialist access has traditionally required if you live in, say, Alpena, or Ironwood, or Rhinelander, or a farm outside Chippewa Falls: identifying a specialist, often an hour or more away, taking a half or full day off work or off the farm, arranging the drive, and hoping the eventual appointment was worth the disruption. For many women in these communities, that math simply never worked, not because the desire for better care wasn't there, but because the logistics made it functionally inaccessible. That is precisely the barrier telehealth removes, not partially, not as a lesser substitute, but genuinely and completely for the kind of visit-and-conversation-based care this practice provides. A woman on a dairy farm outside Wausau and a woman in a downtown Milwaukee high-rise have access to the exact same video visit, the same hour of Katie's time, the same comprehensive lab panel interpretation, the same follow-up relationship. The video call does not know or care how far you are from the nearest city.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          We do want to be honest about one thing, in keeping with the plain-spoken approach that runs through this entire article: the one place where rural geography can genuinely matter is lab draw logistics. In Grand Rapids or Milwaukee, you likely have several Quest Diagnostics or Labcorp locations within a short drive, often with same-day or next-day availability. In a smaller or more remote community, the nearest draw site might be further away, and availability might mean planning your errands around a lab visit rather than popping in on your lunch break. We would rather tell you that directly than pretend the experience is identical down to the last detail, because that kind of overpromising is exactly the sort of thing that erodes trust once someone actually lives the reality of it. What we can tell you honestly is that Quest Diagnostics and Labcorp both maintain draw sites in the vast majority of Michigan and Wisconsin counties, including many smaller communities, and for the relatively small number of situations where a draw site genuinely isn't within a reasonable distance, that's exactly the kind of logistical detail worth talking through directly on your discovery call, so you know precisely what to expect before you commit to anything.
+          We do want to be honest about one thing, in keeping with the plain-spoken approach that runs through this entire article: the one place where rural geography can genuinely matter is lab draw logistics. In Grand Rapids or Milwaukee, you likely have several Quest Diagnostics or Labcorp locations within a short drive, often with same-day or next-day availability. In a smaller or more remote community, the nearest draw site might be further away, and availability might mean planning your errands around a lab visit rather than popping in on your lunch break. We would rather tell you that directly than pretend the experience is identical down to the last detail, because that kind of overpromising is exactly the sort of thing that erodes trust once someone actually lives the reality of it. What we can tell you honestly is that Quest Diagnostics and Labcorp both maintain draw sites in the vast majority of Michigan and Wisconsin counties, including many smaller communities, and for the relatively small number of situations where a draw site genuinely isn't within a reasonable distance, that's exactly the kind of logistical detail worth talking through directly on your assessment call, so you know precisely what to expect before you commit to anything.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Beyond the practical logistics, there's a cultural and emotional piece worth naming too. Rural Michigan and Wisconsin carry a particular ethic around health: a tendency to push through, to not make a fuss, to assume that fatigue and weight gain are just part of the deal that comes with farm work, physical labor, or simply getting older in a community where everyone is expected to keep going. We hear this constantly from patients in smaller communities: a genuine surprise that someone actually wants to sit with them for a full conversation, run comprehensive labs, and treat their fatigue and weight resistance as a real medical question rather than something to quietly tolerate. That instinct to push through deserves respect, it often reflects real resilience, but it also means rural women are, if anything, more likely to have gone years longer than their urban counterparts without anyone actually investigating what's driving their symptoms.
@@ -702,7 +702,7 @@ function BlogComponent() {
           You don't have to live near a big city for this to be real, accessible care.
         </p>
         <p className="text-foreground/70 mb-5">
-          If you're in a smaller town or rural community anywhere in Michigan or Wisconsin, book your free 15-minute discovery call and see for yourself how straightforward this actually is, wherever you're calling in from.
+          If you're in a smaller town or rural community anywhere in Michigan or Wisconsin, book your free 15-minute assessment call and see for yourself how straightforward this actually is, wherever you're calling in from.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold">
           Book Your Free 15-Minute Call
@@ -726,7 +726,7 @@ function BlogComponent() {
           loading="lazy"
         />
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          It's also worth being honest about cost expectations as part of evaluating any provider, since cost is often the unspoken question behind a lot of the hesitation we hear on discovery calls. Root-cause, comprehensive care, built around genuine time and detailed lab interpretation rather than a rushed, insurance-reimbursed visit, generally costs more out of pocket than a standard primary care copay, and it's reasonable to want to understand that investment clearly before committing to it. A trustworthy provider should be able to walk you through pricing plainly, without pressure, and should welcome direct questions about cost rather than deflecting them until after you've already committed.
+          It's also worth being honest about cost expectations as part of evaluating any provider, since cost is often the unspoken question behind a lot of the hesitation we hear on assessment calls. Root-cause, comprehensive care, built around genuine time and detailed lab interpretation rather than a rushed, insurance-reimbursed visit, generally costs more out of pocket than a standard primary care copay, and it's reasonable to want to understand that investment clearly before committing to it. A trustworthy provider should be able to walk you through pricing plainly, without pressure, and should welcome direct questions about cost rather than deflecting them until after you've already committed.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           This matters because the "medical weight loss" category has exploded in the last few years, largely on the back of GLP-1 medications like semaglutide and tirzepatide, and a wave of clinics, some legitimate, many not, have rushed in to capitalize on that demand. If you've done any searching at all in your own city, you've likely already encountered a version of this: a clinic offering a quick intake, a prescription within days, and minimal ongoing contact beyond a monthly refill. That model can work reasonably well for some people. But it is not the same thing as root-cause care, and if what actually brought you to this article was fatigue, brain fog, sleep disruption, or weight resistance that felt bigger than "I need an appetite suppressant," a prescription-first model without real investigation is likely to leave the underlying problem exactly where it started, even if the number on the scale moves for a while.
@@ -794,7 +794,7 @@ function BlogComponent() {
           <Link to="/services" className="text-secondary font-semibold hover:underline">
             services page
           </Link>
-          {" "}for a full breakdown of how a discovery call, comprehensive lab panel, and ongoing partnership actually work together.
+          {" "}for a full breakdown of how a assessment call, comprehensive lab panel, and ongoing partnership actually work together.
         </p>
         <h3 className="text-xl md:text-2xl font-display text-primary mt-10 mb-4">
           A Quick Note on How This Looks Different by Life Stage
@@ -842,15 +842,15 @@ function BlogComponent() {
           </div>
           <div>
             <h3 className="text-xl font-display text-primary mb-3">Can I switch between in-person and virtual visits?</h3>
-            <p className="text-lg leading-relaxed text-foreground/85">This practice operates as a telehealth-based model across Michigan and Wisconsin. All visits, including your initial discovery call and ongoing follow-ups, are conducted via secure video. What is local is the lab draw itself, not the medical visits.</p>
+            <p className="text-lg leading-relaxed text-foreground/85">This practice operates as a telehealth-based model across Michigan and Wisconsin. All visits, including your initial assessment call and ongoing follow-ups, are conducted via secure video. What is local is the lab draw itself, not the medical visits.</p>
           </div>
           <div>
             <h3 className="text-xl font-display text-primary mb-3">Is care different in a smaller town versus a big city?</h3>
-            <p className="text-lg leading-relaxed text-foreground/85">The clinical care itself, the video visit, the comprehensive testing, the provider relationship, is identical regardless of city size. The one area where a genuine difference can exist is lab draw site proximity, which may require more advance planning in a more rural area. This is worth discussing directly on your discovery call if you have questions about draw site availability near you.</p>
+            <p className="text-lg leading-relaxed text-foreground/85">The clinical care itself, the video visit, the comprehensive testing, the provider relationship, is identical regardless of city size. The one area where a genuine difference can exist is lab draw site proximity, which may require more advance planning in a more rural area. This is worth discussing directly on your assessment call if you have questions about draw site availability near you.</p>
           </div>
           <div>
             <h3 className="text-xl font-display text-primary mb-3">What if I live right on the Michigan-Wisconsin border?</h3>
-            <p className="text-lg leading-relaxed text-foreground/85">Because licensure is tied to the state you're physically located in at the time of your visit, patients on either side of the border are fully eligible, provided you're physically within Michigan or Wisconsin when your visit takes place. If you split time between both states, this is worth mentioning on your discovery call so scheduling can account for it.</p>
+            <p className="text-lg leading-relaxed text-foreground/85">Because licensure is tied to the state you're physically located in at the time of your visit, patients on either side of the border are fully eligible, provided you're physically within Michigan or Wisconsin when your visit takes place. If you split time between both states, this is worth mentioning on your assessment call so scheduling can account for it.</p>
           </div>
           <div>
             <h3 className="text-xl font-display text-primary mb-3">Is this the same as a weight-loss injection clinic?</h3>
@@ -866,13 +866,13 @@ function BlogComponent() {
               <Link to="/blog/perimenopause-in-your-30s-michigan-wisconsin" className="text-secondary font-semibold hover:underline">guide to perimenopause in your 30s</Link>.</p>
           </div>
           <div>
-            <h3 className="text-xl font-display text-primary mb-3">What happens on the free discovery call?</h3>
-            <p className="text-lg leading-relaxed text-foreground/85">The discovery call is a brief, no-obligation conversation to discuss your symptoms and goals, confirm you're a good fit for this kind of care, answer logistical questions like the ones covered throughout this article, and outline next steps if you'd like to move forward. It is not a sales pitch, and there is no pressure to commit to anything on the call itself.</p>
+            <h3 className="text-xl font-display text-primary mb-3">What happens on the free assessment call?</h3>
+            <p className="text-lg leading-relaxed text-foreground/85">The assessment call is a brief, no-obligation conversation to discuss your symptoms and goals, confirm you're a good fit for this kind of care, answer logistical questions like the ones covered throughout this article, and outline next steps if you'd like to move forward. It is not a sales pitch, and there is no pressure to commit to anything on the call itself.</p>
           </div>
           <div>
             <h3 className="text-xl font-display text-primary mb-3">Will my insurance cover this, and can I use HSA or FSA funds?</h3>
             <p className="text-lg leading-relaxed text-foreground/85">This practice operates on a direct-pay model focused on comprehensive, unhurried care rather than the constraints of insurance-driven visit lengths. Many patients are able to use HSA or FSA funds toward services here, since this is licensed medical care, though eligibility depends on your specific plan. Please reach out through the{" "}
-              <Link to="/services" className="text-secondary font-semibold hover:underline">services page</Link> or your discovery call for current pricing and payment information.</p>
+              <Link to="/services" className="text-secondary font-semibold hover:underline">services page</Link> or your assessment call for current pricing and payment information.</p>
           </div>
           <div>
             <h3 className="text-xl font-display text-primary mb-3">How is this different from what my primary care doctor already does?</h3>
@@ -884,7 +884,7 @@ function BlogComponent() {
           </div>
           <div>
             <h3 className="text-xl font-display text-primary mb-3">Is this article medical advice for my specific situation?</h3>
-            <p className="text-lg leading-relaxed text-foreground/85">No. This article, like all content on this site, is for informational purposes only and does not constitute medical advice. Every patient's situation is different, and a personalized evaluation through a discovery call and, where appropriate, comprehensive lab testing is the only way to get guidance specific to you. If you take one thing from this FAQ, and from this article as a whole, let it be this: the fastest way to a real, personalized answer to any of these questions is a direct conversation, not more searching.</p>
+            <p className="text-lg leading-relaxed text-foreground/85">No. This article, like all content on this site, is for informational purposes only and does not constitute medical advice. Every patient's situation is different, and a personalized evaluation through a assessment call and, where appropriate, comprehensive lab testing is the only way to get guidance specific to you. If you take one thing from this FAQ, and from this article as a whole, let it be this: the fastest way to a real, personalized answer to any of these questions is a direct conversation, not more searching.</p>
           </div>
         </div>
       </section>
@@ -924,7 +924,7 @@ function BlogComponent() {
             Wherever you are in Michigan or Wisconsin, this is genuinely available to you.
           </p>
           <p className="text-lg text-foreground/70 mb-6 max-w-xl mx-auto">
-            Book your free 15-minute discovery discovery call and let's talk about what's actually going on with your body, and what real, root-cause care looks like for you specifically.
+            Book your free 15-minute assessment call and let's talk about what's actually going on with your body, and what real, root-cause care looks like for you specifically.
           </p>
           <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
             Book Your Free 15-Minute Call
@@ -960,7 +960,7 @@ function BlogComponent() {
           Real, Root-Cause Care, Wherever You Live
         </h2>
         <p className="text-white/80 text-lg mb-8 max-w-2xl mx-auto">
-          Whether you're in a downtown high-rise or a farmhouse kitchen, your free 15-minute discovery call is the first step toward real answers.
+          Whether you're in a downtown high-rise or a farmhouse kitchen, your free 15-minute assessment call is the first step toward real answers.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
           Book Your Free 15-Minute Call
@@ -1014,7 +1014,7 @@ const faqSchema = {
       name: "Can I switch between in-person and virtual visits?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "This practice operates as a telehealth-based model across Michigan and Wisconsin. All visits, including your initial discovery call and ongoing follow-ups, are conducted via secure video. What is local is the lab draw itself, not the medical visits.",
+        text: "This practice operates as a telehealth-based model across Michigan and Wisconsin. All visits, including your initial assessment call and ongoing follow-ups, are conducted via secure video. What is local is the lab draw itself, not the medical visits.",
       },
     },
     {
@@ -1059,10 +1059,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "What happens on the free discovery call?",
+      name: "What happens on the free assessment call?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "The discovery call is a brief, no-obligation conversation to discuss your symptoms and goals, confirm you're a good fit, answer logistical questions, and outline next steps. It is not a sales pitch.",
+        text: "The assessment call is a brief, no-obligation conversation to discuss your symptoms and goals, confirm you're a good fit, answer logistical questions, and outline next steps. It is not a sales pitch.",
       },
     },
     {
@@ -1094,7 +1094,7 @@ const faqSchema = {
       name: "Is this article medical advice for my specific situation?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "No. This article is for informational purposes only and does not constitute medical advice. A personalized evaluation through a discovery call and comprehensive lab testing is the only way to get guidance specific to you.",
+        text: "No. This article is for informational purposes only and does not constitute medical advice. A personalized evaluation through a assessment call and comprehensive lab testing is the only way to get guidance specific to you.",
       },
     },
   ],

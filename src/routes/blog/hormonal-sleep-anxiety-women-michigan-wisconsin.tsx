@@ -449,7 +449,7 @@ function BlogComponent() {
           Already tried the sleep tips and the standard advice?
         </p>
         <p className="text-foreground/70 mb-5">
-          If you've done the things you're supposed to do and you're still waking up at 3am, it's time to look at what's actually driving it. A free 15-minute discovery call is a low-pressure place to start.
+          If you've done the things you're supposed to do and you're still waking up at 3am, it's time to look at what's actually driving it. A free 15-minute assessment call is a low-pressure place to start.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold">
           Book Your Free 15-Minute Call
@@ -519,7 +519,7 @@ function BlogComponent() {
           A Note on Cost and Coverage
         </h3>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          Comprehensive cortisol and hormone testing of this kind is typically billed directly, since specialty functional lab testing generally falls outside standard insurance lab coverage, similar to the DUTCH test discussed in our other hormone-focused articles. Rather than quoting a specific figure here, since testing costs can shift over time, I would rather be direct about the factors that affect it: the specific panel ordered, whether additional markers like a full thyroid panel or ferritin are included based on your history, and the number of follow-up visits built into your plan. The clearest way to understand what this looks like for your specific situation is a conversation, which is exactly what a discovery call is for, a chance to ask about cost and coverage directly before deciding whether to move forward with a full evaluation.
+          Comprehensive cortisol and hormone testing of this kind is typically billed directly, since specialty functional lab testing generally falls outside standard insurance lab coverage, similar to the DUTCH test discussed in our other hormone-focused articles. Rather than quoting a specific figure here, since testing costs can shift over time, I would rather be direct about the factors that affect it: the specific panel ordered, whether additional markers like a full thyroid panel or ferritin are included based on your history, and the number of follow-up visits built into your plan. The clearest way to understand what this looks like for your specific situation is a conversation, which is exactly what a assessment call is for, a chance to ask about cost and coverage directly before deciding whether to move forward with a full evaluation.
         </p>
       </section>
 
@@ -605,10 +605,10 @@ function BlogComponent() {
           Ready to find out what's actually driving your 3am wake-ups?
         </p>
         <p className="text-foreground/70 mb-5">
-          A free 15-minute discovery call is a chance to talk through your specific pattern and what a real evaluation could look like for you, no generic tip list, no pressure.
+          A free 15-minute assessment call is a chance to talk through your specific pattern and what a real evaluation could look like for you, no generic tip list, no pressure.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold">
-          Schedule Your Free Discovery Call
+          Schedule Your Free Assessment Call
         </Link>
       </div>
 
@@ -918,7 +918,7 @@ function BlogComponent() {
       {/* Section 10: Closing */}
       <section id="closing-katies-note">
         <h2 className="text-3xl md:text-4xl font-display text-primary mt-16 mb-6">
-          Book a Free Discovery Call
+          Book a Free Assessment Call
         </h2>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           If you have read this far, I hope the biggest thing you are taking away is this: what you are experiencing has a name, a mechanism, and, for most women, a real path toward feeling better. You are not imagining this. You are not losing your mind. And you are not simply "getting older" in some vague, unexplainable way that you just have to accept.
@@ -935,10 +935,10 @@ function BlogComponent() {
             Let's find out what's actually keeping you up at night.
           </p>
           <p className="text-lg text-foreground/70 mb-6 max-w-xl mx-auto">
-            Book your free 15-minute discovery call. No generic sleep tips, no pressure, just a real conversation about your specific symptoms and what to do next.
+            Book your free 15-minute assessment call. No generic sleep tips, no pressure, just a real conversation about your specific symptoms and what to do next.
           </p>
           <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
-            Book Your Free 15-Minute Discovery Call
+            Book Your Free 15-Minute Assessment Call
           </Link>
         </div>
 
@@ -998,7 +998,7 @@ function BlogComponent() {
           You Don't Have to White-Knuckle Through Another Night
         </h2>
         <p className="text-white/80 text-lg mb-8 max-w-2xl mx-auto">
-          If 3am has become a familiar, unwelcome part of your routine, there is a real, identifiable reason, and a real path forward. Your free 15-minute discovery call is the first step.
+          If 3am has become a familiar, unwelcome part of your routine, there is a real, identifiable reason, and a real path forward. Your free 15-minute assessment call is the first step.
         </p>
         <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
           Book Your Free 15-Minute Call
