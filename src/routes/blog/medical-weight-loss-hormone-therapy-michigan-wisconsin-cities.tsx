@@ -228,7 +228,7 @@ function BlogComponent() {
           Wherever you are reading this from in Michigan or Wisconsin, licensed telehealth care means real, comprehensive, root-cause support is genuinely within reach.
         </p>
         <Link to="/free-call-with-katie" className="btn-gold">
-          Book Your Free Assessment Call
+          Book Free Assessment Call
         </Link>
       </div>
 
@@ -705,7 +705,7 @@ function BlogComponent() {
           If you're in a smaller town or rural community anywhere in Michigan or Wisconsin, book your free assessment call and see for yourself how straightforward this actually is, wherever you're calling in from.
         </p>
         <Link to="/free-call-with-katie" className="btn-gold">
-          Book Your Free Assessment Call
+          Book Free Assessment Call
         </Link>
       </div>
 
@@ -927,7 +927,7 @@ function BlogComponent() {
             Book your free assessment call and let's talk about what's actually going on with your body, and what real, root-cause care looks like for you specifically.
           </p>
           <Link to="/free-call-with-katie" className="btn-gold text-lg px-8 py-4">
-            Book Your Free Assessment Call
+            Book Free Assessment Call
           </Link>
         </div>
 
@@ -963,7 +963,7 @@ function BlogComponent() {
           Whether you're in a downtown high-rise or a farmhouse kitchen, your free assessment call is the first step toward real answers.
         </p>
         <Link to="/free-call-with-katie" className="btn-gold text-lg px-8 py-4">
-          Book Your Free Assessment Call
+          Book Free Assessment Call
         </Link>
       </section>
 

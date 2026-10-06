@@ -288,7 +288,7 @@ function BlogComponent() {
           might be the missing piece.
         </p>
         <Link to="/free-call-with-katie" className="btn-gold">
-          Book Your Free Assessment Call
+          Book Free Assessment Call
         </Link>
       </div>
 
@@ -713,7 +713,7 @@ function BlogComponent() {
           Book a free assessment call to discuss comprehensive functional testing.
         </p>
         <Link to="/free-call-with-katie" className="btn-gold">
-          Book Your Free Assessment Call
+          Book Free Assessment Call
         </Link>
       </div>
 
@@ -1104,7 +1104,7 @@ function BlogComponent() {
             to="/free-call-with-katie"
             className="inline-flex items-center justify-center bg-secondary text-white font-semibold px-8 py-4 rounded-full hover:bg-secondary/90 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
           >
-            Book Your Free Assessment Call
+            Book Free Assessment Call
           </Link>
         </div>
       </section>

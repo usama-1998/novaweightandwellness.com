@@ -452,7 +452,7 @@ function BlogComponent() {
           If you've done the things you're supposed to do and you're still waking up at 3am, it's time to look at what's actually driving it. A free assessment call is a low-pressure place to start.
         </p>
         <Link to="/free-call-with-katie" className="btn-gold">
-          Book Your Free Assessment Call
+          Book Free Assessment Call
         </Link>
       </div>
 
@@ -608,7 +608,7 @@ function BlogComponent() {
           A free assessment call is a chance to talk through your specific pattern and what a real evaluation could look like for you, no generic tip list, no pressure.
         </p>
         <Link to="/free-call-with-katie" className="btn-gold">
-          Schedule Your Free Assessment Call
+          Book Free Assessment Call
         </Link>
       </div>
 
@@ -938,7 +938,7 @@ function BlogComponent() {
             Book your free assessment call. No generic sleep tips, no pressure, just a real conversation about your specific symptoms and what to do next.
           </p>
           <Link to="/free-call-with-katie" className="btn-gold text-lg px-8 py-4">
-            Book Your Free Assessment Call
+            Book Free Assessment Call
           </Link>
         </div>
 
@@ -1001,7 +1001,7 @@ function BlogComponent() {
           If 3am has become a familiar, unwelcome part of your routine, there is a real, identifiable reason, and a real path forward. Your free assessment call is the first step.
         </p>
         <Link to="/free-call-with-katie" className="btn-gold text-lg px-8 py-4">
-          Book Your Free Assessment Call
+          Book Free Assessment Call
         </Link>
       </section>
 

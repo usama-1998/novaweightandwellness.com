@@ -303,7 +303,7 @@ function BlogComponent() {
           might be the missing piece.
         </p>
         <Link to="/free-call-with-katie" className="btn-gold">
-          Book Your Free Assessment Call
+          Book Free Assessment Call
         </Link>
       </div>
 
@@ -615,7 +615,7 @@ function BlogComponent() {
           and explore whether functional medicine is the right next step.
         </p>
         <Link to="/free-call-with-katie" className="btn-gold">
-          Schedule Your Free Call Today
+          Book Free Assessment Call
         </Link>
       </div>
 
@@ -902,7 +902,7 @@ function BlogComponent() {
           discover what a root-cause approach can do for you.
         </p>
         <Link to="/free-call-with-katie" className="btn-gold">
-          Book Your Free Assessment Call
+          Book Free Assessment Call
         </Link>
       </div>
 
@@ -955,7 +955,7 @@ function BlogComponent() {
             understanding what's really happening inside your body.
           </p>
           <Link to="/free-call-with-katie" className="btn-gold text-lg px-8 py-4">
-            Book Your Free Assessment Call
+            Book Free Assessment Call
           </Link>
         </div>
 
@@ -1004,7 +1004,7 @@ function BlogComponent() {
           feeling like yourself again.
         </p>
         <Link to="/free-call-with-katie" className="btn-gold text-lg px-8 py-4">
-          Book Your Free Assessment Call
+          Book Free Assessment Call
         </Link>
       </section>
     </BlogLayout>

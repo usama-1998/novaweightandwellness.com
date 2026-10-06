@@ -389,7 +389,7 @@ function BlogComponent() {
           A free assessment call is a no-pressure conversation about what you're experiencing and whether it's worth investigating further. You don't need to have it all figured out first.
         </p>
         <Link to="/free-call-with-katie" className="btn-gold">
-          Book Your Free Assessment Call
+          Book Free Assessment Call
         </Link>
       </div>
 
@@ -677,7 +677,7 @@ function BlogComponent() {
           A free assessment call is the place to start. No pressure, no assumptions about your age, just a real conversation about what testing could tell you now.
         </p>
         <Link to="/free-call-with-katie" className="btn-gold">
-          Schedule Your Free Assessment Call
+          Book Free Assessment Call
         </Link>
       </div>
 
@@ -863,7 +863,7 @@ function BlogComponent() {
             Book your free assessment call. No sales pitch, no assumptions about your age, just an honest conversation about what testing could tell you right now instead of five years from now.
           </p>
           <Link to="/free-call-with-katie" className="btn-gold text-lg px-8 py-4">
-            Book Your Free Assessment Call
+            Book Free Assessment Call
           </Link>
         </div>
 
@@ -920,7 +920,7 @@ function BlogComponent() {
           Join the growing number of Michigan and Wisconsin women in their 30s who decided not to wait. Your free assessment call is the first step toward understanding what your body is telling you.
         </p>
         <Link to="/free-call-with-katie" className="btn-gold text-lg px-8 py-4">
-          Book Your Free Assessment Call
+          Book Free Assessment Call
         </Link>
       </section>
 

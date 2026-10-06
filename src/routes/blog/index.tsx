@@ -285,7 +285,7 @@ function BlogIndex() {
           </p>
           <div className="mt-8">
             <Link to="/free-call-with-katie" className="btn-gold text-base">
-              Book Your Free Assessment Call <ArrowRight className="ml-2 h-4 w-4" />
+              Book Free Assessment Call <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </div>
         </div>

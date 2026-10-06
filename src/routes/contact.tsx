@@ -132,7 +132,7 @@ function Contact() {
           <div className="lg:col-span-7">
             <div className="eyebrow mb-5">Contact · No cost. No commitment.</div>
             <h1 className="text-5xl md:text-6xl leading-[1.05]">
-              Book your free <em className="text-secondary not-italic"></em> assessment call.
+              Book your free  assessment call.
             </h1>
             <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
               Not sure if functional medicine is right for you? Let's talk. This call is designed to
