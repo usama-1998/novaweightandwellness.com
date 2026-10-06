@@ -284,7 +284,7 @@ function BlogIndex() {
             hormonal symptoms, let's talk. Your free assessment call is the first step.
           </p>
           <div className="mt-8">
-            <Link to="/free-call-with-katie" className="btn-gold text-base">
+            <Link to="/book-free-assessment-call" className="btn-gold text-base">
               Book Free Assessment Call <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </div>

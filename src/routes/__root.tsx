@@ -283,7 +283,7 @@ function RootComponent() {
   const routerState = useRouterState();
   const isClaritySessionPage = routerState.location.pathname.includes('/clarity-session');
   const isMichiganPage = routerState.location.pathname.includes('/michigan-assessment-call');
-  const isFreeCallPage = routerState.location.pathname.includes('/free-call-with-katie');
+  const isFreeCallPage = routerState.location.pathname.includes('/book-free-assessment-call');
   const isFreeGuidePage = routerState.location.pathname.includes('/free-guide');
   const hideHeaderFooter = isClaritySessionPage || isMichiganPage || isFreeCallPage || isFreeGuidePage;
 

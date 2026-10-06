@@ -341,7 +341,7 @@ export function BlogLayout({
                     Book a free assessment call to discuss functional lab testing.
                   </p>
                   <Link
-                    to="/free-call-with-katie"
+                    to="/book-free-assessment-call"
                     className="btn-primary text-sm w-full py-2.5"
                   >
                     Free Call

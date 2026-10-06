@@ -287,7 +287,7 @@ function BlogComponent() {
           Just a real conversation about what you're experiencing and whether functional medicine
           might be the missing piece.
         </p>
-        <Link to="/free-call-with-katie" className="btn-gold">
+        <Link to="/book-free-assessment-call" className="btn-gold">
           Book Free Assessment Call
         </Link>
       </div>
@@ -712,7 +712,7 @@ function BlogComponent() {
           If you are struggling with belly fat and fatigue, you need the complete metabolic picture.
           Book a free assessment call to discuss comprehensive functional testing.
         </p>
-        <Link to="/free-call-with-katie" className="btn-gold">
+        <Link to="/book-free-assessment-call" className="btn-gold">
           Book Free Assessment Call
         </Link>
       </div>
@@ -1101,7 +1101,7 @@ function BlogComponent() {
             of your symptoms together.
           </p>
           <Link
-            to="/free-call-with-katie"
+            to="/book-free-assessment-call"
             className="inline-flex items-center justify-center bg-secondary text-white font-semibold px-8 py-4 rounded-full hover:bg-secondary/90 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-lg"
           >
             Book Free Assessment Call

@@ -141,7 +141,7 @@ function Contact() {
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
-              <Link to="/free-call-with-katie" className="btn-gold">
+              <Link to="/book-free-assessment-call" className="btn-gold">
                 Book Free Assessment Call
               </Link>
               <a

@@ -16,9 +16,9 @@ import { Route as ServicesRouteImport } from './routes/services'
 import { Route as PrivacyPolicyRouteImport } from './routes/privacy-policy'
 import { Route as MichiganDiscoveryCallRouteImport } from './routes/michigan-discovery-call'
 import { Route as FreeGuideRouteImport } from './routes/free-guide'
-import { Route as FreeCallWithKatieRouteImport } from './routes/free-call-with-katie'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as ClaritySessionRouteImport } from './routes/clarity-session'
+import { Route as BookFreeAssessmentCallRouteImport } from './routes/book-free-assessment-call'
 import { Route as ApproachRouteImport } from './routes/approach'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
@@ -70,11 +70,6 @@ const FreeGuideRoute = FreeGuideRouteImport.update({
   path: '/free-guide',
   getParentRoute: () => rootRouteImport,
 } as any)
-const FreeCallWithKatieRoute = FreeCallWithKatieRouteImport.update({
-  id: '/free-call-with-katie',
-  path: '/free-call-with-katie',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const ContactRoute = ContactRouteImport.update({
   id: '/contact',
   path: '/contact',
@@ -83,6 +78,11 @@ const ContactRoute = ContactRouteImport.update({
 const ClaritySessionRoute = ClaritySessionRouteImport.update({
   id: '/clarity-session',
   path: '/clarity-session',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BookFreeAssessmentCallRoute = BookFreeAssessmentCallRouteImport.update({
+  id: '/book-free-assessment-call',
+  path: '/book-free-assessment-call',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ApproachRoute = ApproachRouteImport.update({
@@ -176,9 +176,9 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/approach': typeof ApproachRoute
+  '/book-free-assessment-call': typeof BookFreeAssessmentCallRoute
   '/clarity-session': typeof ClaritySessionRoute
   '/contact': typeof ContactRoute
-  '/free-call-with-katie': typeof FreeCallWithKatieRoute
   '/free-guide': typeof FreeGuideRoute
   '/michigan-discovery-call': typeof MichiganDiscoveryCallRoute
   '/privacy-policy': typeof PrivacyPolicyRoute
@@ -203,9 +203,9 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/approach': typeof ApproachRoute
+  '/book-free-assessment-call': typeof BookFreeAssessmentCallRoute
   '/clarity-session': typeof ClaritySessionRoute
   '/contact': typeof ContactRoute
-  '/free-call-with-katie': typeof FreeCallWithKatieRoute
   '/free-guide': typeof FreeGuideRoute
   '/michigan-discovery-call': typeof MichiganDiscoveryCallRoute
   '/privacy-policy': typeof PrivacyPolicyRoute
@@ -231,9 +231,9 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/approach': typeof ApproachRoute
+  '/book-free-assessment-call': typeof BookFreeAssessmentCallRoute
   '/clarity-session': typeof ClaritySessionRoute
   '/contact': typeof ContactRoute
-  '/free-call-with-katie': typeof FreeCallWithKatieRoute
   '/free-guide': typeof FreeGuideRoute
   '/michigan-discovery-call': typeof MichiganDiscoveryCallRoute
   '/privacy-policy': typeof PrivacyPolicyRoute
@@ -260,9 +260,9 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/approach'
+    | '/book-free-assessment-call'
     | '/clarity-session'
     | '/contact'
-    | '/free-call-with-katie'
     | '/free-guide'
     | '/michigan-discovery-call'
     | '/privacy-policy'
@@ -287,9 +287,9 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/approach'
+    | '/book-free-assessment-call'
     | '/clarity-session'
     | '/contact'
-    | '/free-call-with-katie'
     | '/free-guide'
     | '/michigan-discovery-call'
     | '/privacy-policy'
@@ -314,9 +314,9 @@ export interface FileRouteTypes {
     | '/'
     | '/about'
     | '/approach'
+    | '/book-free-assessment-call'
     | '/clarity-session'
     | '/contact'
-    | '/free-call-with-katie'
     | '/free-guide'
     | '/michigan-discovery-call'
     | '/privacy-policy'
@@ -342,9 +342,9 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
   ApproachRoute: typeof ApproachRoute
+  BookFreeAssessmentCallRoute: typeof BookFreeAssessmentCallRoute
   ClaritySessionRoute: typeof ClaritySessionRoute
   ContactRoute: typeof ContactRoute
-  FreeCallWithKatieRoute: typeof FreeCallWithKatieRoute
   FreeGuideRoute: typeof FreeGuideRoute
   MichiganDiscoveryCallRoute: typeof MichiganDiscoveryCallRoute
   PrivacyPolicyRoute: typeof PrivacyPolicyRoute
@@ -417,13 +417,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof FreeGuideRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/free-call-with-katie': {
-      id: '/free-call-with-katie'
-      path: '/free-call-with-katie'
-      fullPath: '/free-call-with-katie'
-      preLoaderRoute: typeof FreeCallWithKatieRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/contact': {
       id: '/contact'
       path: '/contact'
@@ -436,6 +429,13 @@ declare module '@tanstack/react-router' {
       path: '/clarity-session'
       fullPath: '/clarity-session'
       preLoaderRoute: typeof ClaritySessionRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/book-free-assessment-call': {
+      id: '/book-free-assessment-call'
+      path: '/book-free-assessment-call'
+      fullPath: '/book-free-assessment-call'
+      preLoaderRoute: typeof BookFreeAssessmentCallRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/approach': {
@@ -550,9 +550,9 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
   ApproachRoute: ApproachRoute,
+  BookFreeAssessmentCallRoute: BookFreeAssessmentCallRoute,
   ClaritySessionRoute: ClaritySessionRoute,
   ContactRoute: ContactRoute,
-  FreeCallWithKatieRoute: FreeCallWithKatieRoute,
   FreeGuideRoute: FreeGuideRoute,
   MichiganDiscoveryCallRoute: MichiganDiscoveryCallRoute,
   PrivacyPolicyRoute: PrivacyPolicyRoute,

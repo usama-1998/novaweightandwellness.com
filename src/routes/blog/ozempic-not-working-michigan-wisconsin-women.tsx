@@ -337,7 +337,7 @@ function BlogComponent() {
         <p className="text-foreground/70 mb-5">
           A free assessment call is the starting point. No pressure, no commitment, no sales pitch. Just an honest conversation about what might be missing from your current approach and whether functional medicine is the right next step.
         </p>
-        <Link to="/free-call-with-katie" className="btn-gold">
+        <Link to="/book-free-assessment-call" className="btn-gold">
           Book Free Assessment Call
         </Link>
       </div>
@@ -470,7 +470,7 @@ function BlogComponent() {
         <p className="text-foreground/70 mb-5">
           You deserve a complete picture of what is happening in your body. Our free assessment call is a no-pressure, no-commitment conversation to explore whether a functional medicine approach can help you get better outcomes from your current treatment, or find a better path forward.
         </p>
-        <Link to="/free-call-with-katie" className="btn-gold">
+        <Link to="/book-free-assessment-call" className="btn-gold">
           Book Free Assessment Call
         </Link>
       </div>
@@ -816,7 +816,7 @@ function BlogComponent() {
           <p className="text-lg text-foreground/70 mb-6 max-w-xl mx-auto">
             Book your free assessment call with our care team. No sales pitch, no commitment, no pressure. Just an honest conversation about what might be missing and what a root-cause approach could do for you.
           </p>
-          <Link to="/free-call-with-katie" className="btn-gold text-lg px-8 py-4">
+          <Link to="/book-free-assessment-call" className="btn-gold text-lg px-8 py-4">
             Book Free Assessment Call
           </Link>
         </div>
@@ -870,7 +870,7 @@ function BlogComponent() {
         <p className="text-white/80 text-lg mb-8 max-w-2xl mx-auto">
           Join the growing number of Michigan and Wisconsin women who have discovered what conventional medicine missed. Your free assessment call is the first step toward understanding what is really happening and what to do about it.
         </p>
-        <Link to="/free-call-with-katie" className="btn-gold text-lg px-8 py-4">
+        <Link to="/book-free-assessment-call" className="btn-gold text-lg px-8 py-4">
           Book Free Assessment Call
         </Link>
       </section>

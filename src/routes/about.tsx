@@ -201,7 +201,7 @@ function About() {
             A relaxed, judgment-free Google Meet call with Kathryn. Zero cost, zero
             pressure.
           </p>
-          <Link to="/free-call-with-katie"  className="btn-gold mt-7 inline-flex">
+          <Link to="/book-free-assessment-call"  className="btn-gold mt-7 inline-flex">
             Book Free Assessment Call
           </Link>
         </div>

@@ -147,7 +147,7 @@ function Approach() {
         <p className="mt-5 text-muted-foreground max-w-xl mx-auto">
           The process begins with a single conversation. No cost. No commitment.
         </p>
-        <Link to="/free-call-with-katie"  className="btn-gold mt-8 inline-flex">
+        <Link to="/book-free-assessment-call"  className="btn-gold mt-8 inline-flex">
           Book Free Assessment Call
         </Link>
       </section>

@@ -289,7 +289,7 @@ function BlogComponent() {
           conversation about what you're experiencing and whether functional medicine might be the
           missing piece.
         </p>
-        <Link to="/free-call-with-katie" className="btn-gold">
+        <Link to="/book-free-assessment-call" className="btn-gold">
           Book Free Assessment Call
         </Link>
       </div>
@@ -571,7 +571,7 @@ function BlogComponent() {
           proactive, and tired of not getting answers. Let's talk about what you're experiencing and
           explore whether functional medicine is the right fit.
         </p>
-        <Link to="/free-call-with-katie" className="btn-gold">
+        <Link to="/book-free-assessment-call" className="btn-gold">
           Book Free Assessment Call
         </Link>
       </div>
@@ -859,7 +859,7 @@ function BlogComponent() {
           functional medicine directly to you. Start with a free call and see the
           difference a root-cause approach can make.
         </p>
-        <Link to="/free-call-with-katie" className="btn-gold">
+        <Link to="/book-free-assessment-call" className="btn-gold">
           Book Free Assessment Call
         </Link>
       </div>
@@ -911,7 +911,7 @@ function BlogComponent() {
             Book your free assessment call today and take the first step toward
             understanding what's really going on inside your body.
           </p>
-          <Link to="/free-call-with-katie" className="btn-gold text-lg px-8 py-4">
+          <Link to="/book-free-assessment-call" className="btn-gold text-lg px-8 py-4">
             Book Free Assessment Call
           </Link>
         </div>
@@ -959,7 +959,7 @@ function BlogComponent() {
           Your free assessment call is the first step toward answers, clarity, and feeling
           like yourself again.
         </p>
-        <Link to="/free-call-with-katie" className="btn-gold text-lg px-8 py-4">
+        <Link to="/book-free-assessment-call" className="btn-gold text-lg px-8 py-4">
           Book Free Assessment Call
         </Link>
       </section>

@@ -8,7 +8,7 @@ export function BookingModal() {
   const { isOpen, close } = useBookingModal();
   const routerState = useRouterState();
   const isMichiganPage = routerState.location.pathname.includes('/michigan-assessment-call');
-  const isAssessmentPage = routerState.location.pathname.includes('/free-call-with-katie') || isMichiganPage;
+  const isAssessmentPage = routerState.location.pathname.includes('/book-free-assessment-call') || isMichiganPage;
   
   if (isMichiganPage) return null;
 

@@ -450,7 +450,7 @@ function BlogComponent() {
         <p className="text-foreground/70 mb-5">
           If you've been quietly worried about what you're experiencing, a free assessment call is a low-pressure place to talk it through and understand what might actually be going on.
         </p>
-        <Link to="/free-call-with-katie" className="btn-gold">
+        <Link to="/book-free-assessment-call" className="btn-gold">
           Book Free Assessment Call
         </Link>
       </div>
@@ -626,7 +626,7 @@ function BlogComponent() {
         <p className="text-foreground/70 mb-5">
           A free assessment call is a chance to talk through what you've been experiencing and what a real, comprehensive evaluation could look like for you.
         </p>
-        <Link to="/free-call-with-katie" className="btn-gold">
+        <Link to="/book-free-assessment-call" className="btn-gold">
           Book Free Assessment Call
         </Link>
       </div>
@@ -1609,7 +1609,7 @@ function BlogComponent() {
           <p className="text-lg text-foreground/70 mb-6 max-w-xl mx-auto">
             Book your free assessment call. No judgment, no assumptions, just a real conversation about what you've been experiencing and what a thoughtful evaluation could look like.
           </p>
-          <Link to="/free-call-with-katie" className="btn-gold text-lg px-8 py-4">
+          <Link to="/book-free-assessment-call" className="btn-gold text-lg px-8 py-4">
             Book Free Assessment Call
           </Link>
         </div>
@@ -1669,7 +1669,7 @@ function BlogComponent() {
         <p className="text-white/80 text-lg mb-8 max-w-2xl mx-auto">
           Whatever you've been quietly wondering, there is a real, honest conversation waiting for you. Your free assessment call is the first step.
         </p>
-        <Link to="/free-call-with-katie" className="btn-gold text-lg px-8 py-4">
+        <Link to="/book-free-assessment-call" className="btn-gold text-lg px-8 py-4">
           Book Free Assessment Call
         </Link>
       </section>

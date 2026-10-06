@@ -1465,7 +1465,7 @@ function BlogComponent() {
               <p className="font-display text-xl text-primary">Kathryn Long, NP-C</p>
               <p className="text-sm text-muted-foreground">Founder & Clinical Director, Novaleo Weight & Wellness</p>
             </div>
-            <Link to="/free-call-with-katie" className="btn-gold text-sm py-2.5 px-6">
+            <Link to="/book-free-assessment-call" className="btn-gold text-sm py-2.5 px-6">
               Book Free Assessment Call
             </Link>
           </div>
@@ -1481,7 +1481,7 @@ function BlogComponent() {
           Schedule your 60-Minute Root Cause Intake ($97) or book a free assessment call to discuss our comprehensive thyroid panel and root-cause restoration programs for women in Michigan and Wisconsin.
         </p>
         <div className="flex flex-wrap items-center justify-center gap-4">
-          <Link to="/free-call-with-katie" className="btn-gold text-base py-3 px-8">
+          <Link to="/book-free-assessment-call" className="btn-gold text-base py-3 px-8">
             Book Free Assessment Call
           </Link>
           <Link to="/services" className="btn-primary text-base py-3 px-8">

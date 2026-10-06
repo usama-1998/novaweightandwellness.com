@@ -2,10 +2,10 @@ import { createFileRoute } from '@tanstack/react-router';
 import React, { useState } from 'react';
 import BookingVariantA from '@/components/BookingVariantA';
 
-export const Route = createFileRoute('/free-call-with-katie')({
+export const Route = createFileRoute('/book-free-assessment-call')({
   head: () => ({
     links: [
-      { rel: "canonical", href: "https://novaweightandwellness.com/free-call-with-katie" },
+      { rel: "canonical", href: "https://novaweightandwellness.com/book-free-assessment-call" },
     ],
     meta: [
       { title: "Book a Free Assessment Call | Novaleo Weight & Wellness" },
@@ -19,7 +19,7 @@ export const Route = createFileRoute('/free-call-with-katie')({
         property: "og:description",
         content: "Schedule your complimentary assessment call with one of our practitioners.",
       },
-      { property: "og:url", content: "https://novaweightandwellness.com/free-call-with-katie" },
+      { property: "og:url", content: "https://novaweightandwellness.com/book-free-assessment-call" },
       { property: "og:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

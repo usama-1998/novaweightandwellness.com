@@ -3,7 +3,7 @@ import { createFileRoute, redirect } from '@tanstack/react-router';
 export const Route = createFileRoute('/michigan-discovery-call')({
   beforeLoad: () => {
     throw redirect({
-      to: '/free-call-with-katie',
+      to: '/book-free-assessment-call',
       replace: true,
     })
   },

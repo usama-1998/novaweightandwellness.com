@@ -388,7 +388,7 @@ function BlogComponent() {
         <p className="text-foreground/70 mb-5">
           A free assessment call is a no-pressure conversation about what you're experiencing and whether it's worth investigating further. You don't need to have it all figured out first.
         </p>
-        <Link to="/free-call-with-katie" className="btn-gold">
+        <Link to="/book-free-assessment-call" className="btn-gold">
           Book Free Assessment Call
         </Link>
       </div>
@@ -676,7 +676,7 @@ function BlogComponent() {
         <p className="text-foreground/70 mb-5">
           A free assessment call is the place to start. No pressure, no assumptions about your age, just a real conversation about what testing could tell you now.
         </p>
-        <Link to="/free-call-with-katie" className="btn-gold">
+        <Link to="/book-free-assessment-call" className="btn-gold">
           Book Free Assessment Call
         </Link>
       </div>
@@ -862,7 +862,7 @@ function BlogComponent() {
           <p className="text-lg text-foreground/70 mb-6 max-w-xl mx-auto">
             Book your free assessment call. No sales pitch, no assumptions about your age, just an honest conversation about what testing could tell you right now instead of five years from now.
           </p>
-          <Link to="/free-call-with-katie" className="btn-gold text-lg px-8 py-4">
+          <Link to="/book-free-assessment-call" className="btn-gold text-lg px-8 py-4">
             Book Free Assessment Call
           </Link>
         </div>
@@ -919,7 +919,7 @@ function BlogComponent() {
         <p className="text-white/80 text-lg mb-8 max-w-2xl mx-auto">
           Join the growing number of Michigan and Wisconsin women in their 30s who decided not to wait. Your free assessment call is the first step toward understanding what your body is telling you.
         </p>
-        <Link to="/free-call-with-katie" className="btn-gold text-lg px-8 py-4">
+        <Link to="/book-free-assessment-call" className="btn-gold text-lg px-8 py-4">
           Book Free Assessment Call
         </Link>
       </section>

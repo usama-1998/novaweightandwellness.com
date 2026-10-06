@@ -152,7 +152,7 @@ function Home() {
               cause.
             </p>
             <div className="mt-6 md:mt-9 flex flex-wrap gap-3">
-              <Link to="/free-call-with-katie"  className="btn-gold">
+              <Link to="/book-free-assessment-call"  className="btn-gold">
                 Book Free Assessment Call <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
               <Link to="/approach" className="btn-ghost">
@@ -342,7 +342,7 @@ function Home() {
           </CarouselContent>
         </Carousel>
         <div className="mt-12 flex justify-center">
-          <Link to="/free-call-with-katie"  className="btn-primary">
+          <Link to="/book-free-assessment-call"  className="btn-primary">
             Book Free Assessment Call
           </Link>
         </div>
@@ -398,7 +398,7 @@ function Home() {
             ))}
           </div>
           <div className="mt-12 flex flex-wrap gap-3">
-            <Link to="/free-call-with-katie"  className="btn-gold">
+            <Link to="/book-free-assessment-call"  className="btn-gold">
               Book Free Assessment Call
             </Link>
           </div>
@@ -469,7 +469,7 @@ function Home() {
           want to talk first or dive straight in, I'm here for you.
         </p>
         <div className="mt-8 flex justify-center gap-3 flex-wrap">
-          <Link to="/free-call-with-katie"  className="btn-gold">
+          <Link to="/book-free-assessment-call"  className="btn-gold">
             Book Free Assessment Call
           </Link>
           <Link to="/clarity-session" className="btn-ghost">

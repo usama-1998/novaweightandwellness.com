@@ -44,7 +44,7 @@ export function SiteHeader() {
             <Phone className="h-4 w-4" />
             1-616-801-4648
           </a>
-          <Link to="/free-call-with-katie"  className="btn-gold text-sm">
+          <Link to="/book-free-assessment-call"  className="btn-gold text-sm">
             Book Free Assessment Call
           </Link>
         </div>
@@ -77,7 +77,7 @@ export function SiteHeader() {
             >
               <Phone className="h-4 w-4" /> 1-616-801-4648
             </a>
-            <Link to="/free-call-with-katie" onClick={() => setOpen(false)} className="btn-gold text-sm w-fit">
+            <Link to="/book-free-assessment-call" onClick={() => setOpen(false)} className="btn-gold text-sm w-fit">
               Book Free Assessment Call
             </Link>
           </div>

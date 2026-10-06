@@ -451,7 +451,7 @@ function BlogComponent() {
         <p className="text-foreground/70 mb-5">
           If you've done the things you're supposed to do and you're still waking up at 3am, it's time to look at what's actually driving it. A free assessment call is a low-pressure place to start.
         </p>
-        <Link to="/free-call-with-katie" className="btn-gold">
+        <Link to="/book-free-assessment-call" className="btn-gold">
           Book Free Assessment Call
         </Link>
       </div>
@@ -607,7 +607,7 @@ function BlogComponent() {
         <p className="text-foreground/70 mb-5">
           A free assessment call is a chance to talk through your specific pattern and what a real evaluation could look like for you, no generic tip list, no pressure.
         </p>
-        <Link to="/free-call-with-katie" className="btn-gold">
+        <Link to="/book-free-assessment-call" className="btn-gold">
           Book Free Assessment Call
         </Link>
       </div>
@@ -937,7 +937,7 @@ function BlogComponent() {
           <p className="text-lg text-foreground/70 mb-6 max-w-xl mx-auto">
             Book your free assessment call. No generic sleep tips, no pressure, just a real conversation about your specific symptoms and what to do next.
           </p>
-          <Link to="/free-call-with-katie" className="btn-gold text-lg px-8 py-4">
+          <Link to="/book-free-assessment-call" className="btn-gold text-lg px-8 py-4">
             Book Free Assessment Call
           </Link>
         </div>
@@ -1000,7 +1000,7 @@ function BlogComponent() {
         <p className="text-white/80 text-lg mb-8 max-w-2xl mx-auto">
           If 3am has become a familiar, unwelcome part of your routine, there is a real, identifiable reason, and a real path forward. Your free assessment call is the first step.
         </p>
-        <Link to="/free-call-with-katie" className="btn-gold text-lg px-8 py-4">
+        <Link to="/book-free-assessment-call" className="btn-gold text-lg px-8 py-4">
           Book Free Assessment Call
         </Link>
       </section>

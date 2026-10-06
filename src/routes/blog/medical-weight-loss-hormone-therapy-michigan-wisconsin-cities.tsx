@@ -227,7 +227,7 @@ function BlogComponent() {
         <p className="text-foreground/70 mb-5">
           Wherever you are reading this from in Michigan or Wisconsin, licensed telehealth care means real, comprehensive, root-cause support is genuinely within reach.
         </p>
-        <Link to="/free-call-with-katie" className="btn-gold">
+        <Link to="/book-free-assessment-call" className="btn-gold">
           Book Free Assessment Call
         </Link>
       </div>
@@ -704,7 +704,7 @@ function BlogComponent() {
         <p className="text-foreground/70 mb-5">
           If you're in a smaller town or rural community anywhere in Michigan or Wisconsin, book your free assessment call and see for yourself how straightforward this actually is, wherever you're calling in from.
         </p>
-        <Link to="/free-call-with-katie" className="btn-gold">
+        <Link to="/book-free-assessment-call" className="btn-gold">
           Book Free Assessment Call
         </Link>
       </div>
@@ -926,7 +926,7 @@ function BlogComponent() {
           <p className="text-lg text-foreground/70 mb-6 max-w-xl mx-auto">
             Book your free assessment call and let's talk about what's actually going on with your body, and what real, root-cause care looks like for you specifically.
           </p>
-          <Link to="/free-call-with-katie" className="btn-gold text-lg px-8 py-4">
+          <Link to="/book-free-assessment-call" className="btn-gold text-lg px-8 py-4">
             Book Free Assessment Call
           </Link>
         </div>
@@ -962,7 +962,7 @@ function BlogComponent() {
         <p className="text-white/80 text-lg mb-8 max-w-2xl mx-auto">
           Whether you're in a downtown high-rise or a farmhouse kitchen, your free assessment call is the first step toward real answers.
         </p>
-        <Link to="/free-call-with-katie" className="btn-gold text-lg px-8 py-4">
+        <Link to="/book-free-assessment-call" className="btn-gold text-lg px-8 py-4">
           Book Free Assessment Call
         </Link>
       </section>
