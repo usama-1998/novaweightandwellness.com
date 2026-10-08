@@ -177,7 +177,7 @@ const services: Service[] = [
         </ul>
       </>
     ),
-    bookUrl: BOOK_BASE + "ZjlKd29HWVpIWEM5ai95S3cvWWdLUT09",
+    bookUrl: "https://www.optimantra.com/optimus/patient/patientaccess/servicesall?pid=OWNhNDBEdHFCaWJQMEhmNWFtcWF0QT09&lid=RTJ4TTdlaU5hak4zbTZ5aEU1L3ZUdz09",
   },
 ];
 

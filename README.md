@@ -116,3 +116,6 @@ This project was developed with the assistance of various AI models and develope
 - **Lovable**: Utilized as an AI-powered development platform for rapid UI prototyping and scaffolding.
 - **Cursor / GitHub Copilot**: Used for inline code generation, autocomplete, and debugging.
 
+
+## Changelog
+- Updated the "Root Cause Follow-up" booking link to point directly to the Optimantra patient access portal.
