@@ -13,6 +13,27 @@ import summerImg from "@/assets/blog/michigan-summer-humidity-hot-flash-lake-mic
 import diaryImg from "@/assets/blog/hot-flash-symptom-diary-flat-lay.webp";
 import mindBodyImg from "@/assets/blog/cbt-hypnosis-paced-breathing-hot-flashes-michigan-home.webp";
 import relievedImg from "@/assets/blog/women-walking-lake-michigan-dunes-relief.webp";
+import fridgeImg from "@/assets/blog/hot-flash-cooling-at-open-refrigerator-kitchen.webp";
+import coffeeShopImg from "@/assets/blog/women-talking-candidly-wisconsin-coffee-shop.webp";
+import countryRoadImg from "@/assets/blog/long-country-road-wisconsin-autumn-duration.webp";
+import bloodPressureImg from "@/assets/blog/home-blood-pressure-check-kitchen-table.webp";
+import examImg from "@/assets/blog/clinician-examining-night-sweats-patient.webp";
+import smartwatchImg from "@/assets/blog/woman-checking-heart-rate-smartwatch-desk.webp";
+import supperClubImg from "@/assets/blog/wisconsin-supper-club-fish-fry-old-fashioned.webp";
+import duneStairsImg from "@/assets/blog/wooden-dune-stairs-lake-michigan-treatment-ladder.webp";
+import pharmacistImg from "@/assets/blog/pharmacist-consultation-hormone-therapy.webp";
+import pillOrganizerImg from "@/assets/blog/pill-organizer-kitchen-counter-nonhormonal-options.webp";
+import coopAisleImg from "@/assets/blog/midwest-co-op-supplement-aisle-reading-label.webp";
+import procedureRoomImg from "@/assets/blog/calm-outpatient-procedure-room-winter-light.webp";
+import milwaukeeWomenImg from "@/assets/blog/three-women-milwaukee-lakefront-supportive.webp";
+import partnerImg from "@/assets/blog/couple-bedroom-partner-support-night-sweats.webp";
+import fourMugsImg from "@/assets/blog/four-womens-hands-mugs-round-table.webp";
+import advocateImg from "@/assets/blog/woman-advocating-with-notebook-nurse-practitioner.webp";
+import grandRapidsVisitImg from "@/assets/blog/grand-rapids-apartment-telehealth-first-visit.webp";
+import calendarImg from "@/assets/blog/kitchen-wall-calendar-twelve-week-plan.webp";
+import blackboardImg from "@/assets/blog/wiping-blackboard-clean-retiring-myths.webp";
+import libraryImg from "@/assets/blog/michigan-library-woman-forming-question-faq.webp";
+import glossaryImg from "@/assets/blog/reference-book-reading-glasses-glossary-desk.webp";
 
 const SLUG = "hot-flashes-night-sweats-women-michigan-wisconsin";
 const PAGE_URL = `https://novaweightandwellness.com/blog/${SLUG}`;
@@ -397,6 +418,11 @@ function BlogComponent() {
       {/* Section 2 */}
       <section id="what-hot-flashes-and-night-sweats-are">
         <H2>What a Hot Flash and a Night Sweat Actually Are</H2>
+        <Fig
+          src={fridgeImg}
+          alt="Woman in her mid-40s in a sunny Midwestern kitchen leaning into the open refrigerator to cool her flushed face and neck during a hot flash"
+          caption="Many women describe a flash as a sudden wave of heat they want to step away from, right now."
+        />
         <P>
           Clinicians use the term <strong>vasomotor symptoms</strong>, often abbreviated VMS, to
           describe hot flashes and night sweats together. The name comes from the blood vessels
@@ -626,6 +652,11 @@ function BlogComponent() {
       {/* Section 4 */}
       <section id="how-common-and-when-they-start">
         <H2>How Common They Are and When They Start</H2>
+        <Fig
+          src={coffeeShopImg}
+          alt="Five women of different ages and backgrounds laughing and talking openly around a table in a cozy Wisconsin coffee shop"
+          caption="If you are in your 40s or 50s, you are far from alone. Up to 80 percent of women have hot flashes."
+        />
         <P>
           The North American Menopause Society (NAMS, which is now called The Menopause Society)
           describes hot flashes and night sweats as the most common symptoms of menopause, occurring
@@ -766,6 +797,11 @@ function BlogComponent() {
       {/* Section 5 */}
       <section id="how-long-they-last">
         <H2>How Long Hot Flashes Last (The Honest Answer)</H2>
+        <Fig
+          src={countryRoadImg}
+          alt="Woman in her early 50s walking alone along a long gravel road through autumn fields in rural Wisconsin at dusk"
+          caption="The median course is more than seven years, so it helps to plan for the long road, not the next few weeks."
+        />
         <P>
           If there is one section of this article I wish every woman could read in her mid-40s, it
           is this one. The most common reassurance women receive about hot flashes is that they are
@@ -876,6 +912,11 @@ function BlogComponent() {
       {/* Section 6 */}
       <section id="why-they-matter-beyond-discomfort">
         <H2>Why They Matter Beyond Discomfort</H2>
+        <Fig
+          src={bloodPressureImg}
+          alt="Woman in her early 50s at a Michigan kitchen table taking her blood pressure at home with a notebook and coffee beside her"
+          caption="Persistent hot flashes are a good reason to check blood pressure, lipids, blood sugar, and bone health."
+        />
         <P>
           Some women are embarrassed to bring up hot flashes because they feel the complaint is
           trivial: uncomfortable, certainly, but not serious. I want to push back on that, gently
@@ -1187,6 +1228,11 @@ function BlogComponent() {
       {/* Section 8 */}
       <section id="night-sweats-when-its-not-menopause">
         <H2>Night Sweats When It Might Not Be Menopause</H2>
+        <Fig
+          src={examImg}
+          alt="Female clinician gently examining the neck of a woman in her late 40s in a bright primary care exam room"
+          caption="A good evaluation starts with a history and an exam, not an assumption."
+        />
         <P>
           This is the most important safety section in the article, and I want to handle it
           carefully. For most women in their 40s and 50s with night sweats and other signs of the
@@ -1424,6 +1470,11 @@ function BlogComponent() {
       {/* Section 9 */}
       <section id="hot-flash-mimics">
         <H2>Conditions That Mimic Hot Flashes</H2>
+        <Fig
+          src={smartwatchImg}
+          alt="Flushed woman in her late 40s at a home office desk glancing at her smartwatch heart rate while holding a glass of water"
+          caption="Heat and a racing heart can come from the thyroid, anxiety, or blood sugar, not only from hot flashes."
+        />
         <P>
           Night sweats are not the only symptom with lookalikes. Daytime flushing, heat intolerance,
           and sudden surges of warmth can also have non-menopausal causes. Here is how I think about
@@ -1508,6 +1559,11 @@ function BlogComponent() {
       {/* Section 10 */}
       <section id="triggers-what-the-evidence-says">
         <H2>Triggers: What the Evidence Actually Says</H2>
+        <Fig
+          src={supperClubImg}
+          alt="Wisconsin supper club table with a Friday fish fry, an old fashioned cocktail, and coffee under warm amber light"
+          caption="Great Lakes food and drink culture is part of life here. The goal is to learn your own triggers, not to give up everything."
+        />
         <P>
           Almost every handout about hot flashes includes the same list: avoid alcohol, caffeine,
           spicy food, hot drinks, and stress. It is repeated so confidently that most women assume
@@ -1841,6 +1897,11 @@ function BlogComponent() {
       {/* Section 13 */}
       <section id="the-treatment-ladder">
         <H2>The Treatment Ladder at a Glance</H2>
+        <Fig
+          src={duneStairsImg}
+          alt="Woman in her late 40s climbing a long wooden staircase up a sand dune on the Lake Michigan shore at sunrise"
+          caption="Treatment is a step-by-step climb. You can start where it makes sense for you and adjust as you go."
+        />
         <P>
           Before we go deep on each option, here is the overview. The table below summarizes what
           the 2023 NAMS nonhormone position statement and the 2022 hormone therapy statement say,
@@ -2336,6 +2397,11 @@ function BlogComponent() {
       {/* Section 16 */}
       <section id="hormone-therapy">
         <H2>Hormone Therapy: The Most Effective Option</H2>
+        <Fig
+          src={pharmacistImg}
+          alt="Woman in her early 50s consulting with a friendly pharmacist at a bright pharmacy counter"
+          caption="Hormone therapy is a prescription decision made with your provider, with your pharmacist as part of the team."
+        />
         <P>
           We have a more detailed treatment of hormone therapy, including the Women's Health
           Initiative, delivery methods, pellets, compounding, and candidacy, in our{" "}
@@ -2506,6 +2572,11 @@ function BlogComponent() {
       {/* Section 17 */}
       <section id="non-hormonal-prescriptions">
         <H2>Non-Hormonal Prescription Options</H2>
+        <Fig
+          src={pillOrganizerImg}
+          alt="Woman in her late 40s filling a weekly pill organizer at a Michigan kitchen counter beside a glass of water and printed information"
+          caption="Non-hormonal prescriptions work best with a clear plan for dosing, monitoring, and follow-up."
+        />
         <P>
           For women who cannot take hormone therapy, do not want to, or want something in addition
           to it, there are now several well-studied non-hormonal prescription options. When the NAMS
@@ -2780,6 +2851,11 @@ function BlogComponent() {
       {/* Section 18 */}
       <section id="supplements-and-herbs">
         <H2>Supplements and Herbal Remedies</H2>
+        <Fig
+          src={coopAisleImg}
+          alt="Woman in her early 50s reading the back of a supplement bottle with a skeptical expression in a Midwestern natural foods co-op"
+          caption="Before you buy, ask what the trial evidence actually shows, and tell your provider what you take."
+        />
         <P>
           Walk into any health food store or natural foods co-op in Ann Arbor, Madison, Traverse
           City, or Milwaukee, and there is an entire shelf devoted to menopause. I respect the
@@ -2910,6 +2986,11 @@ function BlogComponent() {
       {/* Section 19 */}
       <section id="procedures-and-devices">
         <H2>Procedures, Acupuncture, and Devices</H2>
+        <Fig
+          src={procedureRoomImg}
+          alt="Calm, modern outpatient procedure room with a padded treatment chair, soft lighting, and a window with winter light"
+          caption="Procedures such as a stellate ganglion block are done by specialists in a clinical setting."
+        />
         <H3>Stellate ganglion block</H3>
         <P>
           A stellate ganglion block is an injection of local anesthetic near a cluster of nerves in
@@ -2955,6 +3036,11 @@ function BlogComponent() {
       {/* Section 20 */}
       <section id="special-situations">
         <H2>Special Situations</H2>
+        <Fig
+          src={milwaukeeWomenImg}
+          alt="Three women of different ages and backgrounds talking warmly on a Milwaukee lakefront path with the skyline behind them"
+          caption="Your circumstances change the plan. Every woman's history deserves an individualized conversation."
+        />
         <P>
           Some women's circumstances change the calculus. Here are the situations I am asked about
           most. These are summaries, and your own history always takes precedence.
@@ -3050,6 +3136,11 @@ function BlogComponent() {
       {/* Section: Partners, family, and work */}
       <section id="partners-family-and-work">
         <H2>Talking With Your Partner, Your Family, and Your Workplace</H2>
+        <Fig
+          src={partnerImg}
+          alt="Middle-aged couple in a Michigan bedroom in the early morning, the man handing the woman a glass of water as she sits up in bed with separate light blankets nearby"
+          caption="A little explanation and a few practical changes can take the friction out of shared nights."
+        />
         <P>
           Hot flashes and night sweats are not a private experience, even when we try to keep them
           private. They show up in shared beds, shared thermostats, family dinners, and meetings. A
@@ -3164,6 +3255,11 @@ function BlogComponent() {
       {/* Section 21 */}
       <section id="four-women-four-paths">
         <H2>Four Women, Four Different Paths</H2>
+        <Fig
+          src={fourMugsImg}
+          alt="Top-down view of four women's hands of different ages and skin tones holding mugs around a round wooden table"
+          caption="Four composite stories, four different paths to the same goal: better sleep and a plan that fits."
+        />
         <P>
           Statistics tell you what is true on average. Stories help you see how the pieces fit
           together. The four women below are composites, built from patterns I see repeatedly in
@@ -3369,6 +3465,11 @@ function BlogComponent() {
       {/* Section: Advocating for yourself */}
       <section id="advocating-for-yourself">
         <H2>How to Advocate for Yourself at the Appointment</H2>
+        <Fig
+          src={advocateImg}
+          alt="Confident woman in her late 40s holding a notebook and speaking with a female nurse practitioner who listens and takes notes"
+          caption="Preparation turns a rushed appointment into a real conversation."
+        />
         <P>
           A great many women walk into an appointment about hot flashes with a rehearsed sentence,
           get about ninety seconds of the clinician's attention, and leave with a pamphlet. I do not
@@ -3467,6 +3568,11 @@ function BlogComponent() {
       {/* Section 23 */}
       <section id="what-a-first-visit-looks-like">
         <H2>What a First Visit With Us Looks Like</H2>
+        <Fig
+          src={grandRapidsVisitImg}
+          alt="Woman in her early 50s on a sofa in a Grand Rapids apartment at dusk with a tablet showing a welcoming video call and city lights beyond the window"
+          caption="A first visit can happen from your own living room, wherever you are in Michigan or Wisconsin."
+        />
         <P>
           I am going to describe how we work in plain terms, because I believe you should know what
           you are signing up for before you do. This section is specific to Novaleo Weight and
@@ -3534,6 +3640,11 @@ function BlogComponent() {
       {/* Section 24 */}
       <section id="twelve-week-plan">
         <H2>A 12-Week Plan You Can Start Today</H2>
+        <Fig
+          src={calendarImg}
+          alt="Woman in athletic clothes marking a paper wall calendar covered in check marks and sticky notes in a bright kitchen, running shoes by the door"
+          caption="Twelve weeks is long enough to test a plan and short enough to stay motivated."
+        />
         <P>
           If you are overwhelmed by the options, this is the order in which I would proceed. It is
           designed to give you information early, protect you from dead ends, and put you in a good
@@ -3596,6 +3707,11 @@ function BlogComponent() {
       {/* Section 25 */}
       <section id="common-myths">
         <H2>Myths Worth Retiring</H2>
+        <Fig
+          src={blackboardImg}
+          alt="Woman in a sunlit farmhouse kitchen wiping a large blackboard clean, symbolizing clearing away myths"
+          caption="Time to wipe the board clean on some persistent myths."
+        />
         <P>
           Here are the misconceptions I hear most often, along with what the evidence says. If you
           have heard any of them, you have been given incomplete information, not lied to.
@@ -3682,6 +3798,11 @@ function BlogComponent() {
       {/* Section 26: FAQ */}
       <section id="comprehensive-faq">
         <H2>Comprehensive FAQ: Your Questions Answered</H2>
+        <Fig
+          src={libraryImg}
+          alt="Woman in her late 40s at a long wooden table in a quiet Michigan library with a laptop and open books, looking up thoughtfully"
+          caption="Questions we hear most often from Michigan and Wisconsin women."
+        />
         <div className="space-y-8">
           {faqs.map((f) => (
             <div key={f.q}>
@@ -3695,6 +3816,11 @@ function BlogComponent() {
       {/* Section 27: Glossary */}
       <section id="glossary">
         <H2>Glossary</H2>
+        <Fig
+          src={glossaryImg}
+          alt="Open reference book, pencil, reading glasses, and a cup of tea on a wooden desk by a window with soft winter light"
+          caption="Plain-language definitions for the terms used in this guide."
+        />
         <dl className="space-y-4 text-lg leading-relaxed text-foreground/85">
           {glossary.map((g) => (
             <div key={g.term}>
