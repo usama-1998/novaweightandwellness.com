@@ -532,6 +532,9 @@ function BlogComponent() {
           Around months two and three, most women who are going to respond well to their initial dose start to notice more consistent, tangible improvement: fewer and less intense hot flashes and night sweats, more stable mood, better sleep continuity, and often some improvement in energy and mental clarity. This is also frequently when the first follow-up labs are drawn, allowing for a dose adjustment if levels are not yet in the optimal range or if symptoms have only partially improved.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
+          Hot flashes and night sweats are the most common reason women consider hormone therapy, and they have other effective options too, including non-hormonal medications and CBT. For a side-by-side look at the evidence, the timeline, and what to do when hormone therapy is not an option, see our <Link to="/blog/hot-flashes-night-sweats-women-michigan-wisconsin" className="text-secondary font-semibold hover:underline">complete guide to hot flashes and night sweats for Michigan and Wisconsin women</Link>.
+        </p>
+        <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Beyond the three-month mark, the process becomes more about fine-tuning than initial response. Some women find their first dose and delivery method combination works well and need only minor adjustments over time. Others go through one or two rounds of dose titration, small, deliberate adjustments based on labs and symptoms, before landing on a combination that feels right. Longer-term benefits that some women experience, related to bone density preservation, vaginal and urinary tissue health, and sustained symptom control, continue to accrue over months and years of consistent, appropriately monitored therapy.
         </p>
         <h3 className="text-xl md:text-2xl font-display text-primary mt-10 mb-4">

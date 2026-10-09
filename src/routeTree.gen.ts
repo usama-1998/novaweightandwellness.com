@@ -31,6 +31,7 @@ import { Route as BlogPcosWeightResistanceWomen30sMichiganWisconsinRouteImport }
 import { Route as BlogOzempicNotWorkingMichiganWisconsinWomenRouteImport } from './routes/blog/ozempic-not-working-michigan-wisconsin-women'
 import { Route as BlogNormalTshHypothyroidSymptomsMichiganWisconsinRouteImport } from './routes/blog/normal-tsh-hypothyroid-symptoms-michigan-wisconsin'
 import { Route as BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRouteImport } from './routes/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities'
+import { Route as BlogHotFlashesNightSweatsWomenMichiganWisconsinRouteImport } from './routes/blog/hot-flashes-night-sweats-women-michigan-wisconsin'
 import { Route as BlogHormonalSleepAnxietyWomenMichiganWisconsinRouteImport } from './routes/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
 import { Route as BlogGainingWeightExhaustedAfter40WisconsinWomenRouteImport } from './routes/blog/gaining-weight-exhausted-after-40-wisconsin-women'
 import { Route as BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRouteImport } from './routes/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
@@ -153,6 +154,12 @@ const BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRoute =
     path: '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities',
     getParentRoute: () => rootRouteImport,
   } as any)
+const BlogHotFlashesNightSweatsWomenMichiganWisconsinRoute =
+  BlogHotFlashesNightSweatsWomenMichiganWisconsinRouteImport.update({
+    id: '/blog/hot-flashes-night-sweats-women-michigan-wisconsin',
+    path: '/blog/hot-flashes-night-sweats-women-michigan-wisconsin',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute =
   BlogHormonalSleepAnxietyWomenMichiganWisconsinRouteImport.update({
     id: '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin',
@@ -189,6 +196,7 @@ export interface FileRoutesByFullPath {
   '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin': typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
   '/blog/gaining-weight-exhausted-after-40-wisconsin-women': typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin': typeof BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute
+  '/blog/hot-flashes-night-sweats-women-michigan-wisconsin': typeof BlogHotFlashesNightSweatsWomenMichiganWisconsinRoute
   '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities': typeof BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRoute
   '/blog/normal-tsh-hypothyroid-symptoms-michigan-wisconsin': typeof BlogNormalTshHypothyroidSymptomsMichiganWisconsinRoute
   '/blog/ozempic-not-working-michigan-wisconsin-women': typeof BlogOzempicNotWorkingMichiganWisconsinWomenRoute
@@ -216,6 +224,7 @@ export interface FileRoutesByTo {
   '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin': typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
   '/blog/gaining-weight-exhausted-after-40-wisconsin-women': typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin': typeof BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute
+  '/blog/hot-flashes-night-sweats-women-michigan-wisconsin': typeof BlogHotFlashesNightSweatsWomenMichiganWisconsinRoute
   '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities': typeof BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRoute
   '/blog/normal-tsh-hypothyroid-symptoms-michigan-wisconsin': typeof BlogNormalTshHypothyroidSymptomsMichiganWisconsinRoute
   '/blog/ozempic-not-working-michigan-wisconsin-women': typeof BlogOzempicNotWorkingMichiganWisconsinWomenRoute
@@ -244,6 +253,7 @@ export interface FileRoutesById {
   '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin': typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
   '/blog/gaining-weight-exhausted-after-40-wisconsin-women': typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin': typeof BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute
+  '/blog/hot-flashes-night-sweats-women-michigan-wisconsin': typeof BlogHotFlashesNightSweatsWomenMichiganWisconsinRoute
   '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities': typeof BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRoute
   '/blog/normal-tsh-hypothyroid-symptoms-michigan-wisconsin': typeof BlogNormalTshHypothyroidSymptomsMichiganWisconsinRoute
   '/blog/ozempic-not-working-michigan-wisconsin-women': typeof BlogOzempicNotWorkingMichiganWisconsinWomenRoute
@@ -273,6 +283,7 @@ export interface FileRouteTypes {
     | '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
     | '/blog/gaining-weight-exhausted-after-40-wisconsin-women'
     | '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
+    | '/blog/hot-flashes-night-sweats-women-michigan-wisconsin'
     | '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities'
     | '/blog/normal-tsh-hypothyroid-symptoms-michigan-wisconsin'
     | '/blog/ozempic-not-working-michigan-wisconsin-women'
@@ -300,6 +311,7 @@ export interface FileRouteTypes {
     | '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
     | '/blog/gaining-weight-exhausted-after-40-wisconsin-women'
     | '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
+    | '/blog/hot-flashes-night-sweats-women-michigan-wisconsin'
     | '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities'
     | '/blog/normal-tsh-hypothyroid-symptoms-michigan-wisconsin'
     | '/blog/ozempic-not-working-michigan-wisconsin-women'
@@ -327,6 +339,7 @@ export interface FileRouteTypes {
     | '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
     | '/blog/gaining-weight-exhausted-after-40-wisconsin-women'
     | '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
+    | '/blog/hot-flashes-night-sweats-women-michigan-wisconsin'
     | '/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities'
     | '/blog/normal-tsh-hypothyroid-symptoms-michigan-wisconsin'
     | '/blog/ozempic-not-working-michigan-wisconsin-women'
@@ -355,6 +368,7 @@ export interface RootRouteChildren {
   BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute: typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
   BlogGainingWeightExhaustedAfter40WisconsinWomenRoute: typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute: typeof BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute
+  BlogHotFlashesNightSweatsWomenMichiganWisconsinRoute: typeof BlogHotFlashesNightSweatsWomenMichiganWisconsinRoute
   BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRoute: typeof BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRoute
   BlogNormalTshHypothyroidSymptomsMichiganWisconsinRoute: typeof BlogNormalTshHypothyroidSymptomsMichiganWisconsinRoute
   BlogOzempicNotWorkingMichiganWisconsinWomenRoute: typeof BlogOzempicNotWorkingMichiganWisconsinWomenRoute
@@ -522,6 +536,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/blog/hot-flashes-night-sweats-women-michigan-wisconsin': {
+      id: '/blog/hot-flashes-night-sweats-women-michigan-wisconsin'
+      path: '/blog/hot-flashes-night-sweats-women-michigan-wisconsin'
+      fullPath: '/blog/hot-flashes-night-sweats-women-michigan-wisconsin'
+      preLoaderRoute: typeof BlogHotFlashesNightSweatsWomenMichiganWisconsinRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin': {
       id: '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
       path: '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
@@ -566,6 +587,8 @@ const rootRouteChildren: RootRouteChildren = {
     BlogGainingWeightExhaustedAfter40WisconsinWomenRoute,
   BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute:
     BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute,
+  BlogHotFlashesNightSweatsWomenMichiganWisconsinRoute:
+    BlogHotFlashesNightSweatsWomenMichiganWisconsinRoute,
   BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRoute:
     BlogMedicalWeightLossHormoneTherapyMichiganWisconsinCitiesRoute,
   BlogNormalTshHypothyroidSymptomsMichiganWisconsinRoute:

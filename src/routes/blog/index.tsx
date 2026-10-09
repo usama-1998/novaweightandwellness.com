@@ -9,6 +9,7 @@ import sleepAnxietyHeroImg from "@/assets/blog/sleep-anxiety-hero-3am-awake.webp
 import pcosHeroImg from "@/assets/blog/pcos-hero-confident-woman-30s.webp";
 import brainFogHeroImg from "@/assets/blog/brain-fog-hero-woman-office.webp";
 import citiesHeroImg from "@/assets/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-hero.webp";
+import hotFlashHeroImg from "@/assets/blog/hot-flashes-night-sweats-hero-woman-awake-michigan.webp";
 import { Clock, ArrowRight, Calendar } from "lucide-react";
 
 export const Route = createFileRoute("/blog/")({
@@ -52,6 +53,20 @@ export const Route = createFileRoute("/blog/")({
 });
 
 const articles = [
+  {
+    slug: "hot-flashes-night-sweats-women-michigan-wisconsin",
+    title:
+      "Hot Flashes and Night Sweats: The Complete Evidence-Based Guide for Women in Michigan and Wisconsin",
+    excerpt:
+      "Why hot flashes and night sweats happen, how long they really last, how Michigan and Wisconsin seasons change the picture, when night sweats are not menopause, and every treatment option from CBT and hypnosis to hormone therapy and new non-hormonal drugs, graded by evidence.",
+    image: hotFlashHeroImg,
+    imageAlt:
+      "Woman in her late 40s sitting on the edge of her bed at night in a Michigan lake house, flushed and awake with a night sweat",
+    category: "Hot Flashes & Menopause",
+    date: "October 9, 2026",
+    readTime: "70 min read",
+    author: "Kathryn Long, NP-C",
+  },
   {
     slug: "normal-tsh-hypothyroid-symptoms-michigan-wisconsin",
     title: "My TSH is 'Normal' But I'm Freezing, Losing Hair, and Exhausted: Why Standard Thyroid Tests Fail Women in Their 30s & 40s",

@@ -246,6 +246,9 @@ function BlogComponent() {
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Some women describe this as waking up feeling "too warm" without a distinct hot flash, kicking off blankets in the middle of the night without fully registering why, or noticing they wake more easily on nights they slept under a heavier comforter. These subtler temperature-regulation disruptions often show up months or years before a woman would describe herself as having hot flashes in the classic sense, and they compound the other three mechanisms rather than acting alone. A sleep cycle that is already lighter and easier to interrupt because of estrogen-related temperature shifts is simply more vulnerable to being fully broken by a cortisol spike or a blood sugar dip that might otherwise have passed as a brief, unremembered stirring.
         </p>
+        <p className="text-lg leading-relaxed text-foreground/85 mb-5">
+          If you are waking drenched, not just warm, and want the full picture of why hot flashes and night sweats happen, how long they typically last, how to tell them from non-menopausal causes, and every treatment option graded by evidence, we cover it in our <Link to="/blog/hot-flashes-night-sweats-women-michigan-wisconsin" className="text-secondary font-semibold hover:underline">complete guide to hot flashes and night sweats for Michigan and Wisconsin women</Link>.
+        </p>
         <h3 className="text-xl md:text-2xl font-display text-primary mt-10 mb-4">
           A Quick Self-Check
         </h3>
