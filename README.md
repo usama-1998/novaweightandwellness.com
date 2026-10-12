@@ -77,8 +77,8 @@ npm run build
 - **Dedicated Free Assessment Call Page (`/book-free-assessment-call`)**: Replaces the global pop-up modal with a dedicated landing page for scheduling the free assessment call.
   - Features a native GoHighLevel calendar embed integrated seamlessly into the page, complete with a custom, branded loading overlay to ensure a premium user experience while the iframe initializes.
   - Supports dynamic iframe height recalculations with native mobile scrolling, breaking out of standard modal constraints for improved accessibility on smaller devices.
-  - **High-Converting Bio Layout**: The standard location gate has been completely replaced with a high-converting, trust-building clinician bio. This layout includes an Instagram-style verified badge and a rotating carousel of verified 5-star patient reviews.
-  - **Optimized Copy & Sequence**: The pre-booking flow uses a specific sequence (Photo/Badge -> Headline -> Symptoms Checklist -> CTA -> Testimonials) perfectly mirrored from high-performing ad copy to maximize conversions and message-match.
+  - **High-Converting Bio Layout**: The standard location gate has been replaced with a high-converting, trust-building practitioner overview. Features the Novaleo brand logo prominently positioned at the top above the "One of our Practitioners" section, board-certified provider badges, and a rotating carousel of verified 5-star patient reviews.
+  - **Optimized Copy & Sequence**: The pre-booking flow uses a specific sequence (Logo -> Provider Badges -> Headline -> Symptoms Checklist -> CTA -> Testimonials) perfectly mirrored from high-performing ad copy to maximize conversions and message-match.
 - **Dedicated Ad Landing Pages**: Note: the leftover `/michigan-discovery-call` route was a duplicate and has been redirected to `/book-free-assessment-call`.
   - **Inline Native Rendering**: Decoupled from the global modal architecture, rendering the scheduling flow natively inline as an embedded landing page rather than a pop-up overlay.
 - **Dynamic Meta Pixel Tracking**:

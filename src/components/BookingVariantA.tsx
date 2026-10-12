@@ -7,7 +7,8 @@ import {
   BadgeCheck
 } from 'lucide-react';
 
-import { useRouterState } from '@tanstack/react-router';
+import { useRouterState, Link } from '@tanstack/react-router';
+import logo from '@/assets/novaleo-logo.png';
 
 
 interface BookingWidgetProps {
@@ -201,7 +202,15 @@ export default function BookingVariantA({
               {step === 0 && (
                 <div className="spa-animate-in" style={{ opacity: 0 }}>
                   <div className="flex flex-col items-center text-center pb-4 max-w-lg mx-auto">
-                      <div className="flex flex-col items-center justify-center mb-5 mt-4">
+                      <Link to="/" className="inline-block mb-4 transition-opacity hover:opacity-85">
+                        <img
+                          src={logo}
+                          alt="Novaleo Weight & Wellness"
+                          className="h-12 md:h-14 w-auto object-contain"
+                        />
+                      </Link>
+
+                      <div className="flex flex-col items-center justify-center mb-5 mt-1">
                         <p className="text-base font-bold text-primary mb-2">One of our Practitioners</p>
                         <div className="inline-flex items-center px-3 py-1 rounded-full bg-primary/5 border border-primary/10">
                           <span className="text-[10px] font-bold uppercase tracking-widest text-primary/70 font-sans">
