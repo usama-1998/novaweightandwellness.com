@@ -1004,7 +1004,14 @@ function BlogComponent() {
           Ongoing Brain Health Beyond the Transition
         </h3>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          None of this means brain health stops mattering once perimenopause ends. The same practical support strategies described earlier in this article, sleep, blood sugar stability, stress management, appropriate exercise, along with maintaining social engagement and mentally stimulating activity, continue to support long-term cognitive health well into postmenopause and beyond. Many women find that once the acute, disruptive fluctuation of perimenopause eases, these same supportive habits become noticeably easier to sustain consistently, since they are no longer fighting against a constantly shifting hormonal backdrop underneath everything else they are trying to manage day to day.
+          None of this means brain health stops mattering once perimenopause ends. The same practical support strategies described earlier in this article, sleep, blood sugar stability, stress management, appropriate exercise, along with maintaining social engagement and mentally stimulating activity, continue to support long-term cognitive health well into postmenopause and beyond. Many women find that once the acute, disruptive fluctuation of perimenopause eases, these same supportive habits become noticeably easier to sustain consistently, since they are no longer fighting against a constantly shifting hormonal backdrop underneath everything else they are trying to manage day to day. We cover the rest of life after the transition, including bone, heart, weight, and sleep, in our{" "}
+          <Link
+            to="/blog/menopause-postmenopause-weight-bones-heart-hot-flashes-michigan-wisconsin"
+            className="text-secondary font-semibold hover:underline"
+          >
+            guide to menopause after 50
+          </Link>
+          .
         </p>
       </section>
 

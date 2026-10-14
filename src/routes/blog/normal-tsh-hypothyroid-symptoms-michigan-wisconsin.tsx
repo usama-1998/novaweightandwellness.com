@@ -232,6 +232,10 @@ function BlogComponent() {
           slug: "the-ultimate-guide-to-hormones-and-weight-resistance-over-40",
           title: "The Ultimate Guide to Hormones and Weight Resistance Over 40",
         },
+        {
+          slug: "menopause-postmenopause-weight-bones-heart-hot-flashes-michigan-wisconsin",
+          title: "Menopause After 50: Why Your Weight, Bones, Heart, and Sleep Change, and What Actually Helps",
+        },
       ]}
     >
       {/* Clinical Disclaimer */}

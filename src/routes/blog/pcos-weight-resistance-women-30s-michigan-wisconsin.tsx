@@ -84,6 +84,7 @@ function BlogComponent() {
         { slug: "perimenopause-in-your-30s-michigan-wisconsin", title: "Perimenopause Isn't Just an Over-40 Thing: The Complete Guide for Women in Their Mid-30s" },
         { slug: "hormonal-sleep-anxiety-women-michigan-wisconsin", title: "Why Can't I Sleep Anymore? The Hormonal Reason Behind Sleepless Nights and New Anxiety" },
         { slug: "bioidentical-hormone-therapy-guide-michigan-wisconsin", title: "The Complete Guide to Bioidentical Hormone Therapy: Risks, Benefits, and What Actually Happens" },
+        { slug: "menopause-postmenopause-weight-bones-heart-hot-flashes-michigan-wisconsin", title: "Menopause After 50: Why Your Weight, Bones, Heart, and Sleep Change, and What Actually Helps" },
       ]}
     >
       {/* Disclaimer */}

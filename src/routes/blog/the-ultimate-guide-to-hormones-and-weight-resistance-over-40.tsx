@@ -92,6 +92,7 @@ function BlogComponent() {
         { slug: "why-michigan-women-over-40-cant-lose-weight-feel-exhausted", title: "Why Can't I Lose Weight in My 40s? (And Why You're Always Tired)" },
         { slug: "gaining-weight-exhausted-after-40-wisconsin-women", title: "Gaining Weight and Exhausted After 40? What Every Wisconsin Woman Needs to Know" },
         { slug: "ozempic-not-working-michigan-wisconsin-women", title: "Why Am I Not Losing Weight on Ozempic? A Functional Medicine Perspective for Michigan and Wisconsin Women" },
+        { slug: "menopause-postmenopause-weight-bones-heart-hot-flashes-michigan-wisconsin", title: "Menopause After 50: Why Your Weight, Bones, Heart, and Sleep Change, and What Actually Helps" },
       ]}
     >
       <section id="introduction-the-midlife-shift">
@@ -990,7 +991,14 @@ function BlogComponent() {
           completely ceased producing progesterone, or your testosterone levels are virtually zero,
           no amount of broccoli or meditation will magically replace those missing molecules. This
           is where Bioidentical Hormone Replacement Therapy (BHRT) becomes nothing short of
-          life-changing.
+          life-changing. For a careful, current look at hormone therapy and life after menopause, see our{" "}
+          <Link
+            to="/blog/menopause-postmenopause-weight-bones-heart-hot-flashes-michigan-wisconsin"
+            className="text-secondary font-medium hover:underline"
+          >
+            guide to menopause after 50
+          </Link>
+          .
         </p>
         <p className="mb-5">
           Many women are terrified of hormone therapy due to the highly flawed and widely

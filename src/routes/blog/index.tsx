@@ -9,6 +9,7 @@ import sleepAnxietyHeroImg from "@/assets/blog/sleep-anxiety-hero-3am-awake.webp
 import pcosHeroImg from "@/assets/blog/pcos-hero-confident-woman-30s.webp";
 import brainFogHeroImg from "@/assets/blog/brain-fog-hero-woman-office.webp";
 import citiesHeroImg from "@/assets/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-hero.webp";
+import menopauseHeroImg from "@/assets/blog/menopause-after-50-hero-woman-michigan-kitchen.webp";
 import { Clock, ArrowRight, Calendar } from "lucide-react";
 
 export const Route = createFileRoute("/blog/")({
@@ -52,6 +53,18 @@ export const Route = createFileRoute("/blog/")({
 });
 
 const articles = [
+  {
+    slug: "menopause-postmenopause-weight-bones-heart-hot-flashes-michigan-wisconsin",
+    title: "Menopause After 50: Why Your Weight, Bones, Heart, and Sleep Change, and What Actually Helps",
+    excerpt:
+      "Told you are 'through it' but your waistline, sleep, and cholesterol say otherwise? A clinician's guide for Michigan and Wisconsin women to weight, bone density, heart health, hot flashes, and sleep after menopause, with the 2025 and 2026 guidelines and FDA changes explained.",
+    image: menopauseHeroImg,
+    imageAlt: "Woman in her early 50s in a Michigan kitchen reading about menopause health on a snowy morning",
+    category: "Menopause & Postmenopause",
+    date: "October 14, 2026",
+    readTime: "125 min read",
+    author: "Kathryn Long, NP-C",
+  },
   {
     slug: "normal-tsh-hypothyroid-symptoms-michigan-wisconsin",
     title: "My TSH is 'Normal' But I'm Freezing, Losing Hair, and Exhausted: Why Standard Thyroid Tests Fail Women in Their 30s & 40s",

@@ -85,6 +85,7 @@ function BlogComponent() {
         { slug: "perimenopause-in-your-30s-michigan-wisconsin", title: "Perimenopause Isn't Just an Over-40 Thing: The Complete Guide for Women in Their Mid-30s" },
         { slug: "bioidentical-hormone-therapy-guide-michigan-wisconsin", title: "The Complete Guide to Bioidentical Hormone Therapy: Risks, Benefits, and What Actually Happens" },
         { slug: "pcos-weight-resistance-women-30s-michigan-wisconsin", title: "PCOS in Your 30s: Why Weight Loss Feels Impossible and What Actually Helps" },
+        { slug: "menopause-postmenopause-weight-bones-heart-hot-flashes-michigan-wisconsin", title: "Menopause After 50: Why Your Weight, Bones, Heart, and Sleep Change, and What Actually Helps" },
       ]}
     >
       {/* Disclaimer */}
@@ -862,7 +863,14 @@ function BlogComponent() {
               Does this go away on its own once I reach menopause?
             </h3>
             <p className="text-lg leading-relaxed text-foreground/85">
-              For some women, sleep and anxiety symptoms do improve somewhat once hormone levels stabilize at a lower, more consistent baseline after menopause, since some of the instability described in this article is specifically tied to the fluctuating nature of perimenopause rather than low hormone levels themselves. For others, symptoms persist into postmenopause, particularly if cortisol rhythm or blood sugar regulation remain unaddressed. Waiting to see if it resolves on its own can mean months or years of disrupted sleep and anxiety that a comprehensive evaluation could address much sooner.
+              For some women, sleep and anxiety symptoms do improve somewhat once hormone levels stabilize at a lower, more consistent baseline after menopause, since some of the instability described in this article is specifically tied to the fluctuating nature of perimenopause rather than low hormone levels themselves. For others, symptoms persist into postmenopause, particularly if cortisol rhythm or blood sugar regulation remain unaddressed. Waiting to see if it resolves on its own can mean months or years of disrupted sleep and anxiety that a comprehensive evaluation could address much sooner. For sleep after menopause, including night sweats and sleep apnea, see our{" "}
+              <Link
+            to="/blog/menopause-postmenopause-weight-bones-heart-hot-flashes-michigan-wisconsin"
+            className="text-secondary font-semibold hover:underline"
+          >
+            guide to menopause after 50
+          </Link>
+              .
             </p>
           </div>
           <div>

@@ -114,6 +114,7 @@ function BlogComponent() {
         { slug: "the-ultimate-guide-to-hormones-and-weight-resistance-over-40", title: "The Ultimate Guide to Hormones and Weight Resistance Over 40" },
         { slug: "why-michigan-women-over-40-cant-lose-weight-feel-exhausted", title: "Why Can't I Lose Weight in My 40s? (And Why You're Always Tired)" },
         { slug: "gaining-weight-exhausted-after-40-wisconsin-women", title: "Gaining Weight and Exhausted After 40? What Every Wisconsin Woman Needs to Know" },
+        { slug: "menopause-postmenopause-weight-bones-heart-hot-flashes-michigan-wisconsin", title: "Menopause After 50: Why Your Weight, Bones, Heart, and Sleep Change, and What Actually Helps" },
       ]}
     >
       {/* Disclaimer */}
@@ -373,7 +374,14 @@ function BlogComponent() {
           The Perimenopause Compounding Factor
         </h3>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          Women over 35 are already losing muscle mass as part of the normal aging process, at a rate of approximately 3 to 8 percent per decade starting in the 30s, which accelerates significantly during the hormonal transition of perimenopause. Estrogen plays a direct protective role in preserving muscle tissue. As estrogen declines, muscle protein synthesis, the process by which your body builds and repairs muscle, becomes less efficient. At the same time, cortisol's muscle-catabolizing effect becomes relatively more powerful as progesterone, which modulates cortisol, declines.
+          Women over 35 are already losing muscle mass as part of the normal aging process, at a rate of approximately 3 to 8 percent per decade starting in the 30s, which accelerates significantly during the hormonal transition of perimenopause. Estrogen plays a direct protective role in preserving muscle tissue. As estrogen declines, muscle protein synthesis, the process by which your body builds and repairs muscle, becomes less efficient. At the same time, cortisol's muscle-catabolizing effect becomes relatively more powerful as progesterone, which modulates cortisol, declines. For what happens to muscle, bone, and metabolism after menopause itself, see our{" "}
+          <Link
+            to="/blog/menopause-postmenopause-weight-bones-heart-hot-flashes-michigan-wisconsin"
+            className="text-secondary font-semibold hover:underline"
+          >
+            guide to menopause after 50
+          </Link>
+          .
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           A woman in her 40s who starts a GLP-1 medication is therefore walking into the muscle loss problem from an already disadvantaged position. She is simultaneously dealing with hormonal shifts that are naturally reducing muscle mass, a drug that is dramatically reducing her calorie intake (and therefore her protein intake unless she is very intentional), and potentially elevated cortisol from the stress of her life stage. Each of these factors independently promotes muscle loss. Together, they create a compounding effect that is responsible for many of the most disappointing GLP-1 outcomes we see clinically.

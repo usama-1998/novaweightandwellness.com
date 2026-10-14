@@ -101,6 +101,7 @@ function BlogComponent() {
         { slug: "pcos-weight-resistance-women-30s-michigan-wisconsin", title: "PCOS in Your 30s: Why Weight Loss Feels Impossible and What Actually Helps" },
         { slug: "hormonal-sleep-anxiety-women-michigan-wisconsin", title: "Why Can't I Sleep Anymore? The Hormonal Reason Behind Sleepless Nights and New Anxiety" },
         { slug: "bioidentical-hormone-therapy-guide-michigan-wisconsin", title: "The Complete Guide to Bioidentical Hormone Therapy: Risks, Benefits, and What Actually Happens" },
+        { slug: "menopause-postmenopause-weight-bones-heart-hot-flashes-michigan-wisconsin", title: "Menopause After 50: Why Your Weight, Bones, Heart, and Sleep Change, and What Actually Helps" },
       ]}
     >
       {/* Disclaimer */}
@@ -223,7 +224,8 @@ function BlogComponent() {
             </li>
             <li className="flex items-start gap-3">
               <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-secondary" />
-              <span><strong>Postmenopause</strong> is the phase of life after menopause has occurred, lasting for the rest of a woman's life.</span>
+              <span><strong>Postmenopause</strong> is the phase of life after menopause has occurred, lasting for the rest of a woman's life. We cover that stage in our{" "}
+                <Link to="/blog/menopause-postmenopause-weight-bones-heart-hot-flashes-michigan-wisconsin" className="text-secondary font-semibold hover:underline">guide to menopause after 50</Link>.</span>
             </li>
           </ul>
         </div>
