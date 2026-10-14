@@ -15,6 +15,26 @@ import labDrawImg from "@/assets/blog/menopause-lab-blood-draw-bone-heart-marker
 import greatLakesDinnerImg from "@/assets/blog/menopause-great-lakes-whitefish-wisconsin-cheddar-dinner.webp";
 import friendsWalkImg from "@/assets/blog/menopause-friends-autumn-walk-northern-wisconsin.webp";
 import coolBedroomImg from "@/assets/blog/menopause-cool-bedroom-sleep-setup-winter.webp";
+import gutFoodsImg from "@/assets/blog/menopause-gut-health-fiber-rich-foods-kitchen.webp";
+import windowSeatImg from "@/assets/blog/menopause-stress-cozy-window-seat-frozen-lake.webp";
+import mainStreetImg from "@/assets/blog/menopause-michigan-small-town-winter-main-street.webp";
+import planImg from "@/assets/blog/menopause-90-day-plan-planner-dumbbells-shoes.webp";
+import prepImg from "@/assets/blog/menopause-prepare-for-visit-notebook-blood-pressure-cuff.webp";
+import sunriseImg from "@/assets/blog/menopause-hopeful-sunrise-wisconsin-field.webp";
+import changesImg from "@/assets/blog/menopause-infographic-what-changes-after-menopause.webp";
+import timelineImg from "@/assets/blog/menopause-infographic-menopause-timeline.webp";
+import gsmLadderImg from "@/assets/blog/menopause-infographic-gsm-treatment-ladder.webp";
+import htWindowImg from "@/assets/blog/menopause-infographic-hormone-therapy-timing-window.webp";
+import screeningImg from "@/assets/blog/menopause-infographic-screening-checklist-after-50.webp";
+import redFlagsImg from "@/assets/blog/menopause-infographic-red-flags-911-vs-clinician.webp";
+import specialImg from "@/assets/blog/menopause-infographic-special-situations-map.webp";
+import fiveWomenImg from "@/assets/blog/menopause-infographic-five-women-michigan-wisconsin.webp";
+import mythsImg from "@/assets/blog/menopause-infographic-myths-versus-evidence.webp";
+import partnersImg from "@/assets/blog/menopause-infographic-seven-ways-partners-can-help.webp";
+import evidenceImg from "@/assets/blog/menopause-infographic-evidence-strength-tiers.webp";
+import swanChartsImg from "@/assets/blog/menopause-infographic-swan-key-numbers-charts.webp";
+import numbersImg from "@/assets/blog/menopause-infographic-your-numbers-at-a-glance.webp";
+import quickAnswersImg from "@/assets/blog/menopause-infographic-quick-answers-faq.webp";
 
 const SLUG = "menopause-postmenopause-weight-bones-heart-hot-flashes-michigan-wisconsin";
 const PAGE_URL = `https://novaweightandwellness.com/blog/${SLUG}`;
@@ -305,6 +325,11 @@ function BlogComponent() {
           smiled and said the words so many women hear: "Congratulations, you're through it." For
           about a month, Dana believed that was true.
         </P>
+        <Fig
+          src={changesImg}
+          alt="Infographic: four things that keep changing after menopause, weight and muscle, bones, heart, and sleep, with the key research figure for each"
+        />
+
         <P>
           Then the rest of it started to show itself. The waistband on her favorite pants stopped
           closing, even though she was eating exactly the way she always had. She was waking at 3
@@ -411,6 +436,11 @@ function BlogComponent() {
           but if you reached menopause at 46 or 57, nearly everything in this guide still applies to
           you.
         </P>
+        <Fig
+          src={timelineImg}
+          alt="Infographic timeline from perimenopause through the final period to postmenopause, highlighting the fastest-change window from one year before to two years after the final period"
+        />
+
         <H3>The Hormonal Picture, in Plain Language</H3>
         <P>
           Before menopause, your ovaries produce most of your estradiol, the most potent form of
@@ -1812,6 +1842,11 @@ function BlogComponent() {
           price of getting older. I want to say something clearly: these symptoms are common, they
           are medical, and most of them are very treatable.
         </P>
+        <Fig
+          src={gsmLadderImg}
+          alt="Infographic: a four-step ladder for genitourinary syndrome of menopause, from moisturizers to vaginal estrogen, other prescriptions, and pelvic floor therapy"
+        />
+
         <H3>Genitourinary Syndrome of Menopause</H3>
         <P>
           The tissues of the vagina, vulva, urethra, and bladder are rich in estrogen receptors.
@@ -2034,6 +2069,11 @@ function BlogComponent() {
           your fifties have manageable explanations, and partly because a small number of them
           should never be written off as "just menopause."
         </P>
+        <Fig
+          src={gutFoodsImg}
+          alt="A Midwest kitchen counter with fiber-rich foods: steel-cut oats with blueberries, beans and lentils, fresh kale and carrots, kefir, and a glass of water"
+        />
+
         <H3>Why the Gut May Change</H3>
         <P>
           Estrogen and progesterone both influence how quickly food moves through the digestive
@@ -2132,6 +2172,11 @@ function BlogComponent() {
           it makes hot flashes feel worse. I would be doing you a disservice if I wrote a guide to
           life after menopause and left it out.
         </P>
+        <Fig
+          src={windowSeatImg}
+          alt="A cozy window seat with a wool blanket, tea, and books overlooking a snow-covered frozen lake and birch trees in northern Wisconsin at dusk"
+        />
+
         <H3>What the Evidence Supports</H3>
         <P>
           The language around "nervous system regulation" has become popular and often vague, so let
@@ -2228,6 +2273,11 @@ function BlogComponent() {
           </IL>
           . Here I focus on what is new and on how the decision fits into life after 50.
         </P>
+        <Fig
+          src={htWindowImg}
+          alt="Infographic comparing hormone therapy benefit and risk for women under 60 or within 10 years of menopause versus later, with route, progestogen, and vaginal estrogen notes"
+        />
+
         <H3>The Short Version of a Long History</H3>
         <P>
           In 2002, the Women's Health Initiative reported early findings from a large randomized
@@ -2504,6 +2554,11 @@ function BlogComponent() {
           </XL>
           , and your age, family history, and risk factors may change what applies.
         </P>
+        <Fig
+          src={screeningImg}
+          alt="Infographic checklist of recommended screenings after 50, including mammogram, bone density, blood pressure, cholesterol and Lp(a), colorectal, cervical, lung, diabetes, and hepatitis C"
+        />
+
         <Tbl
           head={["Screening", "General guidance for average-risk women", "Notes"]}
           rows={[
@@ -2584,6 +2639,11 @@ function BlogComponent() {
           care. The table below is not exhaustive and is not a diagnostic tool. It is a list of the
           signals I would never want a woman to wait on.
         </P>
+        <Fig
+          src={redFlagsImg}
+          alt="Infographic separating symptoms that need a 911 call from symptoms that need a clinician visit this week"
+        />
+
         <Tbl
           head={["Symptom", "Why it matters", "What to do"]}
           rows={[
@@ -3006,6 +3066,11 @@ function BlogComponent() {
           description, and for some of you the advice changes in important ways. Here are the
           situations I see most often.
         </P>
+        <Fig
+          src={specialImg}
+          alt="Infographic of six special situations after menopause: early menopause, surgical menopause, breast cancer history, GLP-1 use, thyroid medication, and migraine with aura"
+        />
+
         <H3>Menopause Before 45, Including Premature Ovarian Insufficiency</H3>
         <P>
           Menopause before 45 is considered early, and loss of ovarian function before 40 is called
@@ -3112,6 +3177,11 @@ function BlogComponent() {
           seeing how the same life stage plays out differently often helps women recognize their own
           situation faster than a list of symptoms can.
         </P>
+        <Fig
+          src={fiveWomenImg}
+          alt="Infographic introducing five composite women from Eau Claire, Lansing, Green Bay, Traverse City, and Marquette and the main issue in each story"
+        />
+
         <H3>Dana, 54, Eau Claire: The Waistline, the 3 AM Wake-Ups, and a Surprise</H3>
         <P>
           Dana is the woman from the beginning of this article. She had gained inches around her
@@ -3186,6 +3256,11 @@ function BlogComponent() {
 
       {/* ===================== SECTION 18: MYTHS ===================== */}
       <Section id="common-myths" title="Common Myths About Menopause After 50">
+        <Fig
+          src={mythsImg}
+          alt="Infographic pairing six common menopause myths with what the evidence shows"
+        />
+
         <H3>Myth: "Once you have gone a year without a period, the hard part is over."</H3>
         <P>
           For some women the worst symptoms ease. For many, hot flashes last years more, and bone
@@ -3352,6 +3427,11 @@ function BlogComponent() {
           Menopause is biology, but living with it is local. Here is what I think about when I help
           women in the Great Lakes states, and what I hope you will keep in mind.
         </P>
+        <Fig
+          src={mainStreetImg}
+          alt="A snowy small-town main street in northern Michigan at dusk with brick storefronts, a church steeple, and Lake Michigan in the distance"
+        />
+
         <H3>Telehealth Across Two States</H3>
         <P>
           Novaleo serves women in both Michigan and Wisconsin by video. Telehealth practice across
@@ -3434,6 +3514,11 @@ function BlogComponent() {
           do. You do not need to do everything. Pick the actions that fit your life and your risks,
           and use the plan as a menu.
         </P>
+        <Fig
+          src={planImg}
+          alt="A blank wall planner, running shoes, dumbbells, a water bottle, and a notebook laid out on a wooden floor, ready for a 90-day plan"
+        />
+
         <Tbl
           head={["When", "Focus", "What to do"]}
           rows={[
@@ -3476,6 +3561,11 @@ function BlogComponent() {
           it harder for your concerns to be brushed aside. Whether you see me, your primary care
           provider, a gynecologist, or an endocrinologist, bring the following.
         </P>
+        <Fig
+          src={prepImg}
+          alt="A kitchen table prepared for a medical appointment with a notebook, a home blood pressure cuff, a pill organizer, and a cup of tea"
+        />
+
         <UL
           items={[
             "A one-page timeline: the date of your last period, when symptoms began, and what has changed in the past year",
@@ -3520,6 +3610,11 @@ function BlogComponent() {
           how to help when a person you love is waking soaked, aching, and frustrated by a body she
           no longer recognizes. A few things make a real difference.
         </P>
+        <Fig
+          src={partnersImg}
+          alt="Infographic listing seven ways partners and family can help a woman after menopause"
+        />
+
         <UL
           items={[
             <>
@@ -3565,6 +3660,11 @@ function BlogComponent() {
           evidence is incomplete, so that you can hold my recommendations with the right level of
           confidence.
         </P>
+        <Fig
+          src={evidenceImg}
+          alt="Infographic sorting menopause research into strong, moderate or mixed, and still developing evidence"
+        />
+
         <UL
           items={[
             <>
@@ -3621,6 +3721,11 @@ function BlogComponent() {
           A few studies carry much of the weight in this guide. Here is what each one is, what it
           can tell us, and what it cannot.
         </P>
+        <Fig
+          src={swanChartsImg}
+          alt="Bar charts of SWAN findings: bone loss per year around the final period, fat mass gain per year, and hot flash duration by timing of onset"
+        />
+
         <H3>SWAN: Body Composition (Greendale and Colleagues, 2019)</H3>
         <P>
           This analysis followed 1,246 women with repeated DXA scans for about eighteen years and
@@ -3692,6 +3797,11 @@ function BlogComponent() {
 
       {/* ===================== SECTION 26: GLOSSARY ===================== */}
       <Section id="glossary" title="Glossary of Terms Used in This Article">
+        <Fig
+          src={numbersImg}
+          alt="Reference card of key numbers: waist, blood pressure, calcium, protein, Lp(a), T-score, LDL goals, and vitamin D"
+        />
+
         <div className="space-y-4">
           {glossary.map((g) => (
             <P key={g.term}>
@@ -3708,6 +3818,11 @@ function BlogComponent() {
           past menopause. Each answer is short on purpose. The relevant section above has the
           evidence and the nuance.
         </P>
+        <Fig
+          src={quickAnswersImg}
+          alt="Infographic with quick answers to six common questions about hot flashes, bone density testing, Lp(a), protein, hormone therapy safety, and hormone blood tests"
+        />
+
         {faqs.map((f) => (
           <div key={f.q}>
             <H3>{f.q}</H3>
@@ -3722,6 +3837,11 @@ function BlogComponent() {
           If you made it this far, thank you. I know it was a lot, and I hope it did what I
           intended, which was to hand you the explanation that so many women are not given.
         </P>
+        <Fig
+          src={sunriseImg}
+          alt="Sunrise over a snowy Wisconsin farm field seen through a farmhouse kitchen window with a mug on the sill"
+        />
+
         <P>
           Here is what I most want you to take from it. You are not imagining the changes in your
           body after menopause, and you are not failing because they are happening. These changes
