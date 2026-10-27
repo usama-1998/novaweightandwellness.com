@@ -48,6 +48,16 @@ export const Route = createFileRoute(
         content: "https://novaweightandwellness.com/og-image-v6.jpg",
       },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Why Can't I Remember Anything Anymore? Perimenopausal Brain Fog vs. Something More Serious" },
+      { name: "twitter:description", content: "A thorough, honest guide to perimenopause brain fog for women in Michigan and Wisconsin, including when memory changes deserve further medical evaluation." },
+      {
+        property: "article:published_time",
+        content: "2026-08-07T08:00:00Z",
+      },
+      {
+        property: "article:author",
+        content: "https://novaweightandwellness.com/about",
+      },
     ],
   }),
   component: BlogComponent,
@@ -106,7 +116,7 @@ function BlogComponent() {
       {/* Disclaimer */}
       <div className="bg-muted/60 border border-border rounded-xl p-5 mb-10 text-sm text-foreground/70 leading-relaxed">
         <strong className="text-foreground/90">Informational purposes only.</strong>{" "}
-        This article is written for educational purposes and does not constitute medical advice or a diagnosis. It cannot tell you whether your specific symptoms are hormonal or something else, only a licensed physician can do that after a real evaluation. If you have persistent or worsening memory concerns, please talk with your doctor directly. This content has been written by Kathryn Long, NP-C and is intended for review by a licensed clinician prior to any clinical application, with particular attention to the comparison section below.
+        This article is written for educational purposes and does not constitute medical advice or a diagnosis. It cannot tell you whether your specific symptoms are hormonal or something else, only a licensed physician can do that after a real evaluation. If you have persistent or worsening memory concerns, please talk with your doctor directly. This article was written by Kathryn Long, NP-C.
       </div>
 
       {/* Section 1 */}

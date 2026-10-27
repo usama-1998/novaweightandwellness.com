@@ -44,6 +44,16 @@ export const Route = createFileRoute("/blog/gaining-weight-exhausted-after-40-wi
       { property: "og:type", content: "article" },
       { property: "og:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Gaining Weight and Exhausted After 40? What Every Wisconsin Woman Needs to Know" },
+      { name: "twitter:description", content: "Discover the root functional medicine causes of weight gain, fatigue, and hormonal imbalance for women over 40 in Wisconsin." },
+      {
+        property: "article:published_time",
+        content: "2025-07-11T08:00:00Z",
+      },
+      {
+        property: "article:author",
+        content: "https://novaweightandwellness.com/about",
+      },
     ],
   }),
   component: BlogComponent,

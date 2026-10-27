@@ -211,10 +211,10 @@ export default function BookingVariantA({
                       </Link>
 
                       <div className="flex flex-col items-center justify-center mb-5 mt-1">
-                        <p className="text-base font-bold text-primary mb-2">One of our Practitioners</p>
+                        <p className="text-base font-bold text-primary mb-2">Kathryn Long, NP-C</p>
                         <div className="inline-flex items-center px-3 py-1 rounded-full bg-primary/5 border border-primary/10">
                           <span className="text-[10px] font-bold uppercase tracking-widest text-primary/70 font-sans">
-                            Board Certified Providers
+                            Board-Certified Nurse Practitioner
                           </span>
                         </div>
                       </div>

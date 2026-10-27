@@ -10,19 +10,19 @@ export const Route = createFileRoute("/services")({
       {
         name: "description",
         content:
-          "Schedule your visit with Novaleo Weight & Wellness. Choose a Assessment Call, Root Cause Intake, Lab Panel, Follow-up, or the Root Cause Restoration Program.",
+          "Schedule your visit with Novaleo Weight & Wellness. Choose an Assessment Call, a 60-minute Root Cause Intake ($97), a Lab Panel ($454), a Follow-up, or the Root Cause Restoration Program ($3,995).",
       },
-      { property: "og:title", content: "Book a Visit | Novaleo Weight & Wellness" },
+      { property: "og:title", content: "Book a Visit | Novaleo Weight & Wellness Services" },
       {
         property: "og:description",
-        content: "Choose a Assessment Call, Root Cause Intake, Lab Panel, or Executive Partnership and book online.",
+        content: "Choose an Assessment Call, a 60-minute Root Cause Intake ($97), a Lab Panel ($454), or the Root Cause Restoration Program ($3,995) and book online.",
       },
       { property: "og:url", content: "https://novaweightandwellness.com/services" },
       { property: "og:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Book a Visit | Novaleo Weight & Wellness Services" },
-      { name: "twitter:description", content: "Choose a Assessment Call, Root Cause Intake, Lab Panel, or Executive Partnership and book online." },
+      { name: "twitter:description", content: "Choose an Assessment Call, a 60-minute Root Cause Intake ($97), a Lab Panel ($454), or the Root Cause Restoration Program ($3,995) and book online." },
       { name: "twitter:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
     ],
   }),
@@ -72,7 +72,7 @@ const services: Service[] = [
   },
   {
     id: "intake",
-    name: "Root Cause Intake | 60-Minute Clarity Session",
+    name: "Root Cause Intake | 60 Minutes",
     duration: "60 Min",
     price: "$97",
     highlight: "Most booked",
@@ -193,6 +193,8 @@ function SchedulerPage() {
           <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
             Select the reason that fits your needs weight, hormones, metabolism, energy, or a full
             root-cause workup. Each option opens our secure Optimantra booking page in a new tab.
+            Please note: the 60-minute $97 Root Cause Intake below is a different offer from the
+            separate 30-minute $47 Clarity Session on its own page. They are not the same session.
           </p>
         </div>
       </section>
@@ -240,6 +242,25 @@ function SchedulerPage() {
         <p className="mt-10 text-xs text-muted-foreground italic max-w-2xl">
           Booking is handled securely through Optimantra. Telehealth services are available across
           Michigan and Wisconsin. No insurance we accept FSA/HSA, credit, and debit card.
+
+        <div className="mt-12">
+          <h2 className="text-2xl md:text-3xl text-primary">Related services and locations</h2>
+          <p className="mt-3 text-sm text-muted-foreground max-w-2xl">
+            Each page below explains one service or location in more depth, and links back to the
+            guide that covers it in full.
+          </p>
+          <ul className="mt-5 grid md:grid-cols-2 gap-3 text-sm">
+            <li><a href="/glp-1-metabolic-support" className="text-primary underline">GLP-1 and metabolic support</a></li>
+            <li><a href="/hormone-therapy" className="text-primary underline">Hormone therapy</a></li>
+            <li><a href="/thyroid-care" className="text-primary underline">Thyroid care</a></li>
+            <li><a href="/perimenopause-menopause-care" className="text-primary underline">Perimenopause and menopause care</a></li>
+            <li><a href="/pcos-care" className="text-primary underline">PCOS care</a></li>
+            <li><a href="/functional-medicine-cost" className="text-primary underline">How much does functional medicine cost?</a></li>
+            <li><a href="/michigan-telehealth" className="text-primary underline">Functional medicine telehealth in Michigan</a></li>
+            <li><a href="/wisconsin-telehealth" className="text-primary underline">Functional medicine telehealth in Wisconsin</a></li>
+            <li><a href="/grand-rapids-telehealth" className="text-primary underline">Functional medicine in Grand Rapids</a></li>
+          </ul>
+        </div>
         </p>
       </section>
     </>

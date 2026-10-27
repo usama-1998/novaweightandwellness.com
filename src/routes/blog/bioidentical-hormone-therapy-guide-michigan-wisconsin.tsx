@@ -48,6 +48,16 @@ export const Route = createFileRoute(
         content: "https://novaweightandwellness.com/og-image-v6.jpg",
       },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "The Complete Guide to Bioidentical Hormone Therapy: Risks, Benefits, and What Actually Happens" },
+      { name: "twitter:description", content: "An honest, thoroughly sourced guide to bioidentical hormone replacement therapy for women in Michigan and Wisconsin, including a full breakdown of the WHI study." },
+      {
+        property: "article:published_time",
+        content: "2026-07-27T08:00:00Z",
+      },
+      {
+        property: "article:author",
+        content: "https://novaweightandwellness.com/about",
+      },
     ],
   }),
   component: BlogComponent,
@@ -88,7 +98,7 @@ function BlogComponent() {
       {/* Disclaimer */}
       <div className="bg-muted/60 border border-border rounded-xl p-5 mb-10 text-sm text-foreground/70 leading-relaxed">
         <strong className="text-foreground/90">Informational purposes only.</strong>{" "}
-        This article is written for educational purposes and does not constitute medical advice. Decisions about bioidentical hormone therapy or any medical treatment should be made in collaboration with your licensed healthcare provider, based on your personal and family health history. This content has been written by Kathryn Long, NP-C and is intended for review by a licensed clinician prior to any clinical application, with particular attention to the sections on the WHI study and candidacy.
+        This article is written for educational purposes and does not constitute medical advice. Decisions about bioidentical hormone therapy or any medical treatment should be made in collaboration with your licensed healthcare provider, based on your personal and family health history. This article was written by Kathryn Long, NP-C.
       </div>
 
       {/* Section 1 */}

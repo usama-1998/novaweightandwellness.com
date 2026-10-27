@@ -71,13 +71,12 @@ export function SiteFooter() {
             </a>
           </div>
           <div className="mt-8">
-            <a 
-              href="#" 
-              style={{ textDecoration: 'none' }} 
-              onClick={(e) => {
-                e.preventDefault();
-                window.open('https://rapidscansecure.com/siteseal/Verify.aspx?code=65,074EA1C05392EFBBC383B1019A1E5D6CF6EE8308', 'Verification', 'location=no, toolbar=no, resizable=no, scrollbars=yes, directories=no, status=no,top=100,left=100, width=960, height=526');
-              }}
+            <a
+              href="https://rapidscansecure.com/siteseal/Verify.aspx?code=65,074EA1C05392EFBBC383B1019A1E5D6CF6EE8308"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Verify the CompliAssure site seal"
+              style={{ textDecoration: 'none' }}
             >
               <img 
                 alt="CompliAssure SiteSeal" 
@@ -147,11 +146,11 @@ export function SiteFooter() {
           <ul className="space-y-2 text-sm text-primary-foreground/75">
             <li>Telehealth · MI &amp; WI</li>
             <li>
-              1805 Leonard st NE<br />
-              Grand Rapids, Mi 49505
+              1805 Leonard St NE<br />
+              Grand Rapids, MI 49505
             </li>
             <li>
-              <a href="tel:16168014648" className="hover:text-gold">
+              <a href="tel:+16168014648" className="hover:text-gold">
                 616-801-4648
               </a>
             </li>

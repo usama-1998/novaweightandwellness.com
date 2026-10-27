@@ -53,6 +53,16 @@ export const Route = createFileRoute(
         content: "https://novaweightandwellness.com/og-image-v6.jpg",
       },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Medical Weight Loss and Hormone Therapy in Michigan & Wisconsin: The Complete City-by-City Guide" },
+      { name: "twitter:description", content: "A city-by-city guide to root-cause medical weight loss and hormone therapy across Michigan and Wisconsin, including rural and smaller communities." },
+      {
+        property: "article:published_time",
+        content: "2026-08-12T08:00:00Z",
+      },
+      {
+        property: "article:author",
+        content: "https://novaweightandwellness.com/about",
+      },
     ],
   }),
   component: BlogComponent,
@@ -104,7 +114,7 @@ function BlogComponent() {
           Here is the search that probably brought you here, in one form or another: <strong className="text-foreground/90">medical weight loss Michigan Wisconsin</strong>, or maybe something more specific, hormone therapy near me, or the name of your own city typed in right alongside the words "weight loss clinic." You have already done the harder part of this journey. You have read enough to know that what you are dealing with, the weight that will not move no matter what you cut or how far you run, the fatigue that a full night's sleep does not touch, the brain fog that makes you reread the same email three times, is not a willpower problem. You already suspect it is hormonal, or metabolic, or some tangled combination the standard fifteen-minute appointment with your primary care doctor has never had time to untangle. What you are trying to figure out now is simpler and, in its own way, more practical: is this actually available to me, where I live?
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          If you looked at our own site data before writing this, you'd see exactly what we mean: real, meaningful search volume for phrases like "medical weight loss Grand Rapids" showing up in our analytics with essentially no corresponding clicks to a page that actually answers the question. That's not readers losing interest. That's readers searching, seeing results that don't convincingly answer "is this here, for me," and moving on unsatisfied. We built this entire article specifically to close that gap, city by city, rather than leaving it as an assumption we hoped readers would make on faith.
+          Many women search for phrases like "medical weight loss Grand Rapids" and find results that do not convincingly answer "is this here, for me." We built this article to close that gap, city by city.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           That question matters more than it might seem to from the outside. It is one thing to read a compelling article about perimenopause or thyroid function or insulin resistance from a wellness site based somewhere you have never been and will never visit. It is another thing entirely to find a provider who can actually see you, order labs you can actually get drawn, and follow up with you in a way that fits into your actual week, in your actual city. If you live in Grand Rapids, you might assume this kind of root-cause, comprehensive care is close by. If you live in the Upper Peninsula, or a small town outside Wausau, or a farm community two hours from the nearest city on this list, you might have already assumed the opposite: that this kind of care exists, just not for you.
