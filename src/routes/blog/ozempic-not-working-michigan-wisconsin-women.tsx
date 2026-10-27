@@ -49,6 +49,16 @@ export const Route = createFileRoute(
         content: "https://novaweightandwellness.com/og-image-v6.jpg",
       },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Why Ozempic Isn't Working: A Functional Medicine Guide for Michigan & Wisconsin Women" },
+      { name: "twitter:description", content: "Ozempic plateau? Discover the 6 root causes your doctor isn't checking. Functional medicine solutions for women in Michigan & Wisconsin." },
+      {
+        property: "article:published_time",
+        content: "2026-07-23T08:00:00Z",
+      },
+      {
+        property: "article:author",
+        content: "https://novaweightandwellness.com/about",
+      },
     ],
   }),
   component: BlogComponent,

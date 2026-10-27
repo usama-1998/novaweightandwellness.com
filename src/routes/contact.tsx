@@ -118,7 +118,7 @@ function Contact() {
                 "name": "What is your refund policy?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Due to the digital and service-based nature of our programs, consultations, educational materials, and wellness services, all sales are final and no refunds will be issued."
+                  "text": "Due to the digital and service-based nature of our programs, consultations, educational materials, and wellness services, all sales are final and no refunds will be issued. By purchasing a service, digital product, consultation, or wellness program through Novaleo Weight & Wellness, you acknowledge and agree to this policy prior to checkout. If you experience a technical issue accessing purchased materials, please contact us and we will make reasonable efforts to assist you. Reservation deposits, completed consultations, digital downloads, personalized wellness plans, and services already rendered are nonrefundable."
                 }
               }
             ]
@@ -178,7 +178,7 @@ function Contact() {
               <div className="space-y-6">
                 <div>
                   <h3 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground mb-2">Phone</h3>
-                  <a href="tel:+116168014648" className="text-lg font-medium text-foreground hover:text-primary transition-colors">
+                  <a href="tel:+16168014648" className="text-lg font-medium text-foreground hover:text-primary transition-colors">
                     1-616-801-4648
                   </a>
                 </div>
@@ -208,6 +208,33 @@ function Contact() {
         <p className="mt-8 text-xs text-muted-foreground italic max-w-2xl">
           This is an informational, non-clinical conversation. No medical advice is given on this
           call.
+        </p>
+      </section>
+
+
+      {/* Map */}
+      <section className="container-prose pb-16">
+        <h2 className="text-3xl md:text-4xl text-primary">Find us in Grand Rapids</h2>
+        <p className="mt-4 text-muted-foreground max-w-2xl">
+          1805 Leonard St NE, Grand Rapids, MI 49505. Telehealth services are available for all
+          residents of Michigan and Wisconsin, so you do not need to travel for care.
+        </p>
+        <div className="mt-6 overflow-hidden rounded-2xl border border-border">
+          <iframe
+            title="Map to Novaleo Weight & Wellness, 1805 Leonard St NE, Grand Rapids, MI 49505"
+            src="https://maps.google.com/maps?q=1805%20Leonard%20St%20NE%2C%20Grand%20Rapids%2C%20MI%2049505&output=embed"
+            className="h-96 w-full border-0"
+            loading="lazy"
+          />
+        </div>
+        <p className="mt-4 text-sm">
+          <a href="https://maps.google.com/?q=1805+Leonard+St+NE,+Grand+Rapids,+MI+49505" target="_blank" rel="noopener noreferrer" className="text-primary underline">
+            Get directions on Google Maps
+          </a>
+          {" "}· Or email{" "}
+          <a href="mailto:Katie@novaweightandwellness.com" className="text-primary underline">Katie@novaweightandwellness.com</a>
+          {" "}or call{" "}
+          <a href="tel:+16168014648" className="text-primary underline">1-616-801-4648</a>.
         </p>
       </section>
 

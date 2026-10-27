@@ -45,6 +45,16 @@ export const Route = createFileRoute(
       { property: "og:type", content: "article" },
       { property: "og:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Why Michigan Women Over 40 Can't Lose Weight & Feel Exhausted" },
+      { name: "twitter:description", content: "Struggling with fatigue and belly fat? Learn why standard medicine misses the mark and how functional medicine helps Michigan women heal." },
+      {
+        property: "article:published_time",
+        content: "2025-09-02T08:00:00Z",
+      },
+      {
+        property: "article:author",
+        content: "https://novaweightandwellness.com/about",
+      },
     ],
   }),
   component: BlogComponent,

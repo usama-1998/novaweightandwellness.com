@@ -48,6 +48,16 @@ export const Route = createFileRoute(
         content: "https://novaweightandwellness.com/og-image-v6.jpg",
       },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Why Can't I Sleep Anymore? The Hormonal Reason Behind Sleepless Nights and New Anxiety" },
+      { name: "twitter:description", content: "A thorough, honest guide to hormonal sleep disruption and new anxiety in your late 30s and 40s, for women in Michigan and Wisconsin." },
+      {
+        property: "article:published_time",
+        content: "2026-07-28T08:00:00Z",
+      },
+      {
+        property: "article:author",
+        content: "https://novaweightandwellness.com/about",
+      },
     ],
   }),
   component: BlogComponent,
@@ -90,7 +100,7 @@ function BlogComponent() {
       {/* Disclaimer */}
       <div className="bg-muted/60 border border-border rounded-xl p-5 mb-10 text-sm text-foreground/70 leading-relaxed">
         <strong className="text-foreground/90">Informational purposes only.</strong>{" "}
-        This article is written for educational purposes and does not constitute medical advice. It is not a substitute for psychiatric or therapeutic care. If you are experiencing new, severe, or persistent anxiety, please talk with a licensed mental health professional or your physician. This content has been written by Kathryn Long, NP-C and is intended for review by a licensed clinician prior to any clinical application, with particular attention to the discussion of anxiety in Section 4.
+        This article is written for educational purposes and does not constitute medical advice. It is not a substitute for psychiatric or therapeutic care. If you are experiencing new, severe, or persistent anxiety, please talk with a licensed mental health professional or your physician. This article was written by Kathryn Long, NP-C.
       </div>
 
       {/* Section 1 */}

@@ -48,6 +48,16 @@ export const Route = createFileRoute(
         content: "https://novaweightandwellness.com/og-image-v6.jpg",
       },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Perimenopause Isn't Just an Over-40 Thing: The Complete Guide for Women in Their Mid-30s" },
+      { name: "twitter:description", content: "You are not too young and you are not imagining it. A complete guide to early perimenopause symptoms for women in their 30s in Michigan and Wisconsin." },
+      {
+        property: "article:published_time",
+        content: "2026-07-24T08:00:00Z",
+      },
+      {
+        property: "article:author",
+        content: "https://novaweightandwellness.com/about",
+      },
     ],
   }),
   component: BlogComponent,

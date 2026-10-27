@@ -66,6 +66,8 @@ function ClaritySessionPage() {
   };
 
   return (
+    <>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", mainEntity: [{ "@type": "Question", name: "How is this different from the $97 intake?", acceptedAnswer: { "@type": "Answer", text: "The Clarity Session is 30 minutes and $47. The Root Cause Intake is 60 minutes and $97, with a full health history and a personalized starting plan." } }, { "@type": "Question", name: "Is this a medical visit?", acceptedAnswer: { "@type": "Answer", text: "This page describes a consultation session. Bring your questions about symptoms, labs, and next steps." } }, { "@type": "Question", name: "Where is it available?", acceptedAnswer: { "@type": "Answer", text: "Via telehealth in Michigan and Wisconsin." } }] }) }} />
     <main className="min-h-[calc(100vh-6rem)] flex flex-col items-center justify-center relative p-0 md:p-6">
       <h1 className="sr-only">Book a Clarity Session</h1>
       <PageStyles />
@@ -86,6 +88,23 @@ function ClaritySessionPage() {
           submitBooking={submitBooking}
         />
       </div>
+
+      <section className="container-prose py-16">
+        <h2 className="text-3xl md:text-4xl text-primary">What is the $47 Clarity Session?</h2>
+        <p className="mt-4 text-foreground/80 leading-relaxed max-w-2xl">
+          A 30-minute paid session with Kathryn Long, NP-C, via telehealth in Michigan and
+          Wisconsin. It is different from the free assessment call, and different from the
+          60-minute $97 Root Cause Intake. If you are unsure which starting point fits you,
+          book the free assessment call first.
+        </p>
+        <h3 className="mt-10 text-2xl text-primary">Frequently asked questions</h3>
+        <div className="mt-4 space-y-4 max-w-2xl text-foreground/80 leading-relaxed">
+          <p><strong className="text-foreground">How is this different from the $97 intake?</strong> The Clarity Session is 30 minutes and $47. The Root Cause Intake is 60 minutes and $97, with a full health history and a personalized starting plan.</p>
+          <p><strong className="text-foreground">Is this a medical visit?</strong> This page describes a consultation session. Bring your questions about symptoms, labs, and next steps.</p>
+          <p><strong className="text-foreground">Where is it available?</strong> Via telehealth in Michigan and Wisconsin.</p>
+        </div>
+      </section>
     </main>
+    </>
   );
 }

@@ -45,9 +45,19 @@ export const Route = createFileRoute(
       { property: "og:type", content: "article" },
       {
         property: "og:image",
-        content: "https://novaweightandwellness.com/og-image-new.png",
+        content: "https://novaweightandwellness.com/og-image-v6.jpg",
       },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "PCOS in Your 30s: Why Weight Loss Feels Impossible and What Actually Helps" },
+      { name: "twitter:description", content: "A thorough, honest guide to PCOS and hormonal weight resistance for women in their 30s in Michigan and Wisconsin, diagnosed or not." },
+      {
+        property: "article:published_time",
+        content: "2026-07-29T08:00:00Z",
+      },
+      {
+        property: "article:author",
+        content: "https://novaweightandwellness.com/about",
+      },
     ],
   }),
   component: BlogComponent,
@@ -89,7 +99,7 @@ function BlogComponent() {
       {/* Disclaimer */}
       <div className="bg-muted/60 border border-border rounded-xl p-5 mb-10 text-sm text-foreground/70 leading-relaxed">
         <strong className="text-foreground/90">Informational purposes only.</strong>{" "}
-        This article is written for educational purposes and does not constitute medical advice. The self-recognition checklist in this article is a starting point for a conversation and testing, not a diagnostic tool, and PCOS can only be formally diagnosed by a licensed clinician. This piece focuses on weight and metabolic management and is not intended as fertility guidance. This content has been written by Kathryn Long, NP-C and is intended for review by a licensed clinician prior to any clinical application.
+        This article is written for educational purposes and does not constitute medical advice. The self-recognition checklist in this article is a starting point for a conversation and testing, not a diagnostic tool, and PCOS can only be formally diagnosed by a licensed clinician. This piece focuses on weight and metabolic management and is not intended as fertility guidance. This article was written by Kathryn Long, NP-C.
       </div>
 
       {/* Section 1 */}

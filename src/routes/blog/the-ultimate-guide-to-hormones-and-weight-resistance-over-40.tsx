@@ -53,6 +53,16 @@ export const Route = createFileRoute(
       { property: "og:type", content: "article" },
       { property: "og:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "The Ultimate Guide to Hormones and Weight Resistance Over 40" },
+      { name: "twitter:description", content: "Why women over 40 can't lose weight: a functional medicine guide to the root causes of weight resistance, thyroid issues, and hormonal chaos." },
+      {
+        property: "article:published_time",
+        content: "2026-07-14T08:00:00Z",
+      },
+      {
+        property: "article:author",
+        content: "https://novaweightandwellness.com/about",
+      },
     ],
   }),
   component: BlogComponent,

@@ -226,6 +226,36 @@ function BlogIndex() {
         </div>
       </section>
 
+      {/* Featured pillar guides */}
+      <section className="py-12 border-b border-border">
+        <div className="container-prose">
+          <h2 className="text-3xl md:text-4xl text-primary">Start here: pillar guides</h2>
+          <p className="mt-3 text-muted-foreground max-w-2xl">
+            Three guides that anchor the site. Each one links to the matching service page, so a
+            reader can move from learning to booking without guessing which service fits.
+          </p>
+          <div className="mt-6 grid md:grid-cols-3 gap-5">
+            <Link to="/blog/normal-tsh-hypothyroid-symptoms-michigan-wisconsin" className="rounded-xl border border-border bg-card p-6 hover:border-secondary transition-colors">
+              <h3 className="text-xl text-primary">Thyroid</h3>
+              <p className="mt-2 text-sm text-muted-foreground">When TSH is normal but you still feel exhausted.</p>
+            </Link>
+            <Link to="/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin" className="rounded-xl border border-border bg-card p-6 hover:border-secondary transition-colors">
+              <h3 className="text-xl text-primary">Hormone therapy</h3>
+              <p className="mt-2 text-sm text-muted-foreground">Risks, benefits, delivery methods, and candidacy.</p>
+            </Link>
+            <Link to="/blog/the-ultimate-guide-to-hormones-and-weight-resistance-over-40" className="rounded-xl border border-border bg-card p-6 hover:border-secondary transition-colors">
+              <h3 className="text-xl text-primary">Hormones and weight resistance over 40</h3>
+              <p className="mt-2 text-sm text-muted-foreground">The root causes of weight resistance, and how to fix them.</p>
+            </Link>
+          </div>
+          <p className="mt-6 text-sm text-muted-foreground">
+            Browse by topic: Thyroid &amp; Autoimmunity · Telehealth &amp; Access · Cognitive Health &amp; Perimenopause ·
+            PCOS &amp; Insulin Resistance · Sleep &amp; Anxiety · Hormone Therapy · Perimenopause &amp; Hormones ·
+            GLP-1 &amp; Weight Loss · Functional Medicine. All 11 articles below are listed, newest first.
+          </p>
+        </div>
+      </section>
+
       {/* Articles Grid */}
       <section className="py-16 md:py-24">
         <div className="container-prose">

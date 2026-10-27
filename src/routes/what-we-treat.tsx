@@ -36,27 +36,27 @@ const conditions = [
     d: "Tired despite sleep, coffee, and 'normal' labs. We look for the upstream drivers  mitochondrial, thyroid, adrenal, nutrient.",
   },
   {
-    t: "Brain fog & focus loss",
+    t: "Brain fog & focus loss", link: "/perimenopause-menopause-care",
     d: "Word recall, concentration, and mental clarity issues  often hormonal, metabolic, or inflammatory in origin.",
   },
   {
-    t: "Weight resistance",
+    t: "Weight resistance", link: "/glp-1-metabolic-support",
     d: "The scale won't move despite the right effort. Usually a sign of metabolic, hormonal, or insulin signaling dysfunction.",
   },
   {
-    t: "Perimenopause & menopause",
+    t: "Perimenopause & menopause", link: "/perimenopause-menopause-care",
     d: "Sleep loss, mood shifts, weight changes, irregular cycles. Comprehensive support  hormones, nutrition, lifestyle.",
   },
   {
-    t: "Thyroid dysfunction",
+    t: "Thyroid dysfunction", link: "/thyroid-care",
     d: "When TSH is 'normal' but symptoms aren't. Full thyroid mapping including Free T3/T4, antibodies, and conversion.",
   },
   {
-    t: "Hormone imbalance",
+    t: "Hormone imbalance", link: "/hormone-therapy",
     d: "Testosterone, estrogen, progesterone, cortisol  assessed and treated as a connected system.",
   },
   {
-    t: "Metabolic & insulin resistance",
+    t: "Metabolic & insulin resistance", link: "/glp-1-metabolic-support",
     d: "Pre-diabetes, stubborn belly weight, energy crashes. Restore metabolic flexibility through testing-driven protocols.",
   },
   {
@@ -78,6 +78,11 @@ const conditions = [
   {
     t: "Inflammation",
     d: "Chronic inflammation underlies most chronic disease. We test for it and reduce it strategically.",
+  },
+  {
+    t: "PCOS",
+    d: "Polycystic ovary syndrome in your 30s: insulin resistance, weight resistance, irregular cycles, and androgen symptoms, evaluated with comprehensive testing.",
+    link: "/pcos-care",
   },
 ];
 
@@ -127,6 +132,11 @@ function Conditions() {
               <div className="h-1 w-8 bg-secondary rounded-full mb-4" />
               <h3 className="text-xl">{c.t}</h3>
               <p className="mt-2 text-sm text-muted-foreground leading-relaxed">{c.d}</p>
+              {(c as any).link && (
+                <p className="mt-3 text-sm">
+                  <Link to={(c as any).link} className="text-primary underline">Learn more</Link>
+                </p>
+              )}
             </article>
           ))}
         </div>
@@ -141,6 +151,11 @@ function Conditions() {
               <div className="h-1 w-8 bg-secondary rounded-full mb-4" />
               <h3 className="text-xl">{c.t}</h3>
               <p className="mt-2 text-sm text-muted-foreground leading-relaxed">{c.d}</p>
+              {(c as any).link && (
+                <p className="mt-3 text-sm">
+                  <Link to={(c as any).link} className="text-primary underline">Learn more</Link>
+                </p>
+              )}
             </article>
           ))}
         </div>

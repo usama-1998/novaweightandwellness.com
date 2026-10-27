@@ -168,6 +168,7 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
               "@context": "https://schema.org",
               "@type": "MedicalBusiness",
               "name": "Novaleo Weight & Wellness",
+              "alternateName": "Nova Weight and Wellness",
               "description": "Telehealth functional medicine practice specializing in root-cause treatment for fatigue, brain fog, hormone imbalance, weight resistance, and metabolic dysfunction for professional women in Michigan and Wisconsin.",
               "url": "https://novaweightandwellness.com",
               "logo": "https://novaweightandwellness.com/favicon.webp",
@@ -175,7 +176,13 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
               "founder": {
                 "@type": "Person",
                 "name": "Kathryn Long, NP-C",
+                "alternateName": "Katie Long",
                 "jobTitle": "Nurse Practitioner",
+                "sameAs": [
+                  "https://www.facebook.com/katielong.np",
+                  "https://www.instagram.com/katielong.np",
+                  "https://www.tiktok.com/@katielong.np"
+                ],
                 "description": "Board-certified nurse practitioner with 20+ years in healthcare, specializing in hormones, metabolic health, and weight resistance."
               },
               "areaServed": [
@@ -209,7 +216,7 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
                     "itemOffered": {
                       "@type": "MedicalProcedure",
                       "name": "Root Cause Assessment Call",
-                      "description": "Free 10-minute consultation to determine next steps."
+                      "description": "Free consultation to determine next steps."
                     },
                     "price": "0",
                     "priceCurrency": "USD"
@@ -218,10 +225,20 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
                     "@type": "Offer",
                     "itemOffered": {
                       "@type": "MedicalProcedure",
-                      "name": "Root Cause Intake — 60-Minute Clarity Session",
+                      "name": "Root Cause Intake — 60 Minutes",
                       "description": "Comprehensive clinical assessment with personalized starting plan."
                     },
                     "price": "97",
+                    "priceCurrency": "USD"
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "MedicalProcedure",
+                      "name": "Clarity Session",
+                      "description": "30-minute paid session, separate from the 60-minute Root Cause Intake."
+                    },
+                    "price": "47",
                     "priceCurrency": "USD"
                   },
                   {
@@ -263,7 +280,7 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
               "aggregateRating": {
                 "@type": "AggregateRating",
                 "ratingValue": "5.0",
-                "reviewCount": "6",
+                "reviewCount": "5",
                 "bestRating": "5"
               }
             })

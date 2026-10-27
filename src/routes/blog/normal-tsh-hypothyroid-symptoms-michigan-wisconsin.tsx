@@ -61,11 +61,6 @@ export const Route = createFileRoute(
         content: "https://novaweightandwellness.com/og-image-v6.jpg",
       },
       {
-        name: "keywords",
-        content:
-          "normal TSH but hypothyroid symptoms, functional medicine thyroid doctor michigan, hashimotos specialist wisconsin, t4 to t3 conversion issues, reverse t3 weight loss resistance, full thyroid panel testing grand rapids milwaukee, subclinical hypothyroidism women 40s",
-      },
-      {
         name: "author",
         content: "Kathryn Long, NP-C",
       },

@@ -101,11 +101,6 @@ const testimonials = [
     name: "Tasha M",
     rating: 5,
   },
-  {
-    text: "I've tried so many programs before and my sister told me about Novaleo Weight & Wellness. The provider really took time to understand my goals and built a plan that actually fits my lifestyle. I've lost weight, but more importantly, I feel healthier and more confident. Easily the best weight loss clinic in Michigan!",
-    name: "Nicki M",
-    rating: 5,
-  },
 ];
 
 function Home() {
@@ -150,6 +145,8 @@ function Home() {
               We help professional women in their 40s &amp; 50s break free from chronic fatigue,
               brain fog, and hormonal chaos using functional medicine that actually finds the root
               cause.
+              Telehealth functional medicine for hormone imbalance, thyroid, perimenopause,
+              menopause and GLP-1 related weight resistance in Michigan and Wisconsin.
             </p>
             <div className="mt-6 md:mt-9 flex flex-wrap gap-3">
               <Link to="/book-free-assessment-call"  className="btn-gold">
@@ -458,6 +455,30 @@ function Home() {
         </div>
       </section>
 
+      {/* GUIDES */}
+      <section className="container-prose py-24">
+        <div className="eyebrow mb-4">Start with a guide</div>
+        <h2 className="text-4xl md:text-5xl max-w-2xl">Read first, then decide.</h2>
+        <p className="mt-4 text-lg text-muted-foreground max-w-2xl">
+          These guides explain the testing and approach behind each service, in plain language,
+          before you book anything.
+        </p>
+        <div className="mt-8 grid md:grid-cols-3 gap-5">
+          <Link to="/blog/normal-tsh-hypothyroid-symptoms-michigan-wisconsin" className="rounded-xl border border-border bg-card p-6 hover:border-secondary transition-colors">
+            <h3 className="text-xl text-primary">Thyroid: when TSH is normal but you are not</h3>
+            <p className="mt-2 text-sm text-muted-foreground">Full thyroid panels, T4 to T3 conversion, and Hashimoto&apos;s.</p>
+          </Link>
+          <Link to="/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin" className="rounded-xl border border-border bg-card p-6 hover:border-secondary transition-colors">
+            <h3 className="text-xl text-primary">Bioidentical hormone therapy, honestly explained</h3>
+            <p className="mt-2 text-sm text-muted-foreground">Risks, benefits, delivery methods, and candidacy.</p>
+          </Link>
+          <Link to="/blog/perimenopause-brain-fog-memory-michigan-wisconsin" className="rounded-xl border border-border bg-card p-6 hover:border-secondary transition-colors">
+            <h3 className="text-xl text-primary">Perimenopause brain fog vs. something more serious</h3>
+            <p className="mt-2 text-sm text-muted-foreground">When memory changes are hormonal, and when to seek further evaluation.</p>
+          </Link>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="container-prose py-24 text-center">
         <div className="eyebrow mb-4">Your next chapter starts here</div>
@@ -472,7 +493,7 @@ function Home() {
           <Link to="/book-free-assessment-call"  className="btn-gold">
             Book Free Assessment Call
           </Link>
-          <Link to="/clarity-session" className="btn-ghost">
+          <Link to="/services" className="btn-ghost">
             Book $97 Root-Cause Intake
           </Link>
         </div>

@@ -9,12 +9,21 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as WisconsinTelehealthRouteImport } from './routes/wisconsin-telehealth'
 import { Route as WhatWeTreatRouteImport } from './routes/what-we-treat'
+import { Route as ThyroidCareRouteImport } from './routes/thyroid-care'
 import { Route as TermsOfServiceRouteImport } from './routes/terms-of-service'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as ServicesRouteImport } from './routes/services'
 import { Route as PrivacyPolicyRouteImport } from './routes/privacy-policy'
+import { Route as PerimenopauseMenopauseCareRouteImport } from './routes/perimenopause-menopause-care'
+import { Route as PcosCareRouteImport } from './routes/pcos-care'
+import { Route as MichiganTelehealthRouteImport } from './routes/michigan-telehealth'
 import { Route as MichiganDiscoveryCallRouteImport } from './routes/michigan-discovery-call'
+import { Route as HormoneTherapyRouteImport } from './routes/hormone-therapy'
+import { Route as GrandRapidsTelehealthRouteImport } from './routes/grand-rapids-telehealth'
+import { Route as Glp1MetabolicSupportRouteImport } from './routes/glp-1-metabolic-support'
+import { Route as FunctionalMedicineCostRouteImport } from './routes/functional-medicine-cost'
 import { Route as FreeGuideRouteImport } from './routes/free-guide'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as ClaritySessionRouteImport } from './routes/clarity-session'
@@ -35,9 +44,19 @@ import { Route as BlogHormonalSleepAnxietyWomenMichiganWisconsinRouteImport } fr
 import { Route as BlogGainingWeightExhaustedAfter40WisconsinWomenRouteImport } from './routes/blog/gaining-weight-exhausted-after-40-wisconsin-women'
 import { Route as BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRouteImport } from './routes/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
 
+const WisconsinTelehealthRoute = WisconsinTelehealthRouteImport.update({
+  id: '/wisconsin-telehealth',
+  path: '/wisconsin-telehealth',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const WhatWeTreatRoute = WhatWeTreatRouteImport.update({
   id: '/what-we-treat',
   path: '/what-we-treat',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ThyroidCareRoute = ThyroidCareRouteImport.update({
+  id: '/thyroid-care',
+  path: '/thyroid-care',
   getParentRoute: () => rootRouteImport,
 } as any)
 const TermsOfServiceRoute = TermsOfServiceRouteImport.update({
@@ -60,9 +79,45 @@ const PrivacyPolicyRoute = PrivacyPolicyRouteImport.update({
   path: '/privacy-policy',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PerimenopauseMenopauseCareRoute =
+  PerimenopauseMenopauseCareRouteImport.update({
+    id: '/perimenopause-menopause-care',
+    path: '/perimenopause-menopause-care',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const PcosCareRoute = PcosCareRouteImport.update({
+  id: '/pcos-care',
+  path: '/pcos-care',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MichiganTelehealthRoute = MichiganTelehealthRouteImport.update({
+  id: '/michigan-telehealth',
+  path: '/michigan-telehealth',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const MichiganDiscoveryCallRoute = MichiganDiscoveryCallRouteImport.update({
   id: '/michigan-discovery-call',
   path: '/michigan-discovery-call',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const HormoneTherapyRoute = HormoneTherapyRouteImport.update({
+  id: '/hormone-therapy',
+  path: '/hormone-therapy',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GrandRapidsTelehealthRoute = GrandRapidsTelehealthRouteImport.update({
+  id: '/grand-rapids-telehealth',
+  path: '/grand-rapids-telehealth',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const Glp1MetabolicSupportRoute = Glp1MetabolicSupportRouteImport.update({
+  id: '/glp-1-metabolic-support',
+  path: '/glp-1-metabolic-support',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const FunctionalMedicineCostRoute = FunctionalMedicineCostRouteImport.update({
+  id: '/functional-medicine-cost',
+  path: '/functional-medicine-cost',
   getParentRoute: () => rootRouteImport,
 } as any)
 const FreeGuideRoute = FreeGuideRouteImport.update({
@@ -180,12 +235,21 @@ export interface FileRoutesByFullPath {
   '/clarity-session': typeof ClaritySessionRoute
   '/contact': typeof ContactRoute
   '/free-guide': typeof FreeGuideRoute
+  '/functional-medicine-cost': typeof FunctionalMedicineCostRoute
+  '/glp-1-metabolic-support': typeof Glp1MetabolicSupportRoute
+  '/grand-rapids-telehealth': typeof GrandRapidsTelehealthRoute
+  '/hormone-therapy': typeof HormoneTherapyRoute
   '/michigan-discovery-call': typeof MichiganDiscoveryCallRoute
+  '/michigan-telehealth': typeof MichiganTelehealthRoute
+  '/pcos-care': typeof PcosCareRoute
+  '/perimenopause-menopause-care': typeof PerimenopauseMenopauseCareRoute
   '/privacy-policy': typeof PrivacyPolicyRoute
   '/services': typeof ServicesRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms-of-service': typeof TermsOfServiceRoute
+  '/thyroid-care': typeof ThyroidCareRoute
   '/what-we-treat': typeof WhatWeTreatRoute
+  '/wisconsin-telehealth': typeof WisconsinTelehealthRoute
   '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin': typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
   '/blog/gaining-weight-exhausted-after-40-wisconsin-women': typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin': typeof BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute
@@ -207,12 +271,21 @@ export interface FileRoutesByTo {
   '/clarity-session': typeof ClaritySessionRoute
   '/contact': typeof ContactRoute
   '/free-guide': typeof FreeGuideRoute
+  '/functional-medicine-cost': typeof FunctionalMedicineCostRoute
+  '/glp-1-metabolic-support': typeof Glp1MetabolicSupportRoute
+  '/grand-rapids-telehealth': typeof GrandRapidsTelehealthRoute
+  '/hormone-therapy': typeof HormoneTherapyRoute
   '/michigan-discovery-call': typeof MichiganDiscoveryCallRoute
+  '/michigan-telehealth': typeof MichiganTelehealthRoute
+  '/pcos-care': typeof PcosCareRoute
+  '/perimenopause-menopause-care': typeof PerimenopauseMenopauseCareRoute
   '/privacy-policy': typeof PrivacyPolicyRoute
   '/services': typeof ServicesRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms-of-service': typeof TermsOfServiceRoute
+  '/thyroid-care': typeof ThyroidCareRoute
   '/what-we-treat': typeof WhatWeTreatRoute
+  '/wisconsin-telehealth': typeof WisconsinTelehealthRoute
   '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin': typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
   '/blog/gaining-weight-exhausted-after-40-wisconsin-women': typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin': typeof BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute
@@ -235,12 +308,21 @@ export interface FileRoutesById {
   '/clarity-session': typeof ClaritySessionRoute
   '/contact': typeof ContactRoute
   '/free-guide': typeof FreeGuideRoute
+  '/functional-medicine-cost': typeof FunctionalMedicineCostRoute
+  '/glp-1-metabolic-support': typeof Glp1MetabolicSupportRoute
+  '/grand-rapids-telehealth': typeof GrandRapidsTelehealthRoute
+  '/hormone-therapy': typeof HormoneTherapyRoute
   '/michigan-discovery-call': typeof MichiganDiscoveryCallRoute
+  '/michigan-telehealth': typeof MichiganTelehealthRoute
+  '/pcos-care': typeof PcosCareRoute
+  '/perimenopause-menopause-care': typeof PerimenopauseMenopauseCareRoute
   '/privacy-policy': typeof PrivacyPolicyRoute
   '/services': typeof ServicesRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/terms-of-service': typeof TermsOfServiceRoute
+  '/thyroid-care': typeof ThyroidCareRoute
   '/what-we-treat': typeof WhatWeTreatRoute
+  '/wisconsin-telehealth': typeof WisconsinTelehealthRoute
   '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin': typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
   '/blog/gaining-weight-exhausted-after-40-wisconsin-women': typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin': typeof BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute
@@ -264,12 +346,21 @@ export interface FileRouteTypes {
     | '/clarity-session'
     | '/contact'
     | '/free-guide'
+    | '/functional-medicine-cost'
+    | '/glp-1-metabolic-support'
+    | '/grand-rapids-telehealth'
+    | '/hormone-therapy'
     | '/michigan-discovery-call'
+    | '/michigan-telehealth'
+    | '/pcos-care'
+    | '/perimenopause-menopause-care'
     | '/privacy-policy'
     | '/services'
     | '/sitemap.xml'
     | '/terms-of-service'
+    | '/thyroid-care'
     | '/what-we-treat'
+    | '/wisconsin-telehealth'
     | '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
     | '/blog/gaining-weight-exhausted-after-40-wisconsin-women'
     | '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
@@ -291,12 +382,21 @@ export interface FileRouteTypes {
     | '/clarity-session'
     | '/contact'
     | '/free-guide'
+    | '/functional-medicine-cost'
+    | '/glp-1-metabolic-support'
+    | '/grand-rapids-telehealth'
+    | '/hormone-therapy'
     | '/michigan-discovery-call'
+    | '/michigan-telehealth'
+    | '/pcos-care'
+    | '/perimenopause-menopause-care'
     | '/privacy-policy'
     | '/services'
     | '/sitemap.xml'
     | '/terms-of-service'
+    | '/thyroid-care'
     | '/what-we-treat'
+    | '/wisconsin-telehealth'
     | '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
     | '/blog/gaining-weight-exhausted-after-40-wisconsin-women'
     | '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
@@ -318,12 +418,21 @@ export interface FileRouteTypes {
     | '/clarity-session'
     | '/contact'
     | '/free-guide'
+    | '/functional-medicine-cost'
+    | '/glp-1-metabolic-support'
+    | '/grand-rapids-telehealth'
+    | '/hormone-therapy'
     | '/michigan-discovery-call'
+    | '/michigan-telehealth'
+    | '/pcos-care'
+    | '/perimenopause-menopause-care'
     | '/privacy-policy'
     | '/services'
     | '/sitemap.xml'
     | '/terms-of-service'
+    | '/thyroid-care'
     | '/what-we-treat'
+    | '/wisconsin-telehealth'
     | '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
     | '/blog/gaining-weight-exhausted-after-40-wisconsin-women'
     | '/blog/hormonal-sleep-anxiety-women-michigan-wisconsin'
@@ -346,12 +455,21 @@ export interface RootRouteChildren {
   ClaritySessionRoute: typeof ClaritySessionRoute
   ContactRoute: typeof ContactRoute
   FreeGuideRoute: typeof FreeGuideRoute
+  FunctionalMedicineCostRoute: typeof FunctionalMedicineCostRoute
+  Glp1MetabolicSupportRoute: typeof Glp1MetabolicSupportRoute
+  GrandRapidsTelehealthRoute: typeof GrandRapidsTelehealthRoute
+  HormoneTherapyRoute: typeof HormoneTherapyRoute
   MichiganDiscoveryCallRoute: typeof MichiganDiscoveryCallRoute
+  MichiganTelehealthRoute: typeof MichiganTelehealthRoute
+  PcosCareRoute: typeof PcosCareRoute
+  PerimenopauseMenopauseCareRoute: typeof PerimenopauseMenopauseCareRoute
   PrivacyPolicyRoute: typeof PrivacyPolicyRoute
   ServicesRoute: typeof ServicesRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   TermsOfServiceRoute: typeof TermsOfServiceRoute
+  ThyroidCareRoute: typeof ThyroidCareRoute
   WhatWeTreatRoute: typeof WhatWeTreatRoute
+  WisconsinTelehealthRoute: typeof WisconsinTelehealthRoute
   BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute: typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
   BlogGainingWeightExhaustedAfter40WisconsinWomenRoute: typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute: typeof BlogHormonalSleepAnxietyWomenMichiganWisconsinRoute
@@ -368,11 +486,25 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/wisconsin-telehealth': {
+      id: '/wisconsin-telehealth'
+      path: '/wisconsin-telehealth'
+      fullPath: '/wisconsin-telehealth'
+      preLoaderRoute: typeof WisconsinTelehealthRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/what-we-treat': {
       id: '/what-we-treat'
       path: '/what-we-treat'
       fullPath: '/what-we-treat'
       preLoaderRoute: typeof WhatWeTreatRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/thyroid-care': {
+      id: '/thyroid-care'
+      path: '/thyroid-care'
+      fullPath: '/thyroid-care'
+      preLoaderRoute: typeof ThyroidCareRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/terms-of-service': {
@@ -403,11 +535,60 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PrivacyPolicyRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/perimenopause-menopause-care': {
+      id: '/perimenopause-menopause-care'
+      path: '/perimenopause-menopause-care'
+      fullPath: '/perimenopause-menopause-care'
+      preLoaderRoute: typeof PerimenopauseMenopauseCareRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/pcos-care': {
+      id: '/pcos-care'
+      path: '/pcos-care'
+      fullPath: '/pcos-care'
+      preLoaderRoute: typeof PcosCareRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/michigan-telehealth': {
+      id: '/michigan-telehealth'
+      path: '/michigan-telehealth'
+      fullPath: '/michigan-telehealth'
+      preLoaderRoute: typeof MichiganTelehealthRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/michigan-discovery-call': {
       id: '/michigan-discovery-call'
       path: '/michigan-discovery-call'
       fullPath: '/michigan-discovery-call'
       preLoaderRoute: typeof MichiganDiscoveryCallRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/hormone-therapy': {
+      id: '/hormone-therapy'
+      path: '/hormone-therapy'
+      fullPath: '/hormone-therapy'
+      preLoaderRoute: typeof HormoneTherapyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/grand-rapids-telehealth': {
+      id: '/grand-rapids-telehealth'
+      path: '/grand-rapids-telehealth'
+      fullPath: '/grand-rapids-telehealth'
+      preLoaderRoute: typeof GrandRapidsTelehealthRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/glp-1-metabolic-support': {
+      id: '/glp-1-metabolic-support'
+      path: '/glp-1-metabolic-support'
+      fullPath: '/glp-1-metabolic-support'
+      preLoaderRoute: typeof Glp1MetabolicSupportRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/functional-medicine-cost': {
+      id: '/functional-medicine-cost'
+      path: '/functional-medicine-cost'
+      fullPath: '/functional-medicine-cost'
+      preLoaderRoute: typeof FunctionalMedicineCostRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/free-guide': {
@@ -554,12 +735,21 @@ const rootRouteChildren: RootRouteChildren = {
   ClaritySessionRoute: ClaritySessionRoute,
   ContactRoute: ContactRoute,
   FreeGuideRoute: FreeGuideRoute,
+  FunctionalMedicineCostRoute: FunctionalMedicineCostRoute,
+  Glp1MetabolicSupportRoute: Glp1MetabolicSupportRoute,
+  GrandRapidsTelehealthRoute: GrandRapidsTelehealthRoute,
+  HormoneTherapyRoute: HormoneTherapyRoute,
   MichiganDiscoveryCallRoute: MichiganDiscoveryCallRoute,
+  MichiganTelehealthRoute: MichiganTelehealthRoute,
+  PcosCareRoute: PcosCareRoute,
+  PerimenopauseMenopauseCareRoute: PerimenopauseMenopauseCareRoute,
   PrivacyPolicyRoute: PrivacyPolicyRoute,
   ServicesRoute: ServicesRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   TermsOfServiceRoute: TermsOfServiceRoute,
+  ThyroidCareRoute: ThyroidCareRoute,
   WhatWeTreatRoute: WhatWeTreatRoute,
+  WisconsinTelehealthRoute: WisconsinTelehealthRoute,
   BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute:
     BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute,
   BlogGainingWeightExhaustedAfter40WisconsinWomenRoute:

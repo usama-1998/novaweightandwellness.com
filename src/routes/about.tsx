@@ -45,7 +45,13 @@ function About() {
             "@context": "https://schema.org",
             "@type": "Person",
             "name": "Kathryn Long",
+            "alternateName": "Katie Long",
             "honorificSuffix": "NP-C",
+            "sameAs": [
+              "https://www.facebook.com/katielong.np",
+              "https://www.instagram.com/katielong.np",
+              "https://www.tiktok.com/@katielong.np"
+            ],
             "jobTitle": "Board-Certified Nurse Practitioner",
             "description": "Board-certified nurse practitioner with 20+ years in healthcare, specializing in hormones, metabolic health, and weight resistance for women in midlife.",
             "url": "https://novaweightandwellness.com/about",

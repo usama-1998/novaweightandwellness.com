@@ -18,6 +18,29 @@ export const Route = createFileRoute("/free-guide")({
         content:
           "Download our free functional health guide for women who keep being told their labs are normal but know something is wrong.",
       },
+      {
+        property: "og:title",
+        content: "Free Guide: What Your Labs Aren't Telling You | Novaleo",
+      },
+      {
+        property: "og:description",
+        content:
+          "Download our free functional health guide for women who keep being told their labs are normal but know something is wrong.",
+      },
+      { property: "og:url", content: "https://novaweightandwellness.com/free-guide" },
+      { property: "og:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+      {
+        name: "twitter:title",
+        content: "Free Guide: What Your Labs Aren't Telling You | Novaleo",
+      },
+      {
+        name: "twitter:description",
+        content:
+          "Download our free functional health guide for women who keep being told their labs are normal but know something is wrong.",
+      },
+      { name: "twitter:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
     ],
   }),
   component: FreeGuide,
@@ -106,9 +129,9 @@ function FreeGuide() {
                       <Star key={i} className="h-4 w-4 fill-current" />
                     ))}
                   </div>
-                  <span className="font-semibold">5/5 rating</span>
+                  <span className="font-semibold">Client stories</span>
                   <span className="text-muted-foreground/40">•</span>
-                  <span className="text-muted-foreground">Trusted by 500+ Women</span>
+                  <span className="text-muted-foreground">For women in Michigan and Wisconsin</span>
                 </div>
 
                 {/* Seamless Inline Form */}
@@ -253,14 +276,14 @@ function FreeGuide() {
                 </span>
               </div>
               <h2 className="text-3xl md:text-4xl font-display text-primary leading-tight">
-                Hi, I'm Katie L, FNP-C.
+                Hi, I'm Katie Long, NP-C.
               </h2>
               <div className="space-y-4 text-muted-foreground text-sm leading-relaxed">
                 <p>
                   I didn't come into this work because wellness felt trendy. I came into it through the back door; sick, exhausted, and out of answers.
                 </p>
                 <p>
-                  In my early 30s, I was running at full speed in the wrong direction. Fifteen years in nursing, navigating a broken medical system. I kept performing capable and fine on the outside while my body absorbed all of it.
+                  In my early 30s, I was running at full speed in the wrong direction. Over twenty years in healthcare, including fifteen years in nursing, navigating a broken medical system. I kept performing capable and fine on the outside while my body absorbed all of it.
                 </p>
                 <p>
                   I became the practitioner I wish I'd had. Now, I support women who are exhausted from trying to figure it out on their own. You don't need to heal in isolation.
@@ -272,7 +295,7 @@ function FreeGuide() {
                 <div className="absolute -inset-4 rounded-full bg-gradient-to-tr from-secondary/40 to-gold/30 blur-[40px] opacity-60" />
                 <img 
                   src={kathrynImage} 
-                  alt="Katie L, FNP-C" 
+                  alt="Katie Long, NP-C" 
                   className="relative h-64 w-64 md:h-80 md:w-80 object-cover object-top rounded-[2rem] border-[6px] border-white/50 shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-500"
                 />
               </div>
