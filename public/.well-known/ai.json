@@ -78,11 +78,60 @@
     "sitemap": "https://novaweightandwellness.com/sitemap.xml",
     "articles": [
       {
+        "title": "Menopause After 50: Why Your Weight, Bones, Heart, and Sleep Change, and What Actually Helps",
+        "url": "https://novaweightandwellness.com/blog/menopause-postmenopause-weight-bones-heart-hot-flashes-michigan-wisconsin",
+        "category": "Menopause & Postmenopause",
+        "datePublished": "2026-10-14",
+        "summary": "Told you are 'through it' but your waistline, sleep, and cholesterol say otherwise? A clinician's guide for Michigan and Wisconsin women to weight, bone density, heart health, hot flashes, and sleep after menopause, with the 2025 and 2026 guidelines and FDA changes explained."
+      },
+      {
         "title": "Hot Flashes and Night Sweats: The Complete Evidence-Based Guide for Women in Michigan and Wisconsin",
         "url": "https://novaweightandwellness.com/blog/hot-flashes-night-sweats-women-michigan-wisconsin",
         "category": "Hot Flashes & Menopause",
         "datePublished": "2026-10-09",
         "summary": "Why hot flashes and night sweats happen, how long they last, how Michigan and Wisconsin seasons affect them, when night sweats are not menopause, and every treatment option graded by evidence."
+      },
+      {
+        "title": "Why Is My Hair Thinning? A Root-Cause Guide to Hair Loss in Women 35 to 55 in Michigan and Wisconsin",
+        "url": "https://novaweightandwellness.com/blog/hair-loss-women-35-to-55-michigan-wisconsin",
+        "category": "Hair & Scalp Health",
+        "datePublished": "2026-09-29",
+        "summary": "A thinning part, more hair in the shower, or a ponytail that keeps shrinking? A deeply sourced guide to shedding versus pattern loss, iron and thyroid, midlife hormones, GLP-1 shedding, and evidence-based treatment for women in Michigan and Wisconsin."
+      },
+      {
+        "title": "Why Am I Gaining Weight After Menopause? The Real Reasons and What Actually Works",
+        "url": "https://novaweightandwellness.com/blog/menopause-weight-gain-michigan-wisconsin",
+        "category": "Menopause & Metabolic Health",
+        "datePublished": "2026-09-22",
+        "summary": "Menopause weight gain explained honestly: fat redistribution, muscle loss, insulin resistance, bone density, and heart health. A root-cause guide for postmenopausal women in Michigan and Wisconsin."
+      },
+      {
+        "title": "Why 'Healthy' Foods Might Be Making You Sick: The Honest Guide to MRT Food Sensitivity Testing",
+        "url": "https://novaweightandwellness.com/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women",
+        "category": "Gut Health & Nutrition",
+        "datePublished": "2026-09-17",
+        "summary": "Bloating, joint pain, brain fog, and weight resistance from 'healthy' foods? An honest, evidence-based guide to the MRT (Mediator Release Test) and LEAP protocol for women in Michigan and Wisconsin, including why IgG testing fails."
+      },
+      {
+        "title": "Leaky Gut Is Real, But Most Tests for It Aren't: The Honest Guide to the Mucosal Barrier Assessment",
+        "url": "https://novaweightandwellness.com/blog/leaky-gut-mucosal-barrier-test-michigan-wisconsin-women",
+        "category": "Gut Health & Functional Medicine",
+        "datePublished": "2026-09-15",
+        "summary": "An honest, evidence-based guide to intestinal permeability, why standard GI testing misses it, the serum zonulin controversy, and how the saliva-based Mucosal Barrier Assessment works for women in Michigan and Wisconsin."
+      },
+      {
+        "title": "Why Am I Wired But Exhausted All the Time? The Hidden Cortisol and HPA-Axis Dysfunction Driving Burnout in Michigan and Wisconsin Women",
+        "url": "https://novaweightandwellness.com/blog/cortisol-hpa-axis-burnout-michigan-wisconsin-women",
+        "category": "Stress, Cortisol & Burnout",
+        "datePublished": "2026-09-09",
+        "summary": "Exhausted all day but wide awake at 3am? An evidence-based functional medicine guide to cortisol dysregulation, HPA-axis burnout, and root-cause recovery for women in Michigan and Wisconsin."
+      },
+      {
+        "title": "Why Am I Bloated, Foggy, and Exhausted Even Though My Gut 'Seems Fine'? The Complete Gut Health Guide for Women in Michigan and Wisconsin",
+        "url": "https://novaweightandwellness.com/blog/gut-health-hormones-women-michigan-wisconsin",
+        "category": "Gut Health & Hormones",
+        "datePublished": "2026-09-01",
+        "summary": "Bloated, foggy, reacting to wine and cheese you never used to react to, and told your gut is 'fine'? A comprehensive, honestly sourced guide to dysbiosis, leaky gut, the estrobolome, SIBO, and GI-MAP testing for women in Michigan and Wisconsin."
       },
       {
         "title": "My TSH is 'Normal' But I'm Freezing, Losing Hair, and Exhausted: Why Standard Thyroid Tests Fail Women in Their 30s & 40s",
