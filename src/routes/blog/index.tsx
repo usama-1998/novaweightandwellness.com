@@ -10,6 +10,7 @@ import pcosHeroImg from "@/assets/blog/pcos-hero-confident-woman-30s.webp";
 import brainFogHeroImg from "@/assets/blog/brain-fog-hero-woman-office.webp";
 import citiesHeroImg from "@/assets/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-hero.webp";
 import hotFlashHeroImg from "@/assets/blog/hot-flashes-night-sweats-hero-woman-awake-michigan.webp";
+import menopauseHeroImg from "@/assets/blog/menopause-after-50-hero-woman-michigan-kitchen.webp";
 import { Clock, ArrowRight, Calendar } from "lucide-react";
 
 export const Route = createFileRoute("/blog/")({
@@ -53,6 +54,18 @@ export const Route = createFileRoute("/blog/")({
 });
 
 const articles = [
+  {
+    slug: "menopause-postmenopause-weight-bones-heart-hot-flashes-michigan-wisconsin",
+    title: "Menopause After 50: Why Your Weight, Bones, Heart, and Sleep Change, and What Actually Helps",
+    excerpt:
+      "Told you are 'through it' but your waistline, sleep, and cholesterol say otherwise? A clinician's guide for Michigan and Wisconsin women to weight, bone density, heart health, hot flashes, and sleep after menopause, with the 2025 and 2026 guidelines and FDA changes explained.",
+    image: menopauseHeroImg,
+    imageAlt: "Woman in her early 50s in a Michigan kitchen reading about menopause health on a snowy morning",
+    category: "Menopause & Postmenopause",
+    date: "October 14, 2026",
+    readTime: "125 min read",
+    author: "Kathryn Long, NP-C",
+  },
   {
     slug: "hot-flashes-night-sweats-women-michigan-wisconsin",
     title:
@@ -266,7 +279,7 @@ function BlogIndex() {
           <p className="mt-6 text-sm text-muted-foreground">
             Browse by topic: Thyroid &amp; Autoimmunity · Telehealth &amp; Access · Cognitive Health &amp; Perimenopause ·
             PCOS &amp; Insulin Resistance · Sleep &amp; Anxiety · Hormone Therapy · Perimenopause &amp; Hormones ·
-            GLP-1 &amp; Weight Loss · Functional Medicine. All 11 articles below are listed, newest first.
+            GLP-1 &amp; Weight Loss · Hot Flashes &amp; Menopause · Menopause &amp; Postmenopause · Functional Medicine. All 13 articles below are listed, newest first.
           </p>
         </div>
       </section>
