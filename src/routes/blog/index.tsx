@@ -9,6 +9,14 @@ import sleepAnxietyHeroImg from "@/assets/blog/sleep-anxiety-hero-3am-awake.webp
 import pcosHeroImg from "@/assets/blog/pcos-hero-confident-woman-30s.webp";
 import brainFogHeroImg from "@/assets/blog/brain-fog-hero-woman-office.webp";
 import citiesHeroImg from "@/assets/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-hero.webp";
+import hotFlashHeroImg from "@/assets/blog/hot-flashes-night-sweats-hero-woman-awake-michigan.webp";
+import menopauseHeroImg from "@/assets/blog/menopause-after-50-hero-woman-michigan-kitchen.webp";
+import hairLossHeroImg from "@/assets/blog/hair-loss-hero-woman-michigan-kitchen.webp";
+import menopauseWeightGainHeroImg from "@/assets/blog/menopause-weight-gain-hero.webp";
+import mrtHeroImg from "@/assets/blog/mrt-food-sensitivity-hero.webp";
+import mucosalHeroImg from "@/assets/blog/mucosal-barrier-hero.webp";
+import gutHealthHeroImg from "@/assets/blog/gut-health-hero-woman-michigan-kitchen.webp";
+import cortisolHeroImg from "@/assets/blog/cortisol-burnout-hero-michigan-woman-evening.jpg";
 import { Clock, ArrowRight, Calendar } from "lucide-react";
 
 export const Route = createFileRoute("/blog/")({
@@ -52,6 +60,115 @@ export const Route = createFileRoute("/blog/")({
 });
 
 const articles = [
+  {
+    slug: "menopause-postmenopause-weight-bones-heart-hot-flashes-michigan-wisconsin",
+    title: "Menopause After 50: Why Your Weight, Bones, Heart, and Sleep Change, and What Actually Helps",
+    excerpt:
+      "Told you are 'through it' but your waistline, sleep, and cholesterol say otherwise? A clinician's guide for Michigan and Wisconsin women to weight, bone density, heart health, hot flashes, and sleep after menopause, with the 2025 and 2026 guidelines and FDA changes explained.",
+    image: menopauseHeroImg,
+    imageAlt: "Woman in her early 50s in a Michigan kitchen reading about menopause health on a snowy morning",
+    category: "Menopause & Postmenopause",
+    date: "October 14, 2026",
+    readTime: "125 min read",
+    author: "Kathryn Long, NP-C",
+  },
+  {
+    slug: "hot-flashes-night-sweats-women-michigan-wisconsin",
+    title:
+      "Hot Flashes and Night Sweats: The Complete Evidence-Based Guide for Women in Michigan and Wisconsin",
+    excerpt:
+      "Why hot flashes and night sweats happen, how long they really last, how Michigan and Wisconsin seasons change the picture, when night sweats are not menopause, and every treatment option from CBT and hypnosis to hormone therapy and new non-hormonal drugs, graded by evidence.",
+    image: hotFlashHeroImg,
+    imageAlt:
+      "Woman in her late 40s sitting on the edge of her bed at night in a Michigan lake house, flushed and awake with a night sweat",
+    category: "Hot Flashes & Menopause",
+    date: "October 9, 2026",
+    readTime: "70 min read",
+    author: "Kathryn Long, NP-C",
+  },
+  {
+    slug: "hair-loss-women-35-to-55-michigan-wisconsin",
+    title:
+      "Why Is My Hair Thinning? A Root-Cause Guide to Hair Loss in Women 35 to 55 in Michigan and Wisconsin",
+    excerpt:
+      "A thinning part, more hair in the shower, or a ponytail that keeps shrinking? A deeply sourced guide to shedding versus pattern loss, iron and thyroid, midlife hormones, GLP-1 shedding, and evidence-based treatment for women in Michigan and Wisconsin.",
+    image: hairLossHeroImg,
+    imageAlt:
+      "Woman in Michigan noticing hair thinning at her temple in a bright kitchen on an autumn morning",
+    category: "Hair & Scalp Health",
+    date: "September 29, 2026",
+    readTime: "61 min read",
+    author: "Kathryn Long, NP-C",
+  },
+  {
+    slug: "menopause-weight-gain-michigan-wisconsin",
+    title: "Why Am I Gaining Weight After Menopause? The Real Reasons and What Actually Works",
+    excerpt:
+      "Menopause weight gain explained honestly: fat redistribution, muscle loss, insulin resistance, bone density, and heart health. A root-cause guide for postmenopausal women in Michigan and Wisconsin.",
+    image: menopauseWeightGainHeroImg,
+    imageAlt:
+      "Confident woman in her 50s in a Michigan kitchen after menopause, holding a mug of tea in morning light",
+    category: "Menopause & Metabolic Health",
+    date: "September 22, 2026",
+    readTime: "79 min read",
+    author: "Kathryn Long, NP-C",
+  },
+  {
+    slug: "food-sensitivity-testing-mrt-michigan-wisconsin-women",
+    title:
+      "Why 'Healthy' Foods Might Be Making You Sick: The Honest Guide to MRT Food Sensitivity Testing",
+    excerpt:
+      "Bloating, joint pain, brain fog, and weight resistance from 'healthy' foods? An honest, evidence-based guide to the MRT (Mediator Release Test) and LEAP protocol for women in Michigan and Wisconsin, including why IgG testing fails.",
+    image: mrtHeroImg,
+    imageAlt:
+      "Thoughtful woman in Michigan preparing a fresh meal while considering food sensitivity testing and elimination diet options",
+    category: "Gut Health & Nutrition",
+    date: "September 17, 2026",
+    readTime: "54 min read",
+    author: "Kathryn Long, NP-C",
+  },
+  {
+    slug: "leaky-gut-mucosal-barrier-test-michigan-wisconsin-women",
+    title:
+      "Leaky Gut Is Real, But Most Tests for It Aren't: The Honest Guide to the Mucosal Barrier Assessment",
+    excerpt:
+      "An honest, evidence-based guide to intestinal permeability, why standard GI testing misses it, the serum zonulin controversy, and how the saliva-based Mucosal Barrier Assessment works for women in Michigan and Wisconsin.",
+    image: mucosalHeroImg,
+    imageAlt:
+      "Michigan woman reflecting on chronic digestive and autoimmune symptoms while considering mucosal barrier testing",
+    category: "Gut Health & Functional Medicine",
+    date: "September 15, 2026",
+    readTime: "54 min read",
+    author: "Kathryn Long, NP-C",
+  },
+  {
+    slug: "cortisol-hpa-axis-burnout-michigan-wisconsin-women",
+    title:
+      "Why Am I Wired But Exhausted All the Time? The Hidden Cortisol and HPA-Axis Dysfunction Driving Burnout in Michigan and Wisconsin Women",
+    excerpt:
+      "Exhausted all day but wide awake at 3am? An evidence-based functional medicine guide to cortisol dysregulation, HPA-axis burnout, and root-cause recovery for women in Michigan and Wisconsin.",
+    image: cortisolHeroImg,
+    imageAlt:
+      "Professional woman in Michigan sitting at her home desk in the evening, hand pressed to her chest, looking exhausted yet unable to relax",
+    category: "Stress, Cortisol & Burnout",
+    date: "September 9, 2026",
+    readTime: "112 min read",
+    author: "Kathryn Long, NP-C",
+  },
+  {
+    slug: "gut-health-hormones-women-michigan-wisconsin",
+    title:
+      "Why Am I Bloated, Foggy, and Exhausted Even Though My Gut 'Seems Fine'? The Complete Gut Health Guide for Women in Michigan and Wisconsin",
+    excerpt:
+      "Bloated, foggy, reacting to wine and cheese you never used to react to, and told your gut is 'fine'? A comprehensive, honestly sourced guide to dysbiosis, leaky gut, the estrobolome, SIBO, and GI-MAP testing for women in Michigan and Wisconsin.",
+    image: gutHealthHeroImg,
+    imageAlt:
+      "Thoughtful woman in a Michigan kitchen in morning light, hand resting on her stomach, thinking about her gut health",
+    category: "Gut Health & Hormones",
+    date: "September 1, 2026",
+    readTime: "105 min read",
+    author: "Kathryn Long, NP-C",
+  },
   {
     slug: "normal-tsh-hypothyroid-symptoms-michigan-wisconsin",
     title: "My TSH is 'Normal' But I'm Freezing, Losing Hair, and Exhausted: Why Standard Thyroid Tests Fail Women in Their 30s & 40s",
@@ -251,7 +368,7 @@ function BlogIndex() {
           <p className="mt-6 text-sm text-muted-foreground">
             Browse by topic: Thyroid &amp; Autoimmunity · Telehealth &amp; Access · Cognitive Health &amp; Perimenopause ·
             PCOS &amp; Insulin Resistance · Sleep &amp; Anxiety · Hormone Therapy · Perimenopause &amp; Hormones ·
-            GLP-1 &amp; Weight Loss · Functional Medicine. All 11 articles below are listed, newest first.
+            GLP-1 &amp; Weight Loss · Hot Flashes &amp; Menopause · Menopause &amp; Postmenopause · Hair &amp; Scalp Health · Menopause &amp; Metabolic Health · Gut Health &amp; Nutrition · Gut Health &amp; Functional Medicine · Gut Health &amp; Hormones · Stress, Cortisol &amp; Burnout · Functional Medicine. All 19 articles below are listed, newest first.
           </p>
         </div>
       </section>

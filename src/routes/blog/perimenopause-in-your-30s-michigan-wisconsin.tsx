@@ -111,6 +111,7 @@ function BlogComponent() {
         { slug: "pcos-weight-resistance-women-30s-michigan-wisconsin", title: "PCOS in Your 30s: Why Weight Loss Feels Impossible and What Actually Helps" },
         { slug: "hormonal-sleep-anxiety-women-michigan-wisconsin", title: "Why Can't I Sleep Anymore? The Hormonal Reason Behind Sleepless Nights and New Anxiety" },
         { slug: "bioidentical-hormone-therapy-guide-michigan-wisconsin", title: "The Complete Guide to Bioidentical Hormone Therapy: Risks, Benefits, and What Actually Happens" },
+        { slug: "menopause-postmenopause-weight-bones-heart-hot-flashes-michigan-wisconsin", title: "Menopause After 50: Why Your Weight, Bones, Heart, and Sleep Change, and What Actually Helps" },
       ]}
     >
       {/* Disclaimer */}
@@ -233,7 +234,8 @@ function BlogComponent() {
             </li>
             <li className="flex items-start gap-3">
               <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-secondary" />
-              <span><strong>Postmenopause</strong> is the phase of life after menopause has occurred, lasting for the rest of a woman's life.</span>
+              <span><strong>Postmenopause</strong> is the phase of life after menopause has occurred, lasting for the rest of a woman's life. We cover that stage in our{" "}
+                <Link to="/blog/menopause-postmenopause-weight-bones-heart-hot-flashes-michigan-wisconsin" className="text-secondary font-semibold hover:underline">guide to menopause after 50</Link>.</span>
             </li>
           </ul>
         </div>
@@ -374,6 +376,9 @@ function BlogComponent() {
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Here is the piece that is easy to miss if you only ever encounter perimenopause described at this later stage: none of it arrived out of nowhere on a woman's 41st birthday. The hot flashes, the more pronounced sleep disruption, the more disrupted cycles, are typically the continuation of a process that has been quietly unfolding for years already, the same progesterone decline and ovarian reserve changes described in the two decades above, now advanced enough to produce more dramatic symptoms. A woman who reaches her early 40s and is only just now hearing the word perimenopause for the first time has often spent the previous five to eight years living through the earlier chapters of this same story without a name for any of it, brought to a doctor once or twice, and sent home reassured. If any of that describes your own history, it is worth knowing that the version of perimenopause everyone talks about openly is frequently just the loudest, latest chapter of something that started much more quietly.
+        </p>
+        <p className="text-lg leading-relaxed text-foreground/85 mb-5">
+          If hot flashes or night sweats have already started, our <Link to="/blog/hot-flashes-night-sweats-women-michigan-wisconsin" className="text-secondary font-semibold hover:underline">complete guide to hot flashes and night sweats for Michigan and Wisconsin women</Link> explains the mechanism, the realistic timeline, and the treatment options in depth.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Rather than re-covering ground we have already walked through in detail elsewhere, if you recognize yourself here more than in the two decades above, we want to hand you directly to the deeper resource built for exactly this stage: our{" "}

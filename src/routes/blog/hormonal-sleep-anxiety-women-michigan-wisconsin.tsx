@@ -95,6 +95,7 @@ function BlogComponent() {
         { slug: "perimenopause-in-your-30s-michigan-wisconsin", title: "Perimenopause Isn't Just an Over-40 Thing: The Complete Guide for Women in Their Mid-30s" },
         { slug: "bioidentical-hormone-therapy-guide-michigan-wisconsin", title: "The Complete Guide to Bioidentical Hormone Therapy: Risks, Benefits, and What Actually Happens" },
         { slug: "pcos-weight-resistance-women-30s-michigan-wisconsin", title: "PCOS in Your 30s: Why Weight Loss Feels Impossible and What Actually Helps" },
+        { slug: "menopause-postmenopause-weight-bones-heart-hot-flashes-michigan-wisconsin", title: "Menopause After 50: Why Your Weight, Bones, Heart, and Sleep Change, and What Actually Helps" },
       ]}
     >
       {/* Disclaimer */}
@@ -255,6 +256,9 @@ function BlogComponent() {
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Some women describe this as waking up feeling "too warm" without a distinct hot flash, kicking off blankets in the middle of the night without fully registering why, or noticing they wake more easily on nights they slept under a heavier comforter. These subtler temperature-regulation disruptions often show up months or years before a woman would describe herself as having hot flashes in the classic sense, and they compound the other three mechanisms rather than acting alone. A sleep cycle that is already lighter and easier to interrupt because of estrogen-related temperature shifts is simply more vulnerable to being fully broken by a cortisol spike or a blood sugar dip that might otherwise have passed as a brief, unremembered stirring.
+        </p>
+        <p className="text-lg leading-relaxed text-foreground/85 mb-5">
+          If you are waking drenched, not just warm, and want the full picture of why hot flashes and night sweats happen, how long they typically last, how to tell them from non-menopausal causes, and every treatment option graded by evidence, we cover it in our <Link to="/blog/hot-flashes-night-sweats-women-michigan-wisconsin" className="text-secondary font-semibold hover:underline">complete guide to hot flashes and night sweats for Michigan and Wisconsin women</Link>.
         </p>
         <h3 className="text-xl md:text-2xl font-display text-primary mt-10 mb-4">
           A Quick Self-Check
@@ -872,7 +876,14 @@ function BlogComponent() {
               Does this go away on its own once I reach menopause?
             </h3>
             <p className="text-lg leading-relaxed text-foreground/85">
-              For some women, sleep and anxiety symptoms do improve somewhat once hormone levels stabilize at a lower, more consistent baseline after menopause, since some of the instability described in this article is specifically tied to the fluctuating nature of perimenopause rather than low hormone levels themselves. For others, symptoms persist into postmenopause, particularly if cortisol rhythm or blood sugar regulation remain unaddressed. Waiting to see if it resolves on its own can mean months or years of disrupted sleep and anxiety that a comprehensive evaluation could address much sooner.
+              For some women, sleep and anxiety symptoms do improve somewhat once hormone levels stabilize at a lower, more consistent baseline after menopause, since some of the instability described in this article is specifically tied to the fluctuating nature of perimenopause rather than low hormone levels themselves. For others, symptoms persist into postmenopause, particularly if cortisol rhythm or blood sugar regulation remain unaddressed. Waiting to see if it resolves on its own can mean months or years of disrupted sleep and anxiety that a comprehensive evaluation could address much sooner. For sleep after menopause, including night sweats and sleep apnea, see our{" "}
+              <Link
+            to="/blog/menopause-postmenopause-weight-bones-heart-hot-flashes-michigan-wisconsin"
+            className="text-secondary font-semibold hover:underline"
+          >
+            guide to menopause after 50
+          </Link>
+              .
             </p>
           </div>
           <div>

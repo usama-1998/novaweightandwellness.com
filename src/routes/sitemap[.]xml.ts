@@ -9,8 +9,7 @@ const BASE_URL = "https://novaweightandwellness.com";
 // they add no ranking value. A shallow clone could not recover older per-file
 // history, so do not backfill older dates without a full clone.
 // Note: /michigan-discovery-call is a redirect to /book-free-assessment-call
-// and is intentionally excluded, as is the removed /blog/hot-flashes-* URL,
-// which is not a route in this repository and must not appear in the sitemap.
+// and is intentionally excluded.
 
 export const Route = createFileRoute("/sitemap.xml")({
   server: {
@@ -24,6 +23,14 @@ export const Route = createFileRoute("/sitemap.xml")({
           { path: "/what-we-treat", lastmod: "2026-10-26" },
           { path: "/contact", lastmod: "2026-10-26" },
           { path: "/blog", lastmod: "2026-10-26" },
+          { path: "/blog/hot-flashes-night-sweats-women-michigan-wisconsin", lastmod: "2026-11-13" },
+          { path: "/blog/menopause-postmenopause-weight-bones-heart-hot-flashes-michigan-wisconsin", lastmod: "2026-11-13" },
+          { path: "/blog/hair-loss-women-35-to-55-michigan-wisconsin", lastmod: "2026-11-13" },
+          { path: "/blog/menopause-weight-gain-michigan-wisconsin", lastmod: "2026-11-13" },
+          { path: "/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women", lastmod: "2026-11-13" },
+          { path: "/blog/leaky-gut-mucosal-barrier-test-michigan-wisconsin-women", lastmod: "2026-11-13" },
+          { path: "/blog/gut-health-hormones-women-michigan-wisconsin", lastmod: "2026-11-13" },
+          { path: "/blog/cortisol-hpa-axis-burnout-michigan-wisconsin-women", lastmod: "2026-11-13" },
           { path: "/blog/normal-tsh-hypothyroid-symptoms-michigan-wisconsin", lastmod: "2026-10-26" },
           { path: "/blog/medical-weight-loss-hormone-therapy-michigan-wisconsin-cities", lastmod: "2026-10-26" },
           { path: "/blog/perimenopause-brain-fog-memory-michigan-wisconsin", lastmod: "2026-10-26" },

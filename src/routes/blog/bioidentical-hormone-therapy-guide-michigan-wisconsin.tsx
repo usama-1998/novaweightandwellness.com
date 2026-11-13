@@ -93,6 +93,7 @@ function BlogComponent() {
         { slug: "the-ultimate-guide-to-hormones-and-weight-resistance-over-40", title: "The Ultimate Guide to Hormones and Weight Resistance Over 40" },
         { slug: "perimenopause-in-your-30s-michigan-wisconsin", title: "Perimenopause Isn't Just an Over-40 Thing: The Complete Guide for Women in Their Mid-30s" },
         { slug: "hormonal-sleep-anxiety-women-michigan-wisconsin", title: "Why Can't I Sleep Anymore? The Hormonal Reason Behind Sleepless Nights and New Anxiety" },
+        { slug: "menopause-postmenopause-weight-bones-heart-hot-flashes-michigan-wisconsin", title: "Menopause After 50: Why Your Weight, Bones, Heart, and Sleep Change, and What Actually Helps" },
       ]}
     >
       {/* Disclaimer */}
@@ -493,7 +494,14 @@ function BlogComponent() {
           As discussed extensively in the WHI section above, the timing hypothesis is directly relevant to candidacy, not just to how we interpret old research. Women who are within roughly 10 years of their final menstrual period, or under approximately age 60, generally fall within the window where the benefit-to-risk ratio of hormone therapy for symptom management is most favorable for most healthy women. Women starting hormone therapy for the first time more than 10 to 20 years after menopause fall into a category that deserves more caution and a more conservative approach, often starting at a lower dose with closer monitoring, given the less favorable cardiovascular risk profile suggested by both the original WHI data and its later re-analyses.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          This does not mean hormone therapy is automatically off the table for a woman starting later, particularly for localized symptoms like vaginal dryness, where low-dose vaginal estrogen (which has minimal systemic absorption and a very different risk profile than systemic therapy) remains appropriate essentially regardless of age or time since menopause. It does mean that the conversation about systemic hormone therapy started well outside the typical window is a different, more individualized one.
+          This does not mean hormone therapy is automatically off the table for a woman starting later, particularly for localized symptoms like vaginal dryness, where low-dose vaginal estrogen (which has minimal systemic absorption and a very different risk profile than systemic therapy) remains appropriate essentially regardless of age or time since menopause. It does mean that the conversation about systemic hormone therapy started well outside the typical window is a different, more individualized one. For the wider picture of bone, heart, weight, and sleep after menopause, see our{" "}
+          <Link
+            to="/blog/menopause-postmenopause-weight-bones-heart-hot-flashes-michigan-wisconsin"
+            className="text-secondary font-semibold hover:underline"
+          >
+            guide to menopause after 50
+          </Link>
+          .
         </p>
         <h3 className="text-xl md:text-2xl font-display text-primary mt-10 mb-4">
           Why This Section Matters More Than It Might Seem
@@ -540,6 +548,9 @@ function BlogComponent() {
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Around months two and three, most women who are going to respond well to their initial dose start to notice more consistent, tangible improvement: fewer and less intense hot flashes and night sweats, more stable mood, better sleep continuity, and often some improvement in energy and mental clarity. This is also frequently when the first follow-up labs are drawn, allowing for a dose adjustment if levels are not yet in the optimal range or if symptoms have only partially improved.
+        </p>
+        <p className="text-lg leading-relaxed text-foreground/85 mb-5">
+          Hot flashes and night sweats are the most common reason women consider hormone therapy, and they have other effective options too, including non-hormonal medications and CBT. For a side-by-side look at the evidence, the timeline, and what to do when hormone therapy is not an option, see our <Link to="/blog/hot-flashes-night-sweats-women-michigan-wisconsin" className="text-secondary font-semibold hover:underline">complete guide to hot flashes and night sweats for Michigan and Wisconsin women</Link>.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Beyond the three-month mark, the process becomes more about fine-tuning than initial response. Some women find their first dose and delivery method combination works well and need only minor adjustments over time. Others go through one or two rounds of dose titration, small, deliberate adjustments based on labs and symptoms, before landing on a combination that feels right. Longer-term benefits that some women experience, related to bone density preservation, vaginal and urinary tissue health, and sustained symptom control, continue to accrue over months and years of consistent, appropriately monitored therapy.
