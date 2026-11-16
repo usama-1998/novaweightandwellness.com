@@ -683,6 +683,13 @@ function BlogComponent() {
           your full story, understand the timeline of your symptoms, explore your health history in
           depth, and start connecting dots that have been overlooked for years.
         </p>
+        <p className="text-lg leading-relaxed text-foreground/85 mb-5">
+          If you want a candid, referenced look at how well this approach holds up, including its limits, read our guide:{" "}
+          <Link to="/blog/functional-medicine-legit-evidence-women-michigan-wisconsin" className="text-secondary font-semibold hover:underline">
+            Is Functional Medicine Legit? An Honest, Evidence-Based Answer for Women in Michigan and Wisconsin
+          </Link>
+          .
+        </p>
       </section>
 
       {/* ========== Section 7: Real Results ========== */}

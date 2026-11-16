@@ -17,6 +17,7 @@ import mrtHeroImg from "@/assets/blog/mrt-food-sensitivity-hero.webp";
 import mucosalHeroImg from "@/assets/blog/mucosal-barrier-hero.webp";
 import gutHealthHeroImg from "@/assets/blog/gut-health-hero-woman-michigan-kitchen.webp";
 import cortisolHeroImg from "@/assets/blog/cortisol-burnout-hero-michigan-woman-evening.jpg";
+import functionalMedicineLegitHeroImg from "@/assets/blog/functional-medicine-legit-hero-woman-laptop-grand-rapids-kitchen-evening.webp";
 import { Clock, ArrowRight, Calendar } from "lucide-react";
 
 export const Route = createFileRoute("/blog/")({
@@ -60,6 +61,20 @@ export const Route = createFileRoute("/blog/")({
 });
 
 const articles = [
+  {
+    slug: "functional-medicine-legit-evidence-women-michigan-wisconsin",
+    title:
+      "Is Functional Medicine Legit? An Honest, Evidence-Based Answer for Women in Michigan and Wisconsin",
+    excerpt:
+      "Is functional medicine a scam or the real thing? A candid, fully referenced guide for Michigan and Wisconsin women: what the studies show, which tests and diagnoses hold up and which do not, what it costs, how to verify a license, and seven questions to ask any practice before you pay.",
+    image: functionalMedicineLegitHeroImg,
+    imageAlt:
+      "Woman in her late 40s at a kitchen table in a Grand Rapids, Michigan home at dusk, reading about functional medicine on her laptop with a thoughtful, skeptical expression",
+    category: "Functional Medicine Explained",
+    date: "November 16, 2026",
+    readTime: "118 min read",
+    author: "Kathryn Long, NP-C",
+  },
   {
     slug: "menopause-postmenopause-weight-bones-heart-hot-flashes-michigan-wisconsin",
     title: "Menopause After 50: Why Your Weight, Bones, Heart, and Sleep Change, and What Actually Helps",

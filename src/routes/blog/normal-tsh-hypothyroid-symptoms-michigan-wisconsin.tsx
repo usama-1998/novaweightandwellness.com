@@ -1288,6 +1288,13 @@ function BlogComponent() {
           <li>You have never had Free T3, Reverse T3, or thyroid antibodies tested.</li>
           <li>You reside in Michigan or Wisconsin and want personalized, high-touch telehealth care from a board-certified functional medicine nurse practitioner.</li>
         </ul>
+        <p className="text-lg leading-relaxed text-foreground/85 mb-5">
+          Before you choose any practice, it is worth reading our evidence-based look at how to judge functional medicine claims, credentials, and cost:{" "}
+          <Link to="/blog/functional-medicine-legit-evidence-women-michigan-wisconsin" className="text-secondary font-semibold hover:underline">
+            Is Functional Medicine Legit? An Honest, Evidence-Based Answer for Women in Michigan and Wisconsin
+          </Link>
+          .
+        </p>
       </section>
 
       {/* Section: Clinical Research & Medical Citations */}

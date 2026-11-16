@@ -3255,6 +3255,13 @@ function BlogComponent() {
           licensure, and how they approach testing and sequencing, along the lines of the questions
           to bring to your first visit covered earlier in this article.
         </p>
+        <p className="text-lg leading-relaxed text-foreground/85 mb-5">
+          For a fuller, evidence-based look at what functional medicine is, where its evidence is strong, where it is weak, and how to check any practice, read our guide:{" "}
+          <Link to="/blog/functional-medicine-legit-evidence-women-michigan-wisconsin" className="text-secondary font-semibold hover:underline">
+            Is Functional Medicine Legit? An Honest, Evidence-Based Answer for Women in Michigan and Wisconsin
+          </Link>
+          .
+        </p>
       </section>
 
       {/* Section 36: FAQ */}

@@ -724,6 +724,13 @@ function BlogComponent() {
             </div>
           </div>
         </div>
+        <p className="mb-5">
+          For the broader question of which functional medicine claims have good evidence and which do not, including how professional endocrinology bodies view "adrenal fatigue," read our guide:{" "}
+          <Link to="/blog/functional-medicine-legit-evidence-women-michigan-wisconsin" className="text-secondary font-semibold hover:underline">
+            Is Functional Medicine Legit? An Honest, Evidence-Based Answer for Women in Michigan and Wisconsin
+          </Link>
+          .
+        </p>
       </section>
 
       <section id="what-hpa-dysfunction-feels-like">

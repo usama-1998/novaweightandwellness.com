@@ -1305,6 +1305,13 @@ function BlogComponent() {
           specifically, not deflect it. If they cannot, that itself is useful information about how
           carefully that particular result should be weighted in your overall care.
         </p>
+        <p className="text-lg leading-relaxed text-foreground/85 mb-5">
+          For the larger picture of which functional medicine tests hold up and which do not, including how to judge any practice that offers them, read our guide:{" "}
+          <Link to="/blog/functional-medicine-legit-evidence-women-michigan-wisconsin" className="text-secondary font-semibold hover:underline">
+            Is Functional Medicine Legit? An Honest, Evidence-Based Answer for Women in Michigan and Wisconsin
+          </Link>
+          .
+        </p>
       </section>
 
       {/* CTA 1 */}

@@ -48,6 +48,7 @@ import { Route as BlogHormonalSleepAnxietyWomenMichiganWisconsinRouteImport } fr
 import { Route as BlogHairLossWomen35To55MichiganWisconsinRouteImport } from './routes/blog/hair-loss-women-35-to-55-michigan-wisconsin'
 import { Route as BlogGutHealthHormonesWomenMichiganWisconsinRouteImport } from './routes/blog/gut-health-hormones-women-michigan-wisconsin'
 import { Route as BlogGainingWeightExhaustedAfter40WisconsinWomenRouteImport } from './routes/blog/gaining-weight-exhausted-after-40-wisconsin-women'
+import { Route as BlogFunctionalMedicineLegitEvidenceWomenMichiganWisconsinRouteImport } from './routes/blog/functional-medicine-legit-evidence-women-michigan-wisconsin'
 import { Route as BlogFoodSensitivityTestingMrtMichiganWisconsinWomenRouteImport } from './routes/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women'
 import { Route as BlogCortisolHpaAxisBurnoutMichiganWisconsinWomenRouteImport } from './routes/blog/cortisol-hpa-axis-burnout-michigan-wisconsin-women'
 import { Route as BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRouteImport } from './routes/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
@@ -266,6 +267,12 @@ const BlogGainingWeightExhaustedAfter40WisconsinWomenRoute =
     path: '/blog/gaining-weight-exhausted-after-40-wisconsin-women',
     getParentRoute: () => rootRouteImport,
   } as any)
+const BlogFunctionalMedicineLegitEvidenceWomenMichiganWisconsinRoute =
+  BlogFunctionalMedicineLegitEvidenceWomenMichiganWisconsinRouteImport.update({
+    id: '/blog/functional-medicine-legit-evidence-women-michigan-wisconsin',
+    path: '/blog/functional-medicine-legit-evidence-women-michigan-wisconsin',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const BlogFoodSensitivityTestingMrtMichiganWisconsinWomenRoute =
   BlogFoodSensitivityTestingMrtMichiganWisconsinWomenRouteImport.update({
     id: '/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women',
@@ -311,6 +318,7 @@ export interface FileRoutesByFullPath {
   '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin': typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
   '/blog/cortisol-hpa-axis-burnout-michigan-wisconsin-women': typeof BlogCortisolHpaAxisBurnoutMichiganWisconsinWomenRoute
   '/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women': typeof BlogFoodSensitivityTestingMrtMichiganWisconsinWomenRoute
+  '/blog/functional-medicine-legit-evidence-women-michigan-wisconsin': typeof BlogFunctionalMedicineLegitEvidenceWomenMichiganWisconsinRoute
   '/blog/gaining-weight-exhausted-after-40-wisconsin-women': typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   '/blog/gut-health-hormones-women-michigan-wisconsin': typeof BlogGutHealthHormonesWomenMichiganWisconsinRoute
   '/blog/hair-loss-women-35-to-55-michigan-wisconsin': typeof BlogHairLossWomen35To55MichiganWisconsinRoute
@@ -355,6 +363,7 @@ export interface FileRoutesByTo {
   '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin': typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
   '/blog/cortisol-hpa-axis-burnout-michigan-wisconsin-women': typeof BlogCortisolHpaAxisBurnoutMichiganWisconsinWomenRoute
   '/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women': typeof BlogFoodSensitivityTestingMrtMichiganWisconsinWomenRoute
+  '/blog/functional-medicine-legit-evidence-women-michigan-wisconsin': typeof BlogFunctionalMedicineLegitEvidenceWomenMichiganWisconsinRoute
   '/blog/gaining-weight-exhausted-after-40-wisconsin-women': typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   '/blog/gut-health-hormones-women-michigan-wisconsin': typeof BlogGutHealthHormonesWomenMichiganWisconsinRoute
   '/blog/hair-loss-women-35-to-55-michigan-wisconsin': typeof BlogHairLossWomen35To55MichiganWisconsinRoute
@@ -400,6 +409,7 @@ export interface FileRoutesById {
   '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin': typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
   '/blog/cortisol-hpa-axis-burnout-michigan-wisconsin-women': typeof BlogCortisolHpaAxisBurnoutMichiganWisconsinWomenRoute
   '/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women': typeof BlogFoodSensitivityTestingMrtMichiganWisconsinWomenRoute
+  '/blog/functional-medicine-legit-evidence-women-michigan-wisconsin': typeof BlogFunctionalMedicineLegitEvidenceWomenMichiganWisconsinRoute
   '/blog/gaining-weight-exhausted-after-40-wisconsin-women': typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   '/blog/gut-health-hormones-women-michigan-wisconsin': typeof BlogGutHealthHormonesWomenMichiganWisconsinRoute
   '/blog/hair-loss-women-35-to-55-michigan-wisconsin': typeof BlogHairLossWomen35To55MichiganWisconsinRoute
@@ -446,6 +456,7 @@ export interface FileRouteTypes {
     | '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
     | '/blog/cortisol-hpa-axis-burnout-michigan-wisconsin-women'
     | '/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women'
+    | '/blog/functional-medicine-legit-evidence-women-michigan-wisconsin'
     | '/blog/gaining-weight-exhausted-after-40-wisconsin-women'
     | '/blog/gut-health-hormones-women-michigan-wisconsin'
     | '/blog/hair-loss-women-35-to-55-michigan-wisconsin'
@@ -490,6 +501,7 @@ export interface FileRouteTypes {
     | '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
     | '/blog/cortisol-hpa-axis-burnout-michigan-wisconsin-women'
     | '/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women'
+    | '/blog/functional-medicine-legit-evidence-women-michigan-wisconsin'
     | '/blog/gaining-weight-exhausted-after-40-wisconsin-women'
     | '/blog/gut-health-hormones-women-michigan-wisconsin'
     | '/blog/hair-loss-women-35-to-55-michigan-wisconsin'
@@ -534,6 +546,7 @@ export interface FileRouteTypes {
     | '/blog/bioidentical-hormone-therapy-guide-michigan-wisconsin'
     | '/blog/cortisol-hpa-axis-burnout-michigan-wisconsin-women'
     | '/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women'
+    | '/blog/functional-medicine-legit-evidence-women-michigan-wisconsin'
     | '/blog/gaining-weight-exhausted-after-40-wisconsin-women'
     | '/blog/gut-health-hormones-women-michigan-wisconsin'
     | '/blog/hair-loss-women-35-to-55-michigan-wisconsin'
@@ -579,6 +592,7 @@ export interface RootRouteChildren {
   BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute: typeof BlogBioidenticalHormoneTherapyGuideMichiganWisconsinRoute
   BlogCortisolHpaAxisBurnoutMichiganWisconsinWomenRoute: typeof BlogCortisolHpaAxisBurnoutMichiganWisconsinWomenRoute
   BlogFoodSensitivityTestingMrtMichiganWisconsinWomenRoute: typeof BlogFoodSensitivityTestingMrtMichiganWisconsinWomenRoute
+  BlogFunctionalMedicineLegitEvidenceWomenMichiganWisconsinRoute: typeof BlogFunctionalMedicineLegitEvidenceWomenMichiganWisconsinRoute
   BlogGainingWeightExhaustedAfter40WisconsinWomenRoute: typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRoute
   BlogGutHealthHormonesWomenMichiganWisconsinRoute: typeof BlogGutHealthHormonesWomenMichiganWisconsinRoute
   BlogHairLossWomen35To55MichiganWisconsinRoute: typeof BlogHairLossWomen35To55MichiganWisconsinRoute
@@ -873,6 +887,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BlogGainingWeightExhaustedAfter40WisconsinWomenRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/blog/functional-medicine-legit-evidence-women-michigan-wisconsin': {
+      id: '/blog/functional-medicine-legit-evidence-women-michigan-wisconsin'
+      path: '/blog/functional-medicine-legit-evidence-women-michigan-wisconsin'
+      fullPath: '/blog/functional-medicine-legit-evidence-women-michigan-wisconsin'
+      preLoaderRoute: typeof BlogFunctionalMedicineLegitEvidenceWomenMichiganWisconsinRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women': {
       id: '/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women'
       path: '/blog/food-sensitivity-testing-mrt-michigan-wisconsin-women'
@@ -926,6 +947,8 @@ const rootRouteChildren: RootRouteChildren = {
     BlogCortisolHpaAxisBurnoutMichiganWisconsinWomenRoute,
   BlogFoodSensitivityTestingMrtMichiganWisconsinWomenRoute:
     BlogFoodSensitivityTestingMrtMichiganWisconsinWomenRoute,
+  BlogFunctionalMedicineLegitEvidenceWomenMichiganWisconsinRoute:
+    BlogFunctionalMedicineLegitEvidenceWomenMichiganWisconsinRoute,
   BlogGainingWeightExhaustedAfter40WisconsinWomenRoute:
     BlogGainingWeightExhaustedAfter40WisconsinWomenRoute,
   BlogGutHealthHormonesWomenMichiganWisconsinRoute:

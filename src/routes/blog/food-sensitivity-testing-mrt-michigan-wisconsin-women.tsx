@@ -1045,6 +1045,13 @@ function BlogComponent() {
           kind of context we think you deserve before spending money on any test claiming to
           identify your specific food sensitivities.
         </p>
+        <p className="text-lg leading-relaxed text-foreground/85 mb-5">
+          To see how IgG panels, MRT, and other specialty tests compare on the evidence, claim by claim, read our guide:{" "}
+          <Link to="/blog/functional-medicine-legit-evidence-women-michigan-wisconsin" className="text-secondary font-semibold hover:underline">
+            Is Functional Medicine Legit? An Honest, Evidence-Based Answer for Women in Michigan and Wisconsin
+          </Link>
+          .
+        </p>
       </section>
 
       {/* Section 4b */}
