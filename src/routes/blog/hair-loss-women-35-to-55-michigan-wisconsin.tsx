@@ -205,7 +205,7 @@ function CTA({ title, body, button }: { title: string; body: string; button: str
     <div className="bg-secondary/10 border border-secondary/30 rounded-2xl p-8 my-12">
       <p className="font-display text-xl text-primary mb-3">{title}</p>
       <p className="text-foreground/70 mb-5">{body}</p>
-      <Link to="/free-15-min-call-with-katie" className="btn-gold">
+      <Link to="/book-free-assessment-call" className="btn-gold">
         {button}
       </Link>
     </div>
@@ -4124,7 +4124,7 @@ function BlogComponent() {
         <H3>How Care Works With Us</H3>
         <P>
           Most women begin with the free{" "}
-          <Link to="/free-15-min-call-with-katie" className={LINK}>
+          <Link to="/book-free-assessment-call" className={LINK}>
             15-minute discovery call
           </Link>
           , a low-pressure conversation to decide the right next step. The{" "}
@@ -4166,7 +4166,7 @@ function BlogComponent() {
             just a real conversation about what has been happening in your body and what to do
             first.
           </p>
-          <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
+          <Link to="/book-free-assessment-call" className="btn-gold text-lg px-8 py-4">
             Book Your Free 15-Minute Discovery Call
           </Link>
         </div>
@@ -4204,7 +4204,7 @@ function BlogComponent() {
             Book your free 15-minute discovery call and let's look at the whole picture, from your
             timeline to your labs to your scalp.
           </p>
-          <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
+          <Link to="/book-free-assessment-call" className="btn-gold text-lg px-8 py-4">
             Book Your Free 15-Minute Discovery Call
           </Link>
         </div>
@@ -4305,7 +4305,7 @@ function BlogComponent() {
           You deserve a real explanation, a real timeline, and a real plan. Your free 15-minute
           discovery call is the first step toward finally understanding what is going on.
         </p>
-        <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
+        <Link to="/book-free-assessment-call" className="btn-gold text-lg px-8 py-4">
           Book Your Free 15-Minute Call
         </Link>
       </section>

@@ -1,4 +1,4 @@
-# Novaleo Weight & Wellness — AI & Search Crawler Policy
+# Novaleo Weight & Wellness - AI & Search Crawler Policy
 # https://novaweightandwellness.com
 #
 # We welcome AI crawlers for search, retrieval, and training.

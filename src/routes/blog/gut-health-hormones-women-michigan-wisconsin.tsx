@@ -936,7 +936,7 @@ function BlogComponent() {
           years without a clear explanation, a free 15-minute discovery call is a low-pressure place
           to talk it through.
         </p>
-        <Link to="/free-15-min-call-with-katie" className="btn-gold">
+        <Link to="/book-free-assessment-call" className="btn-gold">
           Book Your Free 15-Minute Call
         </Link>
       </div>
@@ -2074,7 +2074,7 @@ function BlogComponent() {
           A free 15-minute discovery call is a chance to talk through what you have already tried
           and what a real, sequenced evaluation could look like for you specifically.
         </p>
-        <Link to="/free-15-min-call-with-katie" className="btn-gold">
+        <Link to="/book-free-assessment-call" className="btn-gold">
           Book Your Free 15-Minute Call
         </Link>
       </div>
@@ -4060,7 +4060,7 @@ function BlogComponent() {
           Aren't Telling You," to start understanding what a comprehensive evaluation could reveal.
         </p>
         <div className="flex flex-wrap gap-4">
-          <Link to="/free-15-min-call-with-katie" className="btn-gold">
+          <Link to="/book-free-assessment-call" className="btn-gold">
             Book Your Free 15-Minute Call
           </Link>
           <Link to="/free-guide" className="btn-primary">

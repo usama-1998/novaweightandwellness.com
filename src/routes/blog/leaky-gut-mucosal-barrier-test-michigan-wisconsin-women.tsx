@@ -1317,7 +1317,7 @@ function BlogComponent() {
           whether the Mucosal Barrier Assessment makes sense for your specific history, not a sales
           pitch.
         </p>
-        <Link to="/free-15-min-call-with-katie" className="btn-gold">
+        <Link to="/book-free-assessment-call" className="btn-gold">
           Book Your Free 15-Minute Call
         </Link>
       </div>
@@ -2981,7 +2981,7 @@ function BlogComponent() {
           Book a free 15-minute discovery call to talk through your symptoms and history, and find
           out honestly whether the Mucosal Barrier Assessment is a reasonable next step for you.
         </p>
-        <Link to="/free-15-min-call-with-katie" className="btn-gold">
+        <Link to="/book-free-assessment-call" className="btn-gold">
           Schedule Your Free Discovery Call
         </Link>
       </div>
@@ -4235,7 +4235,7 @@ function BlogComponent() {
                 Founder & Clinical Director, Novaleo Weight & Wellness
               </p>
             </div>
-            <Link to="/free-15-min-call-with-katie" className="btn-gold text-sm py-2.5 px-6">
+            <Link to="/book-free-assessment-call" className="btn-gold text-sm py-2.5 px-6">
               Book Your Free 15-Min Call
             </Link>
           </div>
@@ -4286,7 +4286,7 @@ function BlogComponent() {
           step, not a commitment.
         </p>
         <div className="flex flex-wrap items-center justify-center gap-4">
-          <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
+          <Link to="/book-free-assessment-call" className="btn-gold text-lg px-8 py-4">
             Book Your Free 15-Minute Call
           </Link>
           <Link to="/services" className="btn-primary text-lg px-8 py-4">

@@ -62,7 +62,7 @@ function Contact() {
                 "name": "How is this different from seeing my regular doctor?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Conventional medicine is designed to diagnose and treat disease. Functional medicine is designed to find and fix the root cause before it becomes disease. Where your doctor may say 'everything is normal' — I look at patterns, connections, and the full picture of your hormones, metabolism, nutrition, stress, and sleep."
+                  "text": "Conventional medicine is designed to diagnose and treat disease. Functional medicine is designed to find and fix the root cause before it becomes disease. Where your doctor may say 'everything is normal', I look at patterns, connections, and the full picture of your hormones, metabolism, nutrition, stress, and sleep."
                 }
               },
               {
@@ -70,7 +70,7 @@ function Contact() {
                 "name": "My labs always come back normal. Can you still help me?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Absolutely — this is the most common situation I see. 'Normal' ranges are based on averages, not optimal health. There's a big difference between 'not sick' and 'thriving.' Functional lab analysis identifies patterns that standard testing often misses."
+                  "text": "Absolutely, this is the most common situation I see. 'Normal' ranges are based on averages, not optimal health. There's a big difference between 'not sick' and 'thriving.' Functional lab analysis identifies patterns that standard testing often misses."
                 }
               },
               {
@@ -78,7 +78,7 @@ function Contact() {
                 "name": "What happens after the free assessment call?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "You'll have a clear understanding of how my process works and whether it's the right fit for you. If you decide to move forward, the next step is the Root-Cause Intake & Clinical Strategy session at $97. Zero pressure — you decide what happens next."
+                  "text": "You'll have a clear understanding of how my process works and whether it's the right fit for you. If you decide to move forward, the next step is the Root-Cause Intake & Clinical Strategy session at $97. Zero pressure, you decide what happens next."
                 }
               },
               {
@@ -86,7 +86,7 @@ function Contact() {
                 "name": "What happens during the $97 Root-Cause Intake?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "A comprehensive 60-minute clinical assessment where we go deep — full health history, current symptoms, lifestyle, nutrition, stress, sleep patterns, and any prior labs. You'll leave with clarity on what's driving your symptoms and a personalized starting plan."
+                  "text": "A comprehensive 60-minute clinical assessment where we go deep, full health history, current symptoms, lifestyle, nutrition, stress, sleep patterns, and any prior labs. You'll leave with clarity on what's driving your symptoms and a personalized starting plan."
                 }
               },
               {
@@ -94,7 +94,7 @@ function Contact() {
                 "name": "I've tried everything. Why would this be any different?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "Because most approaches treat symptoms — not causes. Functional medicine starts by asking why and works backwards from there. When you address the actual root cause, the results are sustainable instead of temporary."
+                  "text": "Because most approaches treat symptoms, not causes. Functional medicine starts by asking why and works backwards from there. When you address the actual root cause, the results are sustainable instead of temporary."
                 }
               },
               {

@@ -259,7 +259,7 @@ export default function PaidClaritySession({
                   </div>
                 </div>
 
-                {/* Right Content — Calendar always visible, times appear below */}
+                {/* Right Content - Calendar always visible, times appear below */}
                 <div className="flex-1 px-3 py-3 md:p-6 flex flex-col overflow-y-auto" id="booking-scroll-area">
                   {/* Calendar */}
                   <div className="w-full">

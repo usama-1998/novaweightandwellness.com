@@ -2436,7 +2436,7 @@ function BlogComponent() {
           life you actually have, not an idealized version of it. This is a central part of what the
           initial{" "}
           <Link
-            to="/free-15-min-call-with-katie"
+            to="/book-free-assessment-call"
             className="text-secondary font-medium hover:underline"
           >
             discovery call
@@ -4415,7 +4415,7 @@ function BlogComponent() {
             Book your free 15-minute discovery call and take the first step toward a real,
             personalized answer.
           </p>
-          <Link to="/free-15-min-call-with-katie" className="btn-gold text-base">
+          <Link to="/book-free-assessment-call" className="btn-gold text-base">
             Book Your Free 15-Min Call
           </Link>
         </div>

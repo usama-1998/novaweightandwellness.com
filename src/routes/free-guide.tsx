@@ -234,7 +234,7 @@ function FreeGuide() {
             </div>
             <h3 className="text-xl font-display text-primary mb-3">What Conventional Labs Miss</h3>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              Standard bloodwork is designed to ask "Are you sick yet?" It often misses the slow drift of an imbalanced system—the years where you aren't sick, but aren't well either.
+              Standard bloodwork is designed to ask "Are you sick yet?" It often misses the slow drift of an imbalanced system, the years where you aren't sick, but aren't well either.
             </p>
           </div>
 

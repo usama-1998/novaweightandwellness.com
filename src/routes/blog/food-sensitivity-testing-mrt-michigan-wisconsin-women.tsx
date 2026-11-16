@@ -1285,7 +1285,7 @@ function BlogComponent() {
           history, no sales pitch, no commitment, just an honest conversation about whether food
           sensitivity testing makes sense for you.
         </p>
-        <Link to="/free-15-min-call-with-katie" className="btn-gold">
+        <Link to="/book-free-assessment-call" className="btn-gold">
           Book Your Free 15-Minute Call
         </Link>
       </div>
@@ -2666,7 +2666,7 @@ function BlogComponent() {
           no commitment, just an honest conversation about what testing and next steps could look
           like for you.
         </p>
-        <Link to="/free-15-min-call-with-katie" className="btn-gold">
+        <Link to="/book-free-assessment-call" className="btn-gold">
           Schedule Your Free Discovery Call
         </Link>
       </div>
@@ -3442,7 +3442,7 @@ function BlogComponent() {
           your history and whether MRT testing makes sense for you, wherever you are in Michigan or
           Wisconsin.
         </p>
-        <Link to="/free-15-min-call-with-katie" className="btn-primary">
+        <Link to="/book-free-assessment-call" className="btn-primary">
           Book Your Free 15-Minute Call
         </Link>
       </div>
@@ -4534,7 +4534,7 @@ function BlogComponent() {
                 Founder & Clinical Director, Novaleo Weight & Wellness
               </p>
             </div>
-            <Link to="/free-15-min-call-with-katie" className="btn-gold text-sm py-2.5 px-6">
+            <Link to="/book-free-assessment-call" className="btn-gold text-sm py-2.5 px-6">
               Book Your Free 15-Min Call
             </Link>
           </div>
@@ -4574,7 +4574,7 @@ function BlogComponent() {
           discovery call is a low-pressure start, not a commitment.
         </p>
         <div className="flex flex-wrap items-center justify-center gap-4">
-          <Link to="/free-15-min-call-with-katie" className="btn-gold text-lg px-8 py-4">
+          <Link to="/book-free-assessment-call" className="btn-gold text-lg px-8 py-4">
             Book Your Free 15-Minute Call
           </Link>
           <Link to="/what-we-treat" className="btn-primary text-lg px-8 py-4">
