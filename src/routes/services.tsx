@@ -62,6 +62,9 @@ const services: Service[] = [
           <li>Program guidance and next steps</li>
           <li>Answers to your questions</li>
         </ul>
+        <p className="mt-3">
+          Anyone who is part of the financial decision must be on the call.
+        </p>
         <p className="mt-3 italic">
           Or skip the Assessment Call and schedule the Root Cause Intake to start feeling like
           yourself again.
