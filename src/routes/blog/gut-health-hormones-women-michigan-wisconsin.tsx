@@ -936,7 +936,7 @@ function BlogComponent() {
           years without a clear explanation, a free 15-minute discovery call is a low-pressure place
           to talk it through.
         </p>
-        <Link to="/free-15-min-call-with-katie" className="btn-gold">
+        <Link to="/book-free-assessment-call" className="btn-gold">
           Book Your Free 15-Minute Call
         </Link>
       </div>
@@ -2074,7 +2074,7 @@ function BlogComponent() {
           A free 15-minute discovery call is a chance to talk through what you have already tried
           and what a real, sequenced evaluation could look like for you specifically.
         </p>
-        <Link to="/free-15-min-call-with-katie" className="btn-gold">
+        <Link to="/book-free-assessment-call" className="btn-gold">
           Book Your Free 15-Minute Call
         </Link>
       </div>
@@ -3255,6 +3255,13 @@ function BlogComponent() {
           licensure, and how they approach testing and sequencing, along the lines of the questions
           to bring to your first visit covered earlier in this article.
         </p>
+        <p className="text-lg leading-relaxed text-foreground/85 mb-5">
+          For a fuller, evidence-based look at what functional medicine is, where its evidence is strong, where it is weak, and how to check any practice, read our guide:{" "}
+          <Link to="/blog/functional-medicine-legit-evidence-women-michigan-wisconsin" className="text-secondary font-semibold hover:underline">
+            Is Functional Medicine Legit? An Honest, Evidence-Based Answer for Women in Michigan and Wisconsin
+          </Link>
+          .
+        </p>
       </section>
 
       {/* Section 36: FAQ */}
@@ -4060,7 +4067,7 @@ function BlogComponent() {
           Aren't Telling You," to start understanding what a comprehensive evaluation could reveal.
         </p>
         <div className="flex flex-wrap gap-4">
-          <Link to="/free-15-min-call-with-katie" className="btn-gold">
+          <Link to="/book-free-assessment-call" className="btn-gold">
             Book Your Free 15-Minute Call
           </Link>
           <Link to="/free-guide" className="btn-primary">

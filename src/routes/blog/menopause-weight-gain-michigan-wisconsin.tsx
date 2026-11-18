@@ -2792,7 +2792,7 @@ function BlogComponent() {
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           At Novaleo, the process typically begins with a free{" "}
           <Link
-            to="/free-15-min-call-with-katie"
+            to="/book-free-assessment-call"
             className="text-secondary hover:text-secondary/80 underline"
           >
             Root Cause Discovery Call
@@ -3814,7 +3814,7 @@ function BlogComponent() {
             loading="lazy"
           />
           <Link
-            to="/free-15-min-call-with-katie"
+            to="/book-free-assessment-call"
             className="btn-primary text-base px-8 py-3 inline-block"
           >
             Book Your Free 15-Min Discovery Call

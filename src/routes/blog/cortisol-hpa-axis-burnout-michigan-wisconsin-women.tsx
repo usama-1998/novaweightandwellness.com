@@ -724,6 +724,13 @@ function BlogComponent() {
             </div>
           </div>
         </div>
+        <p className="mb-5">
+          For the broader question of which functional medicine claims have good evidence and which do not, including how professional endocrinology bodies view "adrenal fatigue," read our guide:{" "}
+          <Link to="/blog/functional-medicine-legit-evidence-women-michigan-wisconsin" className="text-secondary font-semibold hover:underline">
+            Is Functional Medicine Legit? An Honest, Evidence-Based Answer for Women in Michigan and Wisconsin
+          </Link>
+          .
+        </p>
       </section>
 
       <section id="what-hpa-dysfunction-feels-like">
@@ -2436,7 +2443,7 @@ function BlogComponent() {
           life you actually have, not an idealized version of it. This is a central part of what the
           initial{" "}
           <Link
-            to="/free-15-min-call-with-katie"
+            to="/book-free-assessment-call"
             className="text-secondary font-medium hover:underline"
           >
             discovery call
@@ -4415,7 +4422,7 @@ function BlogComponent() {
             Book your free 15-minute discovery call and take the first step toward a real,
             personalized answer.
           </p>
-          <Link to="/free-15-min-call-with-katie" className="btn-gold text-base">
+          <Link to="/book-free-assessment-call" className="btn-gold text-base">
             Book Your Free 15-Min Call
           </Link>
         </div>

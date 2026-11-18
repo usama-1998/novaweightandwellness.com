@@ -156,7 +156,7 @@ export default function BookingVariantA({
         }
       `}</style>
 
-      {/* Initial page load overlay — rendered OUTSIDE the opacity-controlled container */}
+      {/* Initial page load overlay - rendered OUTSIDE the opacity-controlled container */}
       {isMichiganPage && !mounted && (
         <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-white">
           <div
@@ -311,7 +311,7 @@ export default function BookingVariantA({
               {/* GoHighLevel Embed */}
               {step >= 1 && (
                 <div className="relative z-10 w-full">
-                  {/* Loading spinner — fades out when calendar is ready */}
+                  {/* Loading spinner - fades out when calendar is ready */}
                     <div 
                       className="flex flex-col items-center justify-center bg-white"
                       style={{ 

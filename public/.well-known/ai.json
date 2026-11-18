@@ -32,7 +32,12 @@
       "duration": "10 minutes"
     },
     {
-      "name": "Root Cause Intake — 60-Minute Clarity Session",
+      "name": "Clarity Session",
+      "price": "$47",
+      "duration": "30 minutes"
+    },
+    {
+      "name": "Root Cause Intake",
       "price": "$97",
       "duration": "60 minutes"
     },
@@ -42,7 +47,7 @@
       "duration": "10 minutes"
     },
     {
-      "name": "The Executive Longevity Partnership",
+      "name": "The Root Cause Restoration Program",
       "price": "$3,995",
       "duration": "6-month program"
     },
@@ -77,6 +82,13 @@
     "author": "Kathryn Long, NP-C",
     "sitemap": "https://novaweightandwellness.com/sitemap.xml",
     "articles": [
+      {
+        "title": "Is Functional Medicine Legit? An Honest, Evidence-Based Answer for Women in Michigan and Wisconsin",
+        "url": "https://novaweightandwellness.com/blog/functional-medicine-legit-evidence-women-michigan-wisconsin",
+        "category": "Functional Medicine Explained",
+        "datePublished": "2026-11-16",
+        "summary": "A candid, fully referenced guide to whether functional medicine is legitimate: what the Cleveland Clinic studies and randomized pilots show, which tests and diagnoses hold up (lifestyle treatment, standard thyroid and blood work) and which do not (IgG food panels, serum zonulin, adrenal fatigue, prolonged antibiotics for lingering Lyme symptoms), supplement safety, credentials and state licensing in Michigan and Wisconsin, cost and HSA rules, and seven questions to ask any practice."
+      },
       {
         "title": "Menopause After 50: Why Your Weight, Bones, Heart, and Sleep Change, and What Actually Helps",
         "url": "https://novaweightandwellness.com/blog/menopause-postmenopause-weight-bones-heart-hot-flashes-michigan-wisconsin",

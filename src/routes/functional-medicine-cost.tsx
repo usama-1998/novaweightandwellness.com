@@ -78,6 +78,10 @@ function Page() {
           <p className="mt-4 text-muted-foreground max-w-xl">
             <Link to="/services" className="text-primary underline">Services and pricing</Link>
           </p>
+          <p className="mt-4 text-muted-foreground max-w-xl">
+            Not sure this kind of care is worth the cost? Read our candid, referenced guide:{" "}
+            <Link to="/blog/functional-medicine-legit-evidence-women-michigan-wisconsin" className="text-primary underline">Is Functional Medicine Legit? An Honest, Evidence-Based Answer for Women in Michigan and Wisconsin</Link>.
+          </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link to="/book-free-assessment-call" className="btn-gold">Book Free Assessment Call</Link>
             <Link to="/services" className="btn-ghost">See services and pricing</Link>

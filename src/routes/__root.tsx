@@ -225,7 +225,7 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
                     "@type": "Offer",
                     "itemOffered": {
                       "@type": "MedicalProcedure",
-                      "name": "Root Cause Intake — 60 Minutes",
+                      "name": "Root Cause Intake, 60 Minutes",
                       "description": "Comprehensive clinical assessment with personalized starting plan."
                     },
                     "price": "97",

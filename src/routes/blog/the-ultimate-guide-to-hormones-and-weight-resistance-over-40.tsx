@@ -966,6 +966,13 @@ function BlogComponent() {
           arteries). We also integrate light therapy protocols to reset disrupted circadian rhythms,
           which is utterly essential for restoring deep, restorative sleep.
         </p>
+        <p className="mb-5">
+          For an honest look at how well the evidence supports the functional medicine approach, including what the studies show and where they fall short, read our guide:{" "}
+          <Link to="/blog/functional-medicine-legit-evidence-women-michigan-wisconsin" className="text-secondary font-semibold hover:underline">
+            Is Functional Medicine Legit? An Honest, Evidence-Based Answer for Women in Michigan and Wisconsin
+          </Link>
+          .
+        </p>
       </section>
 
       <section id="therapeutic-nutrition-and-bhrt">

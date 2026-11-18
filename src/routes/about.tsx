@@ -13,7 +13,7 @@ export const Route = createFileRoute("/about")({
       {
         name: "description",
         content:
-          "Meet Kathryn Long, NP-C — board-certified nurse practitioner specializing in hormones, metabolic health & weight resistance for women over 40.",
+          "Meet Kathryn Long, NP-C, board-certified nurse practitioner specializing in hormones, metabolic health & weight resistance for women over 40.",
       },
       { property: "og:title", content: "About Kathryn Long, NP-C | Novaleo Weight & Wellness" },
       {
