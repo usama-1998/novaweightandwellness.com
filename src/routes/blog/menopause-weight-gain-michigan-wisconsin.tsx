@@ -3293,13 +3293,12 @@ function BlogComponent() {
           narrower, more limited set of screening labs.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          Current pricing for all services, including the Root Cause Intake, the Lab Panel, and the
-          six-month Root Cause Restoration Program, is listed transparently on our{" "}
+          All services, including the Root Cause Intake, the Lab Panel, and the
+          six-month Root Cause Restoration Program, are described on our{" "}
           <Link to="/services" className="text-secondary hover:text-secondary/80 underline">
-            services and pricing page
+            services page
           </Link>
-          , and we would rather you see exact, current numbers there than rely on a figure printed
-          in this article that could become outdated over time. Many women use a Health Savings
+          , and we are happy to walk you through the details on a free assessment call. Many women use a Health Savings
           Account (HSA) or Flexible Spending Account (FSA) to cover these costs where eligible, and
           we are happy to provide documentation to support reimbursement or insurance submission
           where your plan allows for out-of-network functional medicine services.

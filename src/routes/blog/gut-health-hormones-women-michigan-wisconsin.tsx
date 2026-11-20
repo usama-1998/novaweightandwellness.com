@@ -2867,7 +2867,7 @@ function BlogComponent() {
           <Link to="/services" className="text-secondary font-semibold hover:underline">
             services page
           </Link>{" "}
-          outlines current pricing in detail, including the sixty-minute Root Cause Intake Clarity
+          describes the sixty-minute Root Cause Intake Clarity
           Session and the comprehensive Root Cause Lab Panel. Comprehensive functional testing is
           generally not covered by insurance, which is a genuine limitation worth naming honestly,
           though it is FSA and HSA eligible, and we accept credit and debit cards directly. We do
@@ -3559,8 +3559,7 @@ function BlogComponent() {
           discussed early in this article, which is simply not enough time to take a complete
           history, order and interpret comprehensive testing, and build a sequenced protocol around
           the results. A direct-pay model allows for the longer visits, detailed result reviews, and
-          ongoing follow-up this kind of evaluation actually requires. We are transparent about
-          pricing upfront on our{" "}
+          ongoing follow-up this kind of evaluation actually requires. We explain what each step includes on our{" "}
           <Link to="/services" className="text-secondary font-semibold hover:underline">
             services page
           </Link>

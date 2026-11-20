@@ -2176,7 +2176,7 @@ function BlogComponent() {
         <p className="mb-5">
           Labs are drawn conveniently through Rupa Health at a local Quest or Labcorp draw station
           near you in Michigan or Wisconsin, or completed at home for the salivary and urinary
-          cortisol components. Full details on our testing and program pricing are available on our{" "}
+          cortisol components. Full details on our testing and programs are available on our{" "}
           <Link to="/services" className="text-secondary font-medium hover:underline">
             services and scheduling page
           </Link>
@@ -3212,7 +3212,7 @@ function BlogComponent() {
           described in the next section, our Root Cause Restoration Program provides six months of
           bi-monthly consultations, comprehensive biomarker tracking, and monthly strategy
           refinements as your body responds to treatment. Full details on each of these options,
-          along with current pricing, are available on our{" "}
+          are available on our{" "}
           <Link to="/services" className="text-secondary font-medium hover:underline">
             services page
           </Link>
@@ -3278,9 +3278,9 @@ function BlogComponent() {
         <h3 className="text-2xl font-display text-primary mt-8 mb-4">A Word on Cost and Value</h3>
         <p className="mb-5">
           We know direct-care functional medicine represents a real financial decision, and we do
-          not take that lightly. Current pricing for each service, from the free discovery call
+          not take that lightly. Each service, from the free discovery call
           through the comprehensive lab panel and the six-month Root Cause Restoration Program, is
-          listed transparently on our{" "}
+          described on our{" "}
           <Link to="/services" className="text-secondary font-medium hover:underline">
             services page
           </Link>
@@ -4104,8 +4104,8 @@ function BlogComponent() {
                 "This sounds expensive, and I'm not sure it's worth it."
               </p>
               <p className="text-foreground/70 leading-relaxed">
-                We understand this concern and address it directly in Section 29. Pricing is
-                transparent and listed upfront, HSA and FSA funds are accepted, and the free
+                We understand this concern and address it directly in Section 29. Cost is
+                explained before you commit, HSA and FSA funds are accepted, and the free
                 discovery call exists specifically so you can ask questions and get clarity before
                 committing to anything.
               </p>

@@ -889,7 +889,7 @@ function BlogComponent() {
           <div>
             <h3 className="text-xl font-display text-primary mb-3">Will my insurance cover this, and can I use HSA or FSA funds?</h3>
             <p className="text-lg leading-relaxed text-foreground/85">This practice operates on a direct-pay model focused on comprehensive, unhurried care rather than the constraints of insurance-driven visit lengths. Many patients are able to use HSA or FSA funds toward services here, since this is licensed medical care, though eligibility depends on your specific plan. Please reach out through the{" "}
-              <Link to="/services" className="text-secondary font-semibold hover:underline">services page</Link> or your assessment call for current pricing and payment information.</p>
+              <Link to="/services" className="text-secondary font-semibold hover:underline">services page</Link> or your assessment call for details and payment information.</p>
           </div>
           <div>
             <h3 className="text-xl font-display text-primary mb-3">How is this different from what my primary care doctor already does?</h3>
