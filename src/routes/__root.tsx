@@ -205,7 +205,6 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
                 "opens": "07:00",
                 "closes": "18:00"
               },
-              "priceRange": "$0–$3,995",
               "paymentAccepted": "FSA, HSA, Credit Card, Debit Card",
               "hasOfferCatalog": {
                 "@type": "OfferCatalog",
@@ -217,9 +216,7 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
                       "@type": "MedicalProcedure",
                       "name": "Root Cause Assessment Call",
                       "description": "Free consultation to determine next steps."
-                    },
-                    "price": "0",
-                    "priceCurrency": "USD"
+                    }
                   },
                   {
                     "@type": "Offer",
@@ -227,9 +224,7 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
                       "@type": "MedicalProcedure",
                       "name": "Root Cause Intake, 60 Minutes",
                       "description": "Comprehensive clinical assessment with personalized starting plan."
-                    },
-                    "price": "97",
-                    "priceCurrency": "USD"
+                    }
                   },
                   {
                     "@type": "Offer",
@@ -237,9 +232,7 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
                       "@type": "MedicalProcedure",
                       "name": "Clarity Session",
                       "description": "30-minute paid session, separate from the 60-minute Root Cause Intake."
-                    },
-                    "price": "47",
-                    "priceCurrency": "USD"
+                    }
                   },
                   {
                     "@type": "Offer",
@@ -247,9 +240,7 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
                       "@type": "MedicalTest",
                       "name": "Root Cause Lab Panel",
                       "description": "Signature biomarker panel testing nutrients, thyroid, lipids, blood sugar, liver, and inflammation markers."
-                    },
-                    "price": "454",
-                    "priceCurrency": "USD"
+                    }
                   },
                   {
                     "@type": "Offer",
@@ -257,9 +248,7 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
                       "@type": "MedicalProcedure",
                       "name": "The Root Cause Restoration Program",
                       "description": "Six-month root-cause program for women 35 to 55. Focuses on nutrition, sleep, stress regulation, and metabolic strength."
-                    },
-                    "price": "3995",
-                    "priceCurrency": "USD"
+                    }
                   }
                 ]
               },

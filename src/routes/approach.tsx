@@ -13,7 +13,7 @@ export const Route = createFileRoute("/approach")({
       {
         name: "description",
         content:
-          "How we move you from exhausted to energized: free assessment call, $97 root-cause intake, personalized plan, and care that finally listens.",
+          "How we move you from exhausted to energized: free assessment call, root-cause intake, personalized plan, and care that finally listens.",
       },
       { property: "og:title", content: "Our Approach | Novaleo Weight & Wellness" },
       {

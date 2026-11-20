@@ -38,7 +38,7 @@ function Page() {
               },
               {
                 "@type": "FAQPage",
-                mainEntity: [{"@type": "Question", "name": "Do you prescribe GLP-1 medication?", "acceptedAnswer": {"@type": "Answer", "text": "Prescribing decisions are made after an individual evaluation. This page does not promise a prescription, and any medication decision depends on your history, labs, and clinical suitability."}}, {"@type": "Question", "name": "Why would weight loss stall on Ozempic?", "acceptedAnswer": {"@type": "Answer", "text": "Common contributors include thyroid dysfunction, perimenopause hormones, insulin resistance, muscle loss, and nutrient depletion. Testing helps separate those causes instead of guessing."}}, {"@type": "Question", "name": "What does the $454 lab panel check?", "acceptedAnswer": {"@type": "Answer", "text": "Nutrients, full thyroid, lipids and Lipoprotein(a), blood sugar, liver, and inflammation markers. See the Services page for the full list."}}],
+                mainEntity: [{"@type": "Question", "name": "Do you prescribe GLP-1 medication?", "acceptedAnswer": {"@type": "Answer", "text": "Prescribing decisions are made after an individual evaluation. This page does not promise a prescription, and any medication decision depends on your history, labs, and clinical suitability."}}, {"@type": "Question", "name": "Why would weight loss stall on Ozempic?", "acceptedAnswer": {"@type": "Answer", "text": "Common contributors include thyroid dysfunction, perimenopause hormones, insulin resistance, muscle loss, and nutrient depletion. Testing helps separate those causes instead of guessing."}}, {"@type": "Question", "name": "What does the lab panel check?", "acceptedAnswer": {"@type": "Answer", "text": "Nutrients, full thyroid, lipids and Lipoprotein(a), blood sugar, liver, and inflammation markers. See the Services page for the full list."}}],
               },
             ],
           }),
@@ -67,7 +67,7 @@ function Page() {
         <div className="space-y-6 max-w-2xl">
           <div><h3 className="text-xl text-primary">Do you prescribe GLP-1 medication?</h3><p className="mt-2 text-foreground/80 leading-relaxed">Prescribing decisions are made after an individual evaluation. This page does not promise a prescription, and any medication decision depends on your history, labs, and clinical suitability.</p></div>
           <div><h3 className="text-xl text-primary">Why would weight loss stall on Ozempic?</h3><p className="mt-2 text-foreground/80 leading-relaxed">Common contributors include thyroid dysfunction, perimenopause hormones, insulin resistance, muscle loss, and nutrient depletion. Testing helps separate those causes instead of guessing.</p></div>
-          <div><h3 className="text-xl text-primary">What does the $454 lab panel check?</h3><p className="mt-2 text-foreground/80 leading-relaxed">Nutrients, full thyroid, lipids and Lipoprotein(a), blood sugar, liver, and inflammation markers. See the Services page for the full list.</p></div>
+          <div><h3 className="text-xl text-primary">What does the lab panel check?</h3><p className="mt-2 text-foreground/80 leading-relaxed">Nutrients, full thyroid, lipids and Lipoprotein(a), blood sugar, liver, and inflammation markers. See the Services page for the full list.</p></div>
         </div>
       </section>
       <section className="bg-muted/60 border-y border-border">
@@ -78,7 +78,7 @@ function Page() {
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link to="/book-free-assessment-call" className="btn-gold">Book Free Assessment Call</Link>
-            <Link to="/services" className="btn-ghost">See services and pricing</Link>
+            <Link to="/services" className="btn-ghost">See services</Link>
           </div>
         </div>
       </section>

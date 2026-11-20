@@ -38,7 +38,7 @@ function Page() {
               },
               {
                 "@type": "FAQPage",
-                mainEntity: [{"@type": "Question", "name": "Can perimenopause start in my 30s?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Hormonal variability can begin in the mid-30s while cycles are still regular. The perimenopause guide linked below explains the early signs clinicians often miss."}}, {"@type": "Question", "name": "Is brain fog a sign of something serious?", "acceptedAnswer": {"@type": "Answer", "text": "Most perimenopausal brain fog has a hormonal explanation, but persistent or worsening memory concerns should always be evaluated directly with a clinician."}}, {"@type": "Question", "name": "What is the first step?", "acceptedAnswer": {"@type": "Answer", "text": "A free assessment call, or the 60-minute $97 Root Cause Intake if you want to start with a full evaluation."}}],
+                mainEntity: [{"@type": "Question", "name": "Can perimenopause start in my 30s?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Hormonal variability can begin in the mid-30s while cycles are still regular. The perimenopause guide linked below explains the early signs clinicians often miss."}}, {"@type": "Question", "name": "Is brain fog a sign of something serious?", "acceptedAnswer": {"@type": "Answer", "text": "Most perimenopausal brain fog has a hormonal explanation, but persistent or worsening memory concerns should always be evaluated directly with a clinician."}}, {"@type": "Question", "name": "What is the first step?", "acceptedAnswer": {"@type": "Answer", "text": "A free assessment call, or the 60-minute Root Cause Intake if you want to start with a full evaluation."}}],
               },
             ],
           }),
@@ -67,7 +67,7 @@ function Page() {
         <div className="space-y-6 max-w-2xl">
           <div><h3 className="text-xl text-primary">Can perimenopause start in my 30s?</h3><p className="mt-2 text-foreground/80 leading-relaxed">Yes. Hormonal variability can begin in the mid-30s while cycles are still regular. The perimenopause guide linked below explains the early signs clinicians often miss.</p></div>
           <div><h3 className="text-xl text-primary">Is brain fog a sign of something serious?</h3><p className="mt-2 text-foreground/80 leading-relaxed">Most perimenopausal brain fog has a hormonal explanation, but persistent or worsening memory concerns should always be evaluated directly with a clinician.</p></div>
-          <div><h3 className="text-xl text-primary">What is the first step?</h3><p className="mt-2 text-foreground/80 leading-relaxed">A free assessment call, or the 60-minute $97 Root Cause Intake if you want to start with a full evaluation.</p></div>
+          <div><h3 className="text-xl text-primary">What is the first step?</h3><p className="mt-2 text-foreground/80 leading-relaxed">A free assessment call, or the 60-minute Root Cause Intake if you want to start with a full evaluation.</p></div>
         </div>
       </section>
       <section className="bg-muted/60 border-y border-border">
@@ -78,7 +78,7 @@ function Page() {
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link to="/book-free-assessment-call" className="btn-gold">Book Free Assessment Call</Link>
-            <Link to="/services" className="btn-ghost">See services and pricing</Link>
+            <Link to="/services" className="btn-ghost">See services</Link>
           </div>
         </div>
       </section>

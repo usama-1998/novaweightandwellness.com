@@ -2507,7 +2507,7 @@ function BlogComponent() {
         </P>
         <H3>What Our Root Cause Lab Panel Covers</H3>
         <P>
-          At Novaleo, the Root Cause Lab Panel, priced at $454 on our{" "}
+          At Novaleo, the Root Cause Lab Panel on our{" "}
           <PL to="/services">services page</PL>, covers the core of what I described above:
           nutrients (vitamin D, B12, ferritin, zinc, and red blood cell magnesium), a full thyroid
           panel (TSH, free T3, free T4, and TPO antibodies), a lipid panel with lipoprotein(a),
@@ -3361,7 +3361,7 @@ function BlogComponent() {
           deserves a full evaluation, and a short conversation is a low-stakes way to find out. You
           can book it from our <PL to="/book-free-assessment-call">assessment call page</PL>.
         </P>
-        <H3>Step Two: The Root Cause Intake, a 60-Minute Clarity Session ($97)</H3>
+        <H3>Step Two: The Root Cause Intake, a 60-Minute Clarity Session</H3>
         <P>
           A comprehensive clinical assessment in which we go deep: your full health history,
           symptoms, lifestyle, nutrition, stress, sleep patterns, and any prior labs. For the
@@ -3370,7 +3370,7 @@ function BlogComponent() {
           may be driving your symptoms and a personalized starting plan. You can learn more on the{" "}
           <PL to="/clarity-session">Clarity Session page</PL>.
         </P>
-        <H3>Step Three: The Root Cause Lab Panel ($454)</H3>
+        <H3>Step Three: The Root Cause Lab Panel</H3>
         <P>
           The panel I described in the testing section, with written insights on your results. It
           requires overnight fasting, results are typically ready in about two weeks, and the cost
@@ -3390,7 +3390,7 @@ function BlogComponent() {
         </P>
         <H3>The Root Cause Restoration Program, and Who It Fits</H3>
         <P>
-          The Root Cause Restoration Program is a six-month program, priced at $3,995, built around
+          The Root Cause Restoration Program is a six-month program built around
           four non-negotiables: nutrition and blood sugar stability, sleep and circadian rhythm,
           stress and nervous system regulation, and movement and metabolic strength. It includes
           bi-monthly consultations with a healthcare provider, a 48-hour response time for
@@ -4133,7 +4133,7 @@ const faqs: { q: string; a: string }[] = [
   },
   {
     q: "How much does a comprehensive evaluation cost at Novaleo?",
-    a: "The Root Cause Assessment Call is free, the 60-minute Root Cause Intake (Clarity Session) is $97, and the Root Cause Lab Panel is $454. The six-month Root Cause Restoration Program is $3,995 and is designed primarily for women ages 35 to 55. Novaleo does not accept insurance, but FSA and HSA payments are accepted.",
+    a: "The Root Cause Assessment Call is free, the 60-minute Root Cause Intake (Clarity Session) is the next step, and the Root Cause Lab Panel is available. The six-month Root Cause Restoration Program is designed primarily for women ages 35 to 55. Novaleo does not accept insurance, but FSA and HSA payments are accepted.",
   },
 ];
 

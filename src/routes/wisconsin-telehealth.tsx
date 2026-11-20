@@ -38,7 +38,7 @@ function Page() {
               },
               {
                 "@type": "FAQPage",
-                mainEntity: [{"@type": "Question", "name": "Do I need to travel to Michigan for care?", "acceptedAnswer": {"@type": "Answer", "text": "No. Care is delivered by telehealth, with labs drawn locally near you in Wisconsin."}}, {"@type": "Question", "name": "Which Wisconsin cities do you serve?", "acceptedAnswer": {"@type": "Answer", "text": "Milwaukee, Madison, Green Bay, and smaller and rural communities across Wisconsin."}}, {"@type": "Question", "name": "What is the first step?", "acceptedAnswer": {"@type": "Answer", "text": "A free assessment call, or the 60-minute $97 Root Cause Intake."}}],
+                mainEntity: [{"@type": "Question", "name": "Do I need to travel to Michigan for care?", "acceptedAnswer": {"@type": "Answer", "text": "No. Care is delivered by telehealth, with labs drawn locally near you in Wisconsin."}}, {"@type": "Question", "name": "Which Wisconsin cities do you serve?", "acceptedAnswer": {"@type": "Answer", "text": "Milwaukee, Madison, Green Bay, and smaller and rural communities across Wisconsin."}}, {"@type": "Question", "name": "What is the first step?", "acceptedAnswer": {"@type": "Answer", "text": "A free assessment call, or the 60-minute Root Cause Intake."}}],
               },
             ],
           }),
@@ -67,7 +67,7 @@ function Page() {
         <div className="space-y-6 max-w-2xl">
           <div><h3 className="text-xl text-primary">Do I need to travel to Michigan for care?</h3><p className="mt-2 text-foreground/80 leading-relaxed">No. Care is delivered by telehealth, with labs drawn locally near you in Wisconsin.</p></div>
           <div><h3 className="text-xl text-primary">Which Wisconsin cities do you serve?</h3><p className="mt-2 text-foreground/80 leading-relaxed">Milwaukee, Madison, Green Bay, and smaller and rural communities across Wisconsin.</p></div>
-          <div><h3 className="text-xl text-primary">What is the first step?</h3><p className="mt-2 text-foreground/80 leading-relaxed">A free assessment call, or the 60-minute $97 Root Cause Intake.</p></div>
+          <div><h3 className="text-xl text-primary">What is the first step?</h3><p className="mt-2 text-foreground/80 leading-relaxed">A free assessment call, or the 60-minute Root Cause Intake.</p></div>
         </div>
       </section>
       <section className="bg-muted/60 border-y border-border">
@@ -78,7 +78,7 @@ function Page() {
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link to="/book-free-assessment-call" className="btn-gold">Book Free Assessment Call</Link>
-            <Link to="/services" className="btn-ghost">See services and pricing</Link>
+            <Link to="/services" className="btn-ghost">See services</Link>
           </div>
         </div>
       </section>

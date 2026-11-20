@@ -10,19 +10,19 @@ export const Route = createFileRoute("/services")({
       {
         name: "description",
         content:
-          "Schedule your visit with Novaleo Weight & Wellness. Choose an Assessment Call, a 60-minute Root Cause Intake ($97), a Lab Panel ($454), a Follow-up, or the Root Cause Restoration Program ($3,995).",
+          "Schedule your visit with Novaleo Weight & Wellness. Choose an Assessment Call, a 60-minute Root Cause Intake, a Lab Panel, a Follow-up, or the Root Cause Restoration Program.",
       },
       { property: "og:title", content: "Book a Visit | Novaleo Weight & Wellness Services" },
       {
         property: "og:description",
-        content: "Choose an Assessment Call, a 60-minute Root Cause Intake ($97), a Lab Panel ($454), or the Root Cause Restoration Program ($3,995) and book online.",
+        content: "Choose an Assessment Call, a 60-minute Root Cause Intake, a Lab Panel, or the Root Cause Restoration Program and book online.",
       },
       { property: "og:url", content: "https://novaweightandwellness.com/services" },
       { property: "og:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "Book a Visit | Novaleo Weight & Wellness Services" },
-      { name: "twitter:description", content: "Choose an Assessment Call, a 60-minute Root Cause Intake ($97), a Lab Panel ($454), or the Root Cause Restoration Program ($3,995) and book online." },
+      { name: "twitter:description", content: "Choose an Assessment Call, a 60-minute Root Cause Intake, a Lab Panel, or the Root Cause Restoration Program and book online." },
       { name: "twitter:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
     ],
   }),
@@ -33,7 +33,6 @@ type Service = {
   id: string;
   name: string;
   duration: string;
-  price: string;
   highlight?: string;
   description: React.ReactNode;
   bookUrl: string;
@@ -47,7 +46,6 @@ const services: Service[] = [
     id: "assessment",
     name: "Root Cause Assessment Call",
     duration: "",
-    price: "Free",
     highlight: "Start here",
     description: (
       <>
@@ -77,7 +75,6 @@ const services: Service[] = [
     id: "intake",
     name: "Root Cause Intake | 60 Minutes",
     duration: "60 Min",
-    price: "$97",
     highlight: "Most booked",
     description: (
       <>
@@ -94,7 +91,6 @@ const services: Service[] = [
     id: "lab-panel",
     name: "Root Cause Lab Panel",
     duration: "10 Min",
-    price: "$454",
     description: (
       <>
         <p>Includes written insights on your results. Novaleo's signature panel.</p>
@@ -119,7 +115,6 @@ const services: Service[] = [
     id: "executive",
     name: "The Root Cause Restoration Program",
     duration: "6-Month Program",
-    price: "$3,995",
     highlight: "No More Starting Over",
     description: (
       <>
@@ -162,7 +157,6 @@ const services: Service[] = [
     id: "follow-up",
     name: "Root Cause Follow-up",
     duration: "30 Min",
-    price: "Included",
     description: (
       <>
         <p className="text-xs uppercase tracking-wide text-secondary font-semibold">
@@ -189,15 +183,15 @@ function SchedulerPage() {
     <>
       <section className="container-prose pt-8 pb-12">
         <div className="max-w-3xl">
-          <div className="eyebrow mb-5">Services & Pricing</div>
+          <div className="eyebrow mb-5">Services</div>
           <h1 className="text-5xl md:text-6xl leading-[1.05]">
             Book your visit with <em className="text-secondary not-italic">Novaleo</em>.
           </h1>
           <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
             Select the reason that fits your needs weight, hormones, metabolism, energy, or a full
             root-cause workup. Each option opens our secure Optimantra booking page in a new tab.
-            Please note: the 60-minute $97 Root Cause Intake below is a different offer from the
-            separate 30-minute $47 Clarity Session on its own page. They are not the same session.
+            Please note: the 60-minute Root Cause Intake below is a different offer from the
+            separate 30-minute Clarity Session on its own page. They are not the same session.
           </p>
         </div>
       </section>

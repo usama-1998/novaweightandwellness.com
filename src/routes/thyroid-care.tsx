@@ -38,7 +38,7 @@ function Page() {
               },
               {
                 "@type": "FAQPage",
-                mainEntity: [{"@type": "Question", "name": "My TSH is normal. Can you still help?", "acceptedAnswer": {"@type": "Answer", "text": "Often, yes. Normal ranges are based on population averages, not optimal health. A full panel can reveal patterns a single TSH value misses."}}, {"@type": "Question", "name": "What labs are included?", "acceptedAnswer": {"@type": "Answer", "text": "The $454 Root Cause Lab Panel includes full thyroid testing alongside nutrients, lipids, blood sugar, liver, and inflammation markers."}}, {"@type": "Question", "name": "Do you treat Hashimoto's?", "acceptedAnswer": {"@type": "Answer", "text": "Autoimmune thyroid patterns are evaluated alongside conventional care, with attention to root drivers such as gut health, nutrients, and inflammation."}}],
+                mainEntity: [{"@type": "Question", "name": "My TSH is normal. Can you still help?", "acceptedAnswer": {"@type": "Answer", "text": "Often, yes. Normal ranges are based on population averages, not optimal health. A full panel can reveal patterns a single TSH value misses."}}, {"@type": "Question", "name": "What labs are included?", "acceptedAnswer": {"@type": "Answer", "text": "The Root Cause Lab Panel includes full thyroid testing alongside nutrients, lipids, blood sugar, liver, and inflammation markers."}}, {"@type": "Question", "name": "Do you treat Hashimoto's?", "acceptedAnswer": {"@type": "Answer", "text": "Autoimmune thyroid patterns are evaluated alongside conventional care, with attention to root drivers such as gut health, nutrients, and inflammation."}}],
               },
             ],
           }),
@@ -66,7 +66,7 @@ function Page() {
         <h2 className="text-3xl md:text-4xl mb-8">Frequently asked questions</h2>
         <div className="space-y-6 max-w-2xl">
           <div><h3 className="text-xl text-primary">My TSH is normal. Can you still help?</h3><p className="mt-2 text-foreground/80 leading-relaxed">Often, yes. Normal ranges are based on population averages, not optimal health. A full panel can reveal patterns a single TSH value misses.</p></div>
-          <div><h3 className="text-xl text-primary">What labs are included?</h3><p className="mt-2 text-foreground/80 leading-relaxed">The $454 Root Cause Lab Panel includes full thyroid testing alongside nutrients, lipids, blood sugar, liver, and inflammation markers.</p></div>
+          <div><h3 className="text-xl text-primary">What labs are included?</h3><p className="mt-2 text-foreground/80 leading-relaxed">The Root Cause Lab Panel includes full thyroid testing alongside nutrients, lipids, blood sugar, liver, and inflammation markers.</p></div>
           <div><h3 className="text-xl text-primary">Do you treat Hashimoto's?</h3><p className="mt-2 text-foreground/80 leading-relaxed">Autoimmune thyroid patterns are evaluated alongside conventional care, with attention to root drivers such as gut health, nutrients, and inflammation.</p></div>
         </div>
       </section>
@@ -78,7 +78,7 @@ function Page() {
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link to="/book-free-assessment-call" className="btn-gold">Book Free Assessment Call</Link>
-            <Link to="/services" className="btn-ghost">See services and pricing</Link>
+            <Link to="/services" className="btn-ghost">See services</Link>
           </div>
         </div>
       </section>
