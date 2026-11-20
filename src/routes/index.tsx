@@ -494,7 +494,7 @@ function Home() {
             Book Free Assessment Call
           </Link>
           <Link to="/services" className="btn-ghost">
-            Book $97 Root-Cause Intake
+            Book Root-Cause Intake
           </Link>
         </div>
       </section>

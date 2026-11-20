@@ -4433,7 +4433,7 @@ const FAQS: { q: string; a: string }[] = [
   },
   {
     q: "What does a hair loss evaluation with Novaleo cost, and do you take insurance?",
-    a: "The free 15-minute discovery call is the first step. The 60-minute Root Cause Intake is $97, and the signature Root Cause Lab Panel is $454, with labs drawn locally and results typically ready in about two weeks. We do not bill insurance, and HSA and FSA payment is accepted. Our six-month program is described on the services page. Prices can change, so please check the services page for current details.",
+    a: "The free 15-minute discovery call is the first step. The 60-minute Root Cause Intake is the next step, and the signature Root Cause Lab Panel is available, with labs drawn locally and results typically ready in about two weeks. We do not bill insurance, and HSA and FSA payment is accepted. Our six-month program is described on the services page.",
   },
   {
     q: "What should I do this week if my hair is thinning?",

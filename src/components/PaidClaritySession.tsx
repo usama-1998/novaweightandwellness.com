@@ -187,7 +187,7 @@ export default function PaidClaritySession({
                     >
                       <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-in-out" />
                       <CalendarDays size={20} className="text-[#F0D060] relative z-10" />
-                      <span className="text-[15px] tracking-wide relative z-10">Book My $47 Clarity Session</span>
+                      <span className="text-[15px] tracking-wide relative z-10">Book My Clarity Session</span>
                     </button>
                     <p className="text-xs text-primary/60 mt-3 font-sans">
                       100% virtual • Secure Google Meet • MI & WI women only.
@@ -242,7 +242,7 @@ export default function PaidClaritySession({
                     </div>
                     <div className="flex flex-col gap-1.5 md:gap-3 min-w-0">
                       <p className="text-primary/50 font-semibold text-xs md:text-sm">Novaleo Practitioner ~ Board Certified</p>
-                      <h3 className="font-sans text-[22px] md:text-2xl text-primary tracking-tight font-bold leading-tight">$47 Clarity Session</h3>
+                      <h3 className="font-sans text-[22px] md:text-2xl text-primary tracking-tight font-bold leading-tight">Clarity Session</h3>
                     </div>
                   </div>
                   

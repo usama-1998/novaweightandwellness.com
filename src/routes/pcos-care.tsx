@@ -38,7 +38,7 @@ function Page() {
               },
               {
                 "@type": "FAQPage",
-                mainEntity: [{"@type": "Question", "name": "Can PCOS only be diagnosed by a clinician?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. A checklist is a starting point for conversation and testing, not a diagnostic tool. Formal diagnosis requires a licensed clinician."}}, {"@type": "Question", "name": "Is this fertility guidance?", "acceptedAnswer": {"@type": "Answer", "text": "No. This page focuses on weight and metabolic management. Fertility questions should be discussed directly in care."}}, {"@type": "Question", "name": "What is the first step?", "acceptedAnswer": {"@type": "Answer", "text": "A free assessment call, or the 60-minute $97 Root Cause Intake for a full evaluation."}}],
+                mainEntity: [{"@type": "Question", "name": "Can PCOS only be diagnosed by a clinician?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. A checklist is a starting point for conversation and testing, not a diagnostic tool. Formal diagnosis requires a licensed clinician."}}, {"@type": "Question", "name": "Is this fertility guidance?", "acceptedAnswer": {"@type": "Answer", "text": "No. This page focuses on weight and metabolic management. Fertility questions should be discussed directly in care."}}, {"@type": "Question", "name": "What is the first step?", "acceptedAnswer": {"@type": "Answer", "text": "A free assessment call, or the 60-minute Root Cause Intake for a full evaluation."}}],
               },
             ],
           }),
@@ -67,7 +67,7 @@ function Page() {
         <div className="space-y-6 max-w-2xl">
           <div><h3 className="text-xl text-primary">Can PCOS only be diagnosed by a clinician?</h3><p className="mt-2 text-foreground/80 leading-relaxed">Yes. A checklist is a starting point for conversation and testing, not a diagnostic tool. Formal diagnosis requires a licensed clinician.</p></div>
           <div><h3 className="text-xl text-primary">Is this fertility guidance?</h3><p className="mt-2 text-foreground/80 leading-relaxed">No. This page focuses on weight and metabolic management. Fertility questions should be discussed directly in care.</p></div>
-          <div><h3 className="text-xl text-primary">What is the first step?</h3><p className="mt-2 text-foreground/80 leading-relaxed">A free assessment call, or the 60-minute $97 Root Cause Intake for a full evaluation.</p></div>
+          <div><h3 className="text-xl text-primary">What is the first step?</h3><p className="mt-2 text-foreground/80 leading-relaxed">A free assessment call, or the 60-minute Root Cause Intake for a full evaluation.</p></div>
         </div>
       </section>
       <section className="bg-muted/60 border-y border-border">
@@ -78,7 +78,7 @@ function Page() {
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link to="/book-free-assessment-call" className="btn-gold">Book Free Assessment Call</Link>
-            <Link to="/services" className="btn-ghost">See services and pricing</Link>
+            <Link to="/services" className="btn-ghost">See services</Link>
           </div>
         </div>
       </section>

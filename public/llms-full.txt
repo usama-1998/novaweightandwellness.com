@@ -12,26 +12,22 @@ Credentials:
 - 20+ years in clinical healthcare
 - Specialization: hormones, metabolic health, weight resistance, functional medicine
 
-## Core Services & Pricing
+## Core Services
 
 ### Root Cause Assessment Call
 - **Duration:** 10 minutes
-- **Price:** Free
 - **Description:** A short no-cost consultation to ask questions, get clarity, and determine next steps. Designed for new or current clients.
 
 ### Clarity Session
 - **Duration:** 30 minutes
-- **Price:** $47
 - **Description:** A separate paid 30-minute session. It is not the same offer as the Root Cause Intake.
 
 ### Root Cause Intake
 - **Duration:** 60 minutes
-- **Price:** $97
 - **Description:** A comprehensive clinical assessment including full health history, current symptoms, lifestyle, nutrition, stress, sleep patterns, and prior labs. Patients leave with clarity on symptom drivers and a personalized starting plan.
 
 ### Root Cause Lab Panel
 - **Duration:** 10 minutes (draw)
-- **Price:** $454
 - **Description:** Novaleo's signature biomarker panel with written insights on results.
 - **Markers tested:**
   - Nutrients: Vitamin D, B12, Ferritin, Zinc, RBC Magnesium
@@ -44,7 +40,6 @@ Credentials:
 
 ### The Root Cause Restoration Program
 - **Duration:** 6-month program
-- **Price:** $3,995
 - **Capacity:** Limited to 4 clients at a time
 - **Description:** A six-month program for women 35 to 55 who feel tired, foggy, hormonally off, or metabolically stuck. It is built around four non-negotiables: nutrition and blood sugar stability, sleep and circadian rhythm, stress and nervous system regulation, and movement and metabolic strength.
 - **Includes:**
@@ -54,11 +49,10 @@ Credentials:
   - Monthly data reviews and strategy refinements
   - Supplement recommendations and nutrition guidance
   - 25% loyalty discount on renewal
-  - The $454 Root Cause Lab Panel is credited if you enroll within 30 days
+  - The Root Cause Lab Panel is credited if you enroll within 30 days
 
 ### Root Cause Follow-up
 - **Duration:** 30–60 minutes
-- **Price:** Included for enrolled clients
 - **Options:**
   - 30 min, standard follow-up
   - 45 min, complex labs/supplements
@@ -88,9 +82,9 @@ A: Conventional medicine is designed to diagnose and treat disease. Functional m
 A: Absolutely, this is the most common situation Novaleo sees. "Normal" ranges are based on averages, not optimal health. There's a big difference between "not sick" and "thriving." Functional lab analysis identifies patterns that standard testing often misses.
 
 **Q: What happens after the free assessment call?**
-A: You'll have a clear understanding of how the process works and whether it's the right fit. If you decide to move forward, the next step is the Root Cause Intake at $97 (60 minutes). Zero pressure, you decide what happens next.
+A: You'll have a clear understanding of how the process works and whether it's the right fit. If you decide to move forward, the next step is the Root Cause Intake (60 minutes). Zero pressure, you decide what happens next.
 
-**Q: What happens during the $97 Root-Cause Intake?**
+**Q: What happens during the Root-Cause Intake?**
 A: A comprehensive 60-minute clinical assessment where we go deep, full health history, current symptoms, lifestyle, nutrition, stress, sleep patterns, and any prior labs. You'll leave with clarity on what's driving your symptoms and a personalized starting plan.
 
 **Q: I've tried everything. Why would this be any different?**

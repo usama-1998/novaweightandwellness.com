@@ -1870,10 +1870,10 @@ function BlogComponent() {
           categories above in a single fasting draw. It includes vitamin D, B12, ferritin, zinc, and
           RBC magnesium; TSH, free T3, free T4, and TPO antibodies; a lipid panel with
           lipoprotein(a); fasting glucose, hemoglobin A1c, and fasting insulin; a hepatic function
-          panel and GGT; and hs-CRP and homocysteine. It is $454, includes written insights on your
-          results, and results typically take about two weeks after the draw. The cost is credited
+          panel and GGT; and hs-CRP and homocysteine. It includes written insights on your
+          results, and results typically take about two weeks after the draw. The panel is credited
           toward our Root Cause Restoration Program if you enroll within 30 days. Depending on your
-          history, we may add other testing. We cover the full range and pricing on our{" "}
+          history, we may add other testing. We cover the full range on our{" "}
           <SL to="/services">services page</SL>.
         </P>
         <P>
@@ -3589,7 +3589,7 @@ function BlogComponent() {
         </P>
         <H3>Step two: the Root Cause Intake</H3>
         <P>
-          The 60-minute <SL to="/clarity-session">Root Cause Intake</SL> is $97 and is a
+          The 60-minute <SL to="/clarity-session">Root Cause Intake</SL> is a
           comprehensive clinical assessment. We go deep into your health history, symptoms,
           lifestyle, nutrition, stress, sleep patterns, and any prior labs. For a woman with hot
           flashes and night sweats, that includes a careful review of your symptom diary, your cycle
@@ -3618,7 +3618,7 @@ function BlogComponent() {
         <H3>Cost and payment</H3>
         <P>
           We are a cash-pay practice and do not bill insurance. We accept FSA and HSA cards, credit
-          cards, and debit cards, and you can see current pricing for every service on our{" "}
+          cards, and debit cards, and you can see every service on our{" "}
           <SL to="/services">services page</SL>. If you want to start learning before you book, our
           free guide, <SL to="/free-guide">What Your Labs Aren't Telling You</SL>, explains why
           standard lab results so often come back "normal" when you do not feel normal.
@@ -4103,7 +4103,7 @@ const faqs: { q: string; a: string }[] = [
   },
   {
     q: "How much does an evaluation at Novaleo cost?",
-    a: `The assessment call is free. The 60-minute Root Cause Intake is $97, and our Root Cause Lab Panel is $454, credited toward the Root Cause Restoration Program if you enroll within 30 days. We are a cash-pay practice that accepts FSA and HSA cards, and current pricing is always on our services page.`,
+    a: `The assessment call is free. The 60-minute Root Cause Intake is a paid session, and our Root Cause Lab Panel is credited toward the Root Cause Restoration Program if you enroll within 30 days. We are a cash-pay practice that accepts FSA and HSA cards, and you can ask about cost on your free assessment call.`,
   },
 ];
 

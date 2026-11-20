@@ -1211,14 +1211,13 @@ function BlogComponent() {
           tests and a large supplement stack whose value you cannot separate from the relationship.
         </P>
         <P>
-          That is one reason I think the entry price of a practice matters. A thirty-minute paid
-          session at $47 or a sixty-minute intake at $97 buys you time, a thorough history, and a
-          plan for next steps at modest cost, and it lets you judge the clinician and the approach
-          before committing to a six-month program. We publish those prices, along with the $454 lab
-          panel and the $3,995 six-month program, on our{" "}
-          <SL to="/functional-medicine-cost">pricing page</SL>, and you can compare the options
-          without a sales conversation. I raise our own numbers here not as an advertisement but
-          because transparency about price is itself one of the most reliable signals of an honest
+          That is one reason I think the entry point of a practice matters. A thirty-minute paid
+          session or a sixty-minute intake buys you time, a thorough history, and a plan for next
+          steps, and it lets you judge the clinician and the approach before committing to a
+          six-month program. We describe each step on our{" "}
+          <SL to="/functional-medicine-cost">cost page</SL>, and you can compare the options
+          without a sales conversation. I raise our own approach here not as an advertisement but
+          because transparency about cost is itself one of the most reliable signals of an honest
           practice, a point I return to later.
         </P>
         <H3>A decision rule for unbundling</H3>
@@ -1630,7 +1629,7 @@ function BlogComponent() {
           </li>
         </UL>
         <P>
-          Our own Root Cause Lab Panel, priced at $454, is built around common markers: vitamin D,
+          Our own Root Cause Lab Panel, is built around common markers: vitamin D,
           B12, ferritin, zinc, and red blood cell magnesium; TSH, free T3, free T4, and thyroid
           peroxidase antibodies; a lipid panel and lipoprotein(a); fasting glucose, hemoglobin A1c,
           and fasting insulin; liver enzymes; and the inflammation markers hs-CRP and homocysteine.
@@ -2206,14 +2205,15 @@ function BlogComponent() {
           <C n={5} /> I think that is a fair concern, and it is one reason I take transparency about
           price so seriously.
         </P>
-        <H3>What a transparent price list looks like</H3>
+        <H3>What transparent pricing looks like</H3>
         <P>
-          Our fees are published. A free assessment call lets you ask questions without paying. A
-          30-minute Clarity Session is $47, and a 60-minute Root Cause Intake is $97. The Root Cause
-          Lab Panel is $454, including written insights on your results, and it is credited toward
-          the program if you enroll within 30 days. The Root Cause Restoration Program is $3,995 for
-          six months and is limited to four clients at a time. We do not take insurance, and we
-          accept FSA and HSA cards, as well as credit and debit cards. You can see all of it on our{" "}
+          Cost should be explained before you commit. A free assessment call lets you ask questions
+          without paying. A 30-minute Clarity Session and a 60-minute Root Cause Intake are separate
+          paid sessions. The Root Cause Lab Panel includes written insights on your results, and it
+          is credited toward the program if you enroll within 30 days. The Root Cause Restoration
+          Program runs six months and is limited to four clients at a time. We do not take
+          insurance, and we accept FSA and HSA cards, as well as credit and debit cards. You can see
+          what each step includes on our{" "}
           <SL to="/functional-medicine-cost">cost page</SL>.
         </P>
         <P>
@@ -3166,9 +3166,9 @@ function BlogComponent() {
         </P>
         <H3>Cost and refunds</H3>
         <P>
-          Our fees are published on our <SL to="/functional-medicine-cost">cost page</SL>: a free
-          assessment call, a $47 Clarity Session, a $97 Root Cause Intake, a $454 Root Cause Lab
-          Panel, and a $3,995 six-month program limited to four clients at a time. We do not accept
+          What each step includes is described on our <SL to="/functional-medicine-cost">cost page</SL>: a free
+          assessment call, a Clarity Session, a Root Cause Intake, a Root Cause Lab
+          Panel, and a six-month program limited to four clients at a time. We do not accept
           insurance, and we accept FSA and HSA cards as well as credit and debit cards. Our terms
           state that all sales are final and that no refunds are issued, so please read them before
           booking and ask any question that is not clear.
@@ -3954,7 +3954,7 @@ const faqs: { q: string; a: string }[] = [
   },
   {
     q: "How much does functional medicine cost?",
-    a: `It varies widely, which is why you should get an itemized estimate before you commit. Costs usually include visits, laboratory testing, supplements, and sometimes a program fee. At Novaleo, fees are published: a free assessment call, a $47 Clarity Session, a $97 Root Cause Intake, a $454 Root Cause Lab Panel, and a $3,995 six-month program limited to four clients. We do not accept insurance, and our terms state that all sales are final. A useful exercise for any practice is to total the expected cost over six months, including follow-ups, repeat testing, and supplements, and to compare it with your budget.`,
+    a: `It varies widely, which is why you should get an itemized estimate before you commit. Costs usually include visits, laboratory testing, supplements, and sometimes a program fee. At Novaleo, the steps are laid out up front: a free assessment call, a Clarity Session, a Root Cause Intake, a Root Cause Lab Panel, and a six-month program limited to four clients. We do not accept insurance, and our terms state that all sales are final. A useful exercise for any practice is to total the expected cost over six months, including follow-ups, repeat testing, and supplements, and to compare it with your budget.`,
   },
   {
     q: "Are the tests used in functional medicine reliable?",
@@ -4002,7 +4002,7 @@ const faqs: { q: string; a: string }[] = [
   },
   {
     q: "What happens at a first visit with Novaleo?",
-    a: `You can start with a free assessment call to ask questions, a 30-minute Clarity Session at $47, or a 60-minute Root Cause Intake at $97. The intake covers your health history, current symptoms, lifestyle, nutrition, stress, sleep, and prior labs, and ends with a personalized starting plan. If testing is appropriate, the Root Cause Lab Panel at $454 includes written insights on your results. We encourage you to bring your recent labs, your medication and supplement list, and your questions, and to keep your primary care clinician informed.`,
+    a: `You can start with a free assessment call to ask questions, a 30-minute Clarity Session, or a 60-minute Root Cause Intake. The intake covers your health history, current symptoms, lifestyle, nutrition, stress, sleep, and prior labs, and ends with a personalized starting plan. If testing is appropriate, the Root Cause Lab Panel includes written insights on your results. We encourage you to bring your recent labs, your medication and supplement list, and your questions, and to keep your primary care clinician informed.`,
   },
   {
     q: "What if I try it and it does not work?",

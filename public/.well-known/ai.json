@@ -24,7 +24,6 @@
     "Credit Card",
     "Debit Card"
   ],
-  "priceRange": "$0–$3,995",
   "services": [
     {
       "name": "Root Cause Assessment Call",
@@ -33,22 +32,18 @@
     },
     {
       "name": "Clarity Session",
-      "price": "$47",
       "duration": "30 minutes"
     },
     {
       "name": "Root Cause Intake",
-      "price": "$97",
       "duration": "60 minutes"
     },
     {
       "name": "Root Cause Lab Panel",
-      "price": "$454",
       "duration": "10 minutes"
     },
     {
       "name": "The Root Cause Restoration Program",
-      "price": "$3,995",
       "duration": "6-month program"
     },
     {

@@ -1200,7 +1200,7 @@ function BlogComponent() {
         </p>
         <div className="space-y-6 my-8">
           <div className="bg-primary/5 border-l-4 border-secondary p-6 rounded-r-2xl">
-            <h3 className="font-display text-xl text-primary mb-2">Step 1: The Root Cause Intake & 60-Minute Clarity Session ($97)</h3>
+            <h3 className="font-display text-xl text-primary mb-2">Step 1: The Root Cause Intake & 60-Minute Clarity Session</h3>
             <p className="text-sm text-foreground/80 leading-relaxed">
               We spend a full, unhurried hour together via secure telehealth. We review your complete medical timeline from birth to the present: symptom progression, previous labs, family history, digestive health, sleep patterns, emotional stressors, and environmental exposures. You can{" "}
               <Link to="/clarity-session" className="text-secondary font-semibold hover:underline">
@@ -1210,7 +1210,7 @@ function BlogComponent() {
             </p>
           </div>
           <div className="bg-primary/5 border-l-4 border-secondary p-6 rounded-r-2xl">
-            <h3 className="font-display text-xl text-primary mb-2">Step 2: The Signature Root Cause Lab Panel ($454)</h3>
+            <h3 className="font-display text-xl text-primary mb-2">Step 2: The Signature Root Cause Lab Panel</h3>
             <p className="text-sm text-foreground/80 leading-relaxed">
               We order comprehensive diagnostic testing through Rupa Health, drawn conveniently at a local Quest or Labcorp draw station near you in Michigan or Wisconsin. We test the complete thyroid panel (TSH, Free T4, Free T3, TPO Antibodies), full nutrient markers (Ferritin, Vitamin D, B12, Zinc, RBC Magnesium), metabolic markers (Fasting Insulin, Fasting Glucose, HbA1c, Lipids, Lipoprotein a), liver function, and inflammation (hs-CRP, Homocysteine). See our full list of{" "}
               <Link to="/services" className="text-secondary font-semibold hover:underline">
@@ -1222,7 +1222,7 @@ function BlogComponent() {
           <div className="bg-primary/5 border-l-4 border-secondary p-6 rounded-r-2xl">
             <h3 className="font-display text-xl text-primary mb-2">Step 3: The Personalized Restoration Roadmap</h3>
             <p className="text-sm text-foreground/80 leading-relaxed">
-              We translate your complex data into a clear, step-by-step clinical action plan. Whether enrolled in our signature 6-Month Root Cause Restoration Program ($3,995) or working through targeted protocols, we partner with you closely to adjust nutrition, rebalance micronutrients, optimize medications, repair gut health, and monitor your biomarker progress until you feel like yourself again.
+              We translate your complex data into a clear, step-by-step clinical action plan. Whether enrolled in our signature 6-Month Root Cause Restoration Program or working through targeted protocols, we partner with you closely to adjust nutrition, rebalance micronutrients, optimize medications, repair gut health, and monitor your biomarker progress until you feel like yourself again.
             </p>
           </div>
         </div>
@@ -1484,7 +1484,7 @@ function BlogComponent() {
           Ready to Uncover What Your Standard Labs Missed?
         </h2>
         <p className="text-lg text-foreground/80 max-w-2xl mx-auto mb-8 leading-relaxed">
-          Schedule your 60-Minute Root Cause Intake ($97) or book a free assessment call to discuss our comprehensive thyroid panel and root-cause restoration programs for women in Michigan and Wisconsin.
+          Schedule your 60-Minute Root Cause Intake or book a free assessment call to discuss our comprehensive thyroid panel and root-cause restoration programs for women in Michigan and Wisconsin.
         </p>
         <div className="flex flex-wrap items-center justify-center gap-4">
           <Link to="/book-free-assessment-call" className="btn-gold text-base py-3 px-8">

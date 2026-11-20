@@ -78,12 +78,12 @@ function Contact() {
                 "name": "What happens after the free assessment call?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "You'll have a clear understanding of how my process works and whether it's the right fit for you. If you decide to move forward, the next step is the Root-Cause Intake & Clinical Strategy session at $97. Zero pressure, you decide what happens next."
+                  "text": "You'll have a clear understanding of how my process works and whether it's the right fit for you. If you decide to move forward, the next step is the Root-Cause Intake & Clinical Strategy session. Zero pressure, you decide what happens next."
                 }
               },
               {
                 "@type": "Question",
-                "name": "What happens during the $97 Root-Cause Intake?",
+                "name": "What happens during the Root-Cause Intake?",
                 "acceptedAnswer": {
                   "@type": "Answer",
                   "text": "A comprehensive 60-minute clinical assessment where we go deep, full health history, current symptoms, lifestyle, nutrition, stress, sleep patterns, and any prior labs. You'll leave with clarity on what's driving your symptoms and a personalized starting plan."
@@ -150,7 +150,7 @@ function Contact() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-md border border-primary px-6 py-3 text-sm font-medium text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
               >
-                Book $97 Root-Cause Intake
+                Book Root-Cause Intake
               </a>
             </div>
 
@@ -256,10 +256,10 @@ function Contact() {
                 },
                 {
                   q: "What happens after the free assessment call?",
-                  a: "You'll have a clear understanding of how my process works and whether it's the right fit for you. If you decide to move forward, the next step is the Root-Cause Intake & Clinical Strategy session at $97. Zero pressure  you decide what happens next.",
+                  a: "You'll have a clear understanding of how my process works and whether it's the right fit for you. If you decide to move forward, the next step is the Root-Cause Intake & Clinical Strategy session. Zero pressure  you decide what happens next.",
                 },
                 {
-                  q: "What happens during the $97 Root-Cause Intake?",
+                  q: "What happens during the Root-Cause Intake?",
                   a: "A comprehensive 60-minute clinical assessment where we go deep  full health history, current symptoms, lifestyle, nutrition, stress, sleep patterns, and any prior labs. You'll leave with clarity on what's driving your symptoms and a personalized starting plan.",
                 },
                 {

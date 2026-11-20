@@ -78,7 +78,7 @@ function Page() {
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link to="/book-free-assessment-call" className="btn-gold">Book Free Assessment Call</Link>
-            <Link to="/services" className="btn-ghost">See services and pricing</Link>
+            <Link to="/services" className="btn-ghost">See services</Link>
           </div>
         </div>
       </section>
