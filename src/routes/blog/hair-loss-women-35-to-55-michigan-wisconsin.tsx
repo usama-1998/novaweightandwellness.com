@@ -3136,7 +3136,7 @@ function BlogComponent() {
             approach page
           </Link>{" "}
           describes how a 60-minute{" "}
-          <Link to="/clarity-session" className={LINK}>
+          <Link to="/services" className={LINK}>
             Root Cause Intake
           </Link>{" "}
           and follow-up care work together, and the{" "}
@@ -4128,7 +4128,7 @@ function BlogComponent() {
             15-minute discovery call
           </Link>
           , a low-pressure conversation to decide the right next step. The{" "}
-          <Link to="/clarity-session" className={LINK}>
+          <Link to="/services" className={LINK}>
             60-minute Root Cause Intake
           </Link>{" "}
           is where we build the timeline, review your history, and plan testing. If we do laboratory

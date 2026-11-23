@@ -2867,8 +2867,7 @@ function BlogComponent() {
           <Link to="/services" className="text-secondary font-semibold hover:underline">
             services page
           </Link>{" "}
-          describes the sixty-minute Root Cause Intake Clarity
-          Session and the comprehensive Root Cause Lab Panel. Comprehensive functional testing is
+          describes the sixty-minute Root Cause Intake and the comprehensive Root Cause Lab Panel. Comprehensive functional testing is
           generally not covered by insurance, which is a genuine limitation worth naming honestly,
           though it is FSA and HSA eligible, and we accept credit and debit cards directly. We do
           not believe in surprise costs, and pricing for any recommended testing beyond the initial

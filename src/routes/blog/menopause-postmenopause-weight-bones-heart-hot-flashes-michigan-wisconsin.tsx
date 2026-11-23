@@ -3361,14 +3361,14 @@ function BlogComponent() {
           deserves a full evaluation, and a short conversation is a low-stakes way to find out. You
           can book it from our <PL to="/book-free-assessment-call">assessment call page</PL>.
         </P>
-        <H3>Step Two: The Root Cause Intake, a 60-Minute Clarity Session</H3>
+        <H3>Step Two: The Root Cause Intake, a 60-Minute Session</H3>
         <P>
           A comprehensive clinical assessment in which we go deep: your full health history,
           symptoms, lifestyle, nutrition, stress, sleep patterns, and any prior labs. For the
           postmenopausal woman, that includes your reproductive history, family history of bone and
           heart disease, screening status, medications, and goals. You leave with clarity about what
           may be driving your symptoms and a personalized starting plan. You can learn more on the{" "}
-          <PL to="/clarity-session">Clarity Session page</PL>.
+          <PL to="/services">services page</PL>.
         </P>
         <H3>Step Three: The Root Cause Lab Panel</H3>
         <P>
@@ -3399,7 +3399,7 @@ function BlogComponent() {
           time. I want to be direct about fit. The program is designed primarily for women between
           35 and 55 who feel their bodies have changed, and many of the women reading this article
           are at or just past the upper end of that range. If you are older, or if you would rather
-          start smaller, the Clarity Session and lab panel are an excellent way to begin, and we can
+          start smaller, the Root Cause Intake and lab panel are an excellent way to begin, and we can
           talk on the assessment call about what makes sense for you.
         </P>
         <H3>Cost, Insurance, and What We Do Not Do</H3>
@@ -4133,7 +4133,7 @@ const faqs: { q: string; a: string }[] = [
   },
   {
     q: "How much does a comprehensive evaluation cost at Novaleo?",
-    a: "The Root Cause Assessment Call is free, the 60-minute Root Cause Intake (Clarity Session) is the next step, and the Root Cause Lab Panel is available. The six-month Root Cause Restoration Program is designed primarily for women ages 35 to 55. Novaleo does not accept insurance, but FSA and HSA payments are accepted.",
+    a: "The Root Cause Assessment Call is free, the 60-minute Root Cause Intake is the next step, and the Root Cause Lab Panel is available. The six-month Root Cause Restoration Program is designed primarily for women ages 35 to 55. Novaleo does not accept insurance, but FSA and HSA payments are accepted.",
   },
 ];
 

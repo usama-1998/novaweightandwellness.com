@@ -18,10 +18,6 @@ Credentials:
 - **Duration:** 10 minutes
 - **Description:** A short no-cost consultation to ask questions, get clarity, and determine next steps. Designed for new or current clients.
 
-### Clarity Session
-- **Duration:** 30 minutes
-- **Description:** A separate paid 30-minute session. It is not the same offer as the Root Cause Intake.
-
 ### Root Cause Intake
 - **Duration:** 60 minutes
 - **Description:** A comprehensive clinical assessment including full health history, current symptoms, lifestyle, nutrition, stress, sleep patterns, and prior labs. Patients leave with clarity on symptom drivers and a personalized starting plan.

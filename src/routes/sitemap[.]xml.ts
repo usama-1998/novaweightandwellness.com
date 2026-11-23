@@ -44,7 +44,6 @@ export const Route = createFileRoute("/sitemap.xml")({
           { path: "/blog/gaining-weight-exhausted-after-40-wisconsin-women", lastmod: "2026-11-16" },
           { path: "/blog/the-ultimate-guide-to-hormones-and-weight-resistance-over-40", lastmod: "2026-11-16" },
           { path: "/book-free-assessment-call", lastmod: "2026-10-26" },
-          { path: "/clarity-session", lastmod: "2026-10-26" },
           { path: "/free-guide", lastmod: "2026-10-26" },
           { path: "/glp-1-metabolic-support", lastmod: "2026-10-26" },
           { path: "/hormone-therapy", lastmod: "2026-10-26" },
