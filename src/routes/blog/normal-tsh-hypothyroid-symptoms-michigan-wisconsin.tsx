@@ -34,7 +34,7 @@ export const Route = createFileRoute(
       {
         property: "og:description",
         content:
-          "A comprehensive, evidence-based functional medicine guide to subclinical hypothyroidism, optimal lab ranges, and root-cause solutions for women across Michigan and Wisconsin.",
+          "A comprehensive, evidence-based functional medicine guide to early thyroid strain, optimal lab ranges, and root-cause solutions for women across Michigan and Wisconsin.",
       },
       {
         property: "og:url",
@@ -359,8 +359,8 @@ function BlogComponent() {
                   <td className="py-3">Represents optimal cellular energetics, robust metabolic rate, unimpaired cognitive clarity, and healthy fertility.</td>
                 </tr>
                 <tr>
-                  <td className="py-3 pr-4 font-medium text-amber-700">Subclinical Hypothyroidism</td>
-                  <td className="py-3 pr-4">2.50 to 4.50 mIU/L</td>
+                  <td className="py-3 pr-4 font-medium text-amber-700">Early Thyroid Strain</td>
+                  <td className="py-3 pr-4">2.01 to 4.50 mIU/L</td>
                   <td className="py-3">The pituitary is screaming at the thyroid. Early cellular slowdown, fatigue, weight resistance, and lipid abnormalities are active.</td>
                 </tr>
               </tbody>
@@ -526,7 +526,7 @@ function BlogComponent() {
               <strong>Stage 2 (Silent Autoimmunity):</strong> Environmental triggers (gut permeability, viral infection, severe stress, toxin exposure) activate immune dysregulation. TPO or Tg antibodies are elevated, but TSH and Free T4 remain within normal limits. Mild systemic symptoms begin.
             </li>
             <li>
-              <strong>Stage 3 (Subclinical Thyroid Dysfunction):</strong> Immune destruction advances. The pituitary raises TSH (typically between 2.5 and 4.5 mIU/L) to compensate. Symptoms such as fatigue, hair loss, brain fog, and weight resistance become pronounced.
+              <strong>Stage 3 (Early Thyroid Strain):</strong> Immune destruction advances. The pituitary raises TSH (typically between 2.01 and 4.5 mIU/L) to compensate. Symptoms such as fatigue, hair loss, brain fog, and weight resistance become pronounced.
             </li>
             <li>
               <strong>Stage 4 (Overt Autoimmune Hypothyroidism):</strong> Substantial follicular tissue is destroyed. TSH breaches conventional thresholds (above 4.5 to 10+ mIU/L), and Free T4 and Free T3 drop below normal limits. This is the only stage conventional medicine typically diagnoses.
@@ -650,7 +650,7 @@ function BlogComponent() {
           Perimenopause vs. Thyroid: Untangling the Symptom Overlap in Your 30s and 40s
         </h2>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          One of the most complex clinical challenges facing women in their late 30s, 40s, and 50s is the near-total symptom overlap between perimenopause and subclinical hypothyroidism.
+          One of the most complex clinical challenges facing women in their late 30s, 40s, and 50s is the near-total symptom overlap between perimenopause and early thyroid strain.
         </p>
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
           Both conditions produce severe brain fog, sleep disruptions, mood volatility, cycle irregularities, weight gain, joint aches, and exhaustion. As a result, conventional providers often attribute every symptom in a 43-year-old woman to "just perimenopause" without ever conducting a rigorous thyroid workup. Conversely, others treat the thyroid while ignoring profound progesterone and estrogen shifts. For women experiencing cognitive lapses, our{" "}
@@ -764,8 +764,8 @@ function BlogComponent() {
         </p>
         <div className="space-y-6 my-8">
           <div className="bg-card border border-border p-6 rounded-2xl shadow-sm">
-            <h3 className="font-display text-xl text-primary mb-2">Pattern 1: Primary Hypothyroidism (Subclinical or Overt)</h3>
-            <p className="text-sm text-muted-foreground mb-3"><strong>Lab Profile:</strong> Elevated TSH (above 2.5 to 4.5+ mIU/L), Low or Low-Normal Free T4, Low Free T3.</p>
+            <h3 className="font-display text-xl text-primary mb-2">Pattern 1: Primary Hypothyroidism (Early Strain or Overt)</h3>
+            <p className="text-sm text-muted-foreground mb-3"><strong>Lab Profile:</strong> Elevated TSH (above 2.01 to 4.5+ mIU/L), Low or Low-Normal Free T4, Low Free T3.</p>
             <p className="text-sm text-foreground/80">The thyroid gland itself is underperforming and cannot produce adequate hormone. Most commonly driven by autoimmune destruction (Hashimoto's) or severe micronutrient depletion (iodine, tyrosine).</p>
           </div>
           <div className="bg-card border border-border p-6 rounded-2xl shadow-sm">
@@ -832,7 +832,7 @@ function BlogComponent() {
                   <td className="py-3 pr-4 font-semibold text-primary">TSH</td>
                   <td className="py-3 pr-4">0.45 – 4.50 mIU/L</td>
                   <td className="py-3 pr-4 font-semibold text-secondary">1.00 – 2.00 mIU/L</td>
-                  <td className="py-3">Pituitary signaling. Values above 2.0 indicate early metabolic strain and subclinical hypofunction.</td>
+                  <td className="py-3">Pituitary signaling. Values above 2.01 indicate early thyroid strain and early metabolic slowdown.</td>
                 </tr>
                 <tr>
                   <td className="py-3 pr-4 font-semibold text-primary">Free T4</td>
@@ -1282,7 +1282,7 @@ function BlogComponent() {
           You should consider scheduling a specialized functional evaluation if:
         </p>
         <ul className="space-y-3 my-4 text-foreground/85 pl-6 list-disc">
-          <li>Your TSH is between 2.0 and 4.5 mIU/L and you have classic hypothyroid symptoms.</li>
+          <li>Your TSH is between 2.01 and 4.5 mIU/L and you have classic hypothyroid symptoms.</li>
           <li>You have a personal or family history of autoimmune disease (Hashimoto's, celiac, rheumatoid arthritis, vitiligo).</li>
           <li>You are currently taking Levothyroxine or Synthroid but continue to feel exhausted, cold, and weight-resistant.</li>
           <li>You have never had Free T3, Reverse T3, or thyroid antibodies tested.</li>
@@ -1307,7 +1307,7 @@ function BlogComponent() {
         </p>
         <div className="space-y-4 my-6 text-sm text-foreground/80">
           <div className="p-5 bg-card border border-border rounded-xl">
-            <p className="font-semibold text-primary mb-1">1. Normal Reference Range Limitations & Subclinical Hypothyroidism</p>
+            <p className="font-semibold text-primary mb-1">1. Normal Reference Range Limitations & Early Thyroid Strain</p>
             <p className="italic text-muted-foreground mb-2">National Academy of Clinical Biochemistry (NACB) / American Association of Clinical Endocrinologists (AACE)</p>
             <p className="leading-relaxed">
               Baloch Z, Carayon P, Conte-Devolx B, et al. <em>Laboratory medicine practice guidelines: laboratory support for the diagnosis and monitoring of thyroid disease.</em> Thyroid. 2003;13(1):3-126. Documented that when individuals with personal or family histories of thyroid dysfunction or positive antibodies are excluded, the true mean TSH of a disease-free reference population is 1.15 to 1.50 mIU/L, with over 95 percent below 2.5 mIU/L.
@@ -1323,7 +1323,7 @@ function BlogComponent() {
           </div>
 
           <div className="p-5 bg-card border border-border rounded-xl">
-            <p className="font-semibold text-primary mb-1">3. Myo-Inositol & Selenium in Subclinical Hypothyroidism</p>
+            <p className="font-semibold text-primary mb-1">3. Myo-Inositol & Selenium in Early Thyroid Strain</p>
             <p className="italic text-muted-foreground mb-2">International Journal of Endocrinology</p>
             <p className="leading-relaxed">
               Nordio M, Basciani S. <em>Treatment with Myo-Inositol and Selenium Ensures Euthyroidism in Patients with Subclinical Hypothyroidism.</em> Int J Endocrinol. 2017;2017:2549431. Demonstrated that combining myo-inositol with selenium resulted in significant reductions in elevated TSH and TPO antibody concentrations while improving subjective patient vitality.
