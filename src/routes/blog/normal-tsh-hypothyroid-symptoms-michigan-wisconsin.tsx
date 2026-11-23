@@ -1200,11 +1200,11 @@ function BlogComponent() {
         </p>
         <div className="space-y-6 my-8">
           <div className="bg-primary/5 border-l-4 border-secondary p-6 rounded-r-2xl">
-            <h3 className="font-display text-xl text-primary mb-2">Step 1: The Root Cause Intake & 60-Minute Clarity Session</h3>
+            <h3 className="font-display text-xl text-primary mb-2">Step 1: The 60-Minute Root Cause Intake</h3>
             <p className="text-sm text-foreground/80 leading-relaxed">
               We spend a full, unhurried hour together via secure telehealth. We review your complete medical timeline from birth to the present: symptom progression, previous labs, family history, digestive health, sleep patterns, emotional stressors, and environmental exposures. You can{" "}
-              <Link to="/clarity-session" className="text-secondary font-semibold hover:underline">
-                schedule your 60-Minute Clarity Session directly online
+              <Link to="/services" className="text-secondary font-semibold hover:underline">
+                learn about the 60-Minute Root Cause Intake and book it online
               </Link>
               .
             </p>

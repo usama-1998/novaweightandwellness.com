@@ -3589,7 +3589,7 @@ function BlogComponent() {
         </P>
         <H3>Step two: the Root Cause Intake</H3>
         <P>
-          The 60-minute <SL to="/clarity-session">Root Cause Intake</SL> is a
+          The 60-minute <SL to="/services">Root Cause Intake</SL> is a
           comprehensive clinical assessment. We go deep into your health history, symptoms,
           lifestyle, nutrition, stress, sleep patterns, and any prior labs. For a woman with hot
           flashes and night sweats, that includes a careful review of your symptom diary, your cycle

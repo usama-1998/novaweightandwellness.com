@@ -229,14 +229,6 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
                   {
                     "@type": "Offer",
                     "itemOffered": {
-                      "@type": "MedicalProcedure",
-                      "name": "Clarity Session",
-                      "description": "30-minute paid session, separate from the 60-minute Root Cause Intake."
-                    }
-                  },
-                  {
-                    "@type": "Offer",
-                    "itemOffered": {
                       "@type": "MedicalTest",
                       "name": "Root Cause Lab Panel",
                       "description": "Signature biomarker panel testing nutrients, thyroid, lipids, blood sugar, liver, and inflammation markers."

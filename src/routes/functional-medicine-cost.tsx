@@ -5,15 +5,15 @@ export const Route = createFileRoute("/functional-medicine-cost")({
     links: [{ rel: "canonical", href: "https://novaweightandwellness.com/functional-medicine-cost" }],
     meta: [
       { title: "How Much Does Functional Medicine Cost? | Novaleo Weight & Wellness" },
-      { name: "description", content: "What functional medicine care includes at Novaleo Weight & Wellness: free assessment call, Clarity Session, Root Cause Intake, lab panel, and the six-month program." },
+      { name: "description", content: "What functional medicine care includes at Novaleo Weight & Wellness: free assessment call, Root Cause Intake, lab panel, and the six-month program." },
       { property: "og:title", content: "How Much Does Functional Medicine Cost? | Novaleo Weight & Wellness" },
-      { property: "og:description", content: "What functional medicine care includes at Novaleo Weight & Wellness: free assessment call, Clarity Session, Root Cause Intake, lab panel, and the six-month program." },
+      { property: "og:description", content: "What functional medicine care includes at Novaleo Weight & Wellness: free assessment call, Root Cause Intake, lab panel, and the six-month program." },
       { property: "og:url", content: "https://novaweightandwellness.com/functional-medicine-cost" },
       { property: "og:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: "How Much Does Functional Medicine Cost? | Novaleo Weight & Wellness" },
-      { name: "twitter:description", content: "What functional medicine care includes at Novaleo Weight & Wellness: free assessment call, Clarity Session, Root Cause Intake, lab panel, and the six-month program." },
+      { name: "twitter:description", content: "What functional medicine care includes at Novaleo Weight & Wellness: free assessment call, Root Cause Intake, lab panel, and the six-month program." },
       { name: "twitter:image", content: "https://novaweightandwellness.com/og-image-v6.jpg" },
     ],
   }),
@@ -32,13 +32,13 @@ function Page() {
               {
                 "@type": "MedicalWebPage",
                 name: "How Much Does Functional Medicine Cost? | Novaleo Weight & Wellness",
-                description: "What functional medicine care includes at Novaleo Weight & Wellness: free assessment call, Clarity Session, Root Cause Intake, lab panel, and the six-month program.",
+                description: "What functional medicine care includes at Novaleo Weight & Wellness: free assessment call, Root Cause Intake, lab panel, and the six-month program.",
                 url: "https://novaweightandwellness.com/functional-medicine-cost",
                 about: { "@type": "MedicalBusiness", name: "Novaleo Weight & Wellness", url: "https://novaweightandwellness.com" },
               },
               {
                 "@type": "FAQPage",
-                mainEntity: [{"@type": "Question", "name": "Do you take insurance?", "acceptedAnswer": {"@type": "Answer", "text": "No. FSA, HSA, credit, and debit cards are accepted."}}, {"@type": "Question", "name": "Is the Clarity Session the same as the intake?", "acceptedAnswer": {"@type": "Answer", "text": "No. The Clarity Session is 30 minutes. The Root Cause Intake is 60 minutes. They are different offers."}}, {"@type": "Question", "name": "What is the refund policy?", "acceptedAnswer": {"@type": "Answer", "text": "Due to the digital and service-based nature of programs, consultations, and wellness services, all sales are final and no refunds will be issued. See the Contact page FAQ for the full wording."}}, {"@type": "Question", "name": "Does the lab panel count toward the program?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The lab panel is credited toward The Root Cause Restoration Program if you enroll within 30 days, as stated on the Services page."}}],
+                mainEntity: [{"@type": "Question", "name": "Do you take insurance?", "acceptedAnswer": {"@type": "Answer", "text": "No. FSA, HSA, credit, and debit cards are accepted."}}, {"@type": "Question", "name": "What is the refund policy?", "acceptedAnswer": {"@type": "Answer", "text": "Due to the digital and service-based nature of programs, consultations, and wellness services, all sales are final and no refunds will be issued. See the Contact page FAQ for the full wording."}}, {"@type": "Question", "name": "Does the lab panel count toward the program?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The lab panel is credited toward The Root Cause Restoration Program if you enroll within 30 days, as stated on the Services page."}}],
               },
             ],
           }),
@@ -57,7 +57,6 @@ function Page() {
         <h2 className="text-3xl md:text-4xl mb-8">What this care includes</h2>
         <ul className="grid md:grid-cols-2 gap-5">
           <li className="rounded-xl border border-border bg-card p-6 text-foreground/85 leading-relaxed">Free Assessment Call: free, informational, no obligation</li>
-          <li className="rounded-xl border border-border bg-card p-6 text-foreground/85 leading-relaxed">Clarity Session: 30 minutes, a separate paid session</li>
           <li className="rounded-xl border border-border bg-card p-6 text-foreground/85 leading-relaxed">Root Cause Intake: 60 minutes, full health history and a personalized starting plan</li>
           <li className="rounded-xl border border-border bg-card p-6 text-foreground/85 leading-relaxed">Root Cause Lab Panel: including written insights on your results</li>
           <li className="rounded-xl border border-border bg-card p-6 text-foreground/85 leading-relaxed">The Root Cause Restoration Program: six months, intentionally limited to four clients at a time</li>
@@ -67,7 +66,6 @@ function Page() {
         <h2 className="text-3xl md:text-4xl mb-8">Frequently asked questions</h2>
         <div className="space-y-6 max-w-2xl">
           <div><h3 className="text-xl text-primary">Do you take insurance?</h3><p className="mt-2 text-foreground/80 leading-relaxed">No. FSA, HSA, credit, and debit cards are accepted.</p></div>
-          <div><h3 className="text-xl text-primary">Is the Clarity Session the same as the intake?</h3><p className="mt-2 text-foreground/80 leading-relaxed">No. The Clarity Session is 30 minutes. The Root Cause Intake is 60 minutes. They are different offers.</p></div>
           <div><h3 className="text-xl text-primary">What is the refund policy?</h3><p className="mt-2 text-foreground/80 leading-relaxed">Due to the digital and service-based nature of programs, consultations, and wellness services, all sales are final and no refunds will be issued. See the Contact page FAQ for the full wording.</p></div>
           <div><h3 className="text-xl text-primary">Does the lab panel count toward the program?</h3><p className="mt-2 text-foreground/80 leading-relaxed">Yes. The lab panel is credited toward The Root Cause Restoration Program if you enroll within 30 days, as stated on the Services page.</p></div>
         </div>

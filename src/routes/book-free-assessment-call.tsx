@@ -79,8 +79,7 @@ function AssessmentPage() {
           A short, no-cost conversation to answer your questions, explain how functional medicine
           works here, and help you decide your next step. It is informational only: no medical
           advice is given on this call. If you decide to move forward, the next step is usually
-          the 60-minute Root Cause Intake, which is a different, paid session from the
-          separate 30-minute Clarity Session.
+          the 60-minute Root Cause Intake.
         </p>
         <h3 className="mt-10 text-2xl text-primary">Frequently asked questions</h3>
         <div className="mt-4 space-y-4 max-w-2xl text-foreground/80 leading-relaxed">

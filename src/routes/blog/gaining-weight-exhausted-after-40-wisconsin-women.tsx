@@ -722,7 +722,7 @@ function BlogComponent() {
         </p>
 
         <p className="text-lg leading-relaxed text-foreground/85 mb-5">
-          At Novaleo, we also prioritize time. Our initial Root Cause Clarity Session is a full 60
+          At Novaleo, we also prioritize time. Our initial Root Cause Intake is a full 60
           minutes. Not 13. That time lets us listen to your full story, understand the progression
           of your symptoms, explore your health history in depth, and connect the dots that have
           been missed for years.

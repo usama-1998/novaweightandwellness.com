@@ -2208,8 +2208,7 @@ function BlogComponent() {
         <H3>What transparent pricing looks like</H3>
         <P>
           Cost should be explained before you commit. A free assessment call lets you ask questions
-          without paying. A 30-minute Clarity Session and a 60-minute Root Cause Intake are separate
-          paid sessions. The Root Cause Lab Panel includes written insights on your results, and it
+          without paying. The 60-minute Root Cause Intake is a paid session. The Root Cause Lab Panel includes written insights on your results, and it
           is credited toward the program if you enroll within 30 days. The Root Cause Restoration
           Program runs six months and is limited to four clients at a time. We do not take
           insurance, and we accept FSA and HSA cards, as well as credit and debit cards. You can see
@@ -3167,7 +3166,7 @@ function BlogComponent() {
         <H3>Cost and refunds</H3>
         <P>
           What each step includes is described on our <SL to="/functional-medicine-cost">cost page</SL>: a free
-          assessment call, a Clarity Session, a Root Cause Intake, a Root Cause Lab
+          assessment call, a Root Cause Intake, a Root Cause Lab
           Panel, and a six-month program limited to four clients at a time. We do not accept
           insurance, and we accept FSA and HSA cards as well as credit and debit cards. Our terms
           state that all sales are final and that no refunds are issued, so please read them before
@@ -3181,7 +3180,7 @@ function BlogComponent() {
           evidence-based lifestyle treatment, and thoughtful use of testing, and we try to be honest
           about everything beyond that. If that is what you are looking for, you can start with a{" "}
           <SL to="/book-free-assessment-call">free assessment call</SL>, or with a{" "}
-          <SL to="/clarity-session">Clarity Session</SL> if you prefer a longer first conversation.
+          <SL to="/services">Root Cause Intake</SL> if you prefer a longer first conversation.
         </P>
         <Cta
           heading="Hold us to the seven questions"
@@ -3954,7 +3953,7 @@ const faqs: { q: string; a: string }[] = [
   },
   {
     q: "How much does functional medicine cost?",
-    a: `It varies widely, which is why you should get an itemized estimate before you commit. Costs usually include visits, laboratory testing, supplements, and sometimes a program fee. At Novaleo, the steps are laid out up front: a free assessment call, a Clarity Session, a Root Cause Intake, a Root Cause Lab Panel, and a six-month program limited to four clients. We do not accept insurance, and our terms state that all sales are final. A useful exercise for any practice is to total the expected cost over six months, including follow-ups, repeat testing, and supplements, and to compare it with your budget.`,
+    a: `It varies widely, which is why you should get an itemized estimate before you commit. Costs usually include visits, laboratory testing, supplements, and sometimes a program fee. At Novaleo, the steps are laid out up front: a free assessment call, a Root Cause Intake, a Root Cause Lab Panel, and a six-month program limited to four clients. We do not accept insurance, and our terms state that all sales are final. A useful exercise for any practice is to total the expected cost over six months, including follow-ups, repeat testing, and supplements, and to compare it with your budget.`,
   },
   {
     q: "Are the tests used in functional medicine reliable?",
@@ -4002,7 +4001,7 @@ const faqs: { q: string; a: string }[] = [
   },
   {
     q: "What happens at a first visit with Novaleo?",
-    a: `You can start with a free assessment call to ask questions, a 30-minute Clarity Session, or a 60-minute Root Cause Intake. The intake covers your health history, current symptoms, lifestyle, nutrition, stress, sleep, and prior labs, and ends with a personalized starting plan. If testing is appropriate, the Root Cause Lab Panel includes written insights on your results. We encourage you to bring your recent labs, your medication and supplement list, and your questions, and to keep your primary care clinician informed.`,
+    a: `You can start with a free assessment call to ask questions, or a 60-minute Root Cause Intake. The intake covers your health history, current symptoms, lifestyle, nutrition, stress, sleep, and prior labs, and ends with a personalized starting plan. If testing is appropriate, the Root Cause Lab Panel includes written insights on your results. We encourage you to bring your recent labs, your medication and supplement list, and your questions, and to keep your primary care clinician informed.`,
   },
   {
     q: "What if I try it and it does not work?",

@@ -190,8 +190,6 @@ function SchedulerPage() {
           <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
             Select the reason that fits your needs weight, hormones, metabolism, energy, or a full
             root-cause workup. Each option opens our secure Optimantra booking page in a new tab.
-            Please note: the 60-minute Root Cause Intake below is a different offer from the
-            separate 30-minute Clarity Session on its own page. They are not the same session.
           </p>
         </div>
       </section>
